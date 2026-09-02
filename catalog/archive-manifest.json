@@ -1,7 +1,7 @@
 {
   "entries": [
     {
-      "bytes": 603209,
+      "bytes": 603884,
       "file": "archives/ggsankeyfier-layout-color-combo.zip",
       "files": [
         "README.md",
@@ -16,11 +16,12 @@
         "description.md",
         "module.yml",
         "preview.png",
+        "provenance.md",
         "thumbnail.jpg"
       ],
       "moduleId": "ggsankeyfier-layout-color-combo",
-      "sha256": "b1dedb4475a18c0856a37348876a21498a4faaf96e6037a1cd3f0fa5e44969f7",
-      "sourceCommit": "07d05ddb18aa990ec3b5623490b29c1a3e115a83"
+      "sha256": "4e72d136b0d4d603fa0973ce217d6b3a36749eda02a8ec1521874008f295bd59",
+      "sourceCommit": "7fa4e210e3283efea0250e73b43e139c941b478b"
     }
   ],
   "generatedAt": "2000-01-01T00:00:00.000Z",
