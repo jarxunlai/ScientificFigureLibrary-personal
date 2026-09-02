@@ -15,6 +15,7 @@
     "description.md",
     "module.yml",
     "preview.png",
+    "provenance.md",
     "thumbnail.jpg"
   ],
   "exclude": [
@@ -31,7 +32,7 @@
     "code": "MIT",
     "content": "CC BY 4.0",
     "documentation": "CC BY 4.0",
-    "scope": "Only the cleaned module files listed above."
+    "scope": "Only the cleaned module files listed in module.yml, including provenance.md."
   },
   "publisherReviewStatus": "approved",
   "publisherExecutionStatus": "passed",
