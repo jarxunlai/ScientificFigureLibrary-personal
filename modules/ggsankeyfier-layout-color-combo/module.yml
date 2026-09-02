@@ -1,0 +1,105 @@
+{
+  "schema": "figure-library.personal-module.v1",
+  "moduleId": "ggsankeyfier-layout-color-combo",
+  "title": "ggsankeyfier 桑基图布局、配色与组合",
+  "titleEn": "ggsankeyfier Sankey layout, color, and combo",
+  "description": "A portable R module demonstrating Sankey layout, color transitions, multi-stage flows, and pathway-bubble alignment with synthetic data.",
+  "application": "Use as a readable starting point for Sankey layout, node ordering, color mapping, and aligned pathway enrichment bubbles.",
+  "dataProfile": "Five small synthetic CSV tables describe cell-class flows, habitat flows, multi-stage land-cover paths, metabolite-pathway links, and pathway enrichment bubbles.",
+  "plotFamily": "sankey",
+  "language": "R",
+  "tags": [
+    "ggsankeyfier",
+    "sankey",
+    "synthetic-data"
+  ],
+  "packages": [
+    "RColorBrewer",
+    "dplyr",
+    "ggplot2",
+    "ggsankeyfier",
+    "patchwork",
+    "readr",
+    "tidyr"
+  ],
+  "codeFiles": [
+    "code/example.R",
+    "code/organized.R"
+  ],
+  "inputFiles": [
+    "data/brain_subclass_predict.csv",
+    "data/global_landcover_habitat.csv",
+    "data/intertidal_habitat.csv",
+    "data/metabolite_pathway_links.csv",
+    "data/pathway_enrichment.csv"
+  ],
+  "canonicalCode": "code/organized.R",
+  "requiredFiles": [
+    "README.md",
+    "code/example.R",
+    "code/organized.R",
+    "data/brain_subclass_predict.csv",
+    "data/global_landcover_habitat.csv",
+    "data/intertidal_habitat.csv",
+    "data/metabolite_pathway_links.csv",
+    "data/pathway_enrichment.csv",
+    "data_schema.yml",
+    "description.md",
+    "module.yml",
+    "preview.png",
+    "thumbnail.jpg"
+  ],
+  "files": [
+    "README.md",
+    "code/example.R",
+    "code/organized.R",
+    "data/brain_subclass_predict.csv",
+    "data/global_landcover_habitat.csv",
+    "data/intertidal_habitat.csv",
+    "data/metabolite_pathway_links.csv",
+    "data/pathway_enrichment.csv",
+    "data_schema.yml",
+    "description.md",
+    "module.yml",
+    "preview.png",
+    "thumbnail.jpg"
+  ],
+  "preview": {
+    "path": "preview.png",
+    "bytes": 635821,
+    "sha256": "71d6af6d1fddf27a0c82b553fbf1de8af015a4def91c6550313bb71c3c81f11a",
+    "mediaType": "image/png"
+  },
+  "thumbnail": {
+    "path": "thumbnail.jpg",
+    "bytes": 23609,
+    "sha256": "725bc06ab64f887b96b79e207f2a77b5784460146c18611a993668bc4bfc7977",
+    "mediaType": "image/jpeg"
+  },
+  "licenses": {
+    "code": "MIT",
+    "content": "CC BY 4.0",
+    "documentation": "CC BY 4.0"
+  },
+  "publisher": {
+    "reviewStatus": "approved",
+    "executionStatus": "passed",
+    "executionScope": "synthetic_data",
+    "evidence": [
+      "README.md",
+      "data_schema.yml",
+      "preview.png"
+    ]
+  },
+  "provenance": [
+    {
+      "type": "visual_reference",
+      "source": "https://mp.weixin.qq.com/s/PidcbXZv4h56V26IxmkTuA",
+      "note": "The source page supplied visual and API clues but not a complete runnable script or original tables."
+    },
+    {
+      "type": "clean_room_transformation",
+      "note": "Only the listed cleaned script, synthetic CSV inputs, documentation, and generated previews are distributed."
+    }
+  ]
+}

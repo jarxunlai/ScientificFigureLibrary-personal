@@ -1,0 +1,51 @@
+metabolite,pathway,count
+Deoxyguanosine,Purine metabolism,5
+GMP,Purine metabolism,5
+Xanthosine,Purine metabolism,4
+Deoxyinosine,Purine metabolism,4
+AMP,Purine metabolism,5
+ATP,Purine metabolism,5
+GDP,Purine metabolism,4
+5-Phospho-alpha-D-ribose 1-diphosphate,Purine metabolism,3
+2-Deoxy-D-ribose 5-phosphate,Purine metabolism,2
+CDP-ethanolamine,Glycerophospholipid metabolism,3
+sn-Glycero-3-phosphocholine,Glycerophospholipid metabolism,3
+Acetylcholine,Glycerophospholipid metabolism,2
+Choline,Glycerophospholipid metabolism,3
+Choline phosphate,Glycerophospholipid metabolism,3
+1-Acyl-sn-glycero-3-phosphocholine,Glycerophospholipid metabolism,3
+Phosphatidylcholine,Glycerophospholipid metabolism,3
+Phosphatidylethanolamine,Glycerophospholipid metabolism,3
+Spermine,Arginine and proline metabolism,3
+Spermidine,Arginine and proline metabolism,3
+1-Pyrroline-4-hydroxy-2-carboxylate,Arginine and proline metabolism,2
+Phosphocreatine,Arginine and proline metabolism,3
+L-Proline,Arginine and proline metabolism,3
+L-Citrulline,Arginine and proline metabolism,2
+L-Glutamate,"Alanine, aspartate and glutamate metabolism",4
+Pyruvate,"Alanine, aspartate and glutamate metabolism",2
+2-Oxoglutarate,"Alanine, aspartate and glutamate metabolism",2
+N-Acetyl-L-aspartate,"Alanine, aspartate and glutamate metabolism",2
+Pyruvate,Citrate cycle (TCA cycle),1
+2-Oxoglutarate,Citrate cycle (TCA cycle),2
+Citrate,Citrate cycle (TCA cycle),2
+Phosphoenolpyruvate,Citrate cycle (TCA cycle),1
+Isocitrate,Citrate cycle (TCA cycle),2
+5-Phospho-alpha-D-ribose 1-diphosphate,Pentose phosphate pathway,1
+Sedoheptulose 7-phosphate,Pentose phosphate pathway,2
+2-Deoxy-D-ribose 5-phosphate,Pentose phosphate pathway,1
+Galactosylceramide,Sphingolipid metabolism,1
+N-Acylsphingosine,Sphingolipid metabolism,2
+Sphingomyelin,Sphingolipid metabolism,2
+Carnosine,beta-Alanine metabolism,2
+Spermine,beta-Alanine metabolism,1
+L-Citrulline,Arginine biosynthesis,2
+L-Glutamate,Arginine biosynthesis,2
+D-Glutamine,D-Glutamine and D-glutamate metabolism,2
+L-Glutamate,D-Glutamine and D-glutamate metabolism,1
+2-Oxoglutarate,D-Glutamine and D-glutamate metabolism,1
+5-L-Glutamyl-taurine,Taurine and hypotaurine metabolism,2
+Taurine,Taurine and hypotaurine metabolism,2
+L-Tyrosine,"Phenylalanine, tyrosine and tryptophan biosynthesis",2
+3'-Phosphoadenylyl sulfate,Purine metabolism,1
+Adenylyl sulfate,Purine metabolism,1

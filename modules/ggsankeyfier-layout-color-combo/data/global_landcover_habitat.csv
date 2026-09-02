@@ -1,0 +1,105 @@
+Global,Continent,LandCoverType,Habitat,count
+Global,North America,forest,soil,8.471
+Global,North America,forest,shoot,3.176
+Global,North America,forest,root,2.118
+Global,North America,forest,rhizosphere,2.118
+Global,North America,forest,deadwood,1.059
+Global,North America,forest,litter,1.059
+Global,North America,grassland,soil,4.2
+Global,North America,grassland,shoot,1.4
+Global,North America,grassland,root,0.7
+Global,North America,grassland,rhizosphere,0.7
+Global,North America,cropland,soil,3.75
+Global,North America,cropland,root,1.5
+Global,North America,cropland,rhizosphere,0.75
+Global,North America,woodland,soil,1.5
+Global,North America,woodland,litter,0.75
+Global,North America,woodland,deadwood,0.75
+Global,North America,wetland,sediment,1.0
+Global,North America,wetland,soil,0.5
+Global,North America,wetland,water,0.5
+Global,North America,urban,soil,1.333
+Global,North America,urban,air,0.667
+Global,North America,shrubland,soil,1.333
+Global,North America,shrubland,shoot,0.667
+Global,Europe,forest,soil,3.765
+Global,Europe,forest,shoot,1.412
+Global,Europe,forest,root,0.941
+Global,Europe,forest,rhizosphere,0.941
+Global,Europe,forest,deadwood,0.471
+Global,Europe,forest,litter,0.471
+Global,Europe,cropland,soil,3.75
+Global,Europe,cropland,root,1.5
+Global,Europe,cropland,rhizosphere,0.75
+Global,Europe,grassland,soil,2.4
+Global,Europe,grassland,shoot,0.8
+Global,Europe,grassland,root,0.4
+Global,Europe,grassland,rhizosphere,0.4
+Global,Europe,urban,soil,1.333
+Global,Europe,urban,air,0.667
+Global,Europe,wetland,sediment,1.0
+Global,Europe,wetland,soil,0.5
+Global,Europe,wetland,water,0.5
+Global,Asia,forest,soil,3.294
+Global,Asia,forest,shoot,1.235
+Global,Asia,forest,root,0.824
+Global,Asia,forest,rhizosphere,0.824
+Global,Asia,forest,deadwood,0.412
+Global,Asia,forest,litter,0.412
+Global,Asia,cropland,soil,3.125
+Global,Asia,cropland,root,1.25
+Global,Asia,cropland,rhizosphere,0.625
+Global,Asia,grassland,soil,1.8
+Global,Asia,grassland,shoot,0.6
+Global,Asia,grassland,root,0.3
+Global,Asia,grassland,rhizosphere,0.3
+Global,Asia,desert,soil,1.0
+Global,Asia,desert,dust,0.5
+Global,Asia,desert,air,0.5
+Global,Asia,urban,soil,0.667
+Global,Asia,urban,air,0.333
+Global,Australia,grassland,soil,1.2
+Global,Australia,grassland,shoot,0.4
+Global,Australia,grassland,root,0.2
+Global,Australia,grassland,rhizosphere,0.2
+Global,Australia,desert,soil,1.0
+Global,Australia,desert,dust,0.5
+Global,Australia,desert,air,0.5
+Global,Australia,woodland,soil,0.5
+Global,Australia,woodland,litter,0.25
+Global,Australia,woodland,deadwood,0.25
+Global,Australia,shrubland,soil,0.667
+Global,Australia,shrubland,shoot,0.333
+Global,South America,forest,soil,1.412
+Global,South America,forest,shoot,0.529
+Global,South America,forest,root,0.353
+Global,South America,forest,rhizosphere,0.353
+Global,South America,forest,deadwood,0.176
+Global,South America,forest,litter,0.176
+Global,South America,grassland,soil,0.6
+Global,South America,grassland,shoot,0.2
+Global,South America,mangrove,sediment,1.0
+Global,Africa,grassland,soil,1.2
+Global,Africa,grassland,shoot,0.4
+Global,Africa,grassland,root,0.2
+Global,Africa,grassland,rhizosphere,0.2
+Global,Africa,desert,soil,0.5
+Global,Africa,desert,dust,0.25
+Global,Africa,desert,air,0.25
+Global,Africa,forest,soil,0.471
+Global,Africa,forest,shoot,0.176
+Global,Antarctica,tundra,soil,1.0
+Global,Antarctica,tundra,topsoil,1.0
+Global,Antarctica,tundra,lichen,1.0
+Global,Pacific Ocean,aquatic,sediment,1.0
+Global,Pacific Ocean,aquatic,water,0.667
+Global,Pacific Ocean,aquatic,soil,0.333
+Global,Atlantic Ocean,aquatic,sediment,1.0
+Global,Atlantic Ocean,aquatic,water,0.667
+Global,Atlantic Ocean,aquatic,soil,0.333
+Global,Arctic Ocean,aquatic,sediment,0.5
+Global,Arctic Ocean,aquatic,water,0.333
+Global,Arctic Ocean,aquatic,soil,0.167
+Global,Indian Ocean,aquatic,sediment,0.5
+Global,Indian Ocean,aquatic,water,0.333
+Global,Indian Ocean,aquatic,soil,0.167

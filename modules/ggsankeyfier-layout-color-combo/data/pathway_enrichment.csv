@@ -1,0 +1,13 @@
+pathNames,Pvalue,hit_ratio,count
+Purine metabolism,0.05502322005640723,0.28,8
+Glycerophospholipid metabolism,0.004086771438464067,0.38,8
+Arginine and proline metabolism,0.02024191144580439,0.32,6
+"Alanine, aspartate and glutamate metabolism",0.05502322005640723,0.3,4
+Citrate cycle (TCA cycle),0.013568559012200934,0.36,5
+Pentose phosphate pathway,0.22313016014842982,0.22,3
+Sphingolipid metabolism,0.20189651799465538,0.24,3
+beta-Alanine metabolism,0.20189651799465538,0.22,2
+Arginine biosynthesis,0.0820849986238988,0.34,2
+D-Glutamine and D-glutamate metabolism,0.006737946999085467,0.5,3
+Taurine and hypotaurine metabolism,0.11080315836233387,0.4,2
+"Phenylalanine, tyrosine and tryptophan biosynthesis",0.2725317930340126,0.2,1

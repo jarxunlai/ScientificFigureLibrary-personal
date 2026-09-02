@@ -1,0 +1,81 @@
+schema_version: personal-r-data-schema/v1
+description: 五张合成示例表，驱动基础桑基、渐变桑基、多层级桑基和组合气泡图。
+row_unit: 一条流向或一条通路富集结果
+
+tables:
+  - file: data/brain_subclass_predict.csv
+    row_unit: 一条 subclass_label 到 predict 的合成流向
+    columns:
+      - name: subclass_label
+        type: character
+        required: true
+      - name: predict
+        type: character
+        required: true
+      - name: count
+        type: numeric
+        required: true
+  - file: data/intertidal_habitat.csv
+    row_unit: 一条 source 到 habitat 的合成流向
+    columns:
+      - name: source
+        type: character
+        required: true
+      - name: habitat
+        type: character
+        required: true
+      - name: count
+        type: numeric
+        required: true
+  - file: data/global_landcover_habitat.csv
+    row_unit: 一条 Global 到 Habitat 的合成路径
+    columns:
+      - name: Global
+        type: character
+        required: true
+      - name: Continent
+        type: character
+        required: true
+      - name: LandCoverType
+        type: character
+        required: true
+      - name: Habitat
+        type: character
+        required: true
+      - name: count
+        type: numeric
+        required: true
+  - file: data/metabolite_pathway_links.csv
+    row_unit: 一个代谢物到一条通路的合成关联
+    columns:
+      - name: metabolite
+        type: character
+        required: true
+      - name: pathway
+        type: character
+        required: true
+      - name: count
+        type: numeric
+        required: true
+  - file: data/pathway_enrichment.csv
+    row_unit: 一条通路的合成富集气泡
+    columns:
+      - name: pathNames
+        type: character
+        required: true
+      - name: Pvalue
+        type: numeric
+        required: true
+      - name: hit_ratio
+        type: numeric
+        required: true
+      - name: count
+        type: numeric
+        required: true
+
+constraints:
+  - pivot_stages_longer 需要阶段列和数值列。
+  - pathNames 必须与桑基右侧通路标签一致，组合图才能完成 y 对齐。
+  - 所有数值均为合成演示值，不代表原始研究数据。
+
+example_data: data/brain_subclass_predict.csv

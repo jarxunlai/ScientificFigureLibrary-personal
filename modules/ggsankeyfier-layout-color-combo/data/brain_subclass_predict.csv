@@ -1,0 +1,24 @@
+subclass_label,predict,count
+IT,Upper-layer intratelencephalic,95
+IT,Deep-layer intratelencephalic,55
+IT,Miscellaneous,25
+L4 IT,Upper-layer intratelencephalic,31
+VIP,CGE interneuron,30
+PVALB,MGE interneuron,23
+L6 CT,Deep-layer corticothalamic and 6b,21
+LAMP5,LAMP5-LHX6 and Chandelier,16
+LAMP5,CGE interneuron,5
+SST,MGE interneuron,20
+Oligodendrocyte,Oligodendrocyte,12
+Oligodendrocyte,Committed oligodendrocyte precursor,4
+Astrocyte,Astrocyte,11
+L6b,Deep-layer corticothalamic and 6b,9
+L5/6 IT Car3,Deep-layer intratelencephalic,9
+L5/6 NP,Deep-layer near-projecting,8
+OPC,Oligodendrocyte precursor,7
+Microglia,Microglia,7
+PAX6,CGE interneuron,4
+PAX6,Miscellaneous,2
+L5 ET,Miscellaneous,6
+Endothelial,Vascular,5
+Pericyte,Vascular,5

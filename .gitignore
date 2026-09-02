@@ -1,0 +1,7 @@
+source-pack/
+render-staging/
+validation/
+.pixi/
+.Rhistory
+.RData
+.Ruserdata
