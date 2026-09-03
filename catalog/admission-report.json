@@ -1,38 +1,59 @@
 {
-  "schema": "figure-library.personal-admission-report.v1",
-  "moduleId": "ggsankeyfier-layout-color-combo",
-  "status": "ready",
-  "include": [
-    "README.md",
-    "code/example.R",
-    "code/organized.R",
-    "data/brain_subclass_predict.csv",
-    "data/global_landcover_habitat.csv",
-    "data/intertidal_habitat.csv",
-    "data/metabolite_pathway_links.csv",
-    "data/pathway_enrichment.csv",
-    "data_schema.yml",
-    "description.md",
-    "module.yml",
-    "preview.png",
-    "provenance.md",
-    "thumbnail.jpg"
-  ],
-  "exclude": [
-    "source/**",
-    "code/original.R",
-    "*.pdf",
-    "validation/**",
-    "external article/book screenshots",
-    "external reference images",
-    "private or real experimental data",
-    "machine-local environment state"
+  "schema": "open-figure-modules.admission-report.v1",
+  "providerId": "io.github.jarxunlai.personal-figures",
+  "displayName": "Open Figure Modules",
+  "entries": [
+    {
+      "moduleId": "ggsankeyfier-layout-color-combo",
+      "status": "published",
+      "batch": "pilot"
+    },
+    {
+      "moduleId": "sc-celltype-grouped-dodge-count",
+      "status": "approved_for_source_commit",
+      "batch": "batch-01"
+    },
+    {
+      "moduleId": "sc-celltype-grouped-horizontal-bar",
+      "status": "approved_for_source_commit",
+      "batch": "batch-01"
+    },
+    {
+      "moduleId": "sc-celltype-grouped-stacked-bar",
+      "status": "approved_for_source_commit",
+      "batch": "batch-01"
+    },
+    {
+      "moduleId": "sc-celltype-nightingale-rose",
+      "status": "approved_for_source_commit",
+      "batch": "batch-01"
+    },
+    {
+      "moduleId": "sc-celltype-sample-dodge-count",
+      "status": "approved_for_source_commit",
+      "batch": "batch-01"
+    },
+    {
+      "moduleId": "sc-celltype-sample-stacked-proportion",
+      "status": "approved_for_source_commit",
+      "batch": "batch-01"
+    },
+    {
+      "moduleId": "sc-celltype-sankey",
+      "status": "approved_for_source_commit",
+      "batch": "batch-01"
+    },
+    {
+      "moduleId": "sc-celltype-stacked-area",
+      "status": "approved_for_source_commit",
+      "batch": "batch-01"
+    }
   ],
   "licenseDecision": {
     "code": "MIT",
     "content": "CC BY 4.0",
     "documentation": "CC BY 4.0",
-    "scope": "Only the cleaned module files listed in module.yml, including provenance.md."
+    "scope": "Only cleaned module files explicitly declared in each module manifest."
   },
   "publisherReviewStatus": "approved",
   "publisherExecutionStatus": "passed",

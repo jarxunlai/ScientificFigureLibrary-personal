@@ -1,0 +1,74 @@
+application: Show cell-type composition changes across ordered samples as a normalized stacked area chart.
+canonicalCode: code/organized.R
+codeFiles:
+  - code/example.R
+  - code/organized.R
+dataProfile: A sample-level long table with Sample_ID, Group, celltype, and n. All distributed values are newly generated synthetic examples.
+description: A portable R module for stacked area of cell composition across samples, using a fully synthetic sample-level count table.
+files:
+  - README.md
+  - code/example.R
+  - code/organized.R
+  - data/example-counts-csv.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+inputFiles:
+  - data/example-counts-csv.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: sc-celltype-stacked-area
+packages:
+  - dplyr
+  - forcats
+  - ggplot2
+  - scales
+plotFamily: stacked_area
+preview:
+  bytes: 203558
+  mediaType: image/png
+  path: preview.png
+  sha256: e78e0917b49d49d6eb1c76090df2ddde6565f2bb02613405e12cc579dd3e7336
+provenance:
+  - note: Prepared from a reviewed Local Published entry; internal Library records and source/reference bytes are not distributed.
+    type: local_published_cleaning
+  - note: The distributed CSV values were generated for this portable module and do not represent real samples or scientific conclusions.
+    type: synthetic_data
+  - note: Only the files listed in this manifest are distributed.
+    type: clean_room_transformation
+publisher:
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+  - README.md
+  - code/example.R
+  - code/organized.R
+  - data/example-counts-csv.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+  - cell-composition
+  - sample-comparison
+  - single-cell
+thumbnail:
+  bytes: 33730
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: a91354f3312e92b42c222b4378800448831dd5badef4be7c7d1d7c796f7cee2d
+title: 跨样本堆叠面积细胞构成图
+titleEn: Stacked area of cell composition across samples

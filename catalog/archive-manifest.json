@@ -22,6 +22,158 @@
       "moduleId": "ggsankeyfier-layout-color-combo",
       "sha256": "4e72d136b0d4d603fa0973ce217d6b3a36749eda02a8ec1521874008f295bd59",
       "sourceCommit": "7fa4e210e3283efea0250e73b43e139c941b478b"
+    },
+    {
+      "bytes": 185312,
+      "file": "archives/sc-celltype-grouped-dodge-count.zip",
+      "files": [
+        "README.md",
+        "code/example.R",
+        "code/organized.R",
+        "data/example-counts-csv.csv",
+        "data_schema.yml",
+        "description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "sc-celltype-grouped-dodge-count",
+      "sha256": "0a972a161f6fcaa02b9b61a205860b7c3d171f9d93e942f30e1698a32e187a13",
+      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+    },
+    {
+      "bytes": 110730,
+      "file": "archives/sc-celltype-grouped-horizontal-bar.zip",
+      "files": [
+        "README.md",
+        "code/example.R",
+        "code/organized.R",
+        "data/example-counts-csv.csv",
+        "data_schema.yml",
+        "description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "sc-celltype-grouped-horizontal-bar",
+      "sha256": "02bce790d1a3012a70703b46308a292ec3d657418e41e63445139ac8b10feb85",
+      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+    },
+    {
+      "bytes": 93069,
+      "file": "archives/sc-celltype-grouped-stacked-bar.zip",
+      "files": [
+        "README.md",
+        "code/example.R",
+        "code/organized.R",
+        "data/example-counts-csv.csv",
+        "data_schema.yml",
+        "description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "sc-celltype-grouped-stacked-bar",
+      "sha256": "8b4aea88bdd34cf5167b6c97d30f08c2e82b49c92a58bc96fbcd8d99e620c251",
+      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+    },
+    {
+      "bytes": 810981,
+      "file": "archives/sc-celltype-nightingale-rose.zip",
+      "files": [
+        "README.md",
+        "code/example.R",
+        "code/organized.R",
+        "data/example-counts-csv.csv",
+        "data_schema.yml",
+        "description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "sc-celltype-nightingale-rose",
+      "sha256": "906812b54900cc0ea325f017d3147c5c24c51eadd28c3f5b41eda75d476646c5",
+      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+    },
+    {
+      "bytes": 231487,
+      "file": "archives/sc-celltype-sample-dodge-count.zip",
+      "files": [
+        "README.md",
+        "code/example.R",
+        "code/organized.R",
+        "data/example-counts-csv.csv",
+        "data_schema.yml",
+        "description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "sc-celltype-sample-dodge-count",
+      "sha256": "f30e74f9b8da5e5b393b22ccd9a411ff74bf6261b3bde3cf8a7a85d3456fccdf",
+      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+    },
+    {
+      "bytes": 230723,
+      "file": "archives/sc-celltype-sample-stacked-proportion.zip",
+      "files": [
+        "README.md",
+        "code/example.R",
+        "code/organized.R",
+        "data/example-counts-csv.csv",
+        "data_schema.yml",
+        "description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "sc-celltype-sample-stacked-proportion",
+      "sha256": "3d333d2192aff8c059c40adb576326d20ec8c6f057c49ae7b40bdd3243822c74",
+      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+    },
+    {
+      "bytes": 362344,
+      "file": "archives/sc-celltype-sankey.zip",
+      "files": [
+        "README.md",
+        "code/example.R",
+        "code/organized.R",
+        "data/example-counts-csv.csv",
+        "data_schema.yml",
+        "description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "sc-celltype-sankey",
+      "sha256": "1f61232ab88cd778743940e7bdb9d41884f195bd743aea17cf96c10f7ac10414",
+      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+    },
+    {
+      "bytes": 208687,
+      "file": "archives/sc-celltype-stacked-area.zip",
+      "files": [
+        "README.md",
+        "code/example.R",
+        "code/organized.R",
+        "data/example-counts-csv.csv",
+        "data_schema.yml",
+        "description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "sc-celltype-stacked-area",
+      "sha256": "05d99642b53f728764a94febe53c25bd9b807a1661ce1e5d40fcbacfb36951e8",
+      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
     }
   ],
   "generatedAt": "2000-01-01T00:00:00.000Z",

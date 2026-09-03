@@ -1,0 +1,74 @@
+application: Compare aggregate absolute cell counts between groups for each cell type.
+canonicalCode: code/organized.R
+codeFiles:
+  - code/example.R
+  - code/organized.R
+dataProfile: A sample-level long table with Sample_ID, Group, celltype, and n. All distributed values are newly generated synthetic examples.
+description: A portable R module for grouped dodged bars of absolute cell counts, using a fully synthetic sample-level count table.
+files:
+  - README.md
+  - code/example.R
+  - code/organized.R
+  - data/example-counts-csv.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+inputFiles:
+  - data/example-counts-csv.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: sc-celltype-grouped-dodge-count
+packages:
+  - dplyr
+  - forcats
+  - ggplot2
+  - scales
+plotFamily: grouped_bar
+preview:
+  bytes: 193714
+  mediaType: image/png
+  path: preview.png
+  sha256: 16adccf6c9a78b65d92e992b6c196b0fe28830217222d99bed826a8104310dc8
+provenance:
+  - note: Prepared from a reviewed Local Published entry; internal Library records and source/reference bytes are not distributed.
+    type: local_published_cleaning
+  - note: The distributed CSV values were generated for this portable module and do not represent real samples or scientific conclusions.
+    type: synthetic_data
+  - note: Only the files listed in this manifest are distributed.
+    type: clean_room_transformation
+publisher:
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+  - README.md
+  - code/example.R
+  - code/organized.R
+  - data/example-counts-csv.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+  - absolute-count
+  - cell-composition
+  - single-cell
+thumbnail:
+  bytes: 32603
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 735f0726d8d2b5764deb3891b3953779c1fec5bd31e324bb0d7e726fa610c884
+title: 分组细胞绝对数 dodge 柱状图
+titleEn: Grouped dodged bars of absolute cell counts

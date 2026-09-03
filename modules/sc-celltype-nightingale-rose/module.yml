@@ -1,0 +1,74 @@
+application: Display per-sample cell-type proportions as faceted polar stacked bars.
+canonicalCode: code/organized.R
+codeFiles:
+  - code/example.R
+  - code/organized.R
+dataProfile: A sample-level long table with Sample_ID, Group, celltype, and n. All distributed values are newly generated synthetic examples.
+description: A portable R module for nightingale rose chart of cell composition, using a fully synthetic sample-level count table.
+files:
+  - README.md
+  - code/example.R
+  - code/organized.R
+  - data/example-counts-csv.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+inputFiles:
+  - data/example-counts-csv.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: sc-celltype-nightingale-rose
+packages:
+  - dplyr
+  - forcats
+  - ggplot2
+  - scales
+plotFamily: polar_bar
+preview:
+  bytes: 776633
+  mediaType: image/png
+  path: preview.png
+  sha256: aa65364e02e8627b0eabae65bb91b4335a24d10b431b5c2f020753b31a23a11c
+provenance:
+  - note: Prepared from a reviewed Local Published entry; internal Library records and source/reference bytes are not distributed.
+    type: local_published_cleaning
+  - note: The distributed CSV values were generated for this portable module and do not represent real samples or scientific conclusions.
+    type: synthetic_data
+  - note: Only the files listed in this manifest are distributed.
+    type: clean_room_transformation
+publisher:
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+  - README.md
+  - code/example.R
+  - code/organized.R
+  - data/example-counts-csv.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+  - cell-composition
+  - polar-chart
+  - single-cell
+thumbnail:
+  bytes: 59549
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 9469b250874e4b4a7aa2cb5d6726d6740dba452ad2e06079477cd009eeb8ebf1
+title: 南丁格尔玫瑰细胞构成图
+titleEn: Nightingale rose chart of cell composition

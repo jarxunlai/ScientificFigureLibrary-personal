@@ -1,0 +1,74 @@
+application: Compare absolute cell counts at sample level, faceted by group.
+canonicalCode: code/organized.R
+codeFiles:
+  - code/example.R
+  - code/organized.R
+dataProfile: A sample-level long table with Sample_ID, Group, celltype, and n. All distributed values are newly generated synthetic examples.
+description: A portable R module for sample-level dodged bars of absolute cell counts, using a fully synthetic sample-level count table.
+files:
+  - README.md
+  - code/example.R
+  - code/organized.R
+  - data/example-counts-csv.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+inputFiles:
+  - data/example-counts-csv.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: sc-celltype-sample-dodge-count
+packages:
+  - dplyr
+  - forcats
+  - ggplot2
+  - scales
+plotFamily: grouped_bar
+preview:
+  bytes: 243648
+  mediaType: image/png
+  path: preview.png
+  sha256: 51bdb9ba11272fdc931956406d747ffab5760739ba3fffc1257e2ce31b198ed8
+provenance:
+  - note: Prepared from a reviewed Local Published entry; internal Library records and source/reference bytes are not distributed.
+    type: local_published_cleaning
+  - note: The distributed CSV values were generated for this portable module and do not represent real samples or scientific conclusions.
+    type: synthetic_data
+  - note: Only the files listed in this manifest are distributed.
+    type: clean_room_transformation
+publisher:
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+  - README.md
+  - code/example.R
+  - code/organized.R
+  - data/example-counts-csv.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+  - absolute-count
+  - cell-composition
+  - single-cell
+thumbnail:
+  bytes: 38411
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 18fc3a528e3215cfe5f0b637d624d5784c767cfc38c01509f21e59ffbcc55fb2
+title: 样本细胞绝对数 dodge 柱状图
+titleEn: Sample-level dodged bars of absolute cell counts
