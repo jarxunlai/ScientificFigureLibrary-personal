@@ -1,15 +1,27 @@
-# ScientificFigureLibrary-personal
+# Open Figure Modules
 
-这是 Scientific Figure Library 的个人内容仓库。源码模块和确定性 ZIP 共用同一仓库；SFL 插件只携带派生 Catalog、预览和缩略图，不携带完整 ZIP。
+Open Figure Modules is an openly collaborative collection of portable scientific-figure modules for Scientific Figure Library. Contributions are welcome through pull requests.
 
-## 当前模块
+The repository keeps cleaned module sources and deterministic ZIP archives together. SFL packages only the derived catalog, previews, thumbnails, and provider notices; complete module ZIP files are fetched only for an exact selected module identity.
 
-- `modules/ggsankeyfier-layout-color-combo/`：经清洗的 ggsankeyfier 桑基图示例，包含合成 CSV、整理版 R 代码、主预览和缩略图。
-- `archives/ggsankeyfier-layout-color-combo.zip`：由 source commit 的模块文件树确定性生成的归档。
-- `catalog/`：归档清单和逐模块准入记录。
+## Current modules
 
-模块级许可证、发布者审核状态和公开边界以各模块 `module.yml` 与 README 为准；不要把仓库根目录的 MIT 代码许可证自动套用到模块内容。
+- `ggsankeyfier-layout-color-combo`
+- `sc-celltype-grouped-horizontal-bar`
+- `sc-celltype-sankey`
+- `sc-celltype-grouped-stacked-bar`
+- `sc-celltype-stacked-area`
+- `sc-celltype-grouped-dodge-count`
+- `sc-celltype-sample-dodge-count`
+- `sc-celltype-sample-stacked-proportion`
+- `sc-celltype-nightingale-rose`
 
-## 内容边界
+## Public boundary
 
-本仓库不包含书页、文章截图、PDF、参考图片、真实患者/实验数据、未授权原始代码或本机环境状态。SFL materialize 只校验和解压固定归档，不执行模块代码。
+Each module declares its own code, content, and documentation licenses. A public repository does not grant redistribution rights to external references. Source screenshots, article or book images, PDFs, real patient or experimental data, unredistributed original code, credentials, and machine-local state are not accepted as module files.
+
+The SFL client only downloads or reads, verifies, extracts, and writes selected modules. It does not run R, Python, notebooks, shell scripts, package installers, or dependency managers.
+
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md). A pull request is reviewed by an Agent and accepted by the maintainer before it is merged. Merge alone does not automatically place content in an SFL package; deterministic archives and the bundled snapshot are generated and verified separately.

@@ -1,0 +1,73 @@
+application: Compare group-level cell composition with normalized stacked bars.
+canonicalCode: code/organized.R
+codeFiles:
+  - code/example.R
+  - code/organized.R
+dataProfile: A sample-level long table with Sample_ID, Group, celltype, and n. All distributed values are newly generated synthetic examples.
+description: A portable R module for grouped 100% stacked bars of cell composition, using a fully synthetic sample-level count table.
+files:
+  - README.md
+  - code/example.R
+  - code/organized.R
+  - data/example-counts-csv.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+inputFiles:
+  - data/example-counts-csv.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: sc-celltype-grouped-stacked-bar
+packages:
+  - RColorBrewer
+  - dplyr
+  - ggplot2
+plotFamily: stacked_bar
+preview:
+  bytes: 105792
+  mediaType: image/png
+  path: preview.png
+  sha256: 38c9ea2f67ec740ed66a12abd2489b5db3f876283d7430d731f881e033ae4610
+provenance:
+  - note: Prepared from a reviewed Local Published entry; internal Library records and source/reference bytes are not distributed.
+    type: local_published_cleaning
+  - note: The distributed CSV values were generated for this portable module and do not represent real samples or scientific conclusions.
+    type: synthetic_data
+  - note: Only the files listed in this manifest are distributed.
+    type: clean_room_transformation
+publisher:
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+  - README.md
+  - code/example.R
+  - code/organized.R
+  - data/example-counts-csv.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+  - cell-composition
+  - group-comparison
+  - single-cell
+thumbnail:
+  bytes: 28581
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 45f98a42bb65edb46f5cb7c203f268cbdf09f10f675d0a401a166a977990fba1
+title: 分组堆叠柱状细胞构成图
+titleEn: Grouped 100% stacked bars of cell composition
