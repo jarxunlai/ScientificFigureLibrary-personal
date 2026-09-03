@@ -1,0 +1,79 @@
+application: Compare pathway NES values across A–D subtypes with category annotations and significance marks.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: A pathway table with Pathway, Category, A, B, C, D, and significance-marker columns.
+description: A portable ComplexHeatmap module for comparing pathway normalized enrichment scores across four subtypes.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/pathway_nes.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/pathway_nes.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: cancercell-pathway-nes-heatmap
+packages:
+- ComplexHeatmap
+- circlize
+- ggsci
+- grid
+- readr
+- tibble
+plotFamily: heatmap
+preview:
+  bytes: 249128
+  mediaType: image/png
+  path: preview.png
+  sha256: 9da6f61b5dfc837a57f62628d03e18fce79424e266c742fa5695cb2448bfb032
+provenance:
+- note: Prepared from the reviewed Local Published entry cancercell-pathway-nes-heatmap; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/pathway_nes.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- cancercell
+- cancercell-pathway-nes-heatmap
+- heatmap
+- nes
+- pathway
+thumbnail:
+  bytes: 83448
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 1bc25fe370a14c117593e1137f9298bbab9ca0b1788645216949be6f2adf4316
+title: Cancer Cell通路NES热图
+titleEn: Cancer Cell pathway NES heatmap

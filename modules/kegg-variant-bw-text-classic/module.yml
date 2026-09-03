@@ -1,0 +1,78 @@
+application: Compare ranked pathway enrichment while preserving high-contrast labels for the largest bars.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: Fifteen synthetic pathway descriptions with adjusted p-values.
+description: A KEGG enrichment bar variant that uses white labels for the first three bars and black labels thereafter.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/kegg_top15.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/kegg_top15.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: kegg-variant-bw-text-classic
+packages:
+- ggplot2
+- ragg
+- readr
+plotFamily: enrichment_bar
+preview:
+  bytes: 182809
+  mediaType: image/png
+  path: preview.png
+  sha256: f02996441b12b52b704c384510830753e28ef4586071ca474b4450286a2cc805
+provenance:
+- note: Prepared from the reviewed Local Published entry kegg-variant-bw-text-classic; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/kegg_top15.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- bw
+- classic
+- enrichment_bar
+- kegg
+- kegg-variant-bw-text-classic
+- text
+- variant
+thumbnail:
+  bytes: 76830
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 37fb0f03de2b897f464dfb0ce46937cc76889252e1b551d0fd0114585091f25e
+title: KEGG变体条形图（前三白字）
+titleEn: KEGG variant bar with white-on-dark labels

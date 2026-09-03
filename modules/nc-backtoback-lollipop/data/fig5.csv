@@ -1,0 +1,42 @@
+Synthetic marker comparison,,,,,,
+celltype,group,marker,marker_type,gene_impact_score_per_celltype_cell,EC_score,specificity
+Leukemic Hematopoietic Stem Cell,Pei,CD34,positive,18.13634,2,1
+Leukemic Hematopoietic Stem Cell,Pei,IL3RA,positive,16.58765,5,1
+Leukemic Hematopoietic Stem Cell,Pei,SMIM24,positive,16.46622,8,1
+Leukemic Hematopoietic Stem Cell,Pei,CLEC12A,positive,16.40840,2,1
+Leukemic Hematopoietic Stem Cell,Pei,IL2RA,positive,15.91627,5,1
+Leukemic Hematopoietic Stem Cell,Pei,FAM30A,positive,14.66500,8,1
+Leukemic Hematopoietic Stem Cell,Pei,BEX3,positive,14.56489,2,1
+Leukemic Hematopoietic Stem Cell,Pei,CD96,positive,13.12416,5,1
+Leukemic Hematopoietic Stem Cell,Pei,CD200,positive,13.36380,8,1
+Leukemic Hematopoietic Stem Cell,Pei,CDK6,positive,13.05085,2,1
+Leukemic Hematopoietic Stem Cell,Pei,IL1RAP,positive,11.02989,5,1
+Leukemic Hematopoietic Stem Cell,Pei,CD33,positive,11.05854,8,1
+Leukemic Hematopoietic Stem Cell,Pei,SOCS2,positive,9.59963,2,1
+Leukemic Hematopoietic Stem Cell,Pei,CD9,positive,10.94516,5,1
+Leukemic Hematopoietic Stem Cell,Pei,KIT,positive,8.57765,8,1
+Leukemic Hematopoietic Stem Cell,Pei,CD99,positive,7.88840,2,1
+Leukemic Hematopoietic Stem Cell,Pei,CD82,positive,9.18399,5,1
+Leukemic Hematopoietic Stem Cell,Pei,CPXM1,positive,7.76875,8,1
+Leukemic Hematopoietic Stem Cell,Pei,CD47,positive,6.06955,2,1
+Leukemic Hematopoietic Stem Cell,Pei,FCGR2A,positive,6.27397,5,1
+Leukemic Hematopoietic Stem Cell,van Galen,CD34,positive,15.55265,2,1
+Leukemic Hematopoietic Stem Cell,van Galen,IL3RA,positive,15.89323,5,1
+Leukemic Hematopoietic Stem Cell,van Galen,SMIM24,positive,15.12737,8,1
+Leukemic Hematopoietic Stem Cell,van Galen,CLEC12A,positive,15.20010,2,1
+Leukemic Hematopoietic Stem Cell,van Galen,IL2RA,positive,13.87428,5,1
+Leukemic Hematopoietic Stem Cell,van Galen,FAM30A,positive,12.86465,8,1
+Leukemic Hematopoietic Stem Cell,van Galen,BEX3,positive,12.08583,2,1
+Leukemic Hematopoietic Stem Cell,van Galen,CD96,positive,11.01295,5,1
+Leukemic Hematopoietic Stem Cell,van Galen,CD200,positive,11.14239,8,1
+Leukemic Hematopoietic Stem Cell,van Galen,CDK6,positive,11.51707,2,1
+Leukemic Hematopoietic Stem Cell,van Galen,IL1RAP,positive,10.38710,5,1
+Leukemic Hematopoietic Stem Cell,van Galen,CD33,positive,9.21578,8,1
+Leukemic Hematopoietic Stem Cell,van Galen,SOCS2,positive,9.80895,2,1
+Leukemic Hematopoietic Stem Cell,van Galen,CD9,positive,8.52836,5,1
+Leukemic Hematopoietic Stem Cell,van Galen,KIT,positive,8.09953,8,1
+Leukemic Hematopoietic Stem Cell,van Galen,CD99,positive,6.94053,2,1
+Leukemic Hematopoietic Stem Cell,van Galen,CD82,positive,6.32420,5,1
+Leukemic Hematopoietic Stem Cell,van Galen,CPXM1,positive,6.93178,8,1
+Leukemic Hematopoietic Stem Cell,van Galen,CD47,positive,6.22414,2,1
+Leukemic Hematopoietic Stem Cell,van Galen,FCGR2A,positive,4.92157,5,1

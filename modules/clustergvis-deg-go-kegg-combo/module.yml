@@ -1,0 +1,89 @@
+application: Present cluster-level expression patterns, marker genes, and pathway annotations in one composite panel.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: Synthetic Z-score and pathway tables are bundled as reproducible example inputs for the plotting layer.
+description: A ComplexHeatmap module showing clustered synthetic expression patterns with GO and KEGG text annotations.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/go_terms.csv
+- data/kegg_terms.csv
+- data/synthetic_zscore.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/go_terms.csv
+- data/kegg_terms.csv
+- data/synthetic_zscore.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: clustergvis-deg-go-kegg-combo
+packages:
+- ComplexHeatmap
+- circlize
+- dplyr
+- grid
+- ragg
+- readr
+- scales
+- tibble
+plotFamily: clustered_heatmap_annotation
+preview:
+  bytes: 476095
+  mediaType: image/png
+  path: preview.png
+  sha256: b3dd768c464ad8bd21842b4c82ddcdd45d2ce699830b130d892800032afe93da
+provenance:
+- note: Prepared from the reviewed Local Published entry clustergvis-deg-go-kegg-combo; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/go_terms.csv
+- data/kegg_terms.csv
+- data/synthetic_zscore.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- clustered_heatmap_annotation
+- clustergvis
+- clustergvis-deg-go-kegg-combo
+- combo
+- deg
+- go
+- kegg
+thumbnail:
+  bytes: 69345
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 3aeb60b4d7c6a0786c6beb5a81e3e09389d6503347c1d7c8c0ed18d5c03c16d5
+title: 差异基因聚类热图加GO和KEGG注释
+titleEn: Clustered DEG heatmap with GO and KEGG annotation

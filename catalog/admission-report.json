@@ -4,49 +4,292 @@
   "displayName": "Open Figure Modules",
   "entries": [
     {
+      "moduleId": "cancercell-pathway-nes-heatmap",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "cell-fig2h-volcano-go-combo",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "clustergvis-deg-go-kegg-combo",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "deg-heatmap-go-panel",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
       "moduleId": "ggsankeyfier-layout-color-combo",
       "status": "published",
-      "batch": "pilot"
+      "batch": "pilot",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "go-enrichment-comet-combined",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "go-enrichment-comet-facet",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "hallmark-gsea-nes-ranked-scatter",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "hlca-scib-integration-benchmark-matrix",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "kegg-variant-blue-inside-label",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "kegg-variant-bw-text-classic",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "kegg-variant-inside-label-bar",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "nature-deg-grouped-barplot",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "nature-metabolome-style-pca",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "nature-spatial-niche-stacked-bar",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "nc-backtoback-lollipop",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "ncb-fig2d-hox-ridge-heatmap",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
     },
     {
       "moduleId": "sc-celltype-grouped-dodge-count",
-      "status": "approved_for_source_commit",
-      "batch": "batch-01"
+      "status": "published",
+      "batch": "batch-01",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
     },
     {
       "moduleId": "sc-celltype-grouped-horizontal-bar",
-      "status": "approved_for_source_commit",
-      "batch": "batch-01"
+      "status": "published",
+      "batch": "batch-01",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
     },
     {
       "moduleId": "sc-celltype-grouped-stacked-bar",
-      "status": "approved_for_source_commit",
-      "batch": "batch-01"
+      "status": "published",
+      "batch": "batch-01",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
     },
     {
       "moduleId": "sc-celltype-nightingale-rose",
-      "status": "approved_for_source_commit",
-      "batch": "batch-01"
+      "status": "published",
+      "batch": "batch-01",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
     },
     {
       "moduleId": "sc-celltype-sample-dodge-count",
-      "status": "approved_for_source_commit",
-      "batch": "batch-01"
+      "status": "published",
+      "batch": "batch-01",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
     },
     {
       "moduleId": "sc-celltype-sample-stacked-proportion",
-      "status": "approved_for_source_commit",
-      "batch": "batch-01"
+      "status": "published",
+      "batch": "batch-01",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
     },
     {
       "moduleId": "sc-celltype-sankey",
-      "status": "approved_for_source_commit",
-      "batch": "batch-01"
+      "status": "published",
+      "batch": "batch-01",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
     },
     {
       "moduleId": "sc-celltype-stacked-area",
-      "status": "approved_for_source_commit",
-      "batch": "batch-01"
+      "status": "published",
+      "batch": "batch-01",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "sc-marker-dotplot-highlight-boxes",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "science-mantel-corrplot",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "single-cell-enrichment-bar-pathway-genes",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "umap-style-density-heatmap",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "umap-style-ellipse-labels",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "umap-style-plot1cell-circlize",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "umap-style-scp-numbered-legend",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "umap-style-scp-square-axes",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "umap-style-scpubr-stroke",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "umap-style-scrnatoolvis-insitu",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
+    },
+    {
+      "moduleId": "umap-unchull-main-type-circles",
+      "status": "published",
+      "batch": "all-remaining",
+      "source": "reviewed_local_published",
+      "publisherReviewStatus": "approved",
+      "publisherExecutionStatus": "passed"
     }
   ],
   "licenseDecision": {
@@ -57,6 +300,6 @@
   },
   "publisherReviewStatus": "approved",
   "publisherExecutionStatus": "passed",
-  "publisherExecutionScope": "synthetic_data",
+  "publisherExecutionScope": "synthetic_data_or_example_data",
   "sflCodeExecution": false
 }

@@ -1,0 +1,85 @@
+application: Compare batch-correction and biological-conservation metrics across integration methods and preprocessing settings.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: A newly generated scIB-shaped metrics table used to demonstrate the weighted score display.
+description: A reproducible benchmark-table visualization for comparing integration metrics and weighted scores.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/metrics_scgen_added.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/metrics_scgen_added.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: hlca-scib-integration-benchmark-matrix
+packages:
+- RColorBrewer
+- dplyr
+- ggforce
+- ggplot2
+- grid
+- ragg
+- readr
+- scales
+- stringr
+plotFamily: benchmark_matrix
+preview:
+  bytes: 1270832
+  mediaType: image/png
+  path: preview.png
+  sha256: 96ecc1bc5d45bcc4f5c8d72d8967a3b19f883ea9c94db646b16d2ba41c0a818e
+provenance:
+- note: Prepared from the reviewed Local Published entry hlca-scib-integration-benchmark-matrix; internal Library state is
+    not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/metrics_scgen_added.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- benchmark
+- benchmark_matrix
+- hlca
+- hlca-scib-integration-benchmark-matrix
+- integration
+- matrix
+- scib
+thumbnail:
+  bytes: 177581
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 199bf61884dca9336654392fe28ec70e8cc5b99f8a76c44b44f401177fe6b79e
+title: HLCA scIB 整合基准总表
+titleEn: HLCA scIB integration benchmark matrix

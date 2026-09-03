@@ -1,0 +1,6 @@
+schema_version: open-figure-modules-data-schema/v1
+description: Synthetic Z-score and pathway tables are bundled as reproducible example inputs for the plotting layer.
+example_data: data/go_terms.csv
+constraints:
+  - 示例数据只用于可移植绘图层验证，不代表原始研究数据。
+  - 输入文件路径相对于模块根目录。

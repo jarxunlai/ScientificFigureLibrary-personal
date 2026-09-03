@@ -1,0 +1,76 @@
+application: Combine a central embedding with categorical rings and group composition arcs.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: Synthetic UMAP coordinates with celltype and group columns.
+description: A circular UMAP presentation with cell-type and group rings around the embedding.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/example_umap.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/example_umap.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: umap-style-plot1cell-circlize
+packages:
+- dplyr
+- ggplot2
+plotFamily: circular_umap
+preview:
+  bytes: 450721
+  mediaType: image/png
+  path: preview.png
+  sha256: 0007948540a9f0e21056441f6312352d39ea0e04b4a4a5dafe18c4543909823b
+provenance:
+- note: Prepared from the reviewed Local Published entry umap-style-plot1cell-circlize; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/example_umap.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- circlize
+- circular_umap
+- plot1cell
+- style
+- umap
+- umap-style-plot1cell-circlize
+thumbnail:
+  bytes: 61378
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 31654e507ed6e9a157b07cdf5bbf2cec03a957058e682f47c1adcc17ca09faf3
+title: 环形Circos风格UMAP
+titleEn: Circular circos-style UMAP

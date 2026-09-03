@@ -1,0 +1,37 @@
+tissue,cell_type,cell_index
+Hypothalamus,MGC,1
+Hypothalamus,MOC,2
+Hypothalamus,Astro,3
+Hypothalamus,Pericytes,4
+Hypothalamus,MAC,5
+Hypothalamus,T cells,6
+Pituitary,Gona,7
+Pituitary,Cort,8
+Pituitary,Lac,9
+Pituitary,Som,10
+Pituitary,PSC_Fol,11
+Pituitary,Tany,12
+Pituitary,TSC,13
+Pituitary,Endo,14
+Pituitary,MAC.2,15
+Pituitary,T cells.2,16
+Ovary,GC,17
+Ovary,SC,18
+Ovary,Theca,19
+Ovary,LUM+ SC,20
+Ovary,LUM- SC,21
+Ovary,SMC,22
+Ovary,Pericytes.2,23
+Ovary,Endo.2,24
+Ovary,FBC,25
+Ovary,MAC.3,26
+Ovary,T cells.3,27
+Uterus,Myo1,28
+Uterus,Myo2,29
+Uterus,Pericytes.3,30
+Uterus,SFRP4+ SC,31
+Uterus,LUM+ SC.2,32
+Uterus,Endo.3,33
+Uterus,FBC.2,34
+Uterus,MAC.4,35
+Uterus,T cells.4,36

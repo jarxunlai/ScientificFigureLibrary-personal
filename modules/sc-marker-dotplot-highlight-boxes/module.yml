@@ -1,0 +1,79 @@
+application: Compare marker expression across named cell clusters while emphasizing selected cluster blocks.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: A DotPlot-style table with avg.exp, pct.exp, features.plot, id, and avg.exp.scaled columns.
+description: A marker dot plot with expression color, percent-expressed size, and three highlighted cluster regions.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/dotplot_dt.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/dotplot_dt.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: sc-marker-dotplot-highlight-boxes
+packages:
+- ggplot2
+- ragg
+- readr
+plotFamily: marker_dotplot
+preview:
+  bytes: 511035
+  mediaType: image/png
+  path: preview.png
+  sha256: fd5aacca36ca794deae1efb582a45c5b0a6e7ee1b4cafccbc4c50ec8cada27dd
+provenance:
+- note: Prepared from the reviewed Local Published entry sc-marker-dotplot-highlight-boxes; internal Library state is not
+    distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/dotplot_dt.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- boxes
+- dotplot
+- highlight
+- marker
+- marker_dotplot
+- sc
+- sc-marker-dotplot-highlight-boxes
+thumbnail:
+  bytes: 90086
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: e5439046fd62090fccea4e1b7da5401c7bd5463fb488684cdf4d8dfcd4cd71b4
+title: 单细胞marker气泡图加突出框
+titleEn: scRNA marker dotplot with highlight boxes

@@ -1,0 +1,82 @@
+application: Show fold-change and percentage-difference signals beside a compact directional pathway panel.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: 'Two example tables: DEG rows with fold-change/percentage fields and GO rows with direction and bar coordinates.'
+description: A cleaned plotting-layer module combining a percentage-difference bubble scatter with directional GO bars.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/example_de.csv
+- data/example_go.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/example_de.csv
+- data/example_go.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: cell-fig2h-volcano-go-combo
+packages:
+- dplyr
+- ggplot2
+- grid
+- patchwork
+plotFamily: volcano_go_combo
+preview:
+  bytes: 336592
+  mediaType: image/png
+  path: preview.png
+  sha256: 2772588a816ac402d92d1aed8300f21fc8f820a2dd233e58e59ae832701d4198
+provenance:
+- note: Prepared from the reviewed Local Published entry cell-fig2h-volcano-go-combo; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/example_de.csv
+- data/example_go.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- cell
+- cell-fig2h-volcano-go-combo
+- combo
+- fig2h
+- go
+- volcano
+- volcano_go_combo
+thumbnail:
+  bytes: 72082
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: a1392dd9ae35888dfa8fd04e11c583216c66afe0b2828b768d8e1c1d02836e98
+title: 单细胞百分比差火山图加GO条形组合图
+titleEn: Percentage-difference volcano plot with GO bar chart combination

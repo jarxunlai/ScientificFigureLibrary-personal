@@ -1,0 +1,77 @@
+application: Show ranked pathway NES values with point size and transparency encoding.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: A pathway table with ID, NES, setSize, and pvalue columns.
+description: A ranked GSEA normalized-enrichment-score bubble scatter using a bundled synthetic pathway table.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/example_gsea.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/example_gsea.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: hallmark-gsea-nes-ranked-scatter
+packages:
+- ggplot2
+- ggrepel
+plotFamily: ranked_nes_scatter
+preview:
+  bytes: 240893
+  mediaType: image/png
+  path: preview.png
+  sha256: 6b74f149998925a62010b119bbfa95f3b9e9996e13faac956bad1dfc9b881c49
+provenance:
+- note: Prepared from the reviewed Local Published entry hallmark-gsea-nes-ranked-scatter; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/example_gsea.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- gsea
+- hallmark
+- hallmark-gsea-nes-ranked-scatter
+- nes
+- ranked
+- ranked_nes_scatter
+- scatter
+thumbnail:
+  bytes: 50279
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 191be2ff3811f2839e76151de5c57b276037841ae4f2bd60e521c2b2269e0b7a
+title: GSEA打分排序图
+titleEn: Ranked GSEA NES scatter

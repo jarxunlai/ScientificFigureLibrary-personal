@@ -1,0 +1,79 @@
+application: Compare enrichment strength and contributing-gene counts for several cell clusters on a shared axis.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: A fully synthetic long table with Cluster, Description, Count, pvalue, and -log10(p) fields.
+description: A portable overlay comet plot for pathway enrichment rows across multiple cell clusters.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/enrichment_comet.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/enrichment_comet.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: go-enrichment-comet-combined
+packages:
+- dplyr
+- ggforce
+- ggplot2
+- ragg
+- readr
+plotFamily: enrichment_comet_overlay
+preview:
+  bytes: 1002833
+  mediaType: image/png
+  path: preview.png
+  sha256: 576ee33ff1a02a94506a31ceff5d0cfc7504a6364d8ce03a04ad840ca97d0455
+provenance:
+- note: Prepared from the reviewed Local Published entry go-enrichment-comet-combined; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/enrichment_comet.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- combined
+- comet
+- enrichment
+- enrichment_comet_overlay
+- go
+- go-enrichment-comet-combined
+thumbnail:
+  bytes: 55450
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 03b564ec5ed7f883d41400401c51db89e2b6fff54ee5b30c6fe0c035d55c08af
+title: 单细胞GO富集彗星图（叠加）
+titleEn: Overlay GO enrichment comet plot

@@ -1,0 +1,56 @@
+Cluster,Description,Count,pvalue,neg_log10_p,p_source
+Macrophages,Synthetic pathway 01-01,12,1.00000000e-03,3.00,synthetic
+Macrophages,Synthetic pathway 01-02,19,3.16227766e-05,4.50,synthetic
+Macrophages,Synthetic pathway 01-03,26,1.00000000e-06,6.00,synthetic
+Macrophages,Synthetic pathway 01-04,33,3.16227766e-08,7.50,synthetic
+Macrophages,Synthetic pathway 01-05,40,1.00000000e-09,9.00,synthetic
+ILC1/NK cells,Synthetic pathway 02-01,23,3.16227766e-07,6.50,synthetic
+ILC1/NK cells,Synthetic pathway 02-02,30,1.00000000e-08,8.00,synthetic
+ILC1/NK cells,Synthetic pathway 02-03,37,3.16227766e-10,9.50,synthetic
+ILC1/NK cells,Synthetic pathway 02-04,44,1.00000000e-11,11.00,synthetic
+ILC1/NK cells,Synthetic pathway 02-05,51,3.16227766e-04,3.50,synthetic
+Endothelial cells,Synthetic pathway 03-01,34,1.00000000e-10,10.00,synthetic
+Endothelial cells,Synthetic pathway 03-02,41,3.16227766e-12,11.50,synthetic
+Endothelial cells,Synthetic pathway 03-03,48,1.00000000e-04,4.00,synthetic
+Endothelial cells,Synthetic pathway 03-04,55,3.16227766e-06,5.50,synthetic
+Endothelial cells,Synthetic pathway 03-05,62,1.00000000e-07,7.00,synthetic
+Epithelial cells,Synthetic pathway 04-01,45,3.16227766e-05,4.50,synthetic
+Epithelial cells,Synthetic pathway 04-02,52,1.00000000e-06,6.00,synthetic
+Epithelial cells,Synthetic pathway 04-03,59,3.16227766e-08,7.50,synthetic
+Epithelial cells,Synthetic pathway 04-04,66,1.00000000e-09,9.00,synthetic
+Epithelial cells,Synthetic pathway 04-05,73,3.16227766e-11,10.50,synthetic
+T cells,Synthetic pathway 05-01,56,1.00000000e-08,8.00,synthetic
+T cells,Synthetic pathway 05-02,63,3.16227766e-10,9.50,synthetic
+T cells,Synthetic pathway 05-03,70,1.00000000e-11,11.00,synthetic
+T cells,Synthetic pathway 05-04,77,3.16227766e-04,3.50,synthetic
+T cells,Synthetic pathway 05-05,16,1.00000000e-05,5.00,synthetic
+Fibroblasts,Synthetic pathway 06-01,67,3.16227766e-12,11.50,synthetic
+Fibroblasts,Synthetic pathway 06-02,74,1.00000000e-04,4.00,synthetic
+Fibroblasts,Synthetic pathway 06-03,13,3.16227766e-06,5.50,synthetic
+Fibroblasts,Synthetic pathway 06-04,20,1.00000000e-07,7.00,synthetic
+Fibroblasts,Synthetic pathway 06-05,27,3.16227766e-09,8.50,synthetic
+Mast cells,Synthetic pathway 07-01,78,1.00000000e-06,6.00,synthetic
+Mast cells,Synthetic pathway 07-02,17,3.16227766e-08,7.50,synthetic
+Mast cells,Synthetic pathway 07-03,24,1.00000000e-09,9.00,synthetic
+Mast cells,Synthetic pathway 07-04,31,3.16227766e-11,10.50,synthetic
+Mast cells,Synthetic pathway 07-05,38,1.00000000e-03,3.00,synthetic
+Smooth muscle cells,Synthetic pathway 08-01,21,3.16227766e-10,9.50,synthetic
+Smooth muscle cells,Synthetic pathway 08-02,28,1.00000000e-11,11.00,synthetic
+Smooth muscle cells,Synthetic pathway 08-03,35,3.16227766e-04,3.50,synthetic
+Smooth muscle cells,Synthetic pathway 08-04,42,1.00000000e-05,5.00,synthetic
+Smooth muscle cells,Synthetic pathway 08-05,49,3.16227766e-07,6.50,synthetic
+Cycling macrophages,Synthetic pathway 09-01,32,1.00000000e-04,4.00,synthetic
+Cycling macrophages,Synthetic pathway 09-02,39,3.16227766e-06,5.50,synthetic
+Cycling macrophages,Synthetic pathway 09-03,46,1.00000000e-07,7.00,synthetic
+Cycling macrophages,Synthetic pathway 09-04,53,3.16227766e-09,8.50,synthetic
+Cycling macrophages,Synthetic pathway 09-05,60,1.00000000e-10,10.00,synthetic
+B cells,Synthetic pathway 10-01,43,3.16227766e-08,7.50,synthetic
+B cells,Synthetic pathway 10-02,50,1.00000000e-09,9.00,synthetic
+B cells,Synthetic pathway 10-03,57,3.16227766e-11,10.50,synthetic
+B cells,Synthetic pathway 10-04,64,1.00000000e-03,3.00,synthetic
+B cells,Synthetic pathway 10-05,71,3.16227766e-05,4.50,synthetic
+Lymphatic endothelial cells,Synthetic pathway 11-01,54,1.00000000e-11,11.00,synthetic
+Lymphatic endothelial cells,Synthetic pathway 11-02,61,3.16227766e-04,3.50,synthetic
+Lymphatic endothelial cells,Synthetic pathway 11-03,68,1.00000000e-05,5.00,synthetic
+Lymphatic endothelial cells,Synthetic pathway 11-04,75,3.16227766e-07,6.50,synthetic
+Lymphatic endothelial cells,Synthetic pathway 11-05,14,1.00000000e-08,8.00,synthetic

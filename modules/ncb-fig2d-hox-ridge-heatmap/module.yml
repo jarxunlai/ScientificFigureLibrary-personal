@@ -1,0 +1,81 @@
+application: Display spatial expression trends along an anterior-posterior axis for HOX groups.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: A synthetic gene-by-position CSV with one expression value for each AP layer.
+description: A four-panel HOX expression module combining ridgelines and an average-expression heatmap.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/panel-d.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/panel-d.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: ncb-fig2d-hox-ridge-heatmap
+packages:
+- cowplot
+- ggplot2
+- ggridges
+- patchwork
+- ragg
+- scales
+plotFamily: ridgeline_heatmap
+preview:
+  bytes: 329147
+  mediaType: image/png
+  path: preview.png
+  sha256: dda7e92aee434aa1edcc1ec0fe52b62baf0ae5c65c18d2775676c1dd4a0e93f7
+provenance:
+- note: Prepared from the reviewed Local Published entry ncb-fig2d-hox-ridge-heatmap; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/panel-d.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- fig2d
+- heatmap
+- hox
+- ncb
+- ncb-fig2d-hox-ridge-heatmap
+- ridge
+- ridgeline_heatmap
+thumbnail:
+  bytes: 58849
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: cbd256431365e041764c9ccb4f720f3730ea95d75bac0044ac3760335b425f88
+title: HOX前后轴山脊图加热图
+titleEn: HOX A-P ridgeline with average-expression heatmap
