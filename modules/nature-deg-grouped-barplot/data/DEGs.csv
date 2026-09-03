@@ -1,0 +1,24 @@
+cell_type,SNI_3day,SNI_3week,SNI_3month,Group
+Cell type 01,37,26,24,Intratelencephalic
+Cell type 02,74,45,37,Intratelencephalic
+Cell type 03,111,64,50,Intratelencephalic
+Cell type 04,148,83,63,Intratelencephalic
+Cell type 05,185,102,76,Intratelencephalic
+Cell type 06,222,121,89,Intratelencephalic
+Cell type 07,259,140,102,Pyramidal/Corticothalamic
+Cell type 08,296,159,115,Pyramidal/Corticothalamic
+Cell type 09,333,178,128,Pyramidal/Corticothalamic
+Cell type 10,370,197,141,Pyramidal/Corticothalamic
+Cell type 11,407,216,154,Pyramidal/Corticothalamic
+Cell type 12,444,235,167,GABA-ergic
+Cell type 13,1,254,180,GABA-ergic
+Cell type 14,38,273,193,GABA-ergic
+Cell type 15,75,292,206,GABA-ergic
+Cell type 16,112,311,219,GABA-ergic
+Cell type 17,149,330,232,GABA-ergic
+Cell type 18,186,349,245,Non-neuronal
+Cell type 19,223,8,258,Non-neuronal
+Cell type 20,260,27,11,Non-neuronal
+Cell type 21,297,46,24,Non-neuronal
+Cell type 22,334,65,37,Non-neuronal
+Cell type 23,371,84,50,Non-neuronal

@@ -1,0 +1,41 @@
+Pathway,Category,A,B,C,D,sigA,sigB,sigC,sigD
+KEGG Cell cycle,Cell cycle,-0.4010,0.4547,-0.7418,-0.6397,*,*,,
+KEGG DNA replication,Cell cycle,-0.0982,0.9647,-0.6883,-1.1209,*,*,,*
+HALLMARK_G2M_CHECKPOINT,Cell cycle,-0.1710,0.5695,-1.4582,-0.5637,*,*,*,*
+HALLMARK_FATTY_ACID_METABOLISM,Metabolism,-0.5947,-0.5998,0.1722,0.9657,*,,,*
+KEGG Oxidative phosphorylation,Metabolism,-0.2487,-0.6496,0.3834,0.4014,*,*,*,*
+HALLMARK_GLYCOLYSIS,Metabolism,-0.6402,-0.8001,0.5191,0.4606,*,,*,
+KEGG N-Glycan biosynthesis,Metabolism,-0.6142,-0.6590,0.2571,0.9288,*,,*,
+KEGG Lysine degradation,Metabolism,-0.2372,-0.9661,0.3880,0.2371,*,,*,*
+KEGG Apoptosis,Biologic processes,-1.3447,0.1465,0.6614,0.0432,*,,*,
+KEGG Autophagy,Biologic processes,-0.8703,0.0085,0.4459,0.2491,*,*,*,
+HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION,Biologic processes,-0.9804,-0.0418,0.7179,0.3057,*,*,*,*
+HALLMARK_HYPOXIA,Biologic processes,-0.9117,0.2834,-0.0127,0.5572,*,,*,*
+HALLMARK_ANGIOGENESIS,Biologic processes,-1.0881,0.0259,0.5864,0.7209,*,*,,*
+REACTOME Antigen Presentation,Immune response,-1.5043,1.3551,-0.2246,-0.0853,*,*,*,*
+REACTOME Signaling by Interleukins,Immune response,-0.9075,1.1109,-0.7388,0.2400,*,*,,
+REACTOME Cytokine Signaling in Immune system,Immune response,-0.8405,0.9282,-0.6431,0.1322,*,*,*,
+REACTOME Innate Immune System,Immune response,-1.4997,1.1361,-0.8915,0.3354,*,*,*,
+REACTOME Adaptive Immune System,Immune response,-1.6000,1.1277,-0.8543,0.8323,*,*,*,*
+REACTOME Interferon gamma signaling,Immune response,-1.4041,0.9217,-0.1247,0.0474,*,*,*,*
+HALLMARK_COMPLEMENT,Immune response,-1.2563,0.6868,-0.7835,0.3562,*,*,,
+REACTOME Signaling by NOTCH,Signalings,0.0898,0.3437,0.1998,0.6126,*,*,,*
+REACTOME Signaling by Hedgehog,Signalings,0.1532,0.4249,-0.1434,0.3644,*,*,,
+REACTOME Signaling by FGFR,Signalings,0.3430,0.4564,-0.1935,0.8121,*,*,,*
+KEGG ErbB signaling pathway,Signalings,0.2389,0.2968,0.5094,0.5025,,*,,*
+KEGG NF-kappa B signaling pathway,Signalings,0.2996,0.3185,-0.1796,0.5576,,*,*,*
+KEGG VEGF signaling pathway,Signalings,0.4626,0.5867,0.3520,0.5808,,*,,*
+HALLMARK_PI3K_AKT_MTOR_SIGNALING,Signalings,0.2706,0.3484,-0.1048,-0.0124,*,,*,
+HALLMARK_TGF_BETA_SIGNALING,Signalings,0.0782,0.0210,0.5419,0.5609,*,*,*,
+KEGG Hippo signaling pathway,Signalings,0.4535,0.4438,0.1473,-0.1799,*,,,*
+REACTOME EPH-Ephrin signaling,Signalings,0.4453,0.2848,0.1506,0.3930,*,*,,*
+REACTOME Signaling by PDGF,Signalings,-0.2780,0.4822,0.0557,0.3301,*,*,*,*
+HALLMARK_WNT_BETA_CATENIN_SIGNALING,Signalings,0.0751,0.3449,0.2470,0.3015,*,*,,*
+KEGG AMPK signaling pathway,Signalings,0.1116,0.4874,-0.0930,0.0728,*,*,,
+KEGG HIF-1 signaling pathway,Signalings,0.0493,0.1284,0.2246,0.6158,*,,*,
+KEGG Tight junction,Cell junction,-1.1884,0.0201,1.0605,0.1874,*,,*,
+REACTOME Cell junction organization,Cell junction,-0.8306,0.1858,0.4838,0.2716,*,*,*,
+KEGG Focal adhesion,Cell junction,-1.1976,-0.2689,0.6390,0.5262,*,*,*,*
+KEGG ECM-receptor interaction,ECM,-1.3105,0.1305,0.7122,1.0120,,,,*
+REACTOME Activation of Matrix Metalloproteinases,ECM,-1.5034,0.1965,-0.0309,0.4752,,,*,*
+REACTOME Degradation of the extracellular matrix,ECM,-0.9234,0.5618,0.7214,0.5149,,,,*

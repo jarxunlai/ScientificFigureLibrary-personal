@@ -1,0 +1,11 @@
+"direction","term","y","xmin","xmax","neg_log_p"
+"Up","Regionalization",14.6,-16,31.5,47.5
+"Up","Stem cell differentiation",13.2,-16,18.5,34.5
+"Up","Formation of primary germ layer",11.8,-16,16.5,32.5
+"Up","Canonical Wnt signaling pathway",10.4,-16,15,31
+"Up","Gastrulation",9,-16,12,28
+"Down","Regulation of neuron differentiation",5.4,-16,-2.2,13.8
+"Down","Forebrain development",4,-16,1,17
+"Down","Axonogenesis",2.6,-16,2,18
+"Down","ERK1 and ERK2 cascade",1.2,-16,3.2,19.2
+"Down","Cell-cell signaling by wnt",-0.2,-16,6.5,22.5

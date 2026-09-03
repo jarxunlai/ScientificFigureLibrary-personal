@@ -1,0 +1,77 @@
+application: Emphasize point boundaries and preserve cluster identity in a dense embedding.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: Synthetic cell-level UMAP coordinates and cell-type labels.
+description: A marker UMAP with black outlines, cluster labels, and a compact bottom legend.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/example_umap.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/example_umap.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: umap-style-scpubr-stroke
+packages:
+- dplyr
+- ggplot2
+- shadowtext
+plotFamily: umap_stroke
+preview:
+  bytes: 2857943
+  mediaType: image/png
+  path: preview.png
+  sha256: 9db1c3c4d6d4d5fdc9f2eb8f15ddbb56ae421e16c34c22d38aa2ef3b9c823bda
+provenance:
+- note: Prepared from the reviewed Local Published entry umap-style-scpubr-stroke; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/example_umap.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- scpubr
+- stroke
+- style
+- umap
+- umap-style-scpubr-stroke
+- umap_stroke
+thumbnail:
+  bytes: 145212
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 64e224413d1e6237b76ce149d210446ac47aa7a2d9edc1f8fd85d7bdc49becb6
+title: 黑边颗粒风UMAP
+titleEn: Black-stroke granule UMAP

@@ -1,0 +1,79 @@
+application: Compare nine niche proportions across a sample series with a stable palette.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: Long-form sample-by-niche proportions with patient, ctniche, and Proportion columns.
+description: A 100% stacked-bar module for comparing spatial niche composition across samples.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/niche_proportions.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/niche_proportions.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: nature-spatial-niche-stacked-bar
+packages:
+- dplyr
+- ggplot2
+- ragg
+- readr
+plotFamily: stacked_proportion_bar
+preview:
+  bytes: 140677
+  mediaType: image/png
+  path: preview.png
+  sha256: fefba736fd807b71517fa157e742380032347f4b82d5aefa54ed0acb09f7c9d6
+provenance:
+- note: Prepared from the reviewed Local Published entry nature-spatial-niche-stacked-bar; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/niche_proportions.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- bar
+- nature
+- nature-spatial-niche-stacked-bar
+- niche
+- spatial
+- stacked
+- stacked_proportion_bar
+thumbnail:
+  bytes: 74904
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 5ccec74e2806570cbb2e68b1715e2b95ddf0f81df5bf6f69696e265dbaabe084
+title: Nature同款空转生态位堆积柱
+titleEn: Nature-style spatial niche stacked bar

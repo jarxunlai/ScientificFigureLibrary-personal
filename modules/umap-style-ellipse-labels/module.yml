@@ -1,0 +1,78 @@
+application: Show cluster shape and location while removing a separate legend.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: Synthetic cell-level UMAP coordinates and cell-type labels.
+description: A UMAP module with translucent per-cluster ellipses and labels in matching colors.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/example_umap.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/example_umap.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: umap-style-ellipse-labels
+packages:
+- colorspace
+- dplyr
+- ggplot2
+- ggrepel
+plotFamily: umap_ellipse
+preview:
+  bytes: 1165182
+  mediaType: image/png
+  path: preview.png
+  sha256: b5798a332c75f6029e9524fea0fab680deb524a836f44ce8171627065d601bf3
+provenance:
+- note: Prepared from the reviewed Local Published entry umap-style-ellipse-labels; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/example_umap.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- ellipse
+- labels
+- style
+- umap
+- umap-style-ellipse-labels
+- umap_ellipse
+thumbnail:
+  bytes: 52522
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 84dc232c0d99e24fa7a1d08ec9a79efbe1e562e7513c28971710e9b452d5587a
+title: 半透明椭圆同色标签UMAP
+titleEn: UMAP with translucent ellipses and matching labels

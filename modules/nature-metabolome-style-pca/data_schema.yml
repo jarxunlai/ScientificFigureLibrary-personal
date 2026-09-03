@@ -1,0 +1,6 @@
+schema_version: open-figure-modules-data-schema/v1
+description: Synthetic sample-level coordinates with sample, group, PC1, and PC2 columns.
+example_data: data/pca_df.csv
+constraints:
+  - 示例数据只用于可移植绘图层验证，不代表原始研究数据。
+  - 输入文件路径相对于模块根目录。

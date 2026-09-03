@@ -1,0 +1,11 @@
+Cluster,Description,pvalue,p.adjust,qvalue,geneID,GeneRatio,BgRatio,Count
+CD16+ monocyte,TYROBP causal network in microglia,1e-08,2e-06,1e-06,PLEK/RGS1/SPP1/SAMSN1,4/50,20/1000,4
+CD16+ monocyte,Nuclear receptors meta-pathway,2e-07,3e-05,2e-05,FTH1/GADD45B/SRGN/SLC2A14,4/50,24/1000,4
+CD16+ monocyte,Hemopoiesis,4e-06,5e-04,4e-04,KLF6/FOS/PLEK/ZFP36/CD83,5/50,31/1000,5
+CD16+ monocyte,BDNF signaling pathway,2e-05,2e-03,1e-03,FOS/NCAM1/SPP1,3/50,18/1000,3
+CD16+ monocyte,Cytokine signaling in immune system,8e-05,6e-03,4e-03,FOS/HLA-DRA/NCAM1/PITPNA,4/50,45/1000,4
+CD14+ monocyte,Neutrophil degranulation,2e-10,5e-08,4e-08,ASAH1/CD63/CHIT1/CTSD/EGRN/GSTP1/ITGAX,7/50,52/1000,7
+CD14+ monocyte,Regulation of endothelial cell migration,8e-09,1e-06,8e-07,SCARB1/GRN/P2RX4/PPARG/NRP2/STARD13,6/50,38/1000,6
+CD14+ monocyte,Chemotaxis,6e-07,7e-05,5e-05,LGALS3/NCAM1/NRP2/PLXNC1/GPNMB,5/50,42/1000,5
+CD14+ monocyte,Regulation of vesicle-mediated transport,7e-06,8e-04,6e-04,SCARB1/CD63/LGALS3/MCTP1/STXBP5,5/50,60/1000,5
+CD14+ monocyte,Cellular response to DNA damage stimulus,5e-05,4e-03,3e-03,RAD51B/SGK1/NUAK1/ZFYVE26/CHCHD6,5/50,36/1000,5

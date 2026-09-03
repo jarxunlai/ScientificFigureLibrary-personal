@@ -1,0 +1,82 @@
+application: Relate environmental variables to grouped composition blocks with a compact network overlay.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: 'Two synthetic numeric tables: a composition matrix and an environmental-variable matrix.'
+description: A correlation heatmap with Mantel links, significance colors, and effect-size widths.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/varechem.csv
+- data/varespec.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/varechem.csv
+- data/varespec.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: science-mantel-corrplot
+packages:
+- RColorBrewer
+- dplyr
+- ggnewscale
+- ggplot2
+- linkET
+- ragg
+plotFamily: mantel_corrplot
+preview:
+  bytes: 642972
+  mediaType: image/png
+  path: preview.png
+  sha256: 8bc4a0ea62b90736929a7d5233cc9b9dd982a03115f5a8c5fbaa43bce6d1d205
+provenance:
+- note: Prepared from the reviewed Local Published entry science-mantel-corrplot; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/varechem.csv
+- data/varespec.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- corrplot
+- mantel
+- mantel_corrplot
+- science
+- science-mantel-corrplot
+thumbnail:
+  bytes: 101633
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 38c613f5fbe90ca231e9b6fe22519fb475da2d6da14be15b9d0989b7c505c3d0
+title: Science风格Mantel网络相关热图
+titleEn: Science-style Mantel network correlation heatmap

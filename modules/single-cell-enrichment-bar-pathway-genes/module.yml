@@ -1,0 +1,81 @@
+application: Compare top enriched pathways across selected cell clusters with direct labels.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: A long-form enrichment table with Cluster, Description, pvalue, geneID, and optional enrichment fields.
+description: A reusable labeled enrichment-bar function with pathway names, contributing genes, and cluster blocks.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/example.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/example.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: single-cell-enrichment-bar-pathway-genes
+packages:
+- dplyr
+- ggplot2
+- grid
+plotFamily: enrichment_bar_with_genes
+preview:
+  bytes: 249358
+  mediaType: image/png
+  path: preview.png
+  sha256: 4cb7dd174db4f2c2e5b8b8cba2d02ea703f4ba88307cda26a14025a348e598c9
+provenance:
+- note: Prepared from the reviewed Local Published entry single-cell-enrichment-bar-pathway-genes; internal Library state
+    is not distributed.
+  type: local_published_cleaning
+- note: Distributed inputs are declared example data for the included plotting layer and do not claim to reproduce an upstream
+    analysis.
+  type: example_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: example_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/example.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- bar
+- cell
+- enrichment
+- enrichment_bar_with_genes
+- genes
+- pathway
+- single
+- single-cell-enrichment-bar-pathway-genes
+thumbnail:
+  bytes: 117571
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 0b44bc01c7329d495ced37c4d2b8ce56c9a70c0876dd86ad4d82c7630982af6c
+title: 单细胞富集分析条形图（通路+基因）
+titleEn: Single-cell enrichment bar plot with pathways and genes

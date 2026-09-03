@@ -1,0 +1,79 @@
+application: Show cluster-specific pathway enrichment with independent facet scales and count labels.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: A fully synthetic long table with Cluster, Description, Count, pvalue, and -log10(p) fields.
+description: A faceted comet plot for displaying enrichment results separately by cell cluster.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/enrichment_comet.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/enrichment_comet.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: go-enrichment-comet-facet
+packages:
+- dplyr
+- ggforce
+- ggplot2
+- ragg
+- readr
+plotFamily: enrichment_comet_facet
+preview:
+  bytes: 869697
+  mediaType: image/png
+  path: preview.png
+  sha256: ed7044e3b54bca2268116241d2bcafd21ab4b17cdb5e794a59152ecc74893411
+provenance:
+- note: Prepared from the reviewed Local Published entry go-enrichment-comet-facet; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/enrichment_comet.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- comet
+- enrichment
+- enrichment_comet_facet
+- facet
+- go
+- go-enrichment-comet-facet
+thumbnail:
+  bytes: 67217
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 734d000654d0d4e781ed7fcdb967ff93c299fe920839dc4441971c0d99a09c78
+title: 单细胞GO富集彗星图（分面）
+titleEn: Faceted GO enrichment comet plot

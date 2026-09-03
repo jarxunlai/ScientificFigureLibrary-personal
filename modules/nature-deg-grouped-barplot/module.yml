@@ -1,0 +1,77 @@
+application: Compare differential-gene counts across three time points and cell-type groups.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: Synthetic cell-type rows with SNI_3day, SNI_3week, SNI_3month, and Group columns.
+description: A three-time-point grouped DEG bar layout with color-coded cell-type classes.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/DEGs.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/DEGs.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: nature-deg-grouped-barplot
+packages:
+- ggplot2
+- ragg
+- readr
+plotFamily: grouped_deg_bar
+preview:
+  bytes: 228900
+  mediaType: image/png
+  path: preview.png
+  sha256: 330065ac7db01c7b97e6ea7d84356613f552f2e8f8b08006349ddfa2a38926c3
+provenance:
+- note: Prepared from the reviewed Local Published entry nature-deg-grouped-barplot; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/DEGs.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- barplot
+- deg
+- grouped
+- grouped_deg_bar
+- nature
+- nature-deg-grouped-barplot
+thumbnail:
+  bytes: 79306
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 7bcca6435fd0524e38d5eb5985bdaffac3493288d18fc119c5dc4fb8b789b557
+title: Nature风格分组DEG条形图
+titleEn: Nature-style grouped DEG bar plot

@@ -1,0 +1,89 @@
+application: Present tissue annotations, differential states, module blocks, and pathway bars in one panel.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/generate-example-data.R
+- code/organized.R
+dataProfile: 'Three synthetic CSV inputs: cell annotations, gene-by-cell regulation states, and GO terms.'
+description: A composite DEG-state heatmap and GO enrichment panel driven by bundled synthetic inputs.
+files:
+- README.md
+- code/example.R
+- code/generate-example-data.R
+- code/organized.R
+- data/input_cell_annotation.csv
+- data/input_deg_heatmap.csv
+- data/input_go_enrichment.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/input_cell_annotation.csv
+- data/input_deg_heatmap.csv
+- data/input_go_enrichment.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: deg-heatmap-go-panel
+packages:
+- dplyr
+- ggplot2
+- grid
+- patchwork
+- readr
+- scales
+plotFamily: deg_heatmap_go_combo
+preview:
+  bytes: 401234
+  mediaType: image/png
+  path: preview.png
+  sha256: 9b280a1d5df272dfa46f7566021ae6653ef46e15b6eab2cca90055d2e983d22d
+provenance:
+- note: Prepared from the reviewed Local Published entry deg-heatmap-go-panel; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/generate-example-data.R
+- code/organized.R
+- data/input_cell_annotation.csv
+- data/input_deg_heatmap.csv
+- data/input_go_enrichment.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- deg
+- deg-heatmap-go-panel
+- deg_heatmap_go_combo
+- go
+- heatmap
+- panel
+thumbnail:
+  bytes: 67461
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: e1a041931da9c286b836bcd70df29d8799cdf33107cfeea5c27b8ed6432142c4
+title: 差异表达热图加GO富集组合图
+titleEn: Combined DEG heatmap and GO enrichment panel

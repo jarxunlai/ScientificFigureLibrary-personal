@@ -1,0 +1,77 @@
+application: Keep a dense embedding readable with compact numeric labels and counts.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: Synthetic cell-level UMAP coordinates and cell-type labels.
+description: A numbered UMAP with a side legend that reports cell counts for each cluster.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/example_umap.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/example_umap.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: umap-style-scp-numbered-legend
+packages:
+- dplyr
+- ggplot2
+plotFamily: umap_numbered_legend
+preview:
+  bytes: 878453
+  mediaType: image/png
+  path: preview.png
+  sha256: ef0c0cc0a8c12b66a725e6c55d02c1e2824f63a1a09d544a243f3eb386511f94
+provenance:
+- note: Prepared from the reviewed Local Published entry umap-style-scp-numbered-legend; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/example_umap.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- legend
+- numbered
+- scp
+- style
+- umap
+- umap-style-scp-numbered-legend
+- umap_numbered_legend
+thumbnail:
+  bytes: 47403
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 24db7c611c206ebcbf0b448738331c3dee736eb524c5f767679a7a1112d7c4cb
+title: 编号加侧边图例UMAP
+titleEn: Numbered UMAP with count legend

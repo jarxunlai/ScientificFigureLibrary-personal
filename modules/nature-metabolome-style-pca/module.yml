@@ -1,0 +1,77 @@
+application: Show group separation and sample labels in a clean PCA panel.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: Synthetic sample-level coordinates with sample, group, PC1, and PC2 columns.
+description: A four-group PCA presentation with confidence ellipses, outlined points, and direct sample labels.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/pca_df.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/pca_df.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: nature-metabolome-style-pca
+packages:
+- ggplot2
+- ggrepel
+- ragg
+- readr
+plotFamily: pca
+preview:
+  bytes: 206118
+  mediaType: image/png
+  path: preview.png
+  sha256: b256f72c61e8318a2fbea36c42d7785b38267c343e74319b321b572bc6384070
+provenance:
+- note: Prepared from the reviewed Local Published entry nature-metabolome-style-pca; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/pca_df.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- metabolome
+- nature
+- nature-metabolome-style-pca
+- pca
+- style
+thumbnail:
+  bytes: 35699
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: b8a6f1358504f9b448f63e6dc913c5208cedb3704506ec0e32a18b4092d4a0fc
+title: Nature风格四分组PCA
+titleEn: Nature-style four-group PCA

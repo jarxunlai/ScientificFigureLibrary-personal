@@ -1,0 +1,78 @@
+application: Display ranked pathway enrichment with readable labels placed inside each bar.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: Fifteen synthetic pathway descriptions with adjusted p-values.
+description: A labeled KEGG enrichment bar variant with a blue-yellow-red gradient and black in-bar pathway names.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/kegg_top15.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/kegg_top15.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: kegg-variant-blue-inside-label
+packages:
+- ggplot2
+- ragg
+- readr
+plotFamily: enrichment_bar
+preview:
+  bytes: 181902
+  mediaType: image/png
+  path: preview.png
+  sha256: 27a4c3ec09dd0b9fe386c37b5d1e79f7a1a288c4e7fda82e1a57b6f9fc313d4b
+provenance:
+- note: Prepared from the reviewed Local Published entry kegg-variant-blue-inside-label; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/kegg_top15.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- blue
+- enrichment_bar
+- inside
+- kegg
+- kegg-variant-blue-inside-label
+- label
+- variant
+thumbnail:
+  bytes: 76372
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: 3e5525c70dc858a3ee81b9cf9dbff17579e44f59d5f480b00972093170024309
+title: KEGG变体条形图（蓝黄红柱内标签）
+titleEn: KEGG variant bar with blue-yellow-red inside labels

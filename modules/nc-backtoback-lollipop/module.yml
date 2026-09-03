@@ -1,0 +1,77 @@
+application: Compare marker scores for a selected cell type across two named cohorts.
+canonicalCode: code/organized.R
+codeFiles:
+- code/example.R
+- code/organized.R
+dataProfile: Synthetic marker-level rows with celltype, group, marker, impact score, EC score, and specificity.
+description: A back-to-back lollipop panel for comparing marker impact scores between two groups.
+files:
+- README.md
+- code/example.R
+- code/organized.R
+- data/fig5.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- provenance.md
+- thumbnail.jpg
+inputFiles:
+- data/fig5.csv
+language: R
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+moduleId: nc-backtoback-lollipop
+packages:
+- dplyr
+- ggplot2
+- patchwork
+- ragg
+plotFamily: back_to_back_lollipop
+preview:
+  bytes: 142834
+  mediaType: image/png
+  path: preview.png
+  sha256: 04f97717c2de59405ab27ff2917a4a18f9aecc07517034137bc6580803719018
+provenance:
+- note: Prepared from the reviewed Local Published entry nc-backtoback-lollipop; internal Library state is not distributed.
+  type: local_published_cleaning
+- note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  type: synthetic_data
+- note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and machine-local
+    state are excluded.
+  type: clean_room_transformation
+publisher:
+  evidence:
+  - README.md
+  - data_schema.yml
+  - preview.png
+  executionScope: synthetic_data
+  executionStatus: passed
+  reviewStatus: approved
+requiredFiles:
+- README.md
+- code/example.R
+- code/organized.R
+- data/fig5.csv
+- data_schema.yml
+- description.md
+- module.yml
+- preview.png
+- thumbnail.jpg
+schema: figure-library.personal-module.v1
+tags:
+- back_to_back_lollipop
+- backtoback
+- lollipop
+- nc
+- nc-backtoback-lollipop
+thumbnail:
+  bytes: 52715
+  mediaType: image/jpeg
+  path: thumbnail.jpg
+  sha256: e40f98e1beff34a7b1c5af731b6be38bf55b3b3833b6871f21e1cb5f1a154533
+title: NC背靠背棒棒图（LHSC）
+titleEn: Nat Commun back-to-back lollipop plot
