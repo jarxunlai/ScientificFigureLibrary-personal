@@ -1,0 +1,88 @@
+schema: figure-library.personal-module.v1
+moduleId: nature-2022-fig2a-gcc-overview
+title: 海洋微生物 BGC 的 GCC 新颖性与组成概览
+titleEn: nature 2022 fig2a gcc overview
+description: Paoli et al. Nature 2022 Fig.2a independent local-private reference. GCC tree plus genome type, phylum, BGC
+  class, count, prevalence and RefSeq novelty rings. Upstream assembly/binning/antiSMASH/BiG-SLICE not rerun; final
+  author reroot/leaf order unavailable.
+application: 未单独记录。此历史模板尚未提供独立应用场景。
+scientificQuestion: How are ocean BGC novelty and composition distributed across GCCs, host genome sources, phyla and prevalence?
+dataProfile: 151 GCC; 17,689 representative BGC; six entry-local CSV/Newick inputs.
+plotFamily: circular_hierarchical_annotation
+language: R
+tags:
+  - BGC
+  - Fig.2a
+  - GCC
+  - Nature
+  - private_reference
+packages:
+  - ape
+  - dplyr
+  - ggplot2
+  - patchwork
+  - ragg
+  - scales
+  - tidyr
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/gcc-class.csv
+  - data/gcc-phylum.csv
+  - data/gcc-summary.csv
+  - data/tree-params.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/gcc-class.csv
+  - data/gcc-phylum.csv
+  - data/gcc-summary.csv
+  - data/tree-params.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/gcc-class.csv
+  - data/gcc-phylum.csv
+  - data/gcc-summary.csv
+  - data/tree-params.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 869189
+  sha256: e3c9a9a7d5973516b0400ec4922712d7b69fd2c597239c17028e196abe9bb158
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 23293
+  sha256: 869c4bd2d3406ca9e1c759ecf451838209c463b07a2e70caf6280584fc48fe0c
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: real_data
+  evidence:
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry nature-2022-fig2a-gcc-overview; internal Library state is not
+      distributed.
+  - type: synthetic_data
+    note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
