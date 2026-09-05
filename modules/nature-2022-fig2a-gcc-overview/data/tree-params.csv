@@ -1,0 +1,5 @@
+parameter,value
+root_merge_distance,1
+gcc_threshold,0.8
+bgc_leaves,189091
+gcc_clusters,197
