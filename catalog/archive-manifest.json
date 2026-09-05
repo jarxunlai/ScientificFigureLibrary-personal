@@ -258,6 +258,25 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 158715,
+      "file": "archives/nature-fig4a-galnac-upset.zip",
+      "files": [
+        "README.md",
+        "code/example.R",
+        "code/organized.R",
+        "data/data-intersections.csv",
+        "data_schema.yml",
+        "description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "nature-fig4a-galnac-upset",
+      "sha256": "b9f4025fb3f2b4a4f19769e12048b486ff1ce60711a678c9839e0f449e773637",
+      "sourceCommit": "572aec2b1be716586a413b9ec33ebf323cc89d7e"
+    },
+    {
       "bytes": 226365,
       "file": "archives/nature-metabolome-style-pca.zip",
       "files": [
@@ -696,7 +715,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2000-01-01T00:00:00.000Z",
+  "generatedAt": "2026-09-05T15:51:02.723Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
