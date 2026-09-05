@@ -1,0 +1,13 @@
+format: csv
+columns:
+  - combo_id
+  - pattern
+  - step0
+  - step1
+  - step2
+  - step3
+  - step4
+  - step5
+  - species
+  - n
+note: Example or synthetic input used to demonstrate the plotting layer.
