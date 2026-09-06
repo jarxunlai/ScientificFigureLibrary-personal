@@ -142,6 +142,25 @@
       "sourceCommit": "50b27565c2707893c42086bded35d667d2c5d7ff"
     },
     {
+      "bytes": 192781,
+      "file": "archives/ggtree-ch13-genome-locus.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/example_genes.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/entry-readme.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "ggtree-ch13-genome-locus",
+      "sha256": "4e59f59714a46c150fd68af66168ce19934adc1a6805eaddfabc65d8fed023ed",
+      "sourceCommit": "ffd8d0fdfbfbd4aafb5b2d9af96e208d40f95ccb"
+    },
+    {
       "bytes": 959042,
       "file": "archives/go-enrichment-comet-combined.zip",
       "files": [
@@ -815,7 +834,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-06T13:58:30.427Z",
+  "generatedAt": "2026-09-06T14:04:38.588Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
