@@ -396,6 +396,26 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 3644124,
+      "file": "archives/nature-evoflux-fig1bc.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/fig1b_lollipops.csv",
+        "data/fig1c_sample_annotations.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "nature-evoflux-fig1bc",
+      "sha256": "4f6b94b8c0b051ea9e0e3951f4d9b8b4c3752e112a4581bf16ee34b88b47382c",
+      "sourceCommit": "4dec1fbb2f118a59109f05e3f0e50f9643a7ca7b"
+    },
+    {
       "bytes": 158715,
       "file": "archives/nature-fig4a-galnac-upset.zip",
       "files": [
@@ -853,7 +873,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-06T14:09:26.290Z",
+  "generatedAt": "2026-09-06T15:06:50.434Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
