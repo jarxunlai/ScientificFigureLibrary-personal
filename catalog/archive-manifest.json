@@ -260,6 +260,30 @@
       "sourceCommit": "7341cd4b78864e505a0a9aae066f49aa303249c9"
     },
     {
+      "bytes": 2322067,
+      "file": "archives/nature-2022-fig2c-phylogenomic-bgc.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/bgc-bins.csv",
+        "data/membership.csv",
+        "data/species.csv",
+        "data/tax-labels.csv",
+        "data/tree-segments.csv",
+        "data/tree-wedges.csv",
+        "data/unplaced.csv",
+        "data_schema.yml",
+        "description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "nature-2022-fig2c-phylogenomic-bgc",
+      "sha256": "4c456dce16005911feb954e374d1d446360ed0c8e0ff7af4bcd1cb2d65164bc4",
+      "sourceCommit": "4f3c3cce514952e2a1115fb6070a473098245315"
+    },
+    {
       "bytes": 274780,
       "file": "archives/nature-deg-grouped-barplot.zip",
       "files": [
@@ -736,7 +760,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-06T01:36:36.970Z",
+  "generatedAt": "2026-09-06T01:58:20.746Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
