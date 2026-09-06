@@ -106,6 +106,24 @@
       "sourceCommit": "7fa4e210e3283efea0250e73b43e139c941b478b"
     },
     {
+      "bytes": 313319,
+      "file": "archives/ggtree-ch13-bootstrap-points.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/RMI_tree.nwk",
+        "description.md",
+        "docs/entry-readme.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "ggtree-ch13-bootstrap-points",
+      "sha256": "6fb6088121e2ec71f68342964b7424db487660221dd1cd8d9eb32d0b70646fa3",
+      "sourceCommit": "3186719adb02bd95e58e4b7447136e09e1ce1c35"
+    },
+    {
       "bytes": 959042,
       "file": "archives/go-enrichment-comet-combined.zip",
       "files": [
@@ -779,7 +797,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-06T02:00:31.534Z",
+  "generatedAt": "2026-09-06T13:41:37.493Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
