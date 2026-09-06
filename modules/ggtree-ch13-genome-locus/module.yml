@@ -1,0 +1,93 @@
+schema: figure-library.personal-module.v1
+moduleId: ggtree-ch13-genome-locus
+title: 基因组共有基因距离树与位点轨道
+titleEn: ggtree ch13 genome locus
+description: >-
+  场景一：比较一组细菌 / 病毒 / 质粒的基因有无（pangenome 或移动元件），Jaccard
+  距离树已经把基因组分成几簇。想同时看到簇与簇之间到底缺了哪一段、多了哪一段，而不是只看一个距离数字。场景二：怀疑某几株发生了插入/缺失导致共线性改变。把轨道按某个保守基因（本例为
+  genE）对齐后，就能看出谁丢了上游长基因、谁在中间多了一段。不适合：要展示核苷酸突变或氨基酸保守性（用 MSA）；要展示表达量（用热图）。示例数据是 gggenes::example_genes，不能当成真实病原体结论；换自己的
+  GFF/基因表时保留 molecule、gene、start、end。
+
+
+  复刻 YuLab treedata-book Figure 13.4。ggtree 4.0.5 geom_motif 会把箭头标成基因组名，已按书中意图改成标 gene 列。
+application: >-
+  - 场景一：比较一组细菌 / 病毒 / 质粒的基因有无（pangenome 或移动元件），Jaccard 距离树已经把基因组分成几簇。想同时看到簇与簇之间到底缺了哪一段、多了哪一段，而不是只看一个距离数字。
+
+  - 场景二：怀疑某几株发生了插入/缺失导致共线性改变。把轨道按某个保守基因（本例为 genE）对齐后，就能看出谁丢了上游长基因、谁在中间多了一段。
+
+  - 不适合：要展示核苷酸突变或氨基酸保守性（用 MSA）；要展示表达量（用热图）。示例数据是 gggenes::example_genes，不能当成真实病原体结论；换自己的 GFF/基因表时保留
+  molecule、gene、start、end。
+scientificQuestion: 基因内容（Jaccard）相近的基因组，基因顺序/有无是否也一起变？
+dataProfile: example_genes.csv（molecule, gene, start, end, strand）。左树右基因轨道。
+plotFamily: ggtree_genome_locus
+language: R
+tags:
+  - Jaccard
+  - R
+  - YuLab
+  - chapter13
+  - genome
+  - gggenes
+  - ggtree
+packages:
+  - ape
+  - dplyr
+  - gggenes
+  - ggplot2
+  - ggtree
+  - ragg
+  - readr
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/example_genes.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/example_genes.csv
+  - data_schema.yml
+  - description.md
+  - docs/entry-readme.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/example_genes.csv
+  - data_schema.yml
+  - description.md
+  - docs/entry-readme.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 194571
+  sha256: 31e478e96b5108fb18207da2cb5ad6a232e1f62bded3f87e48da8107b341f83b
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 13377
+  sha256: f5a370fb44208d959b050ea789c5e96fbedbdc3378e29bf1db593b1497c529fc
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry ggtree-ch13-genome-locus; internal Library state is not
+      distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
