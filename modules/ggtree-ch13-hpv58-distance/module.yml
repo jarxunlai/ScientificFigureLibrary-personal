@@ -1,0 +1,95 @@
+schema: figure-library.personal-module.v1
+moduleId: ggtree-ch13-hpv58-distance
+title: HPV58全基因组树与成对核苷酸距离
+titleEn: ggtree ch13 hpv58 distance
+description: >-
+  场景一：一批 HPV / 流感 / SARS-CoV-2 全基因组已按命名规则分成 A/B/C
+  谱系，审稿人问“谱系是不是只靠树拓扑硬切的”。把树和成对核苷酸距离画在一起：同一谱系的点应聚在左侧、跨谱系拉到右侧，谱系才有序列差异支撑。场景二：怀疑某几株被错分到邻近谱系（重组、污染或 accession
+  贴错）。右面板里如果某株对“自己谱系”的距离反而比对别的谱系更远，就要回头查标签和比对。不适合：只有 5–6 株、没有比对 FASTA、或只想展示一棵树。距离层需要 N×N 成对距离，株数太多（>200）会糊成一片。
+
+
+  复刻 YuLab treedata-book Figure 13.1 / Chen et al. 2017。树与比对来自 TDbook，未从 GenBank 重下。
+application: >-
+  - 场景一：一批 HPV / 流感 / SARS-CoV-2 全基因组已按命名规则分成 A/B/C
+  谱系，审稿人问“谱系是不是只靠树拓扑硬切的”。把树和成对核苷酸距离画在一起：同一谱系的点应聚在左侧、跨谱系拉到右侧，谱系才有序列差异支撑。
+
+  - 场景二：怀疑某几株被错分到邻近谱系（重组、污染或 accession 贴错）。右面板里如果某株对“自己谱系”的距离反而比对别的谱系更远，就要回头查标签和比对。
+
+  - 不适合：只有 5–6 株、没有比对 FASTA、或只想展示一棵树。距离层需要 N×N 成对距离，株数太多（>200）会糊成一片。
+scientificQuestion: HPV58 全基因组树划出的 A–D 谱系，是否对应序列空间里“谱系内近、谱系间远”？
+dataProfile: TDbook::tree_HPV58 Newick + dna_HPV58_aln FASTA。tip 标签为 isolate|accession。左树右距离面板。
+plotFamily: ggtree_hpv58_distance
+language: R
+tags:
+  - HPV58
+  - R
+  - YuLab
+  - chapter13
+  - ggtree
+  - phylogeny
+  - sequence distance
+packages:
+  - Biostrings
+  - ape
+  - dplyr
+  - ggplot2
+  - ggtree
+  - ragg
+  - tibble
+  - tidyr
+  - treeio
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/HPV58.nwk
+  - data/HPV58_aln.fas
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/HPV58.nwk
+  - data/HPV58_aln.fas
+  - description.md
+  - docs/entry-readme.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/HPV58.nwk
+  - data/HPV58_aln.fas
+  - description.md
+  - docs/entry-readme.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 3982893
+  sha256: ee3e91bce45fb1d200f918f1e88ab20f11247a9b8ce2d51ef7c5617fcfdc36c6
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 44973
+  sha256: 27daa5f63be16a21c1c9272e69fff43d5283aa6f89e2940c137e63ff781fb6d8
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry ggtree-ch13-hpv58-distance; internal Library state is not
+      distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
