@@ -1,0 +1,87 @@
+schema: figure-library.personal-module.v1
+moduleId: ggtree-ch13-ctldcp-circular
+title: 鸡CTLDcp环形树与禽特异扩张
+titleEn: ggtree ch13 ctldcp circular
+description: >-
+  场景一：做完免疫受体 / OLR / CYP 等基因家族的跨物种树，想看鸡（或鱼、植物）的拷贝是一对一挂在哺乳动物直系同源旁边，还是在某一亚家族里堆成一块“物种特异扩张”。环形 + 按物种改线型/颜色 +
+  扇形高亮就是为这个问题设计的。场景二：论文里要同时标出 Group II vs Group V，并给扩张支写上 Subgroup A/B。tip
+  很多（>50）时矩形树会拉得很长，环形更省版面。不适合：只有一两个物种、或主要想展示采样年/分化时间（用矩形时间树）。本图用 tip 前缀 ch/h/p 区分物种；换成自己的树时要先统一命名，否则 groupOTU 会分错。
+
+
+  复刻 YuLab treedata-book Figure 13.3 / Larsen et al. 2019 Figure 1。树来自 TDbook，未重跑基因家族建树。
+application: >-
+  - 场景一：做完免疫受体 / OLR / CYP 等基因家族的跨物种树，想看鸡（或鱼、植物）的拷贝是一对一挂在哺乳动物直系同源旁边，还是在某一亚家族里堆成一块“物种特异扩张”。环形 + 按物种改线型/颜色 +
+  扇形高亮就是为这个问题设计的。
+
+  - 场景二：论文里要同时标出 Group II vs Group V，并给扩张支写上 Subgroup A/B。tip 很多（>50）时矩形树会拉得很长，环形更省版面。
+
+  - 不适合：只有一两个物种、或主要想展示采样年/分化时间（用矩形时间树）。本图用 tip 前缀 ch/h/p 区分物种；换成自己的树时要先统一命名，否则 groupOTU 会分错。
+scientificQuestion: 鸡 CTLDcp 是分散在哺乳动物直系同源旁边，还是在 Group V 形成禽特异基因扩张？
+dataProfile: Newick，tip 前缀 ch=鸡，h=人，p=猪等。环形树 + 扇形高亮。
+plotFamily: ggtree_ctldcp_circular
+language: R
+tags:
+  - CTLDcp
+  - R
+  - YuLab
+  - avian
+  - chapter13
+  - circular
+  - ggtree
+packages:
+  - ape
+  - ggplot2
+  - ggtree
+  - ragg
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/CTLDcp.nwk
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/CTLDcp.nwk
+  - description.md
+  - docs/entry-readme.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/CTLDcp.nwk
+  - description.md
+  - docs/entry-readme.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 739357
+  sha256: d9f4a1f822e30ee652f3f225eb65fab8551ca1e112f95ca0e9789ebaf2b1fbe1
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 22980
+  sha256: 47258235eaa5243d2eeaa028a14451c832a204337050e60117bd94b3eff4c05a
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry ggtree-ch13-ctldcp-circular; internal Library state is not
+      distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.

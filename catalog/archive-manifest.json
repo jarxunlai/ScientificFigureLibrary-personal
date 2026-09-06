@@ -124,6 +124,24 @@
       "sourceCommit": "3186719adb02bd95e58e4b7447136e09e1ce1c35"
     },
     {
+      "bytes": 732773,
+      "file": "archives/ggtree-ch13-ctldcp-circular.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/CTLDcp.nwk",
+        "description.md",
+        "docs/entry-readme.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "ggtree-ch13-ctldcp-circular",
+      "sha256": "7c2515a90ad6da9b724bb118dcc4a3e83c1775e9e06dd368c2f5ca05885f19a6",
+      "sourceCommit": "50b27565c2707893c42086bded35d667d2c5d7ff"
+    },
+    {
       "bytes": 959042,
       "file": "archives/go-enrichment-comet-combined.zip",
       "files": [
@@ -797,7 +815,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-06T13:41:37.493Z",
+  "generatedAt": "2026-09-06T13:58:30.427Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
