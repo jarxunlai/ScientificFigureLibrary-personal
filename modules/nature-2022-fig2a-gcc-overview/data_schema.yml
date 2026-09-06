@@ -1,0 +1,7 @@
+format: csv
+columns:
+  - '"gcc"'
+  - '"class"'
+  - '"n"'
+  - '"prop"'
+note: Example or synthetic input used to demonstrate the plotting layer.

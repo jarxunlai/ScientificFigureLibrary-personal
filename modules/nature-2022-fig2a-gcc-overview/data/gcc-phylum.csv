@@ -1,0 +1,417 @@
+"gcc","phylum_plot","n","prop"
+"gcc_0","Bacteroidota",4,0.473197445438339
+"gcc_0","Proteobacteria",5,0.526802554561661
+"gcc_1","Actinobacteriota",1,0.146899935650445
+"gcc_1","Planctomycetota",3,0.293799871300889
+"gcc_1","Proteobacteria",13,0.559300193048666
+"gcc_10","Actinobacteriota",14,0.102234680822595
+"gcc_10","Bacteroidota",578,0.240152759408212
+"gcc_10","Cyanobacteria",644,0.244228020968702
+"gcc_10","Marinisomatota",1,0.0261677869704134
+"gcc_10","Other phyla",11,0.0938105350157917
+"gcc_10","Proteobacteria",112,0.178468990188576
+"gcc_10","Thermoplasmatota",6,0.0734622655507449
+"gcc_10","Verrucomicrobiota",2,0.0414749610749649
+"gcc_102","Bacteroidota",2,0.183670993157603
+"gcc_102","Firmicutes",1,0.115883494451151
+"gcc_102","Other phyla",2,0.183670993157603
+"gcc_102","Planctomycetota",1,0.115883494451151
+"gcc_102","Proteobacteria",10,0.400891024782492
+"gcc_104","Firmicutes",1,0.18104259678004
+"gcc_104","Proteobacteria",22,0.81895740321996
+"gcc_106","Planctomycetota",1,0.5
+"gcc_106","Verrucomicrobiota",1,0.5
+"gcc_107","Proteobacteria",1,1
+"gcc_108","Actinobacteriota",44,1
+"gcc_109","Actinobacteriota",2,1
+"gcc_11","Actinobacteriota",1,0.0832554391599314
+"gcc_11","Firmicutes",2,0.131956749049563
+"gcc_11","Other phyla",3,0.166510878319863
+"gcc_11","Proteobacteria",85,0.535021494310712
+"gcc_11","Verrucomicrobiota",1,0.0832554391599314
+"gcc_110","Chloroflexota",1,0.5
+"gcc_110","Proteobacteria",1,0.5
+"gcc_111","Proteobacteria",1,1
+"gcc_112","Actinobacteriota",7,0.75
+"gcc_112","Other phyla",1,0.25
+"gcc_113","Other phyla",2,1
+"gcc_114","Actinobacteriota",1,1
+"gcc_115","Actinobacteriota",4,0.251595374528113
+"gcc_115","Other phyla",3,0.216712459857908
+"gcc_115","Planctomycetota",1,0.108356229928954
+"gcc_115","Proteobacteria",14,0.423335935685025
+"gcc_116","Actinobacteriota",1,1
+"gcc_119","Bacteroidota",1,0.121524126075955
+"gcc_119","Other phyla",2,0.192611182763299
+"gcc_119","Planctomycetota",4,0.282170282542395
+"gcc_119","Proteobacteria",9,0.40369440861835
+"gcc_12","Other phyla",2,0.613147192765458
+"gcc_12","Proteobacteria",1,0.386852807234542
+"gcc_120","Proteobacteria",1,1
+"gcc_121","Other phyla",12,1
+"gcc_122","Other phyla",2,1
+"gcc_123","Actinobacteriota",15,0.179757180799811
+"gcc_123","Other phyla",13,0.171099846773339
+"gcc_123","Planctomycetota",13,0.171099846773339
+"gcc_123","Proteobacteria",530,0.406816027952748
+"gcc_123","Verrucomicrobiota",2,0.0712270977007632
+"gcc_124","Proteobacteria",2,1
+"gcc_125","Other phyla",1,1
+"gcc_126","Planctomycetota",1,0.333333333333333
+"gcc_126","Proteobacteria",3,0.666666666666667
+"gcc_128","Proteobacteria",9,1
+"gcc_13","Actinobacteriota",1,0.0379015230441779
+"gcc_13","Bacteroidota",1,0.0379015230441779
+"gcc_13","Cyanobacteria",643,0.35365596107917
+"gcc_13","Marinisomatota",1,0.0379015230441779
+"gcc_13","Other phyla",9,0.125906134239475
+"gcc_13","Planctomycetota",4,0.0880046111952974
+"gcc_13","Proteobacteria",67,0.230724113158226
+"gcc_13","Verrucomicrobiota",4,0.0880046111952974
+"gcc_130","Proteobacteria",1,1
+"gcc_131","Cyanobacteria",2,0.44211410869774
+"gcc_131","Other phyla",3,0.55788589130226
+"gcc_132","Other phyla",4,1
+"gcc_135","Bacteroidota",2,0.5
+"gcc_135","Proteobacteria",2,0.5
+"gcc_137","Other phyla",1,1
+"gcc_139","Proteobacteria",1,1
+"gcc_14","Actinobacteriota",69,0.0711356861750843
+"gcc_14","Bacteroidota",1203,0.118770100148515
+"gcc_14","Chloroflexota",285,0.0947024382847722
+"gcc_14","Cyanobacteria",337,0.0974995479115522
+"gcc_14","Firmicutes",7,0.0348176218874654
+"gcc_14","Marinisomatota",91,0.0757116378484824
+"gcc_14","Other phyla",179,0.0869495027814812
+"gcc_14","Planctomycetota",93,0.0760717320885027
+"gcc_14","Proteobacteria",2886,0.133413645836303
+"gcc_14","Thermoplasmatota",1128,0.117693192194642
+"gcc_14","Verrucomicrobiota",261,0.0932348948431994
+"gcc_140","Bacteroidota",2,0.268324336648371
+"gcc_140","Other phyla",3,0.338587615197563
+"gcc_140","Proteobacteria",4,0.393088048154066
+"gcc_142","Proteobacteria",1,1
+"gcc_146","Proteobacteria",1,1
+"gcc_147","Proteobacteria",1,1
+"gcc_148","Actinobacteriota",1,0.5
+"gcc_148","Firmicutes",1,0.5
+"gcc_149","Proteobacteria",2,1
+"gcc_15","Actinobacteriota",3,0.171764402394143
+"gcc_15","Chloroflexota",3,0.171764402394143
+"gcc_15","Cyanobacteria",1,0.0858822011970715
+"gcc_15","Other phyla",4,0.199412295810249
+"gcc_15","Planctomycetota",1,0.0858822011970715
+"gcc_15","Proteobacteria",9,0.285294497007321
+"gcc_150","Actinobacteriota",5,0.72105705434887
+"gcc_150","Proteobacteria",1,0.27894294565113
+"gcc_151","Bacteroidota",5,0.241264071880652
+"gcc_151","Other phyla",3,0.186667366983733
+"gcc_151","Planctomycetota",4,0.21671410189909
+"gcc_151","Proteobacteria",13,0.355354459236525
+"gcc_152","Actinobacteriota",2,0.275411552376187
+"gcc_152","Other phyla",2,0.275411552376187
+"gcc_152","Proteobacteria",5,0.449176895247627
+"gcc_153","Actinobacteriota",1,0.386852807234542
+"gcc_153","Proteobacteria",2,0.613147192765458
+"gcc_154","Other phyla",1,0.187901824709108
+"gcc_154","Planctomycetota",4,0.436294525872677
+"gcc_154","Proteobacteria",1,0.187901824709108
+"gcc_154","Verrucomicrobiota",1,0.187901824709108
+"gcc_155","Chloroflexota",1,0.129862713897253
+"gcc_155","Other phyla",25,0.610411858308241
+"gcc_155","Planctomycetota",3,0.259725427794506
+"gcc_157","Other phyla",3,1
+"gcc_159","Other phyla",2,1
+"gcc_16","Marinisomatota",1,0.18104259678004
+"gcc_16","Proteobacteria",22,0.81895740321996
+"gcc_160","Proteobacteria",1,1
+"gcc_162","Proteobacteria",4,1
+"gcc_163","Proteobacteria",1,1
+"gcc_165","Proteobacteria",1,1
+"gcc_166","Actinobacteriota",1,1
+"gcc_168","Proteobacteria",2,1
+"gcc_17","Actinobacteriota",106,0.132574481045989
+"gcc_17","Bacteroidota",33,0.100047622777068
+"gcc_17","Chloroflexota",14,0.0768310509064375
+"gcc_17","Cyanobacteria",21,0.0876970596746218
+"gcc_17","Firmicutes",10,0.0680315356405477
+"gcc_17","Other phyla",84,0.126044031498393
+"gcc_17","Planctomycetota",86,0.126703860167795
+"gcc_17","Proteobacteria",506,0.17671129057853
+"gcc_17","Verrucomicrobiota",40,0.105359067710619
+"gcc_170","Cyanobacteria",16,0.278868392967685
+"gcc_170","Firmicutes",1,0.0682253035191827
+"gcc_170","Other phyla",7,0.204675910557548
+"gcc_170","Planctomycetota",4,0.158414249023408
+"gcc_170","Proteobacteria",18,0.289816143932176
+"gcc_173","Other phyla",2,1
+"gcc_174","Proteobacteria",4,1
+"gcc_176","Other phyla",1,0.218104291985532
+"gcc_176","Planctomycetota",1,0.218104291985532
+"gcc_176","Proteobacteria",5,0.563791416028937
+"gcc_177","Proteobacteria",3,1
+"gcc_178","Proteobacteria",8,1
+"gcc_179","Actinobacteriota",1,0.5
+"gcc_179","Proteobacteria",1,0.5
+"gcc_180","Actinobacteriota",2,0.613147192765458
+"gcc_180","Proteobacteria",1,0.386852807234542
+"gcc_181","Actinobacteriota",3,0.180383919083733
+"gcc_181","Chloroflexota",31,0.450959797709333
+"gcc_181","Proteobacteria",16,0.368656283206934
+"gcc_182","Bacteroidota",1,1
+"gcc_184","Actinobacteriota",1,0.5
+"gcc_184","Proteobacteria",1,0.5
+"gcc_185","Proteobacteria",3,1
+"gcc_186","Other phyla",2,1
+"gcc_188","Proteobacteria",1,1
+"gcc_189","Other phyla",4,1
+"gcc_19","Actinobacteriota",1,0.131839808028705
+"gcc_19","Cyanobacteria",2,0.208961151827773
+"gcc_19","Other phyla",1,0.131839808028705
+"gcc_19","Proteobacteria",15,0.527359232114818
+"gcc_190","Planctomycetota",1,1
+"gcc_194","Bacteroidota",1,1
+"gcc_2","Bacteroidota",8,0.21667487480463
+"gcc_2","Other phyla",8,0.21667487480463
+"gcc_2","Proteobacteria",312,0.566650250390739
+"gcc_20","Actinobacteriota",1,0.0460086843383441
+"gcc_20","Bacteroidota",5,0.118930723722136
+"gcc_20","Cyanobacteria",39,0.244854909789038
+"gcc_20","Other phyla",8,0.145844078767584
+"gcc_20","Planctomycetota",7,0.138026053015032
+"gcc_20","Proteobacteria",100,0.306335550367865
+"gcc_21","Bacteroidota",23,0.167215724130855
+"gcc_21","Marinisomatota",2,0.0578043227696306
+"gcc_21","Other phyla",5,0.0942747898900386
+"gcc_21","Planctomycetota",13,0.138856012500625
+"gcc_21","Proteobacteria",27,0.175326479621034
+"gcc_21","Thermoplasmatota",52,0.20889993460646
+"gcc_21","Verrucomicrobiota",19,0.157622736481357
+"gcc_22","Actinobacteriota",7,0.170733164337793
+"gcc_22","Bacteroidota",3,0.113822109558529
+"gcc_22","Other phyla",16,0.232621821666605
+"gcc_22","Planctomycetota",1,0.0569110547792643
+"gcc_22","Proteobacteria",178,0.425911849657809
+"gcc_23","Other phyla",1,0.333333333333333
+"gcc_23","Planctomycetota",1,0.333333333333333
+"gcc_23","Proteobacteria",1,0.333333333333333
+"gcc_24","Actinobacteriota",2,0.0394780856211991
+"gcc_24","Bacteroidota",6,0.0699253123854083
+"gcc_24","Chloroflexota",52,0.142670463202616
+"gcc_24","Cyanobacteria",4,0.0578343500836918
+"gcc_24","Firmicutes",3,0.049815797664912
+"gcc_24","Other phyla",43,0.135982970439729
+"gcc_24","Planctomycetota",133,0.176001434697033
+"gcc_24","Proteobacteria",272,0.201573576141668
+"gcc_24","Verrucomicrobiota",33,0.126718009763743
+"gcc_25","Bacteroidota",1,0.156437788342072
+"gcc_25","Planctomycetota",2,0.247948028217937
+"gcc_25","Proteobacteria",13,0.595614183439992
+"gcc_26","Actinobacteriota",21,0.320482134850741
+"gcc_26","Cyanobacteria",1,0.0718661395123427
+"gcc_26","Other phyla",12,0.265936317040942
+"gcc_26","Planctomycetota",2,0.113905136198658
+"gcc_26","Proteobacteria",8,0.227810272397317
+"gcc_28","Other phyla",4,1
+"gcc_29","Bacteroidota",17,0.214467697648038
+"gcc_29","Chloroflexota",1,0.0514320275721643
+"gcc_29","Cyanobacteria",2,0.081517835037937
+"gcc_29","Firmicutes",4,0.11942146979683
+"gcc_29","Marinisomatota",1,0.0514320275721643
+"gcc_29","Other phyla",4,0.11942146979683
+"gcc_29","Planctomycetota",2,0.081517835037937
+"gcc_29","Proteobacteria",43,0.280789637538099
+"gcc_3","Actinobacteriota",1,0.333333333333333
+"gcc_3","Chloroflexota",1,0.333333333333333
+"gcc_3","Other phyla",1,0.333333333333333
+"gcc_30","Actinobacteriota",5,0.437618144247152
+"gcc_30","Bacteroidota",1,0.169293807598781
+"gcc_30","Proteobacteria",4,0.393088048154066
+"gcc_31","Proteobacteria",112,1
+"gcc_33","Other phyla",1,1
+"gcc_34","Other phyla",1,1
+"gcc_35","Bacteroidota",9,0.562381855752848
+"gcc_35","Firmicutes",2,0.268324336648371
+"gcc_35","Planctomycetota",1,0.169293807598781
+"gcc_36","Chloroflexota",2,0.288602494079898
+"gcc_36","Other phyla",14,0.711397505920102
+"gcc_37","Actinobacteriota",1,0.25
+"gcc_37","Planctomycetota",1,0.25
+"gcc_37","Proteobacteria",3,0.5
+"gcc_38","Actinobacteriota",1,1
+"gcc_4","Other phyla",8,0.666666666666667
+"gcc_4","Proteobacteria",2,0.333333333333333
+"gcc_40","Actinobacteriota",5,0.183245381007008
+"gcc_40","Cyanobacteria",4,0.164599137627648
+"gcc_40","Firmicutes",2,0.112356390951684
+"gcc_40","Other phyla",6,0.199010555151506
+"gcc_40","Planctomycetota",1,0.070888990055324
+"gcc_40","Proteobacteria",13,0.269899545206831
+"gcc_41","Proteobacteria",36,0.838955228243556
+"gcc_41","Verrucomicrobiota",1,0.161044771756444
+"gcc_43","Other phyla",4,0.378825400698284
+"gcc_43","Proteobacteria",6,0.458023379618205
+"gcc_43","Verrucomicrobiota",1,0.163151219683511
+"gcc_44","Other phyla",1,0.224243824217575
+"gcc_44","Proteobacteria",10,0.775756175782425
+"gcc_45","Chloroflexota",2,0.613147192765458
+"gcc_45","Cyanobacteria",1,0.386852807234542
+"gcc_46","Proteobacteria",2,1
+"gcc_47","Actinobacteriota",4,0.170465082763875
+"gcc_47","Firmicutes",1,0.0734153151164416
+"gcc_47","Other phyla",4,0.170465082763875
+"gcc_47","Proteobacteria",35,0.379551673109257
+"gcc_47","Verrucomicrobiota",6,0.206102846246552
+"gcc_48","Actinobacteriota",3,0.094855397265084
+"gcc_48","Bacteroidota",9,0.157551404563292
+"gcc_48","Cyanobacteria",4,0.11012370593075
+"gcc_48","Marinisomatota",1,0.047427698632542
+"gcc_48","Other phyla",4,0.11012370593075
+"gcc_48","Planctomycetota",1,0.047427698632542
+"gcc_48","Proteobacteria",138,0.337634991779956
+"gcc_48","Verrucomicrobiota",3,0.094855397265084
+"gcc_50","Chloroflexota",6,0.737350464962806
+"gcc_50","Verrucomicrobiota",1,0.262649535037194
+"gcc_52","Actinobacteriota",1,0.183169250913634
+"gcc_52","Bacteroidota",10,0.633661498172733
+"gcc_52","Proteobacteria",1,0.183169250913634
+"gcc_53","Proteobacteria",3,1
+"gcc_54","Actinobacteriota",23,0.639471472825565
+"gcc_54","Proteobacteria",2,0.22105705434887
+"gcc_54","Verrucomicrobiota",1,0.139471472825565
+"gcc_55","Actinobacteriota",80,0.197362699988992
+"gcc_55","Bacteroidota",23,0.142732174748437
+"gcc_55","Chloroflexota",2,0.049340674997248
+"gcc_55","Marinisomatota",3,0.0622609998341261
+"gcc_55","Other phyla",24,0.144565564730635
+"gcc_55","Proteobacteria",242,0.24670337498624
+"gcc_55","Verrucomicrobiota",32,0.157034510714322
+"gcc_56","Proteobacteria",3,1
+"gcc_57","Actinobacteriota",1,0.0833725640372563
+"gcc_57","Cyanobacteria",4,0.193585098780901
+"gcc_57","Firmicutes",3,0.166745128074513
+"gcc_57","Other phyla",2,0.132142387588024
+"gcc_57","Proteobacteria",16,0.340782257482049
+"gcc_57","Verrucomicrobiota",1,0.0833725640372563
+"gcc_58","Marinisomatota",1,0.333333333333333
+"gcc_58","Other phyla",1,0.333333333333333
+"gcc_58","Proteobacteria",1,0.333333333333333
+"gcc_59","Proteobacteria",1,1
+"gcc_6","Proteobacteria",1,1
+"gcc_60","Actinobacteriota",2,0.12045060521407
+"gcc_60","Chloroflexota",3,0.151991741330492
+"gcc_60","Other phyla",2,0.12045060521407
+"gcc_60","Proteobacteria",126,0.531111177576122
+"gcc_60","Verrucomicrobiota",1,0.0759958706652459
+"gcc_61","Actinobacteriota",1,0.27894294565113
+"gcc_61","Planctomycetota",1,0.27894294565113
+"gcc_61","Proteobacteria",2,0.44211410869774
+"gcc_62","Proteobacteria",7,1
+"gcc_63","Actinobacteriota",1,0.0846929737101301
+"gcc_63","Bacteroidota",3,0.16938594742026
+"gcc_63","Cyanobacteria",3,0.16938594742026
+"gcc_63","Other phyla",3,0.16938594742026
+"gcc_63","Proteobacteria",27,0.407149184029089
+"gcc_64","Proteobacteria",3,1
+"gcc_65","Bacteroidota",3,0.324153048786245
+"gcc_65","Planctomycetota",2,0.256885213410317
+"gcc_65","Proteobacteria",1,0.162076524393122
+"gcc_65","Verrucomicrobiota",2,0.256885213410317
+"gcc_66","Proteobacteria",1,1
+"gcc_7","Bacteroidota",1,0.0906111153291857
+"gcc_7","Other phyla",1,0.0906111153291857
+"gcc_7","Planctomycetota",6,0.254377560612519
+"gcc_7","Proteobacteria",14,0.354007714337195
+"gcc_7","Verrucomicrobiota",4,0.210392494391915
+"gcc_70","Proteobacteria",9,1
+"gcc_71","Other phyla",4,1
+"gcc_72","Proteobacteria",4,1
+"gcc_73","Actinobacteriota",4,1
+"gcc_74","Actinobacteriota",1,0.129862713897253
+"gcc_74","Cyanobacteria",1,0.129862713897253
+"gcc_74","Other phyla",3,0.259725427794506
+"gcc_74","Proteobacteria",12,0.480549144410988
+"gcc_75","Actinobacteriota",2,0.252165644382271
+"gcc_75","Proteobacteria",25,0.747834355617729
+"gcc_76","Proteobacteria",9,1
+"gcc_77","Cyanobacteria",1,0.0516420460243285
+"gcc_77","Marinisomatota",2,0.0818507064090768
+"gcc_77","Other phyla",32,0.260502833276761
+"gcc_77","Planctomycetota",2,0.0818507064090768
+"gcc_77","Proteobacteria",141,0.369227569807771
+"gcc_77","Thermoplasmatota",1,0.0516420460243285
+"gcc_77","Verrucomicrobiota",3,0.103284092048657
+"gcc_78","Other phyla",2,0.283791072995835
+"gcc_78","Proteobacteria",7,0.537156695253124
+"gcc_78","Verrucomicrobiota",1,0.179052231751041
+"gcc_79","Proteobacteria",6,0.737350464962806
+"gcc_79","Verrucomicrobiota",1,0.262649535037194
+"gcc_8","Actinobacteriota",1,0.0280509999702913
+"gcc_8","Bacteroidota",13,0.106800112805526
+"gcc_8","Chloroflexota",1,0.0280509999702913
+"gcc_8","Cyanobacteria",8,0.088919566121284
+"gcc_8","Marinisomatota",1,0.0280509999702913
+"gcc_8","Other phyla",47,0.156663782941807
+"gcc_8","Planctomycetota",34,0.143881517755939
+"gcc_8","Proteobacteria",883,0.274560454402703
+"gcc_8","Thermoplasmatota",1,0.0280509999702913
+"gcc_8","Verrucomicrobiota",17,0.116970566091575
+"gcc_81","Other phyla",1,1
+"gcc_83","Proteobacteria",5,1
+"gcc_84","Actinobacteriota",5,0.113163089113155
+"gcc_84","Bacteroidota",2,0.0693856304143982
+"gcc_84","Chloroflexota",12,0.16199584692816
+"gcc_84","Firmicutes",3,0.0875549173975129
+"gcc_84","Other phyla",18,0.185963471275088
+"gcc_84","Proteobacteria",422,0.381937044871687
+"gcc_85","Proteobacteria",1,1
+"gcc_86","Other phyla",14,0.565651148158126
+"gcc_86","Planctomycetota",1,0.144782950613958
+"gcc_86","Proteobacteria",3,0.289565901227916
+"gcc_87","Actinobacteriota",2,0.323007507471154
+"gcc_87","Proteobacteria",9,0.676992492528846
+"gcc_88","Bacteroidota",11,0.417586273722222
+"gcc_88","Firmicutes",1,0.116482745255556
+"gcc_88","Other phyla",1,0.116482745255556
+"gcc_88","Proteobacteria",7,0.349448235766667
+"gcc_89","Proteobacteria",2,1
+"gcc_9","Actinobacteriota",34,0.114165174619979
+"gcc_9","Bacteroidota",133,0.157273697638434
+"gcc_9","Cyanobacteria",22,0.100683319464235
+"gcc_9","Firmicutes",3,0.044515061556489
+"gcc_9","Other phyla",71,0.137327295619062
+"gcc_9","Planctomycetota",45,0.122940850242479
+"gcc_9","Proteobacteria",201,0.170452877783653
+"gcc_9","Thermoplasmatota",1,0.0222575307782445
+"gcc_9","Verrucomicrobiota",57,0.130384192297423
+"gcc_90","Actinobacteriota",6,0.190733283155317
+"gcc_90","Bacteroidota",5,0.175623816113197
+"gcc_90","Cyanobacteria",1,0.0679405662806333
+"gcc_90","Planctomycetota",2,0.107683249832564
+"gcc_90","Proteobacteria",106,0.458019084618288
+"gcc_91","Proteobacteria",17,1
+"gcc_92","Actinobacteriota",40,0.0878309162001192
+"gcc_92","Bacteroidota",448,0.144439209971096
+"gcc_92","Chloroflexota",8,0.05196728224427
+"gcc_92","Cyanobacteria",9,0.054459198505843
+"gcc_92","Firmicutes",7,0.0491815568702335
+"gcc_92","Marinisomatota",2,0.025983641122135
+"gcc_92","Other phyla",173,0.122018516274339
+"gcc_92","Planctomycetota",49,0.0925245447216082
+"gcc_92","Proteobacteria",750,0.15660504616064
+"gcc_92","Thermoplasmatota",142,0.117377873111107
+"gcc_92","Verrucomicrobiota",61,0.0976122148186088
+"gcc_93","Proteobacteria",1,1
+"gcc_95","Planctomycetota",1,0.25
+"gcc_95","Proteobacteria",3,0.5
+"gcc_95","Verrucomicrobiota",1,0.25
+"gcc_96","Other phyla",2,0.613147192765458
+"gcc_96","Proteobacteria",1,0.386852807234542
+"gcc_97","Actinobacteriota",1,0.0746696757873374
+"gcc_97","Bacteroidota",3,0.149339351574675
+"gcc_97","Marinisomatota",1,0.0746696757873374
+"gcc_97","Other phyla",27,0.358963633424702
+"gcc_97","Proteobacteria",7,0.224009027362012
+"gcc_97","Verrucomicrobiota",2,0.118348636063936
+"gcc_98","Proteobacteria",2,1
+"gcc_99","Proteobacteria",2,1
