@@ -1,0 +1,7 @@
+format: csv
+columns:
+  - scenario
+  - site
+  - cell
+  - state
+note: Example or synthetic input used to demonstrate the plotting layer.
