@@ -1,0 +1,7 @@
+# 植物树bootstrap分箱圆点
+
+场景一：IQ-TREE / RAxML 已经给出带 bootstrap 的 Newick，论文里要标明哪些科/属节点可靠。白/灰/黑三档圆点比把 0–100 数字全写在节点上更干净，读者能先跳过 BP<70 的分叉。场景二：讨论两个近缘种是否单系。如果连接它们的节点是黑点，就不能把该拓扑写成定论，只能写成“当前数据不支持/弱支持”。不适合：Newick 没有 node.label 支持率；BEAST 后验概率更适合连续色条，而不是 70/90 两刀切。切点按书中 700/900/1000（对应 70%/90%），换自己的树时要核对支持率是 0–100 还是 0–1000。
+
+复刻 YuLab treedata-book Figure 13.2。树来自 TDbook::text_RMI_tree，未重跑建树。
+
+This module is an Open Figure Modules submission prepared from a Local Published release. SFL does not execute the code.
