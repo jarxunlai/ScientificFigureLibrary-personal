@@ -1,0 +1,5 @@
+selected,species,representative_flag,taxonomy,regions,products,RiPPs,NRPS,T1PKS,T2_3PKS,Terpenes,Other,domain,representative,n_genomes,selection_rule,tree_tip
+TARA_SAMEA2730749_METAG_OLPPLKCL,A1,TRUE,d__Bacteria;p__Eremiobacterota;c__UBP9;o__UBA4705;f__;g__;s__,14,15,4,3,1,2,3,2,Bacteria,TARA_SAMEA2730749_METAG_OLPPLKCL,2,max_regions_first_source_row,NA
+TARA_SAMEA2623054_METAG_OCMKBGHM,A2,TRUE,d__Bacteria;p__Eremiobacterota;c__UBP9;o__UBA4705;f__;g__;s__,16,17,6,4,1,2,3,1,Bacteria,TARA_SAMEA2623054_METAG_OCMKBGHM,1,max_regions_first_source_row,NA
+TARA_SAMEA2623477_METAG_OKOGOBFK,B1,FALSE,d__Bacteria;p__Eremiobacterota;c__UBP9;o__UBA4705;f__;g__;s__,16,18,4,3,3,2,3,3,Bacteria,TARA_SAMEA2623601_METAG_LGBFILLL,3,max_regions_first_source_row,NA
+TARA_SAMEA2623477_METAG_GIEMLDKG,C2,FALSE,d__Bacteria;p__Eremiobacterota;c__UBP9;o__UBA4705;f__;g__;s__,23,30,11,9,2,0,4,4,Bacteria,TARA_SAMEA2623601_METAG_PIAMPJPB,4,max_regions_first_source_row,NA

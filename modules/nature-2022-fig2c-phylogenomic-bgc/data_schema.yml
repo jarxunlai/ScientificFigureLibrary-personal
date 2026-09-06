@@ -1,0 +1,21 @@
+format: csv
+columns:
+  - bin
+  - theta
+  - left
+  - right
+  - bin_genomes
+  - selected
+  - species
+  - regions
+  - products
+  - RiPPs
+  - NRPS
+  - T1PKS
+  - T2_3PKS
+  - Terpenes
+  - Other
+  - taxonomy
+  - half_width
+  - domain
+note: Example or synthetic input used to demonstrate the plotting layer.

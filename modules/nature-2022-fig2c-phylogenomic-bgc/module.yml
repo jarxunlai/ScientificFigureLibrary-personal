@@ -1,0 +1,110 @@
+schema: figure-library.personal-module.v1
+moduleId: nature-2022-fig2c-phylogenomic-bgc
+title: 海洋微生物 BGC 的系统发育分布
+titleEn: nature 2022 fig2c phylogenomic bgc
+description: >-
+  独立 Local Published 条目：Paoli et al. Nature 2022 Fig.2c。包括最终同心 GTDB bacteria/archaea preview、canonical
+  organized.R、prepare-layout.R、真实 tree/layout tables、作者原始 Fig.2C scripts、AUTHOR_LICENSE、输入/布局/stack
+  checks、说明/来源/schema/readme。
+
+
+  适用场景：已有 genome-resolved BGC annotation 和 GTDB placement，需要定位 BGC-rich host lineage、比较 MAG/SAG/REF phylogenomic
+  coverage、选择天然产物/酶学验证对象时使用。保持同一 selected genome 的六类 BGC counts，不组合不同 genome 的类别最大值；4个无法落到原树的后续 species cluster 单独列示。
+
+
+  范围仅 panel c。GTDB/OMD 数据与作者代码真实取得，collapse/color/category helper 适配实现已披露；不宣称像素级原图、GTDB-Tk或上游重建重跑。canonical
+  renderer要求项目根目录/gallery布局；不收录 broken example.R、旧 trial outputs 或环境文件。
+application: 未单独记录。此历史模板尚未提供独立应用场景。
+scientificQuestion: 海洋微生物 BGC potential 在 bacterial/archaeal phylogeny 上如何分布？哪些此前未充分研究的 host lineages 是 BGC-rich？
+dataProfile: 直接绘图输入
+  tree-segments.csv、tree-wedges.csv、bgc-radial-bins.csv、taxonomy-labels.csv、unplaced-species.csv；上游参考含GTDB trees、species
+  summary、membership、prepare-layout.R。
+plotFamily: circular_phylogenomic_tree_with_radial_bars
+language: R
+tags:
+  - BGC
+  - Fig.2c
+  - GTDB
+  - Nature
+  - phylogenomics
+  - private_reference
+packages:
+  - dplyr
+  - ggplot2
+  - patchwork
+  - ragg
+  - readr
+  - scales
+  - tidyr
+  - viridisLite
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/bgc-bins.csv
+  - data/membership.csv
+  - data/species.csv
+  - data/tax-labels.csv
+  - data/tree-segments.csv
+  - data/tree-wedges.csv
+  - data/unplaced.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/bgc-bins.csv
+  - data/membership.csv
+  - data/species.csv
+  - data/tax-labels.csv
+  - data/tree-segments.csv
+  - data/tree-wedges.csv
+  - data/unplaced.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/bgc-bins.csv
+  - data/membership.csv
+  - data/species.csv
+  - data/tax-labels.csv
+  - data/tree-segments.csv
+  - data/tree-wedges.csv
+  - data/unplaced.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 1137234
+  sha256: 61d6305b02a093b5186288d012e5b1d1aca001722de2f2f79d592f06493aea1c
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 24684
+  sha256: f69174e6349fbfebe6c3bdeab807ea5770b6812a21e7e484fb14f060789e66c2
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: real_data
+  evidence:
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry nature-2022-fig2c-phylogenomic-bgc; internal Library state is not
+      distributed.
+  - type: synthetic_data
+    note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
