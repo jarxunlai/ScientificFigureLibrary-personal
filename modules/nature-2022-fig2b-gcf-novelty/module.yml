@@ -1,0 +1,88 @@
+schema: figure-library.personal-module.v1
+moduleId: nature-2022-fig2b-gcf-novelty
+title: 海洋微生物 GCF 对参考数据库的新颖性分布
+titleEn: nature 2022 fig2b gcf novelty
+description: >-
+  独立 Local Published 条目：Paoli et al. Nature 2022 Fig.2b。包括当前 preview、canonical
+  organized.R、histogram-observations.csv、gcf-distance-summary.csv、作者原始脚本、AUTHOR_LICENSE、说明/来源/schema/readme 和渲染证据。仅
+  private_reference；不公开到 Community。
+
+
+  适用场景：已完成 GCF 聚类和 reference-distance 计算，需要量化 dbar>0.2 的新颖 GCF、筛选新颖 BGC class 候选，或检查 novelty 是否集中于少数 phylum。作者 histogram
+  的 GCF-category 计数口径和 unique GCF headline 分开记录。
+application: 未单独记录。此历史模板尚未提供独立应用场景。
+scientificQuestion: 相对于 RefSeq/BiG-FAM 和 MIBiG，海洋 GCF 的新颖性距离分布如何？新颖性由哪些 BGC class 和 phylum 贡献？
+dataProfile: histogram-observations.csv 和 gcf-distance-summary.csv；6907 GCF；真实官方Table 2派生数据。
+plotFamily: stacked_histogram_facets
+language: R
+tags:
+  - BGC
+  - Fig.2b
+  - GCF
+  - MIBiG
+  - Nature
+  - RefSeq
+  - private_reference
+packages:
+  - dplyr
+  - ggplot2
+  - patchwork
+  - ragg
+  - scales
+  - tidyr
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/gcf-distance.csv
+  - data/hist-observations.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/gcf-distance.csv
+  - data/hist-observations.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/gcf-distance.csv
+  - data/hist-observations.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 158047
+  sha256: 4451cdf0892d823b56dccae551a650bbd682c8c3a1dcac51488ba681c4ad9559
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 12727
+  sha256: 89079a598d3fcdba192aa208e0a939e606700db69fda12ec11af3d31c69bcc19
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: real_data
+  evidence:
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry nature-2022-fig2b-gcf-novelty; internal Library state is not
+      distributed.
+  - type: synthetic_data
+    note: Example inputs were generated for portable execution and do not represent real samples or scientific conclusions.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.

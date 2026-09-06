@@ -260,6 +260,25 @@
       "sourceCommit": "7341cd4b78864e505a0a9aae066f49aa303249c9"
     },
     {
+      "bytes": 647652,
+      "file": "archives/nature-2022-fig2b-gcf-novelty.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/gcf-distance.csv",
+        "data/hist-observations.csv",
+        "data_schema.yml",
+        "description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "nature-2022-fig2b-gcf-novelty",
+      "sha256": "429f3802d50b87c09d5e164f01305f57f94074b3b94d9d5ff8e664e65530c934",
+      "sourceCommit": "00bf4d03b02c919e1fe9444f2141e39e3bda6bc4"
+    },
+    {
       "bytes": 2322067,
       "file": "archives/nature-2022-fig2c-phylogenomic-bgc.zip",
       "files": [
@@ -760,7 +779,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-06T01:58:20.746Z",
+  "generatedAt": "2026-09-06T02:00:31.534Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
