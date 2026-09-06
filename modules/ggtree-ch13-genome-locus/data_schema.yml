@@ -1,0 +1,9 @@
+format: csv
+columns:
+  - molecule
+  - gene
+  - start
+  - end
+  - strand
+  - orientation
+note: Example or synthetic input used to demonstrate the plotting layer.
