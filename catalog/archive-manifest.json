@@ -161,6 +161,25 @@
       "sourceCommit": "ffd8d0fdfbfbd4aafb5b2d9af96e208d40f95ccb"
     },
     {
+      "bytes": 3996141,
+      "file": "archives/ggtree-ch13-hpv58-distance.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/HPV58.nwk",
+        "data/HPV58_aln.fas",
+        "description.md",
+        "docs/entry-readme.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "ggtree-ch13-hpv58-distance",
+      "sha256": "435338652a7730527049ce15d03371904d7794b5c03aac4df7841ca5df2703ab",
+      "sourceCommit": "649961e6cbd66bec676530e6ac927e539208ed73"
+    },
+    {
       "bytes": 959042,
       "file": "archives/go-enrichment-comet-combined.zip",
       "files": [
@@ -834,7 +853,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-06T14:04:38.588Z",
+  "generatedAt": "2026-09-06T14:09:26.290Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
