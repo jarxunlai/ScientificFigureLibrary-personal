@@ -1,0 +1,106 @@
+name: open-figure-feed-publish
+on:
+  push:
+    branches: [main]
+    paths:
+      - "modules/**"
+      - "archives/**"
+      - "catalog/archive-manifest.json"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: open-figure-feed
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: open-figure-feed
+    steps:
+      - name: Checkout personal main
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+          path: personal
+      - name: Checkout SFL publisher
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: ${{ vars.SFL_PUBLISHER_REPOSITORY || 'xuzhougeng/ScientificFigureLibrary' }}
+          ref: ${{ vars.SFL_PUBLISHER_COMMIT }}
+          path: sfl
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: "22"
+      - run: npm ci
+        working-directory: sfl
+      - name: Checkout or create feed branch sidecar
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          dest="${{ runner.temp }}/feed-branch"
+          git clone --no-checkout "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$dest"
+          cd "$dest"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code origin refs/heads/open-figure-feed >/dev/null; then
+            git fetch origin open-figure-feed
+            git checkout -B open-figure-feed origin/open-figure-feed
+          else
+            git checkout --orphan open-figure-feed
+            git rm -rf --ignore-unmatch . >/dev/null 2>&1 || true
+          fi
+      - name: Prepare feed payload
+        run: |
+          set -euo pipefail
+          extra=()
+          if [ -f "${{ runner.temp }}/feed-branch/current/source-manifest.json" ]; then
+            extra+=(--feed-root "${{ runner.temp }}/feed-branch")
+          fi
+          node sfl/scripts/publish-open-figure-feed.mjs --mode publish-prepare \
+            --repository "${{ github.workspace }}/personal" \
+            --output "${{ runner.temp }}/open-figure-feed" \
+            --generated-at "$(date -u +%Y-%m-%dT%H:%M:%S.000Z)" \
+            "${extra[@]}"
+      - name: Publish payload then current manifest
+        env:
+          SFL_OPEN_FIGURE_ED25519_PRIVATE_KEY_BASE64: ${{ secrets.SFL_OPEN_FIGURE_ED25519_PRIVATE_KEY_BASE64 }}
+        run: |
+          set -euo pipefail
+          result="${{ runner.temp }}/open-figure-feed/result.json"
+          payload="${{ runner.temp }}/open-figure-feed/payload.json"
+          if [ ! -f "$result" ]; then
+            echo "publisher did not write result.json" >&2
+            exit 1
+          fi
+          unchanged=$(node -p "require('$result').unchanged === true")
+          if [ "$unchanged" = "true" ]; then
+            echo "Feed payload is unchanged; not increasing sequence."
+            exit 0
+          fi
+          if [ ! -f "$payload" ]; then
+            echo "changed feed is missing payload.json" >&2
+            exit 1
+          fi
+          seq=$(node -p "String(require('$payload').sequence)")
+          feed="${{ runner.temp }}/feed-branch"
+          mkdir -p "$feed/snapshots/$seq" "$feed/current"
+          cp "${{ runner.temp }}/open-figure-feed/snapshots/$seq/module-catalog.json" "$feed/snapshots/$seq/"
+          cp "${{ runner.temp }}/open-figure-feed/snapshots/$seq/module-previews.zip" "$feed/snapshots/$seq/"
+          cd "$feed"
+          git add "snapshots/$seq"
+          git diff --cached --quiet && echo "payload already present" || git commit -m "feed: snapshot $seq"
+          git fetch origin open-figure-feed || true
+          git push origin HEAD:open-figure-feed
+          payload_commit=$(git rev-parse HEAD)
+          node "${{ github.workspace }}/sfl/scripts/publish-open-figure-feed.mjs" --mode sign \
+            --output "${{ runner.temp }}/open-figure-feed" \
+            --payload-commit "$payload_commit" \
+            --expected-key-id "${{ vars.SFL_OPEN_FIGURE_BOOTSTRAP_KEY_ID }}"
+          cp "${{ runner.temp }}/open-figure-feed/current/source-manifest.json" "$feed/current/"
+          cp "${{ runner.temp }}/open-figure-feed/current/source-manifest.sig.json" "$feed/current/"
+          git add current/source-manifest.json current/source-manifest.sig.json
+          git commit -m "feed: current sequence $seq"
+          git fetch origin open-figure-feed
+          git push origin HEAD:open-figure-feed
+          node -p "JSON.stringify({ sequence: '$seq', payloadCommit: '$payload_commit' }, null, 2)"

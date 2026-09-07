@@ -1,0 +1,36 @@
+name: open-figure-feed-validate
+on:
+  pull_request:
+    paths:
+      - "modules/**"
+      - "archives/**"
+      - "catalog/archive-manifest.json"
+      - ".github/workflows/**"
+permissions:
+  contents: read
+concurrency:
+  group: open-figure-feed-validate-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: ${{ vars.SFL_PUBLISHER_REPOSITORY || 'xuzhougeng/ScientificFigureLibrary' }}
+          ref: ${{ vars.SFL_PUBLISHER_COMMIT }}
+          path: .sfl-tools
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: "22"
+      - run: npm ci
+        working-directory: .sfl-tools
+      - run: node scripts/validate-personal-modules.mjs --check --repository "${{ github.workspace }}"
+        working-directory: .sfl-tools
+      - run: node scripts/archive-personal-modules.mjs --check --repository "${{ github.workspace }}"
+        working-directory: .sfl-tools
+      - run: node scripts/publish-open-figure-feed.mjs --mode validate --repository "${{ github.workspace }}"
+        working-directory: .sfl-tools
