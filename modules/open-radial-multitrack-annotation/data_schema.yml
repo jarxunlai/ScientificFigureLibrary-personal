@@ -1,0 +1,16 @@
+format: csv
+columns:
+  - display_order
+  - cluster
+  - author_label
+  - model_label
+  - annotation_match_score
+  - malignancy
+  - positive_q25
+  - positive_median
+  - positive_q75
+  - negative_q25
+  - negative_median
+  - negative_q75
+  - score_origin
+note: Example or synthetic input used to demonstrate the plotting layer.
