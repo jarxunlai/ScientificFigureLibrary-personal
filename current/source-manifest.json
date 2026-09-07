@@ -1,0 +1,20 @@
+{
+  "authorizedNextKeys": [],
+  "catalog": {
+    "bytes": 247594,
+    "mediaType": "application/json",
+    "sha256": "8bb1a554dd3f22a714f21746fb08320099ab8fe01c13503934395c7761a8dc03",
+    "url": "https://raw.githubusercontent.com/jarxunlai/ScientificFigureLibrary-personal/1d516748b2dc75971fe811169c4ec581f7d9e8e2/snapshots/1/module-catalog.json"
+  },
+  "generatedAt": "2026-09-07T14:43:01.000Z",
+  "previews": {
+    "bytes": 33069996,
+    "mediaType": "application/zip",
+    "sha256": "1e5acc8706c9ac2ad7c3303bc32156ea0542a23159b653838c8f54ce5e720154",
+    "url": "https://raw.githubusercontent.com/jarxunlai/ScientificFigureLibrary-personal/1d516748b2dc75971fe811169c4ec581f7d9e8e2/snapshots/1/module-previews.zip"
+  },
+  "providerId": "io.github.jarxunlai.personal-figures",
+  "schema": "figure-library.provider-source-manifest.v1",
+  "sequence": 1,
+  "tombstones": []
+}
