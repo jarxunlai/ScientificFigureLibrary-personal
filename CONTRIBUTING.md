@@ -25,6 +25,6 @@ Contributor attribution is preserved through the pull request and Git history. P
 
 ## Review and generated files
 
-The maintainer or an assigned Agent validates paths, file inventory, manifests, preview identities, public boundaries, and deterministic archive generation. The maintainer makes the final merge decision.
+A co-maintainer or an assigned Agent validates paths, file inventory, manifests, preview identities, public boundaries, and deterministic archive generation. Either co-maintainer, [jarxunlai](https://github.com/jarxunlai) or [xuzhougeng](https://github.com/xuzhougeng), may make the final merge decision.
 
 Do not hand-edit files under `archives/` or the aggregate archive manifest. Those files are generated from an exact source commit after source review. Pull requests use two retained logical commits: a source commit followed by a generated archive commit. Do not squash these commits when merging.
