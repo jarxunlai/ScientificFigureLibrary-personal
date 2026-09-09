@@ -1,0 +1,72 @@
+schema: figure-library.personal-module.v1
+moduleId: percent-bar-errorbars
+title: 百分比堆积柱加误差棒
+titleEn: percent bar errorbars
+description: 展示 30 个样本的三组分祖先比例。均值和标准差每次运行都会变。
+application: |-
+  -已有多样本祖先成分计数时，用 100% 堆积柱加误差棒。
+  -不适合把误差棒解释成 ADMIXTURE SE。
+scientificQuestion: 30 个样本的三组分祖先比例如何变化？
+dataProfile: 30 样本 × A/B/C 由 sample() 生成。
+plotFamily: percent_bar
+language: R
+tags:
+  - R
+  - ancestry
+  - errorbar
+  - ggplot2
+  - percent
+  - stacked-bar
+packages:
+  - dplyr
+  - ggplot2
+  - ragg
+  - tidyr
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 184286
+  sha256: 7a047ded68e98e466558f539efbd342c5b905e7489bd715f7029ba4e7e435dec
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 20144
+  sha256: 165bba5c4e6fd096940b83e9d74e39fc99a04f7dcbfeecfb13a192bced142125
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry percent-bar-errorbars; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
