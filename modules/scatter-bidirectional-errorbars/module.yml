@@ -1,0 +1,71 @@
+schema: figure-library.personal-module.v1
+moduleId: scatter-bidirectional-errorbars
+title: 双向误差棒散点图
+titleEn: scatter bidirectional errorbars
+description: 同时显示 x、y 方向标记分数区间。xmin/xmax/ymin/ymax 由 runif 模拟。
+application: |-
+  -已有成对代谢物标记分数及其 x/y 区间时，用双向误差棒散点看是否落在 y=x 附近。
+  -不适合只有点估计没有区间。
+scientificQuestion: 各观测的标记 aKG 与 glutamate 分数是否沿 y=x？
+dataProfile: 40 行模拟。无外部表。
+plotFamily: scatter_errorbar
+language: R
+tags:
+  - R
+  - errorbar
+  - ggplot2
+  - metabolite
+  - scatter
+packages:
+  - dplyr
+  - ggplot2
+  - ragg
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 83323
+  sha256: e15e75a34152c2b208a9ea8a7ba89f0fa90c313182357baddaff67a60ba61a77
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 14597
+  sha256: 8e0a0a17ee970cf9a9dce09f08bcebe4b2c001689bf67392c39bce0ac0d889d8
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry scatter-bidirectional-errorbars; internal Library state is not
+      distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
