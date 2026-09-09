@@ -1,0 +1,21 @@
+﻿CancerType,low,high,means,metastasis,number
+Prostate,0.8,0.95,,Primary,217
+Prostate,0.6,0.8,,Bone Met.,77
+Prostate,0.45,0.7,,Lung Met.,19
+Prostate,0.25,0.8,,Brain Met.,7
+Prostate,0.27,0.5,,Liver Met.,38
+Lung,0.55,0.72,,Primary,952
+Lung,0.43,0.68,,Brain Met.,67
+Lung,0.4,0.65,,Bone Met.,59
+Lung,0.35,0.6,,Lung Met.,14
+Lung,0.32,0.48,,Liver Met.,86
+Colon,0.7,0.78,,Primary,424
+Colon,0.65,0.8,,Liver Met.,183
+Colon,0.55,0.74,,Lung Met.,37
+Colon,0.25,0.7,,Bone Met.,5
+Colon,0.2,0.73,,Brain Met.,6
+Breast,0.72,0.8,,Primary,285
+Breast,0.6,0.75,,Liver Met.,187
+Breast,0.58,0.75,,Lung Met.,113
+Breast,0.5,0.73,,Bone Met.,52
+Breast,0.4,0.7,,Brain Met.,27

@@ -1,0 +1,78 @@
+schema: figure-library.personal-module.v1
+moduleId: gantt-survival-bars
+title: 癌症转移生存甘特条
+titleEn: gantt survival bars
+description: 用水平甘特条比较前列腺癌、肺癌、结肠癌、乳腺癌的原发灶与骨/肺/脑/肝转移在 40 个月随访下的总生存 Kaplan–Meier 曲线下面积。色块宽度表示区间、空心圆表示均值、右侧标出转移类型与样本数。示例表来自
+  KS 课程包 test_data.csv，不是原文生存分析复现。
+application: |-
+  -已经按癌种×转移部位汇总好生存曲线下面积或类似区间时，用甘特条把原发与各转移排在同一癌种行内。
+  -需要同时展示区间、中心值和样本量时，用色块宽度表示区间、圆点表示均值。
+  -不适合：还只有原始生存时间表、没有汇总区间；或要把 KM 曲线本身画出来。
+scientificQuestion: 四种癌的原发灶与各转移灶在 40 个月总生存曲线下面积如何分布，哪些转移部位样本很少？
+dataProfile: 20 行，癌种×转移类型。列 CancerType, low, high, metastasis, number。
+plotFamily: gantt
+language: R
+tags:
+  - Kaplan-Meier
+  - R
+  - gantt
+  - ggplot2
+  - metastasis
+  - survival
+packages:
+  - dplyr
+  - ggplot2
+  - ragg
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/test_data.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/test_data.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/test_data.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 195048
+  sha256: 130671a8be182617978f02dd9ef8bd63f38a656e212cc7855394999c5241e64d
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 22265
+  sha256: 78364f2f6489db695a3030f977f835e5e407a6d69b3d179222799913fec026ee
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry gantt-survival-bars; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
