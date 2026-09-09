@@ -83,6 +83,25 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 207508,
+      "file": "archives/forest-effect-dotplot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/rownames.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "forest-effect-dotplot",
+      "sha256": "2fcc4f62bb612f2f9ef5c690e7a04e11417b3cc40b1ce1dabcc1a008367b2426",
+      "sourceCommit": "7539b71f0572e822be792251f868638b64f649de"
+    },
+    {
       "bytes": 603884,
       "file": "archives/ggsankeyfier-layout-color-combo.zip",
       "files": [
@@ -891,7 +910,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-09T08:21:07.399Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
