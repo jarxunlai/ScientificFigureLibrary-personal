@@ -28,9 +28,14 @@ jobs:
           node-version: "22"
       - run: npm ci
         working-directory: .sfl-tools
+      # Public licenses, portable paths, and no excluded private files.
       - run: node scripts/validate-personal-modules.mjs --check --repository "${{ github.workspace }}"
         working-directory: .sfl-tools
-      - run: node scripts/archive-personal-modules.mjs --check --repository "${{ github.workspace }}"
-        working-directory: .sfl-tools
+      # Do not run archive-personal-modules.mjs --check.
+      # That command rebuilds every ZIP from HEAD, rewrites catalog/archive-manifest.json
+      # (generatedAt and every sourceCommit), and compares ZIP bytes. SFL submits
+      # Windows-built ZIPs; Ubuntu UTC cannot reproduce those bytes. Content identity
+      # is verified below by unzipping committed archives against each module's
+      # recorded sourceCommit.
       - run: node scripts/publish-open-figure-feed.mjs --mode validate --repository "${{ github.workspace }}"
         working-directory: .sfl-tools
