@@ -511,6 +511,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 93364,
+      "file": "archives/nine-quadrant-scatter.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "nine-quadrant-scatter",
+      "sha256": "bd5522aad87df201bd72686b6f8f5dc0676df97d5cad0098f36f4cbf931bceb8",
+      "sourceCommit": "7b9d5d11894c3cc6801727d6592eb236790fe499"
+    },
+    {
       "bytes": 893682,
       "file": "archives/open-radial-multitrack-annotation.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-11T13:07:31.094Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
