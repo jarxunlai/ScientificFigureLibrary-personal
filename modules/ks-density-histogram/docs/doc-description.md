@@ -1,22 +1,14 @@
 # 同义替换率密度直方图
 
-## Purpose
+在同一 Ks 轴上叠加多对比较的同义替换率分布。数据由 rnorm 模拟 8 列。
 
-叠加多对比较的 Ks 分布，比较同义替换率峰值。
+## 应用
 
-## Visual structure
+-已有多对 Ks 向量时，用叠加密度比较峰值位置。
+-不适合：还没有 Ks 估计。
 
-直方图加密度曲线，多组半透明填充叠在同一横坐标。
+## 数据
 
-## Data requirements
+脚本内 rnorm 模拟 8 列。无外部表。
 
-脚本内 rnorm 模拟 8 列 Ks；无外部表。
-
-## Recommended use
-
-本地查看该图类型的 ggplot2 实现；需要同类布局时可改数据后重跑 `code/organized.R`。
-
-## Limitations
-
-- 原脚本第一层直方图引用了未定义的 tmp_data，整理版改为 after_stat(density)。
-- 数据为模拟，不是真实比对得到的 Ks。
+仅提供绘图示例；上游分析与科学结论未验证。
