@@ -21,6 +21,7 @@ packages:
   - dplyr
   - ggplot2
   - patchwork
+  - ragg
 codeFiles:
   - code/organized.R
 inputFiles: []
@@ -44,13 +45,13 @@ files:
   - thumbnail.jpg
 preview:
   path: preview.png
-  bytes: 41412
-  sha256: 407e76db14a7ffc89b95cd23516dccbc2aadf14cef4d9d6c6a6215f3de6174db
+  bytes: 87146
+  sha256: b7c5bcd48f578eace7b91688abf4ec700a0917e6c2198fa6b49c63d61cec10af
   mediaType: image/png
 thumbnail:
   path: thumbnail.jpg
-  bytes: 15454
-  sha256: 888144501353d7d9e05ea21e5436367b9c68e66e309370e40e7d67a9061bbc9d
+  bytes: 16577
+  sha256: 58a6dc6961ed3286b0b838173bae65a1bfb9b224293ecf57523b168718afeeb3
   mediaType: image/jpeg
 licenses:
   code: MIT
@@ -58,14 +59,17 @@ licenses:
   documentation: CC BY 4.0
 publisher:
   reviewStatus: approved
-  executionStatus: not_run
-  executionScope: unknown
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - preview.png
 provenance:
   - type: local_published_cleaning
     note: Prepared from the reviewed Local Published entry boxplot-heatmap-annot; internal Library state is not distributed.
   - type: public_input_scope
     note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
       claims are not inherited.
-  - type: clean_room_transformation
-    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
-      machine-local state are excluded.
+  - type: authorized_adaptation
+    note: Adapted implementation redistributed with contributor authorization. This is not a claim of original authorship.
+      Only the declared public files are included.

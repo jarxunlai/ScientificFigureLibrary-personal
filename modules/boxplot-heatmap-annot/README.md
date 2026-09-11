@@ -2,4 +2,20 @@
 
 用箱线和热图注释展示模拟粒径与纬度。preview 由 organized.R 渲染；数据为 runif 模拟，不是论文结果。
 
-This module is an Open Figure Modules submission prepared from a Local Published release. SFL does not execute the code.
+## 应用
+
+展示箱线与热图注释组合。
+
+- 作为该图类型的 R 代码与布局参考。
+- 在确认前不作为论文结果或上游分析复现。
+
+## 数据
+
+脚本内 runif 模拟的粒径与纬度，无外部文件。
+
+仅提供绘图示例；上游分析与科学结论未验证。
+
+
+## 运行核验
+
+发布者已使用现有 Pixi R 环境执行本模块绘图入口并检查本次生成预览。仅演示绘图层，未验证上游分析或科学结论。

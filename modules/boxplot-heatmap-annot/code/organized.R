@@ -1,10 +1,9 @@
+# 固定模拟示例的随机种子，便于重复生成预览。
+set.seed(20260911)
 # =============================================================================
 # 箱线图加热图注释
 # organized：线性脚本 + 中文分节；路径相对本条目目录
 # =============================================================================
-# 来源：KS科研分享「生信绘图」027箱线图+热图注释
-# 本地复现：drafts/ks-shengxin-huitu-repro/027-boxplot-heatmap-annot
-# Pixi：项目根 default 环境；library(tidyverse) 已拆成 ggplot2/dplyr/tidyr 等。
 # =============================================================================
 
 script_dir <- tryCatch(
@@ -97,31 +96,19 @@ p1
 
 ggsave(file.path(out_dir, "plot1.pdf"), height = 3.5, width = 8)
 
-rect_data <- data.frame(x = c(1:5, c(6:8)+0.2, c(9:11)+0.4),
-                        y = unique(data_long$x))
-
-p2 <- ggplot(rect_data,aes(x, y = 1))+
-  geom_tile(aes(fill=y),color="white",linewidth=1)+
-  scale_x_discrete("",expand = c(0,0))+ #不显示横纵轴的label文本；画板不延长
-  scale_y_discrete("",expand = c(0,0))+
-  scale_fill_manual(values = c("#fa7f5e", "#f2605c", "#dd4968", "#c43c75", "#a8327d",
-                               "#d38c39", "#cac5bf", "#4f69b1", 
-                               "#dbdb5f", "#509f9b", "#1e497f"))+
-  theme(
-    panel.background = element_blank(),
-    # 去掉X轴的刻度标签:
-    axis.text.x = element_blank(),
-    axis.text.y.left = element_text(size = 12), #修改坐标轴文本大小
-    axis.ticks = element_blank(), #不显示坐标轴刻度
-    legend.title = element_blank(), #不显示图例title
-    legend.position = "none"
-  )+
-  geom_text(aes(label=unique(data_long$x)), angle = 90, color = "white")
-p2
-ggsave(file.path(out_dir, "plot2.pdf"), height = 1.5, width = 8)
-
+# 对齐上方类别注释和下方分面箱线图；不改变数据、顺序或配色。
+rect_data <- dplyr::distinct(data_long, x, group2)
+p2 <- ggplot(rect_data, aes(x, 1)) +
+  geom_tile(aes(fill = x), color = "white", linewidth = 1, width = 1, height = 1) +
+  geom_text(aes(label = x), angle = 90, color = "white", size = 3) +
+  facet_grid(. ~ group2, scales = "free_x", space = "free_x") +
+  scale_x_discrete(expand = expansion(add = 0.6)) +
+  scale_y_continuous(limits = c(0.5, 1.5), expand = c(0, 0)) +
+  scale_fill_manual(values = c("#fa7f5e", "#f2605c", "#dd4968", "#c43c75", "#a8327d", "#d38c39", "#cac5bf", "#4f69b1", "#dbdb5f", "#509f9b", "#1e497f")) +
+  theme_void() + theme(legend.position = "none", strip.text = element_blank(), panel.spacing.x = unit(5.5, "pt"))
 library(patchwork)
+p <- p2 / p1 + plot_layout(heights = c(1.2, 5))
+ggsave(file.path(out_dir, "plots.pdf"), plot = p, height = 5, width = 8)
 
-p2/p1+plot_layout(heights = c(2,5))
-
-ggsave(file.path(out_dir, "plots.pdf"), height = 5, width = 8)
+# 显式生成发布预览，不依赖外部图片转换。
+ggplot2::ggsave(file.path(root, "preview.png"), plot = p, device = ragg::agg_png, width = 8, height = 5, units = "in", dpi = 300, bg = "white")
