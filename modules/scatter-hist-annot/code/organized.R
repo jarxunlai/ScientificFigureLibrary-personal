@@ -1,10 +1,9 @@
+# 固定模拟示例的随机种子，便于重复生成预览。
+set.seed(20260911)
 # =============================================================================
 # 分组散点直方图注释
 # organized：线性脚本 + 中文分节；路径相对本条目目录
 # =============================================================================
-# 来源：KS科研分享「生信绘图」021分组散点图+直方图注释
-# 本地复现：drafts/ks-shengxin-huitu-repro/021-scatter-hist-annot
-# Pixi：项目根 default 环境；library(tidyverse) 已拆成 ggplot2/dplyr/tidyr 等。
 # =============================================================================
 
 script_dir <- tryCatch(
@@ -125,12 +124,15 @@ p3 <- ggplot(data)+
 # 拼图：
 library(cowplot)
 
-p <- ggdraw() + 
-  draw_plot_label("a", size = 20)+
-  # 四个数值中前两个代表左下角位置：
-  # 后两个代表图形宽和高：
-  draw_plot(p1, 0.05, 0, .75, .8)+
-  draw_plot(p2, 0.05, 0.8, .75, .2)+
-  draw_plot(p3, 0.8, 0, .2, .8)
+# 共用坐标范围和面板列/行，使边缘分布与散点坐标对应。
+library(patchwork)
+xr <- range(data$`Genome size`)
+yr <- range(data$`GC content`)
+p1 <- p1 + coord_cartesian(xlim = xr, ylim = yr)
+p2 <- p2 + coord_cartesian(xlim = xr)
+p3 <- p3 + coord_flip(xlim = yr)
+p <- wrap_plots(p2, plot_spacer(), p1, p3, ncol = 2, widths = c(4, 1), heights = c(1, 4))
+ggsave(file.path(out_dir, "plot.pdf"), plot = p, height = 5, width = 8)
 
-ggsave(file.path(out_dir, "plot.pdf"), height = 5, width = 8, plot = p)
+# 显式生成发布预览，不依赖外部图片转换。
+ggplot2::ggsave(file.path(root, "preview.png"), plot = p, device = ragg::agg_png, width = 8, height = 5, units = "in", dpi = 300, bg = "white")
