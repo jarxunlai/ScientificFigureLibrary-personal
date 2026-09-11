@@ -700,7 +700,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
-      "bytes": 92042,
+      "bytes": 91850,
       "file": "archives/scatter-bidirectional-errorbars.zip",
       "files": [
         "README.md",
@@ -713,8 +713,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "scatter-bidirectional-errorbars",
-      "sha256": "6175128b41d2fbc8b55c52bc2e120c4c74bc82bd8b2faf407435e55107dd858e",
-      "sourceCommit": "4648b15e3d11d93aeda72166a3a067f32dd33805"
+      "sha256": "630228f980d248a71b803a86802c35c9b800b2c2c0061ee968f3b4e1233ef520",
+      "sourceCommit": "d6c782147a3ccfc86125dd950a21004252bacd53"
     },
     {
       "bytes": 723800,
@@ -908,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-09T08:05:44.449Z",
+  "generatedAt": "2000-01-01T00:00:00.000Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
