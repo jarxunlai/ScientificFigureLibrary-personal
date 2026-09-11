@@ -237,6 +237,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 515203,
+      "file": "archives/heatmap-gradient-links.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "heatmap-gradient-links",
+      "sha256": "1644f4e60f82d1073c67f1eeabec19cc8aa2fa72a3e3d770dba229838985f08e",
+      "sourceCommit": "87fba1298ce42b910a60427a9bfc00307fa383f3"
+    },
+    {
       "bytes": 1348439,
       "file": "archives/hlca-scib-integration-benchmark-matrix.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-11T13:02:53.552Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
