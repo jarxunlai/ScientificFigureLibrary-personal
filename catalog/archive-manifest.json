@@ -40,7 +40,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
-      "bytes": 192780,
+      "bytes": 192611,
       "file": "archives/cluster-dendrogram.zip",
       "files": [
         "README.md",
@@ -53,8 +53,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "cluster-dendrogram",
-      "sha256": "730b4061b13b34a70c4109069f234cb69d0d25e76e0eb1303bf3ac71fd3f9ff7",
-      "sourceCommit": "6b4096751943dc7f95e0fcbd8c74d71af974abca"
+      "sha256": "fa8528c0cc7e73f62afc8812cb570558270095c6667b88cdd59190197e88ce96",
+      "sourceCommit": "21935487292c29d2ed9f1e857a1f29c33ae31d9e"
     },
     {
       "bytes": 543955,
@@ -908,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-11T07:17:54.692Z",
+  "generatedAt": "2000-01-01T00:00:00.000Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
