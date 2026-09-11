@@ -1,7 +1,7 @@
 {
   "entries": [
     {
-      "bytes": 109960,
+      "bytes": 228557,
       "file": "archives/boxplot-jitter.zip",
       "files": [
         "README.md",
@@ -14,8 +14,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "boxplot-jitter",
-      "sha256": "b15fc9c45fe97175b3acc0310c57d22b3b09c3e8c6e9eebcc0377ebfbaa8d987",
-      "sourceCommit": "5582168d832f1ef023d4cd78519c59fb46784538"
+      "sha256": "61cdd200aea02bde95a557a6ed9dd5cc5e69a72f3e45026ec1ef5b78096ef9ca",
+      "sourceCommit": "2e2079b13266f3f46f26efe51ccca462a3f036fd"
     },
     {
       "bytes": 293426,
@@ -908,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-11T11:51:37.174Z",
+  "generatedAt": "2000-01-01T00:00:00.000Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
