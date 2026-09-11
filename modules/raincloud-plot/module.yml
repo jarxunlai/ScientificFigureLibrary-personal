@@ -1,0 +1,71 @@
+schema: figure-library.personal-module.v1
+moduleId: raincloud-plot
+title: 云雨图
+titleEn: raincloud plot
+description: 用半小提琴、箱线和抖动点展示 iris 分布。preview 由 organized.R 渲染；数据为 R 内置 iris，不是论文结果。
+application: |-
+  展示半小提琴、箱线与抖动点组合。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 组分布如何用云雨图读出？
+dataProfile: R 内置 iris，无外部文件。
+plotFamily: distribution
+language: R
+tags:
+  - R
+  - distribution
+  - ggplot2
+  - personal-gallery
+packages:
+  - dplyr
+  - gghalves
+  - ggplot2
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 60493
+  sha256: e5949b42c59dadb063e1b63177c118a16fe82a4b2184e9495670113b8deb39a1
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 15277
+  sha256: 5d35b59b23cb8228183bd5c068f2f1ca8885c9e7ad72a01c501021533b4690df
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry raincloud-plot; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
