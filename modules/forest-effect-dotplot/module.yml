@@ -48,13 +48,13 @@ files:
   - thumbnail.jpg
 preview:
   path: preview.png
-  bytes: 199423
-  sha256: 14fb301925ee779c65bb2f2bb04182f59fd454f18d4390689f6007a47a34fab0
+  bytes: 202829
+  sha256: b3121443d9e86d51272002eaa74027e3dd1a901bd1b22c9216fe0bba09b5426c
   mediaType: image/png
 thumbnail:
   path: thumbnail.jpg
-  bytes: 22800
-  sha256: 0e274744d06cbdf7fedd5e5acb3ad312616dbee7e88cd046d4936bc63d81d52a
+  bytes: 27340
+  sha256: 6675c5066e2bc04a07629693c352c546d11126c0596bcaa5799707d3de4369a0
   mediaType: image/jpeg
 licenses:
   code: MIT
@@ -62,14 +62,17 @@ licenses:
   documentation: CC BY 4.0
 publisher:
   reviewStatus: approved
-  executionStatus: not_run
-  executionScope: unknown
+  executionStatus: passed
+  executionScope: example_data
+  evidence:
+    - README.md
+    - preview.png
 provenance:
   - type: local_published_cleaning
     note: Prepared from the reviewed Local Published entry forest-effect-dotplot; internal Library state is not distributed.
   - type: public_input_scope
     note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
       claims are not inherited.
-  - type: clean_room_transformation
-    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
-      machine-local state are excluded.
+  - type: authorized_adaptation
+    note: Adapted implementation redistributed with contributor authorization. This is not a claim of original authorship.
+      Only the declared public files are included.

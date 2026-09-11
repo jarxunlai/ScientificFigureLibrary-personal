@@ -1,10 +1,9 @@
+# 固定模拟示例的随机种子，便于重复生成预览。
+set.seed(20260911)
 # =============================================================================
 # 微生物增温效应森林点距图
 # organized：线性脚本 + 中文分节；路径相对本条目目录
 # =============================================================================
-# 来源：KS科研分享「生信绘图」高分SCI图表复现 033个性化森林图
-# 本地复现：drafts/ks-shengxin-huitu-repro/033-forest
-# Pixi：项目根 default 环境；library(tidyverse) 已拆成 ggplot2/dplyr/tidyr 等。
 # =============================================================================
 
 
@@ -44,17 +43,17 @@ data$p <- c(rep("", 5), rep("*", 8),
             rep("**", 9), rep("***", 6))[sample(1:28)]
 
 data$p_col <- ifelse(data$med > 0,
-                     ifelse(data$p != "", "Postive effect(P<0.05)", "Postive effect(P>=0.05)"),
-                     ifelse(data$p != "", "Negtive effect(P<0.05)", "Negtive effect(P>=0.05)"))
+                     ifelse(data$p != "", "Positive effect(P<0.05)", "Positive effect(P>=0.05)"),
+                     ifelse(data$p != "", "Negative effect(P<0.05)", "Negative effect(P>=0.05)"))
 
 head(data)
 #     min    med   max              x  group group_col   p                   p_col
-# 1  0.17  0.320  0.47  Acidobacteria group1   #e7a40e   *  Postive effect(P<0.05)
-# 2  0.33  0.430  0.53 Actinobacteria group1   #e7a40e     Postive effect(P>=0.05)
-# 3 -0.75 -0.645 -0.54  Bacteroidetes group1   #e7a40e  **  Negtive effect(P<0.05)
-# 4 -0.81 -0.695 -0.58     Chlamydiae group1   #e7a40e  **  Negtive effect(P<0.05)
-# 5 -0.73 -0.625 -0.52    Chloroflexi group1   #e7a40e ***  Negtive effect(P<0.05)
-# 6  0.03  0.150  0.27     Firmicutes group1   #e7a40e   *  Postive effect(P<0.05)
+# 1  0.17  0.320  0.47  Acidobacteria group1   #e7a40e   *  Positive effect(P<0.05)
+# 2  0.33  0.430  0.53 Actinobacteria group1   #e7a40e     Positive effect(P>=0.05)
+# 3 -0.75 -0.645 -0.54  Bacteroidetes group1   #e7a40e  **  Negative effect(P<0.05)
+# 4 -0.81 -0.695 -0.58     Chlamydiae group1   #e7a40e  **  Negative effect(P<0.05)
+# 5 -0.73 -0.625 -0.52    Chloroflexi group1   #e7a40e ***  Negative effect(P<0.05)
+# 6  0.03  0.150  0.27     Firmicutes group1   #e7a40e   *  Positive effect(P<0.05)
 
 
 ggplot(data)+
@@ -68,17 +67,17 @@ ggplot(data)+
   geom_text(aes(x, y = max + 0.05, label = p, color = p_col), show.legend = F)+
   # 颜色：
   scale_color_manual(name = "",
-                     values = c("Postive effect(P<0.05)" = "#d55e00",
-                                "Postive effect(P>=0.05)" = "#ffbd88",
-                                "Negtive effect(P<0.05)" = "#0072b2",
-                                "Negtive effect(P>=0.05)" = "#7acfff"))+
+                     values = c("Positive effect(P<0.05)" = "#d55e00",
+                                "Positive effect(P>=0.05)" = "#ffbd88",
+                                "Negative effect(P<0.05)" = "#0072b2",
+                                "Negative effect(P>=0.05)" = "#7acfff"))+
   # 背景色：
   annotate("rect",
            xmin = c(0.5,3.5,8.5,11.5,14.5),
            xmax = c(3.5,8.5,11.5,14.5,28.5),
            ymin = -1, ymax = 1, alpha = 0.2, fill = rev(unique(data$group_col))) +
   # 调整x轴拓宽：
-  scale_y_continuous(expand = c(0,0))+
+  scale_y_continuous(expand = expansion(mult = c(0.02, 0.14)))+
   xlab("")+
   ylab("Warming effect size")+
   theme_bw()+
@@ -91,3 +90,6 @@ dev.off()
 file.copy(file.path(out_dir, "forest_effect.png"), file.path(root, "preview.png"), overwrite = TRUE)
 ggsave(file.path(out_dir, "forest_effect.pdf"), last_plot(), width = 6, height = 6)
 
+
+# 显式生成发布预览，不依赖外部图片转换。
+ggplot2::ggsave(file.path(root, "preview.png"), plot = last_plot(), device = ragg::agg_png, width = 6, height = 6, units = "in", dpi = 300, bg = "white")
