@@ -700,6 +700,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 264028,
+      "file": "archives/scatter-contour.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "scatter-contour",
+      "sha256": "e5a0f3b60f049c55c86fb04ec827c13beb9b9993e2db4003374a81a4cc1e4650",
+      "sourceCommit": "6e72ae87be8c7d4ce2e3ce51c5f607b2a3d8f4e3"
+    },
+    {
       "bytes": 723800,
       "file": "archives/science-mantel-corrplot.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-11T07:45:22.343Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
