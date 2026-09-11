@@ -1,5 +1,21 @@
 # 分组重叠直方图
 
-用半透明直方图比较 Control 与 Case 的分布。preview 由 organized.R 渲染；数据为 rnorm 模拟，不是论文结果。
+展示两组模拟连续变量的重叠频数直方图。横轴为模拟数值，纵轴为每个区间的计数；橙色为 Case，蓝色为 Control。
 
-This module is an Open Figure Modules submission prepared from a Local Published release. SFL does not execute the code.
+## 应用
+
+展示分组重叠直方图。
+
+- 作为该图类型的 R 代码与布局参考。
+- 在确认前不作为论文结果或上游分析复现。
+
+## 数据
+
+脚本内生成两组各 1000 个正态随机数，不是真实表达数据。
+
+仅提供绘图示例；上游分析与科学结论未验证。
+
+
+## 运行核验
+
+发布者已使用现有 Pixi R 环境执行本模块绘图入口并检查本次生成预览。仅演示绘图层，未验证上游分析或科学结论。

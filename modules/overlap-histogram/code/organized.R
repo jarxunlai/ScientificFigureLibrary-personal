@@ -1,10 +1,9 @@
+# 固定模拟示例的随机种子，便于重复生成预览。
+set.seed(20260911)
 # =============================================================================
 # 分组重叠直方图
 # organized：线性脚本 + 中文分节；路径相对本条目目录
 # =============================================================================
-# 来源：KS科研分享「生信绘图」32分组重叠直方图
-# 本地复现：drafts/ks-shengxin-huitu-repro/c32-overlap-histogram
-# Pixi：项目根 default 环境；library(tidyverse) 已拆成 ggplot2/dplyr/tidyr 等。
 # =============================================================================
 
 script_dir <- tryCatch(
@@ -52,9 +51,9 @@ p <- ggplot(data)+
                  color = "white", fill = "#cc7833", alpha = 0.5)+
   geom_histogram(aes(Control), binwidth = 20,
                  color = "white", fill = "#75aadb", alpha = 0.5)+
-  ggtitle("Density Histogram")+
-  xlab("Density")+
-  ylab("Expression")+
+  ggtitle("Overlapping Histograms")+
+  xlab("Expression (simulated)")+
+  ylab("Count")+
   theme_bw()
 
 p
@@ -66,7 +65,7 @@ tmp <- data.frame(x = c(0, 0), y = c(0, 0), group = c("A", "B"))
 # 创建绘图对象并设置主题
 p1 <- p + geom_bar(data = tmp, aes(x = x, y = y, fill = group),
                    stat = "identity")+
-  scale_fill_manual(name = "Group", labels = c("Control", "Case"),
+  scale_fill_manual(name = "Group", labels = c("Case", "Control"),
                     values = c("#cc7833", "#75aadb"))+
   scale_x_continuous(breaks = seq(-200, 1000,200))+
   scale_y_continuous(expand = c(0, 0))+
@@ -86,3 +85,6 @@ p1 <- p + geom_bar(data = tmp, aes(x = x, y = y, fill = group),
 p1
 
 ggsave(file.path(out_dir, "plot.pdf"), height = 4, width = 5)
+
+# 显式生成发布预览，不依赖外部图片转换。
+ggplot2::ggsave(file.path(root, "preview.png"), plot = p1, device = ragg::agg_png, width = 5, height = 4, units = "in", dpi = 300, bg = "white")
