@@ -1,0 +1,71 @@
+schema: figure-library.personal-module.v1
+moduleId: go-bubble-advanced
+title: 富集气泡图进阶
+titleEn: go bubble advanced
+description: 用 GOplot 示例 EC 数据画分面气泡。preview 由 organized.R 渲染；不是论文结果。
+application: |-
+  展示分面富集气泡。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: GO 富集如何用气泡图读出？
+dataProfile: GOplot::EC 示例，无外部文件。
+plotFamily: enrichment
+language: R
+tags:
+  - R
+  - enrichment
+  - ggplot2
+  - personal-gallery
+packages:
+  - GOplot
+  - dplyr
+  - ggplot2
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 214506
+  sha256: 263654d45d23793b1621c75711470681c8af65b77358385f9bc026f90d7e93ec
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 25600
+  sha256: a1c9c4943e347dc92f75248fa86be83907a359497e41b3a407cffb619e8c8e7a
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry go-bubble-advanced; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
