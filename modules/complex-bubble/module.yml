@@ -1,0 +1,70 @@
+schema: figure-library.personal-module.v1
+moduleId: complex-bubble
+title: 复杂气泡图
+titleEn: complex bubble
+description: 用气泡展示模拟转移比例矩阵。preview 由 organized.R 渲染；数据为 sample() 模拟，不是论文结果。
+application: |-
+  展示多编码气泡散点。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 多编码气泡如何读出模式？
+dataProfile: 脚本内 sample() 模拟的 10×10 转移比例，无外部文件。
+plotFamily: bubble
+language: R
+tags:
+  - R
+  - bubble
+  - ggplot2
+  - personal-gallery
+packages:
+  - dplyr
+  - ggplot2
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 77622
+  sha256: e7c630d289bbcd5e19446bfc3a0f34206faab3547b41e1bdbe8e6119d959ebc8
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 15892
+  sha256: 4123a193abdd278ac92eee6ac47dd89088b8e25172f8c830a6949c0ed447983a
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry complex-bubble; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
