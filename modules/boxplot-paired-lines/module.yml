@@ -1,0 +1,72 @@
+schema: figure-library.personal-module.v1
+moduleId: boxplot-paired-lines
+title: 带连线箱线图
+titleEn: boxplot paired lines
+description: 用配对箱线和个体连线展示模拟处理前后。preview 由 organized.R 渲染；数据为 rnorm 模拟，不是论文结果。
+application: |-
+  展示配对箱线与个体连线。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 配对测量的个体变化如何读出？
+dataProfile: 脚本内 rnorm 模拟的配对处理，无外部文件。
+plotFamily: boxplot
+language: R
+tags:
+  - R
+  - boxplot
+  - ggplot2
+  - personal-gallery
+packages:
+  - RColorBrewer
+  - dplyr
+  - ggplot2
+  - ggpubr
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 91972
+  sha256: 534b2bef7dd14e42d6489d1b657902e2fb1eec5257b0025ab1a9d60cbde02f11
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 15956
+  sha256: 8850d321f222eedd715c3669a36ce8625963c2702f46ce42e95f7fd3916baa64
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry boxplot-paired-lines; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
