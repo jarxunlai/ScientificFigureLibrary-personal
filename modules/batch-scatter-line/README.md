@@ -2,4 +2,15 @@
 
 用 6 组模拟对数曲线画散点与折线。preview 由 organized.R 渲染；数据为 log() 模拟，不是论文结果。
 
-This module is an Open Figure Modules submission prepared from a Local Published release. SFL does not execute the code.
+## 应用
+
+展示多面板散点与折线。
+
+- 作为该图类型的 R 代码与布局参考。
+- 在确认前不作为论文结果或上游分析复现。
+
+## 数据
+
+脚本内 log() 模拟的 6 组曲线，无外部文件。
+
+仅提供绘图示例；上游分析与科学结论未验证。
