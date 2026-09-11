@@ -2,9 +2,6 @@
 # 聚类树
 # organized：线性脚本 + 中文分节；路径相对本条目目录
 # =============================================================================
-# 来源：KS科研分享「生信绘图」13聚类树
-# 本地复现：drafts/ks-shengxin-huitu-repro/c13-cluster-tree
-# Pixi：项目根 default 环境；library(tidyverse) 已拆成 ggplot2/dplyr/tidyr 等。
 # =============================================================================
 
 script_dir <- tryCatch(
