@@ -1,7 +1,7 @@
 {
   "entries": [
     {
-      "bytes": 55133,
+      "bytes": 54996,
       "file": "archives/bidirectional-bar.zip",
       "files": [
         "README.md",
@@ -14,8 +14,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "bidirectional-bar",
-      "sha256": "90b95a7c80a789726849925887a77a315306b337a28c3a95d05b874bef8944ed",
-      "sourceCommit": "ca92a4c13a03aa370dc218f7989e8b18431bd820"
+      "sha256": "fad099c6e3690caf2ea29678268e157e8ec025db584cd464daa37fb0aef04ad6",
+      "sourceCommit": "ca8db9ab2bc29e467d1e67601b3242533cfcedca"
     },
     {
       "bytes": 293426,
@@ -908,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-11T07:40:29.014Z",
+  "generatedAt": "2000-01-01T00:00:00.000Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
