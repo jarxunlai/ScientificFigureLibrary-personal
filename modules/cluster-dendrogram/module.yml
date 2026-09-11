@@ -1,0 +1,71 @@
+schema: figure-library.personal-module.v1
+moduleId: cluster-dendrogram
+title: 聚类树
+titleEn: cluster dendrogram
+description: 用 mtcars 的 mpg/cyl/disp 做层次聚类树。preview 由 organized.R 渲染；不是论文结果。
+application: |-
+  展示层次聚类树。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 样本如何按层次聚类分枝？
+dataProfile: R 内置 mtcars，无外部文件。
+plotFamily: tree
+language: R
+tags:
+  - R
+  - dendextend
+  - personal-gallery
+  - tree
+packages:
+  - dendextend
+  - dplyr
+  - ggplot2
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 176885
+  sha256: 4bdf6b9f57ce489f4496557726730092dead48914de90f0a4d5ead1b4053d028
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 23705
+  sha256: 43524f697c03f9e1014127c47fd34dea3c3a0d423f15d92fef67bd56b8d2d2bb
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry cluster-dendrogram; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
