@@ -67,6 +67,6 @@ provenance:
   - type: public_input_scope
     note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
       claims are not inherited.
-  - type: clean_room_transformation
-    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
-      machine-local state are excluded.
+  - type: authorized_adaptation
+    note: Adapted implementation redistributed with contributor authorization. This is not a claim of original authorship.
+      Only the declared public files are included.

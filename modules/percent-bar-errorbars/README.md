@@ -2,4 +2,13 @@
 
 展示 30 个样本的三组分祖先比例。均值和标准差每次运行都会变。
 
-This module is an Open Figure Modules submission prepared from a Local Published release. SFL does not execute the code.
+## 应用
+
+-已有多样本祖先成分计数时，用 100% 堆积柱加误差棒。
+-不适合把误差棒解释成 ADMIXTURE SE。
+
+## 数据
+
+30 样本 × A/B/C 由 sample() 生成。
+
+仅提供绘图示例；上游分析与科学结论未验证。
