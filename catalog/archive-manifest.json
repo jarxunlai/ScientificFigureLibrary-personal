@@ -529,6 +529,23 @@
       "sourceCommit": "b9a0c7e1f73785604fe6ecada7d5d8cfd602540f"
     },
     {
+      "bytes": 35291,
+      "file": "archives/overlap-histogram.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "overlap-histogram",
+      "sha256": "875391dd14c1d695d79a4981b1340de33f6698f7615c84dd1c5d5093829648bc",
+      "sourceCommit": "d6afcc56258168fb7b1f82650554f6dd0a3c875d"
+    },
+    {
       "bytes": 185312,
       "file": "archives/sc-celltype-grouped-dodge-count.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-11T07:21:01.035Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
