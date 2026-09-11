@@ -1,0 +1,71 @@
+schema: figure-library.personal-module.v1
+moduleId: batch-scatter-fit
+title: 批量散点拟合图
+titleEn: batch scatter fit
+description: 用散点加线性拟合展示模拟相关。preview 由 organized.R 渲染；数据为 runif 模拟，不是论文结果。
+application: |-
+  展示多组散点与拟合曲线。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 多组散点趋势如何对比？
+dataProfile: 脚本内 runif 模拟的两变量相关，无外部文件。
+plotFamily: scatter
+language: R
+tags:
+  - R
+  - ggplot2
+  - personal-gallery
+  - scatter
+packages:
+  - cowplot
+  - dplyr
+  - ggplot2
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 133810
+  sha256: de4fa8cf877750c0ff81947061cf304032b81bf9274640e1e36d000cdcf7d8da
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 19779
+  sha256: 4db6d667ad0de9958d78dc0ccb00d2b69cf584d4880479113d6c042e22117e46
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry batch-scatter-fit; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
