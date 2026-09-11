@@ -1,10 +1,9 @@
+# 固定模拟示例的随机种子，便于重复生成预览。
+set.seed(20260911)
 # =============================================================================
 # 箱线抖动散点图
 # organized：线性脚本 + 中文分节；路径相对本条目目录
 # =============================================================================
-# 来源：KS科研分享「生信绘图」051箱线图+抖动散点
-# 本地复现：drafts/ks-shengxin-huitu-repro/051-boxplot-jitter
-# Pixi：项目根 default 环境；library(tidyverse) 已拆成 ggplot2/dplyr/tidyr 等。
 # =============================================================================
 
 script_dir <- tryCatch(
@@ -79,7 +78,7 @@ ggplot(data, aes(Group, values))+
                                 "#9bd53f", "#00ae4c", "#00c1e3", "#007ddb",
                                 "#8538d1", "#d01910"))+
   # 文字注释：
-  annotate("text", label = TeX("$\\textit{P} = 1.6e-06$"),
+  annotate("text", label = "P = 1.6e-06 (illustrative)",
            size = 3, x = 2, y = 8)+
   # 坐标轴标签：
   xlab("")+
@@ -93,3 +92,6 @@ ggplot(data, aes(Group, values))+
                             title.theme = element_text(face = "bold")))
 
 ggsave(file.path(out_dir, "plot.pdf"), height = 5, width = 7)
+
+# 显式生成发布预览，不依赖外部图片转换。
+ggplot2::ggsave(file.path(root, "preview.png"), plot = last_plot(), device = ragg::agg_png, width = 7, height = 5, units = "in", dpi = 300, bg = "white")

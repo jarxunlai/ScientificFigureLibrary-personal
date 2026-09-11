@@ -2,7 +2,7 @@ schema: figure-library.personal-module.v1
 moduleId: boxplot-jitter
 title: 箱线抖动散点图
 titleEn: boxplot jitter
-description: 用箱线和抖动点展示 10 组模拟值。preview 由 organized.R 渲染；数据为 runif 模拟，不是论文结果。
+description: 用箱线和抖动点展示 10 组模拟值。preview 由 organized.R 渲染；数据为 runif 模拟，不是论文结果。 图内固定 P 值仅为排版示例，标注 illustrative，不是根据模拟数据计算的检验结果。
 application: |-
   展示箱线与抖动点。
 
@@ -21,6 +21,7 @@ packages:
   - dplyr
   - ggplot2
   - latex2exp
+  - ragg
 codeFiles:
   - code/organized.R
 inputFiles: []
@@ -44,13 +45,13 @@ files:
   - thumbnail.jpg
 preview:
   path: preview.png
-  bytes: 90190
-  sha256: 4c68f0bef608d6781bd23b91e41aa668579526b35c530e5a79db038d2fd4b286
+  bytes: 211064
+  sha256: eac7bbeffdaa638b4891940ac806a18ccc0d9a4f8b5a99cca863e3a935a04205
   mediaType: image/png
 thumbnail:
   path: thumbnail.jpg
-  bytes: 19727
-  sha256: c5d36c82d9868502377fdb9c493a70aa7f3472f36654f1ab1bcf4814a96c42e4
+  bytes: 23500
+  sha256: d766a3a5874c5baafdb399935ea507d674f3ae67f60602ed5f67e58e9f6a2ed3
   mediaType: image/jpeg
 licenses:
   code: MIT
@@ -58,14 +59,17 @@ licenses:
   documentation: CC BY 4.0
 publisher:
   reviewStatus: approved
-  executionStatus: not_run
-  executionScope: unknown
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - preview.png
 provenance:
   - type: local_published_cleaning
     note: Prepared from the reviewed Local Published entry boxplot-jitter; internal Library state is not distributed.
   - type: public_input_scope
     note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
       claims are not inherited.
-  - type: clean_room_transformation
-    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
-      machine-local state are excluded.
+  - type: authorized_adaptation
+    note: Adapted implementation redistributed with contributor authorization. This is not a claim of original authorship.
+      Only the declared public files are included.
