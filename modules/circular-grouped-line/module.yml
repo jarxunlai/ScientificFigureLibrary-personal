@@ -1,0 +1,70 @@
+schema: figure-library.personal-module.v1
+moduleId: circular-grouped-line
+title: 环形分组折线图
+titleEn: circular grouped line
+description: 用极坐标分组折线展示多组模拟曲线。preview 由 organized.R 渲染；数据为 runif 模拟，不是论文结果。
+application: |-
+  展示环形分组折线。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 环形分组趋势如何读出？
+dataProfile: 脚本内 runif 模拟的 4 大组×10 小组折线，无外部文件。
+plotFamily: line
+language: R
+tags:
+  - R
+  - ggplot2
+  - line
+  - personal-gallery
+packages:
+  - dplyr
+  - ggplot2
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 141308
+  sha256: 0868d280a5c2a82783bcf21966ce52014e992430331310ecb6f7cf5ce00082be
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 25336
+  sha256: aff1c60b5936b8d8037542d350c4bc51979c2670bb83fe8ae19227749606e400
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry circular-grouped-line; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
