@@ -1,7 +1,7 @@
 {
   "entries": [
     {
-      "bytes": 151606,
+      "bytes": 151441,
       "file": "archives/batch-scatter-fit.zip",
       "files": [
         "README.md",
@@ -14,8 +14,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "batch-scatter-fit",
-      "sha256": "1fd71957a3c73c93306f6b8f90b0e89b72bf6e72eff19b7c85f2d7266319f69b",
-      "sourceCommit": "c2d9294b50f41d63b69be962f81ba0ba9a64fe29"
+      "sha256": "a5c8fe3a89f917d68def651a4486cc95a07964cc2728eabd7b6d60bbdac66683",
+      "sourceCommit": "cc0de25b6ee7319fc7f4685c877bbb08626f66a3"
     },
     {
       "bytes": 293426,
@@ -908,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-11T12:00:49.924Z",
+  "generatedAt": "2000-01-01T00:00:00.000Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
