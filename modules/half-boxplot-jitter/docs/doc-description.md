@@ -1,19 +1,16 @@
 # 分半箱线抖动散点图
 
-## Purpose
+用半箱线和抖动点展示模拟分组。preview 由 organized.R 渲染；数据为 rnorm 模拟，不是论文结果。ggplot2 4 下 gghalves 失败时整理版用箱线+jitter 近似。
 
-复现 KS 生信绘图课程包「041分半箱线图+抖动散点图」的绘图层。
+## 应用
 
-## Visual structure
+展示分半箱线与抖动点。
 
-见 `preview.png` 与课程原图；未做出版级视觉审查。
+- 作为该图类型的 R 代码与布局参考。
+- 在确认前不作为论文结果或上游分析复现。
 
-## Recommended use
+## 数据
 
-本地查看该图类型的 ggplot2/R 实现；需要同类布局时可改数据后重跑 `code/organized.R`。
+脚本内 rnorm 模拟的分组值，无外部文件。
 
-## Limitations
-
-- 示例数据来自课程包或脚本内模拟，不是原文分析复现。
-- 本地 Gallery 收录授权仅覆盖课程图代码与布局参考；科学结论与出版级视觉审查未做。
-- gghalves 的 transformation= 在 ggplot2 4 下失败，整理版用箱线+jitter 近似。
+仅提供绘图示例；上游分析与科学结论未验证。
