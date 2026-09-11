@@ -218,6 +218,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 73120,
+      "file": "archives/gradient-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "gradient-bar",
+      "sha256": "2f7fb2dc88281f4d1905ef3e7f94053c85bb84de2e3c6bac0fc4f72db78a5ee3",
+      "sourceCommit": "c4de2c75378fa618acc310680dc2ef3c0d7e7492"
+    },
+    {
       "bytes": 274242,
       "file": "archives/hallmark-gsea-nes-ranked-scatter.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-11T12:27:56.613Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
