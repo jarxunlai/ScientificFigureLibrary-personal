@@ -1,6 +1,23 @@
 {
   "entries": [
     {
+      "bytes": 55133,
+      "file": "archives/bidirectional-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "bidirectional-bar",
+      "sha256": "90b95a7c80a789726849925887a77a315306b337a28c3a95d05b874bef8944ed",
+      "sourceCommit": "ca92a4c13a03aa370dc218f7989e8b18431bd820"
+    },
+    {
       "bytes": 293426,
       "file": "archives/cancercell-pathway-nes-heatmap.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-11T07:40:29.014Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
