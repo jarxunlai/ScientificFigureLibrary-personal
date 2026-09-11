@@ -40,7 +40,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
-      "bytes": 59422,
+      "bytes": 59279,
       "file": "archives/clustered-heatmap-annot.zip",
       "files": [
         "README.md",
@@ -53,8 +53,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "clustered-heatmap-annot",
-      "sha256": "36359bd069cc7b2dff25030ae6c973c456ee23e2a54eac30a00eaf09df1e01b0",
-      "sourceCommit": "7d60387ddd7448aeb822e298b175f2422d03501e"
+      "sha256": "660137b93a3a683fa11e57e4633ca3856a95d0e83c5ffb202d8dab15071a0879",
+      "sourceCommit": "c42dfb086a86335b15c67cc76b89c04c1683235f"
     },
     {
       "bytes": 543955,
@@ -908,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-11T11:54:48.554Z",
+  "generatedAt": "2000-01-01T00:00:00.000Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
