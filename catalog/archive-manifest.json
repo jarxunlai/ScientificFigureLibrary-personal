@@ -1,6 +1,23 @@
 {
   "entries": [
     {
+      "bytes": 104537,
+      "file": "archives/boxplot-paired-lines.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "boxplot-paired-lines",
+      "sha256": "023cf87b840ef625a8f80d8cb213a4d0b9d0d06f39f6db9566099946dc3a1d2d",
+      "sourceCommit": "d8297db241a4056bc8505463c0768286eac871e4"
+    },
+    {
       "bytes": 293426,
       "file": "archives/cancercell-pathway-nes-heatmap.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-11T12:11:44.488Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
