@@ -1,0 +1,72 @@
+schema: figure-library.personal-module.v1
+moduleId: grouped-violin-signif
+title: 分组提琴显著性图
+titleEn: grouped violin signif
+description: 用分组提琴和 Wilcoxon 检验展示模拟评分。preview 由 organized.R 渲染；数据为 rnorm 模拟，不是论文结果。
+application: |-
+  展示分组提琴与显著性。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 分组分布如何对比？
+dataProfile: 脚本内 rnorm 模拟的分组评分，无外部文件。
+plotFamily: violin
+language: R
+tags:
+  - R
+  - ggplot2
+  - personal-gallery
+  - violin
+packages:
+  - dplyr
+  - ggplot2
+  - ggpubr
+  - rstatix
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 66465
+  sha256: bd1f1a293fc45b4a8bbf013933e6db035d43f3e96d4fc3afe63172865e9d0e46
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 17672
+  sha256: 6c331e3b1cdb59fc26fef57a93c9a71c408913be29f1143a79828741eab9d1fb
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry grouped-violin-signif; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
