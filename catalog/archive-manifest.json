@@ -1,6 +1,23 @@
 {
   "entries": [
     {
+      "bytes": 141086,
+      "file": "archives/batch-scatter-line.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "batch-scatter-line",
+      "sha256": "d66c8f3512b6d7a767ecbebf96770071ac90838d1c8afbfa995e7f2a957d8473",
+      "sourceCommit": "f36140c657416cc5455b2a6e08b72476969f3ecc"
+    },
+    {
       "bytes": 293426,
       "file": "archives/cancercell-pathway-nes-heatmap.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-11T12:04:20.211Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
