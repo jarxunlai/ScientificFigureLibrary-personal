@@ -1,4 +1,4 @@
-﻿CancerType,low,high,means,metastasis,number
+CancerType,low,high,means,metastasis,number
 Prostate,0.8,0.95,,Primary,217
 Prostate,0.6,0.8,,Bone Met.,77
 Prostate,0.45,0.7,,Lung Met.,19

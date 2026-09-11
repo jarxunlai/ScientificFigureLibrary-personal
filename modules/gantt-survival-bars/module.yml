@@ -3,7 +3,7 @@ moduleId: gantt-survival-bars
 title: 癌症转移生存甘特条
 titleEn: gantt survival bars
 description: 用水平甘特条比较前列腺癌、肺癌、结肠癌、乳腺癌的原发灶与骨/肺/脑/肝转移在 40 个月随访下的总生存 Kaplan–Meier 曲线下面积。色块宽度表示区间、空心圆表示均值、右侧标出转移类型与样本数。示例表来自
-  KS 课程包 test_data.csv，不是原文生存分析复现。
+  授权示例文件 test_data.csv，不是原文生存分析复现。
 application: |-
   -已经按癌种×转移部位汇总好生存曲线下面积或类似区间时，用甘特条把原发与各转移排在同一癌种行内。
   -需要同时展示区间、中心值和样本量时，用色块宽度表示区间、圆点表示均值。
@@ -73,6 +73,6 @@ provenance:
   - type: public_input_scope
     note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
       claims are not inherited.
-  - type: clean_room_transformation
-    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
-      machine-local state are excluded.
+  - type: authorized_adaptation
+    note: Adapted implementation redistributed with contributor authorization. This is not a claim of original authorship.
+      Only the declared public files are included.

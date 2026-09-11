@@ -2,9 +2,6 @@
 # 癌症转移生存甘特条
 # organized：线性脚本 + 中文分节；路径相对本条目目录
 # =============================================================================
-# 来源：KS科研分享「生信绘图」高分SCI图表复现 009甘特图
-# 本地复现：drafts/ks-shengxin-huitu-repro/009-gantt
-# Pixi：项目根 default 环境；library(tidyverse) 已拆成 ggplot2/dplyr/tidyr 等。
 # =============================================================================
 
 
@@ -50,8 +47,8 @@ data$color[which(data$color == "Primary")] <- c("#c97d80","#bba7cb",
 
 #################### 绘图 #################
 # 对组内数据，根据means从大到小重排：
-data2 <- data %>% 
-  arrange(CancerType, means) %>% 
+data2 <- data %>%
+  arrange(CancerType, means) %>%
   ungroup %>%
   mutate(id=rep(c(1:5),4))
 
@@ -68,27 +65,27 @@ ggplot(data2)+
   geom_rect(aes(xmin=0, xmax=Inf, ymin=1.5, ymax=2.5), fill = "#e6e6e6")+
   # 背景阴影2：
   geom_rect(aes(xmin=0, xmax=Inf, ymin=3.5, ymax=4.5), fill = "#e6e6e6")+
-  
+
   # 虚线：
-  geom_linerange(aes(xmin = 0, xmax = high, 
+  geom_linerange(aes(xmin = 0, xmax = high,
                      y = CancerType, group = id),
-                 position = position_dodge(width = 0.5), 
+                 position = position_dodge(width = 0.5),
                  linetype = "dashed")+
   # 方块：
-  geom_tile(aes(x = means, y = CancerType, 
+  geom_tile(aes(x = means, y = CancerType,
                 height = 0.4, width = high-low,
                 group = id, fill = color),
             color = "black",
-            position = position_dodge(width = 0.5), 
+            position = position_dodge(width = 0.5),
             size = 0.3)+
   # 均值点：
-  geom_point(aes(x=means, y=CancerType, group = id, fill=color), 
+  geom_point(aes(x=means, y=CancerType, group = id, fill=color),
              shape=21, color = "black",
-             position = position_dodge(width = 0.5), 
+             position = position_dodge(width = 0.5),
              size=3)+
   # 标签：
-  geom_text(aes(label = paste0(metastasis, "(",number,")"), 
-                x=high+0.08, y=CancerType, group = id), 
+  geom_text(aes(label = paste0(metastasis, "(",number,")"),
+                x=high+0.08, y=CancerType, group = id),
             position = position_dodge(width = 0.5), size=3)+
   # 主题：
   theme_classic() +
