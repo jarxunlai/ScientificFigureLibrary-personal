@@ -1388,6 +1388,23 @@
       "sourceCommit": "caeefba7aa4accec37fb4fb65bfeb991371ff7c4"
     },
     {
+      "bytes": 81682,
+      "file": "archives/paired-box-scatter-lines.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "paired-box-scatter-lines",
+      "sha256": "33cb4382f822799afae3851e0f6cefea20eb3131f162a4d15614f339b952882a",
+      "sourceCommit": "611ac4ec9064be8cf0721358d566ecc3143074ff"
+    },
+    {
       "bytes": 162818,
       "file": "archives/percent-bar-errorbars.zip",
       "files": [
