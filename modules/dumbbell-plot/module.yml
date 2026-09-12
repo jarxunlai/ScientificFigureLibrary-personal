@@ -1,0 +1,78 @@
+schema: figure-library.personal-module.v1
+moduleId: dumbbell-plot
+title: 哑铃图
+titleEn: dumbbell plot
+description: 将同一类别的两个数值放在一条连接线上，直接比较组间差距。
+application: |-
+  - 可用于将同一类别的两个数值放在一条连接线上，直接比较组间差距，但需要先确认自己的数据结构和统计量定义与该编码一致。
+  - 当前展示的是授权示例或包内数据；套用于新的研究时须核对输入含义、缺失处理及上游统计。
+scientificQuestion: 将同一类别的两个数值放在一条连接线上，直接比较组间差距。
+dataProfile: 学校类别、两组薪资及差值的授权聚合 CSV。
+plotFamily: dumbbell
+language: R
+tags:
+  - R
+  - dumbbell
+  - ggplot2
+  - personal-gallery
+packages:
+  - dplyr
+  - forcats
+  - ggplot2
+  - readr
+  - stringr
+  - tibble
+  - tidyr
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/school_earnings.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/school_earnings.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/school_earnings.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 102228
+  sha256: fb21c1bfd6d88c53250168b3582fda162917872f64ff36fe7298eb113cbcee59
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 11265
+  sha256: 4d4e23994476a5dffaf26fcfb4b9dad505d7cc48062aa5394b7a19742e80afa3
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry dumbbell-plot; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.

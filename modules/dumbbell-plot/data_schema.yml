@@ -1,0 +1,7 @@
+format: csv
+columns:
+  - School
+  - Women
+  - Men
+  - Gap
+note: Example or synthetic input used to demonstrate the plotting layer.
