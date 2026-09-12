@@ -313,6 +313,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 554503,
+      "file": "archives/manhattan-plot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "manhattan-plot",
+      "sha256": "a6a25ece1da95658af084ef11f1fbcafa472e840e402246d70068fdd31d62f6c",
+      "sourceCommit": "73676c8faee220953d45e9ca3e9d4f4b109926e5"
+    },
+    {
       "bytes": 866414,
       "file": "archives/nature-2022-fig2a-gcc-overview.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-12T05:08:58.992Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
