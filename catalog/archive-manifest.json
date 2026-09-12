@@ -910,6 +910,23 @@
       "sourceCommit": "d6c782147a3ccfc86125dd950a21004252bacd53"
     },
     {
+      "bytes": 263859,
+      "file": "archives/scatter-contour.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "scatter-contour",
+      "sha256": "667917699991b1ecf3b0c8fdf956cc18478b8349733a6335f9d4daed1b433a7b",
+      "sourceCommit": "05aab1186ea5d0c3a9a5d134d7f6b74570dd2c31"
+    },
+    {
       "bytes": 723800,
       "file": "archives/science-mantel-corrplot.zip",
       "files": [
