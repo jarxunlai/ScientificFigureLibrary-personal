@@ -18,6 +18,23 @@
       "sourceCommit": "c40c3c71a0038f2c92261d56a13797768190bd99"
     },
     {
+      "bytes": 73850,
+      "file": "archives/bar-jitter-errorbar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "bar-jitter-errorbar",
+      "sha256": "f1fe57f1f8c50b40e9efe46c89e1011f3dbe37bffdc93cbbb8dd8fdede67f9d0",
+      "sourceCommit": "8e7251504af94eca151a4c92d17bdbe706d3515d"
+    },
+    {
       "bytes": 293426,
       "file": "archives/cancercell-pathway-nes-heatmap.zip",
       "files": [
