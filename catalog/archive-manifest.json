@@ -908,6 +908,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 93194,
+      "file": "archives/nine-quadrant-scatter.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "nine-quadrant-scatter",
+      "sha256": "cf73fed92219a8ed233dbcaa09d79aaf3598a94aab275f812bfff3479a1a632d",
+      "sourceCommit": "3fa92e9ef255d6739f713804be1ba94d206341cd"
+    },
+    {
       "bytes": 893682,
       "file": "archives/open-radial-multitrack-annotation.zip",
       "files": [
