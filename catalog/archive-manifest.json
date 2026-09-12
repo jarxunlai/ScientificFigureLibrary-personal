@@ -1944,6 +1944,23 @@
       "sourceCommit": "540fee347217a5bdf2bf2fa4fba737a06b341d29"
     },
     {
+      "bytes": 79668,
+      "file": "archives/three-line-table.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "three-line-table",
+      "sha256": "faa92d0b4ce98c36fdf4b61efb517cf164dc6cf3ae3f0b8f1834b6d038e178a7",
+      "sourceCommit": "002fb10fdfb23e87385edd5809115f4c128a9ce8"
+    },
+    {
       "bytes": 74291,
       "file": "archives/tile-heatmap.zip",
       "files": [
