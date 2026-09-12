@@ -1,0 +1,12 @@
+format: csv
+columns:
+  - '""'
+  - '"row"'
+  - '"baseMean"'
+  - '"log2FoldChange"'
+  - '"lfcSE"'
+  - '"stat"'
+  - '"pvalue"'
+  - '"padj"'
+  - '"regulate"'
+note: Example or synthetic input used to demonstrate the plotting layer.
