@@ -1822,6 +1822,24 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 202187,
+      "file": "archives/shaped-scatter.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/total_w_unc.xlsx",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "shaped-scatter",
+      "sha256": "2ead6d24c843fc9324578eadb3e4077fe1517fa618740119d3530b8aee6b64df",
+      "sourceCommit": "e5d104fc475a36062aeb9ff56d7612a195171d98"
+    },
+    {
       "bytes": 349971,
       "file": "archives/single-cell-enrichment-bar-pathway-genes.zip",
       "files": [
