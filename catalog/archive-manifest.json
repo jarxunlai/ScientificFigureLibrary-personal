@@ -508,6 +508,25 @@
       "sourceCommit": "c3e36a3f7c1af384660eb374f664a3338b308cfe"
     },
     {
+      "bytes": 229973,
+      "file": "archives/custom-sankey.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "custom-sankey",
+      "sha256": "2f16d631351882ce6408e83b184c005f1df88a2abf5bf7f3d0b9d4aaa36cc0c6",
+      "sourceCommit": "19eec0fee58a9ec35c2a80c30700b3bab6a4ca30"
+    },
+    {
       "bytes": 579598,
       "file": "archives/deg-heatmap-go-panel.zip",
       "files": [
