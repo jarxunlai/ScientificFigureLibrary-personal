@@ -268,6 +268,25 @@
       "sourceCommit": "c16a67a9314ae856d777ed7c955c46024b9db89e"
     },
     {
+      "bytes": 2204458,
+      "file": "archives/circular-interaction-network.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/input.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "circular-interaction-network",
+      "sha256": "ddfd9b76ee2c40268ecddb3e9d88b491e8de304402becb95f3dafbfe81d4f51f",
+      "sourceCommit": "f01061ae2e3a7ac51c74638aa0660e6bb254d54d"
+    },
+    {
       "bytes": 313347,
       "file": "archives/class-log2fc-bubbles.zip",
       "files": [
