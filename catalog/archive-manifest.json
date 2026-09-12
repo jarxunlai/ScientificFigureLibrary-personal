@@ -530,6 +530,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 72960,
+      "file": "archives/gradient-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "gradient-bar",
+      "sha256": "fba707c222f42cdd39472f820e3812f255840065ce0f31556624bffbb5b56752",
+      "sourceCommit": "d8aa405def82bc740e0811e184b52d8fa06fd3c2"
+    },
+    {
       "bytes": 274242,
       "file": "archives/hallmark-gsea-nes-ranked-scatter.zip",
       "files": [
