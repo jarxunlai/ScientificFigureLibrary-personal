@@ -1,0 +1,6 @@
+format: csv
+columns:
+  - hNeu_01_MMP8
+  - c1
+  - "0.89"
+note: Example or synthetic input used to demonstrate the plotting layer.
