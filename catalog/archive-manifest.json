@@ -20,6 +20,25 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 682911,
+      "file": "archives/categorical-circular-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/input.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "categorical-circular-heatmap",
+      "sha256": "ea0fa0cab880f2c96eb4678d4bf91306b875af153fc01b69b797d6dbc84fe2e3",
+      "sourceCommit": "37c193aecd2e2d4a6e19916412756046d7f42336"
+    },
+    {
       "bytes": 473878,
       "file": "archives/cell-fig2h-volcano-go-combo.zip",
       "files": [
@@ -891,7 +910,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-12T02:08:47.193Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
