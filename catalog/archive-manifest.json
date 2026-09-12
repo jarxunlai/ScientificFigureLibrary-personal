@@ -549,6 +549,23 @@
       "sourceCommit": "4a5cc76ba88a47c7c36488928a28242283b95720"
     },
     {
+      "bytes": 47171,
+      "file": "archives/facet-bidirectional-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "facet-bidirectional-bar",
+      "sha256": "fe8f5d2d9497d3af1ea31aaa5beadd6980d8fa944fdb6d4cf45e4a89c0a6b64f",
+      "sourceCommit": "34e0718f62ce2638cd603ac8823a4ee65a9e8641"
+    },
+    {
       "bytes": 215257,
       "file": "archives/forest-effect-dotplot.zip",
       "files": [
