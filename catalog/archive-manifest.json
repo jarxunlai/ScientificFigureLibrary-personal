@@ -102,6 +102,25 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 215257,
+      "file": "archives/forest-effect-dotplot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/rownames.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "forest-effect-dotplot",
+      "sha256": "7fd7b4fc5866845e1c6263e07a1905f17ce303c0864f06c5bfbb63cc3b607606",
+      "sourceCommit": "c60e026b1774bfece059ca275f739d522e870d11"
+    },
+    {
       "bytes": 189087,
       "file": "archives/gantt-survival-bars.zip",
       "files": [
