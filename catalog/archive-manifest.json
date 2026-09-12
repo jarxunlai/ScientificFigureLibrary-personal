@@ -178,6 +178,23 @@
       "sourceCommit": "21935487292c29d2ed9f1e857a1f29c33ae31d9e"
     },
     {
+      "bytes": 59279,
+      "file": "archives/clustered-heatmap-annot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "clustered-heatmap-annot",
+      "sha256": "660137b93a3a683fa11e57e4633ca3856a95d0e83c5ffb202d8dab15071a0879",
+      "sourceCommit": "c42dfb086a86335b15c67cc76b89c04c1683235f"
+    },
+    {
       "bytes": 543955,
       "file": "archives/clustergvis-deg-go-kegg-combo.zip",
       "files": [
