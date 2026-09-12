@@ -86,6 +86,23 @@
       "sourceCommit": "8f698ed9ac2857772178d398d38ad287b011e5c7"
     },
     {
+      "bytes": 285528,
+      "file": "archives/batch-volcano.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "batch-volcano",
+      "sha256": "c13796bbdfebb34cbea7197c8f113310115b63e205e7c6c9a8111dc2477b0075",
+      "sourceCommit": "e960366f834198f9565ebc06a7ed77e5da59d3b6"
+    },
+    {
       "bytes": 54996,
       "file": "archives/bidirectional-bar.zip",
       "files": [
