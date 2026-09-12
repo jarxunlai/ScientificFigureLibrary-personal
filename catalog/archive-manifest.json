@@ -452,6 +452,25 @@
       "sourceCommit": "5b3501b96a6c14099e734180f4ecdafc8ece0438"
     },
     {
+      "bytes": 1082019,
+      "file": "archives/complex-network.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/input.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "complex-network",
+      "sha256": "f9d5b34d794db123ecec6b1a06ccd872fb97fdd2a0a2666b2b71fbe56d43a4e1",
+      "sourceCommit": "77ea9a4d2fb31f68a1130cbade79d3520dcaf0e4"
+    },
+    {
       "bytes": 56131,
       "file": "archives/complex-percent-bar.zip",
       "files": [

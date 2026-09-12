@@ -1,0 +1,79 @@
+schema: figure-library.personal-module.v1
+moduleId: complex-network
+title: 复杂网络图
+titleEn: complex network
+description: 用上中下三层节点表示暴露、代谢物与结局之间的关系，便于查看共享连接。
+application: |-
+  - 可用于用上中下三层节点表示暴露、代谢物与结局之间的关系，便于查看共享连接，但需要先确认自己的数据结构和统计量定义与该编码一致。
+  - 当前展示的是授权示例或包内数据；套用于新的研究时须核对输入含义、缺失处理及上游统计。
+scientificQuestion: 用上中下三层节点表示暴露、代谢物与结局之间的关系，便于查看共享连接。
+dataProfile: 120 条关系、4 列；按实际唯一节点数定位，避免重复实体使索引错位。
+plotFamily: network
+language: R
+tags:
+  - R
+  - ggplot2
+  - network
+  - personal-gallery
+packages:
+  - dplyr
+  - forcats
+  - ggplot2
+  - readr
+  - readxl
+  - stringr
+  - tibble
+  - tidyr
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/input.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/input.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/input.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 1076961
+  sha256: b06c9e2169fddb76ea8af1a6a67f111f196c01f8497eb6769d0e49452d955b49
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 9936
+  sha256: 4817a73cffbcced33de6ad66ba400c4e7f4dba5ae0c7927b700c6be095243fbb
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry complex-network; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
