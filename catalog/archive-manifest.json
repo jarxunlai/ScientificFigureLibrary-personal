@@ -1944,6 +1944,23 @@
       "sourceCommit": "540fee347217a5bdf2bf2fa4fba737a06b341d29"
     },
     {
+      "bytes": 74291,
+      "file": "archives/tile-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "tile-heatmap",
+      "sha256": "dfcae4770fc2fcfe8703bf2280a91fa5e87436e19184580b6de0ea66b2b97fb4",
+      "sourceCommit": "fb707fb6590e85c80ffd4c2a2dba8ee8a0aa3371"
+    },
+    {
       "bytes": 2768711,
       "file": "archives/umap-style-density-heatmap.zip",
       "files": [
