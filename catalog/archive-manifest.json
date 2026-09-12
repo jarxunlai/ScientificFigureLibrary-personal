@@ -884,6 +884,25 @@
       "sourceCommit": "d8aa405def82bc740e0811e184b52d8fa06fd3c2"
     },
     {
+      "bytes": 381325,
+      "file": "archives/gradient-volcano.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data02.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "gradient-volcano",
+      "sha256": "8a6ee38443790cccf9e4c5ca0e729dac650bf68d98d8df56da85e510993742ce",
+      "sourceCommit": "6b35c0c3d77a4070353dd7b50d262caa2613f0b0"
+    },
+    {
       "bytes": 103826,
       "file": "archives/grouped-dumbbell.zip",
       "files": [
