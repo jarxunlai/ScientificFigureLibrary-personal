@@ -1,0 +1,75 @@
+schema: figure-library.personal-module.v1
+moduleId: heatmap-local-zoom
+title: 热图局部放大
+titleEn: heatmap local zoom
+description: 在同一静态画布并排展示全矩阵与指定样本区域，便于核对局部模式。
+application: |-
+  - 可用于在同一静态画布并排展示全矩阵与指定样本区域，便于核对局部模式，但需要先确认自己的数据结构和统计量定义与该编码一致。
+  - 当前图仅是模拟示例，用于检查布局；正式分析必须替换为经过审核的数据和结果。
+scientificQuestion: 在同一静态画布并排展示全矩阵与指定样本区域，便于核对局部模式。
+dataProfile: 独立模拟的 26 个基因 × 172 个样本突变矩阵；放大前 20 个样本。
+plotFamily: heatmap
+language: R
+tags:
+  - ComplexHeatmap
+  - R
+  - heatmap
+  - personal-gallery
+  - synthetic-example
+packages:
+  - ComplexHeatmap
+  - dplyr
+  - forcats
+  - ggplot2
+  - readr
+  - stringr
+  - tibble
+  - tidyr
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 226971
+  sha256: 8bfd4e43a24ca3a2f74ef1cd1b8f0f897849b87eb44e1f4124e8f7c51faf628d
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 28483
+  sha256: 1b9197ca2db4deba60dee4fdcd20667196ed9a653ba8005bf67155863a684429
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry heatmap-local-zoom; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
