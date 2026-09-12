@@ -83,6 +83,25 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 92052,
+      "file": "archives/facet-forest.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "facet-forest",
+      "sha256": "7db2c4630a483a3709c9383feacdb87563277aca1a403e39b84789141a6b2459",
+      "sourceCommit": "1997f43284aea274f90f51daf08a8ed4830c2219"
+    },
+    {
       "bytes": 603884,
       "file": "archives/ggsankeyfier-layout-color-combo.zip",
       "files": [
@@ -891,7 +910,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-12T02:44:19.714Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
