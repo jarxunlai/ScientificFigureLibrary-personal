@@ -218,6 +218,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 103826,
+      "file": "archives/grouped-dumbbell.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "grouped-dumbbell",
+      "sha256": "37075483af39d3a3440013355e60d6bf38be2ec8be88b975e98447be75330d40",
+      "sourceCommit": "e3390eb0bffc9d0cfa0fefac189e9f49c2928414"
+    },
+    {
       "bytes": 274242,
       "file": "archives/hallmark-gsea-nes-ranked-scatter.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-12T02:24:16.308Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
