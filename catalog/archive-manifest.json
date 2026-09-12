@@ -683,6 +683,23 @@
       "sourceCommit": "7fa4e210e3283efea0250e73b43e139c941b478b"
     },
     {
+      "bytes": 1183937,
+      "file": "archives/ggtree-ch10-cauris-resistance.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "ggtree-ch10-cauris-resistance",
+      "sha256": "c534513100408e95b168fd39dde45f44e3796348373c8c27fd8ba30113de74c8",
+      "sourceCommit": "4a33c2e8058fa238167ded8d98e9152c423e516d"
+    },
+    {
       "bytes": 313319,
       "file": "archives/ggtree-ch13-bootstrap-points.zip",
       "files": [
