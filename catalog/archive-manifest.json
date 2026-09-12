@@ -977,6 +977,23 @@
       "sourceCommit": "54d0ba250d38df6a60457c862c9a8eb3ffa4b00f"
     },
     {
+      "bytes": 70948,
+      "file": "archives/raincloud-plot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "raincloud-plot",
+      "sha256": "0cc63e4a7ea03d8ccc17a67effe64c5df6787bd14171b55d29a8505338e190f7",
+      "sourceCommit": "35e45ded294a9ad24e8179d960093d0e99aa5a3b"
+    },
+    {
       "bytes": 185312,
       "file": "archives/sc-celltype-grouped-dodge-count.zip",
       "files": [
