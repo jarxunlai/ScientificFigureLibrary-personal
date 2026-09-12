@@ -753,6 +753,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 91850,
+      "file": "archives/scatter-bidirectional-errorbars.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "scatter-bidirectional-errorbars",
+      "sha256": "630228f980d248a71b803a86802c35c9b800b2c2c0061ee968f3b4e1233ef520",
+      "sourceCommit": "d6c782147a3ccfc86125dd950a21004252bacd53"
+    },
+    {
       "bytes": 723800,
       "file": "archives/science-mantel-corrplot.zip",
       "files": [
