@@ -1,0 +1,74 @@
+schema: figure-library.personal-module.v1
+moduleId: overlap-histogram
+title: 分组重叠直方图
+titleEn: overlap histogram
+description: 展示两组模拟连续变量的重叠频数直方图。横轴为模拟数值，纵轴为每个区间的计数；橙色为 Case，蓝色为 Control。
+application: |-
+  展示分组重叠直方图。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 分组分布如何重叠读出？
+dataProfile: 脚本内生成两组各 1000 个正态随机数，不是真实表达数据。
+plotFamily: histogram
+language: R
+tags:
+  - R
+  - ggplot2
+  - histogram
+  - personal-gallery
+packages:
+  - dplyr
+  - ggplot2
+  - ragg
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 56171
+  sha256: 286f2a75ee675a1bf04f23117c2f64ab6f62355b67053e4b0d5cbecf0fcd6333
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 17744
+  sha256: bba7fa95f5e16fc8ce79013e13856c977c0bd730339797b985570e74a44ebe10
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry overlap-histogram; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: authorized_adaptation
+    note: Adapted implementation redistributed with contributor authorization. This is not a claim of original authorship.
+      Only the declared public files are included.
