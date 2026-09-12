@@ -739,6 +739,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 52891,
+      "file": "archives/styled-boxplot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "styled-boxplot",
+      "sha256": "2a896b8090a4215e6079ec22eaf0a8aaf88b160245bee0a777927da45c7e2d36",
+      "sourceCommit": "540fee347217a5bdf2bf2fa4fba737a06b341d29"
+    },
+    {
       "bytes": 2768711,
       "file": "archives/umap-style-density-heatmap.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-12T05:17:40.344Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
