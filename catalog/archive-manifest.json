@@ -1157,6 +1157,23 @@
       "sourceCommit": "2c59ef3cad9d44ed9371a0257ab6f8d250095df2"
     },
     {
+      "bytes": 554503,
+      "file": "archives/manhattan-plot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "manhattan-plot",
+      "sha256": "a6a25ece1da95658af084ef11f1fbcafa472e840e402246d70068fdd31d62f6c",
+      "sourceCommit": "73676c8faee220953d45e9ca3e9d4f4b109926e5"
+    },
+    {
       "bytes": 866414,
       "file": "archives/nature-2022-fig2a-gcc-overview.zip",
       "files": [
