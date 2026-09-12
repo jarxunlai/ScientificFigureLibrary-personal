@@ -568,6 +568,24 @@
       "sourceCommit": "4a5cc76ba88a47c7c36488928a28242283b95720"
     },
     {
+      "bytes": 369610,
+      "file": "archives/enrichment-circle.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/GO_enrichment_stat.txt",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "enrichment-circle",
+      "sha256": "33936b324f8c1959f5ec78f75102516c2d8cb288fd0aa010702837fe97454cc1",
+      "sourceCommit": "533ccd6bbbc7892a71702cae8793cab7520296d4"
+    },
+    {
       "bytes": 47171,
       "file": "archives/facet-bidirectional-bar.zip",
       "files": [
