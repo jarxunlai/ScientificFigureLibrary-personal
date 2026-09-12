@@ -1876,6 +1876,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 117329,
+      "file": "archives/stacked-bar-line-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "stacked-bar-line-heatmap",
+      "sha256": "7fe74d961d007159757f1157abde6f0ac8ff4c5adee9dc7b5d56d57fe509c4bf",
+      "sourceCommit": "06f7ef35c7ca1fdb5680ded389fe8a9281594b63"
+    },
+    {
       "bytes": 92810,
       "file": "archives/stacked-percent-bar.zip",
       "files": [
