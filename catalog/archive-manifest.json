@@ -1026,6 +1026,25 @@
       "sourceCommit": "57779bac576ac457c3bb9e6c05aed227c86c57be"
     },
     {
+      "bytes": 757130,
+      "file": "archives/hierarchical-sunburst-tree.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/旭日图.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "hierarchical-sunburst-tree",
+      "sha256": "62690cae03b4585ef23270cddc474b1cd6b53729f75099ca1d9f56b3c6f0f4b6",
+      "sourceCommit": "9f5a02c0f7d6d3b53faf2c68b148d78f50b8aae2"
+    },
+    {
       "bytes": 1348439,
       "file": "archives/hlca-scib-integration-benchmark-matrix.zip",
       "files": [

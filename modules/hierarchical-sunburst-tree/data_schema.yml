@@ -1,0 +1,8 @@
+format: csv
+columns:
+  - Season
+  - Month
+  - Week
+  - Value
+  - label
+note: Example or synthetic input used to demonstrate the plotting layer.
