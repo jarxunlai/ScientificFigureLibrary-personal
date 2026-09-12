@@ -154,6 +154,25 @@
       "sourceCommit": "260ffb3bcf61701f6895f2737a7f6966f3874a9f"
     },
     {
+      "bytes": 181012,
+      "file": "archives/bubble-corr-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/exprSet.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "bubble-corr-heatmap",
+      "sha256": "10f5903d78622eed4c6bf9ba98ad37912738de04f8c8a1aca6b0a830c2f5e6e7",
+      "sourceCommit": "364e69a22a2da0dc517a336c95446459385be061"
+    },
+    {
       "bytes": 424716,
       "file": "archives/bubble-volcano.zip",
       "files": [
