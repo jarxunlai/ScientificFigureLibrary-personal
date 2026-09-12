@@ -1064,6 +1064,25 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 213473,
+      "file": "archives/kegg-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "kegg-bar",
+      "sha256": "0bfb8c5c81e06247ffb8b448bd9d6c8b3524fa53d0bbc67718edd71bb24e83af",
+      "sourceCommit": "0d1478300df863072619a8680574b5bafe877fcb"
+    },
+    {
       "bytes": 212138,
       "file": "archives/kegg-variant-blue-inside-label.zip",
       "files": [
