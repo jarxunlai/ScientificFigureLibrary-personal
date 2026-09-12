@@ -116,4 +116,8 @@ stopifnot(all(file.info(c(png_path, pdf_path))$size > 0))
 packages <- c("ggtreeExtra", "ggtree", "phyloseq", "dplyr", "ggplot2", "ragg")
 # 文件生成不等于视觉核验通过；必须检查标签、配色、图例和树-箱线图对齐。
 
-stopifnot(file.copy(png_path,file.path(root,"preview.png"),overwrite=FALSE))
+# 已打包的目录自带 preview.png；保留它，并将本次重绘结果写入 output。
+preview_path <- file.path(root, "preview.png")
+if (!file.exists(preview_path)) {
+  stopifnot(file.copy(png_path, preview_path, overwrite=FALSE))
+}
