@@ -1,0 +1,76 @@
+schema: figure-library.personal-module.v1
+moduleId: batch-volcano
+title: 批量火山图
+titleEn: batch volcano
+description: 用统一的火山图编码横向比较五组效应方向、大小及显著性分布。
+application: |-
+  - 可用于用统一的火山图编码横向比较五组效应方向、大小及显著性分布，但需要先确认自己的数据结构和统计量定义与该编码一致。
+  - 当前图仅是模拟示例，用于检查布局；正式分析必须替换为经过审核的数据和结果。
+scientificQuestion: 用统一的火山图编码横向比较五组效应方向、大小及显著性分布。
+dataProfile: 五个模拟比较，每组 200 个观测，含比较组、效应及模拟 FDR。
+plotFamily: volcano
+language: R
+tags:
+  - R
+  - ggplot2
+  - personal-gallery
+  - synthetic-example
+  - volcano
+packages:
+  - cowplot
+  - dplyr
+  - forcats
+  - ggplot2
+  - readr
+  - readxl
+  - stringr
+  - tibble
+  - tidyr
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 274630
+  sha256: de92bc19371a46acb8eb2bdff302aedf8d03cb011cdae17fd945ac75b2a5654a
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 11347
+  sha256: b1f71a9eb716d8e77e3f164f6955d2fc01d06629dba88e026f32909f744b5f05
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry batch-volcano; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
