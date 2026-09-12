@@ -971,6 +971,23 @@
       "sourceCommit": "17c15eb65ed1629a4a36626cf1b5d1030cb54d67"
     },
     {
+      "bytes": 246124,
+      "file": "archives/heatmap-local-zoom.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "heatmap-local-zoom",
+      "sha256": "73ab326440e728507e90157489b5fb4846816094f7218057bf96621bb821b23e",
+      "sourceCommit": "57779bac576ac457c3bb9e6c05aed227c86c57be"
+    },
+    {
       "bytes": 1348439,
       "file": "archives/hlca-scib-integration-benchmark-matrix.zip",
       "files": [
