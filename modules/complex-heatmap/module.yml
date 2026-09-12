@@ -1,0 +1,76 @@
+schema: figure-library.personal-module.v1
+moduleId: complex-heatmap
+title: 复杂热图
+titleEn: complex heatmap
+description: 复杂热图。preview 由 organized.R 渲染。
+application: |-
+  展示矩阵模式与分组注释。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 矩阵中的模式如何读出？
+dataProfile: 示例示例 data/rownames.txt。
+plotFamily: heatmap
+language: R
+tags:
+  - ComplexHeatmap
+  - R
+  - heatmap
+  - personal-gallery
+packages:
+  - ComplexHeatmap
+  - circlize
+  - dplyr
+  - ggplot2
+  - patchwork
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/rownames.txt
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/rownames.txt
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/rownames.txt
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 222346
+  sha256: ee7668347b8a694fec9688c8b7ad3f697bcf92110473cfb914ec8dd5bbe9be91
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 36639
+  sha256: 6499e551c3e61f8c5a4f3129d14811d3478b93248eb2be1ac445305d1fa7ebac
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry complex-heatmap; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.

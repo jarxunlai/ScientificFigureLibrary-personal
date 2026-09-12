@@ -1,0 +1,78 @@
+schema: figure-library.personal-module.v1
+moduleId: forest-effect-dotplot
+title: 增温效应森林点距图
+titleEn: forest effect dotplot
+description: 按微生物类群展示增温效应大小、区间和显著性。效应值由脚本随机生成。
+application: |-
+  -已有各类群效应估计和区间时，用翻转点距图比较正负效应。
+  -不适合真正的 meta-analysis 森林图。
+scientificQuestion: 不同微生物类群对增温的效应是正还是负？
+dataProfile: rownames.csv 提供 28 个类群名。
+plotFamily: forest
+language: R
+tags:
+  - R
+  - effect-size
+  - forest
+  - ggplot2
+  - microbiome
+  - warming
+packages:
+  - ggplot2
+  - ragg
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/rownames.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/rownames.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/rownames.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 202829
+  sha256: b3121443d9e86d51272002eaa74027e3dd1a901bd1b22c9216fe0bba09b5426c
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 27340
+  sha256: 6675c5066e2bc04a07629693c352c546d11126c0596bcaa5799707d3de4369a0
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: example_data
+  evidence:
+    - README.md
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry forest-effect-dotplot; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: authorized_adaptation
+    note: Adapted implementation redistributed with contributor authorization. This is not a claim of original authorship.
+      Only the declared public files are included.

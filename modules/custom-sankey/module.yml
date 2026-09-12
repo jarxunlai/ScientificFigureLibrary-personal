@@ -1,0 +1,76 @@
+schema: figure-library.personal-module.v1
+moduleId: custom-sankey
+title: 个性化桑基图
+titleEn: custom sankey
+description: 个性化桑基图。preview 由 organized.R 渲染。当前 ggforce 无 geom_sigmoid，整理版用 geom_curve。
+application: |-
+  展示流向关系。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 流向如何读出？
+dataProfile: 示例示例 CSV。
+plotFamily: sankey
+language: R
+tags:
+  - R
+  - ggplot2
+  - personal-gallery
+  - sankey
+packages:
+  - RColorBrewer
+  - dplyr
+  - ggplot2
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/data.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/data.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/data.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 207625
+  sha256: 0d2f0aa31672c8604867f26ef6529e521324fbc4a3d42d7f50fe91266121140c
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 24449
+  sha256: a5dc18806fd0fdb3e616d62eca7b3471868d546193f33b6dc2befe5910f4d21d
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry custom-sankey; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.

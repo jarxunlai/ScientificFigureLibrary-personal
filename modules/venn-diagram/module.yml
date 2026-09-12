@@ -1,0 +1,72 @@
+schema: figure-library.personal-module.v1
+moduleId: venn-diagram
+title: Venn图
+titleEn: venn diagram
+description: 用重叠椭圆比较 3–5 个名单的交集与差集。适合已经整理好的基因、突变或样本 ID 列表，想一眼看到独有与共有规模时使用。图上数字是集合计数，不是统计检验。本条目 preview 由 organized.R
+  渲染，例子为 sample() 模拟词表，不是论文结果。
+application: |-
+  - **差异基因名单对照。** 处理 vs 对照、两种算法或两个时间点各自得到一组基因后，看三组重叠核心与各组独有基因规模。
+  - **突变 / 通路命中。** 比较多个队列或注释来源命中同一基因集的程度；四、五集合图用于更多名单，但交叉区会变挤。
+  - **方法一致性。** 同一分析换阈值或软件后，重叠比例可提示结果稳不稳；本模板用模拟词表，只提供画法。
+scientificQuestion: 几组基因或突变名单的独有与共有规模是多少？
+dataProfile: 无外部表。脚本内 sample() 生成 5 个长度 200 的 word_<1-1000> 字符串集合。
+plotFamily: venn
+language: R
+tags:
+  - R
+  - VennDiagram
+  - gene list
+  - set overlap
+  - venn
+packages:
+  - RColorBrewer
+  - VennDiagram
+  - grid
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 18399
+  sha256: aee730d3993167a19d3c153333425fb9335040786a61cfd5e74bfc523f84124e
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 8120
+  sha256: 565ad236dd18e4f99d8a21e59ad7b44006f3972cb0d8382f441fc778da74d004
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry venn-diagram; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.

@@ -1,0 +1,72 @@
+schema: figure-library.personal-module.v1
+moduleId: interaction-network
+title: 相互作用网络图
+titleEn: interaction network
+description: 把成对关系画成节点和边：先用 igraph 看静态布局和外观，再用 networkD3 做可拖拽的 HTML。preview 为 mtcars 高相关网络。
+application: |-
+  用 igraph 画静态互作网络，并用 networkD3 给出可缩放的交互式版本。
+
+  - 展示基因/蛋白或样本相关边，比较布局与节点着色。
+  - 作为该图类型的 R 代码与布局参考；确认前不作为论文结果。
+scientificQuestion: 互作网络布局与节点着色如何读出？
+dataProfile: 随机邻接矩阵与 mtcars 相关。
+plotFamily: network
+language: R
+tags:
+  - R
+  - igraph
+  - network
+  - personal-gallery
+packages:
+  - RColorBrewer
+  - htmlwidgets
+  - igraph
+  - networkD3
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 77625
+  sha256: 929f775822202df57d9b97feb4788ef21f6d7180dea6a74fb8ef425f6588dd8b
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 15249
+  sha256: 14a055fb8771b98fca64507d03614bbce017c8ec3400e2e8dea7c3a2b93faa67
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry interaction-network; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.

@@ -1,0 +1,72 @@
+schema: figure-library.personal-module.v1
+moduleId: manhattan-plot
+title: 曼哈顿图
+titleEn: manhattan plot
+description: 用 CMplot 画曼哈顿图与 QQ 图。canonical preview 由 organized.R 渲染的 Multi-tracks JPEG 转成真 PNG（上一版 preview.png 实际是 JPEG
+  字节，Local Published 无法显示）。示例用包内 pig60K，不是论文 GWAS 结果。
+application: |-
+  展示全基因组关联位点的染色体位置与显著性。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 显著位点如何沿染色体读出？
+dataProfile: CMplot::pig60K 示例 p 值表，无外部文件。
+plotFamily: manhattan
+language: R
+tags:
+  - CMplot
+  - R
+  - manhattan
+  - personal-gallery
+packages:
+  - CMplot
+  - dplyr
+  - ggplot2
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 528451
+  sha256: fcbb3ee16eb119d0827a556109e2df357a30ee8376b34b54dcf74f84aa3d0068
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 28486
+  sha256: 1f46e9ed1647f31ec9baabd1be065e1a9036e7ee7b40af1f9f5a33179ea3cc5f
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry manhattan-plot; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.

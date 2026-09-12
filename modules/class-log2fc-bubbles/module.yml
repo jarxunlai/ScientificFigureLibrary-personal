@@ -1,0 +1,75 @@
+schema: figure-library.personal-module.v1
+moduleId: class-log2fc-bubbles
+title: 类别Log2FC气泡图
+titleEn: class log2fc bubbles
+description: 按脂质类别展示 log2FC 与显著性。数据和 p 值由 runif 模拟。
+application: |-
+  -已有按脂质类别整理的 log2FC 与 p 值时，用横向气泡比较上调下调。
+  -不适合把每个分子单独做成火山图。
+scientificQuestion: 各脂质类别的 log2FC 是偏向负还是正？
+dataProfile: 脚本模拟长表 Class / Log2FC / Pvalue。
+plotFamily: bubble
+language: R
+tags:
+  - R
+  - bubble
+  - ggplot2
+  - lipid
+  - log2FC
+packages:
+  - ggplot2
+  - ragg
+  - tidyr
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/data.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/data.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/data.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 304517
+  sha256: 22ec2e4251b79475003983539e2eb98fdbb961f31106dc63d3824c418eef400d
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 15973
+  sha256: 5e2f0dbd24baea126e4303e51aebd037a7981a76e70d2e29c93467ddb0e58c0f
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry class-log2fc-bubbles; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: authorized_adaptation
+    note: Adapted implementation redistributed with contributor authorization. This is not a claim of original authorship.
+      Only the declared public files are included.

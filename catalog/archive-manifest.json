@@ -1,6 +1,215 @@
 {
   "entries": [
     {
+      "bytes": 56290,
+      "file": "archives/alluvial-plot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "alluvial-plot",
+      "sha256": "88f99c9cf88a59dbfc95bb7f8ac5dd186512835baebe68f6faa7795a2c8f536e",
+      "sourceCommit": "c40c3c71a0038f2c92261d56a13797768190bd99"
+    },
+    {
+      "bytes": 73850,
+      "file": "archives/bar-jitter-errorbar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "bar-jitter-errorbar",
+      "sha256": "f1fe57f1f8c50b40e9efe46c89e1011f3dbe37bffdc93cbbb8dd8fdede67f9d0",
+      "sourceCommit": "8e7251504af94eca151a4c92d17bdbe706d3515d"
+    },
+    {
+      "bytes": 101929,
+      "file": "archives/batch-boxplot-signif.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "batch-boxplot-signif",
+      "sha256": "c7cff958324568b4acb5a53fa9047f1b22a45503e40f23f789c674d5eee611a6",
+      "sourceCommit": "42eb4b07dfe40ea02cdb05f164a819a0ae9d6cc2"
+    },
+    {
+      "bytes": 151441,
+      "file": "archives/batch-scatter-fit.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "batch-scatter-fit",
+      "sha256": "a5c8fe3a89f917d68def651a4486cc95a07964cc2728eabd7b6d60bbdac66683",
+      "sourceCommit": "cc0de25b6ee7319fc7f4685c877bbb08626f66a3"
+    },
+    {
+      "bytes": 140913,
+      "file": "archives/batch-scatter-line.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "batch-scatter-line",
+      "sha256": "3b4088b935aea2cb61ec1d308498c3220937ec9a6a0a29f61773f05f9d8aa962",
+      "sourceCommit": "8f698ed9ac2857772178d398d38ad287b011e5c7"
+    },
+    {
+      "bytes": 285528,
+      "file": "archives/batch-volcano.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "batch-volcano",
+      "sha256": "c13796bbdfebb34cbea7197c8f113310115b63e205e7c6c9a8111dc2477b0075",
+      "sourceCommit": "e960366f834198f9565ebc06a7ed77e5da59d3b6"
+    },
+    {
+      "bytes": 54996,
+      "file": "archives/bidirectional-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "bidirectional-bar",
+      "sha256": "fad099c6e3690caf2ea29678268e157e8ec025db584cd464daa37fb0aef04ad6",
+      "sourceCommit": "ca8db9ab2bc29e467d1e67601b3242533cfcedca"
+    },
+    {
+      "bytes": 93884,
+      "file": "archives/boxplot-heatmap-annot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "boxplot-heatmap-annot",
+      "sha256": "77f8d56d75d089d7bc3c25ae749820d5f2d847bff83672102ac5c8c84005823c",
+      "sourceCommit": "78e81e3d1d2ad6e7f52c487e21ab653ed12e6c19"
+    },
+    {
+      "bytes": 228557,
+      "file": "archives/boxplot-jitter.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "boxplot-jitter",
+      "sha256": "61cdd200aea02bde95a557a6ed9dd5cc5e69a72f3e45026ec1ef5b78096ef9ca",
+      "sourceCommit": "2e2079b13266f3f46f26efe51ccca462a3f036fd"
+    },
+    {
+      "bytes": 104371,
+      "file": "archives/boxplot-paired-lines.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "boxplot-paired-lines",
+      "sha256": "7e29dd1de1e117651b5c1a8e34c9351d5e67936a677d6da920e3d03a819689af",
+      "sourceCommit": "260ffb3bcf61701f6895f2737a7f6966f3874a9f"
+    },
+    {
+      "bytes": 181012,
+      "file": "archives/bubble-corr-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/exprSet.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "bubble-corr-heatmap",
+      "sha256": "10f5903d78622eed4c6bf9ba98ad37912738de04f8c8a1aca6b0a830c2f5e6e7",
+      "sourceCommit": "364e69a22a2da0dc517a336c95446459385be061"
+    },
+    {
+      "bytes": 424716,
+      "file": "archives/bubble-volcano.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/DEG.csv",
+        "data/term_data.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "bubble-volcano",
+      "sha256": "638c4901bd2e7cb2082538befe1e08ddbf59a5d2d9732ae87943eb34e9602117",
+      "sourceCommit": "1f7a3d857126f57a286a6d697bd474971b80f981"
+    },
+    {
       "bytes": 293426,
       "file": "archives/cancercell-pathway-nes-heatmap.zip",
       "files": [
@@ -18,6 +227,25 @@
       "moduleId": "cancercell-pathway-nes-heatmap",
       "sha256": "c77c8c1b992b52faf6c36b47ddc45ba2455629094f2f671d4b916e34c322ff19",
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+    },
+    {
+      "bytes": 682911,
+      "file": "archives/categorical-circular-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/input.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "categorical-circular-heatmap",
+      "sha256": "ea0fa0cab880f2c96eb4678d4bf91306b875af153fc01b69b797d6dbc84fe2e3",
+      "sourceCommit": "37c193aecd2e2d4a6e19916412756046d7f42336"
     },
     {
       "bytes": 473878,
@@ -40,6 +268,133 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 162199,
+      "file": "archives/circular-grouped-line.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "circular-grouped-line",
+      "sha256": "ed29b70085016c66a92f7012d1c21baa46198ed532da9fedea1c4dc022f32cd2",
+      "sourceCommit": "c16a67a9314ae856d777ed7c955c46024b9db89e"
+    },
+    {
+      "bytes": 879977,
+      "file": "archives/circular-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/input.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "circular-heatmap",
+      "sha256": "33a96863371a28acd840ba4b6e75cb7f04161f37d113790191a7a981afe83c98",
+      "sourceCommit": "a6dff2f4b11c4227dce8cbbc8055e43784fbf303"
+    },
+    {
+      "bytes": 2204458,
+      "file": "archives/circular-interaction-network.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/input.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "circular-interaction-network",
+      "sha256": "ddfd9b76ee2c40268ecddb3e9d88b491e8de304402becb95f3dafbfe81d4f51f",
+      "sourceCommit": "f01061ae2e3a7ac51c74638aa0660e6bb254d54d"
+    },
+    {
+      "bytes": 684755,
+      "file": "archives/circular-scatter-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/input.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "circular-scatter-heatmap",
+      "sha256": "e686adc5927322d9aae03b2d867154f24fe66ec97a3dc01e2f54b58345f32df1",
+      "sourceCommit": "b7715f2910b7b362ee6ceaab56940d6c90cdf482"
+    },
+    {
+      "bytes": 313347,
+      "file": "archives/class-log2fc-bubbles.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "class-log2fc-bubbles",
+      "sha256": "5a928e25520b1d0098133161c7b9d364570f8b6e914d85c77b459041d3b39163",
+      "sourceCommit": "c66b47f24b35bb8558df726132faee48e8d5364d"
+    },
+    {
+      "bytes": 192611,
+      "file": "archives/cluster-dendrogram.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "cluster-dendrogram",
+      "sha256": "fa8528c0cc7e73f62afc8812cb570558270095c6667b88cdd59190197e88ce96",
+      "sourceCommit": "21935487292c29d2ed9f1e857a1f29c33ae31d9e"
+    },
+    {
+      "bytes": 59279,
+      "file": "archives/clustered-heatmap-annot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "clustered-heatmap-annot",
+      "sha256": "660137b93a3a683fa11e57e4633ca3856a95d0e83c5ffb202d8dab15071a0879",
+      "sourceCommit": "c42dfb086a86335b15c67cc76b89c04c1683235f"
+    },
+    {
       "bytes": 543955,
       "file": "archives/clustergvis-deg-go-kegg-combo.zip",
       "files": [
@@ -59,6 +414,135 @@
       "moduleId": "clustergvis-deg-go-kegg-combo",
       "sha256": "0727e202b251faad7c6858a1b1de2e018d58d827a40c04ebeabf63da1374f08e",
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+    },
+    {
+      "bytes": 143614,
+      "file": "archives/colocalization-matrix.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data.xlsx",
+        "data/group.csv",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "colocalization-matrix",
+      "sha256": "196173236db89961fe31179d935c4100b51af2df0508427fe3f33a23427b21bb",
+      "sourceCommit": "c2ecdac376afcd052cacde302c94e48df158dabf"
+    },
+    {
+      "bytes": 92016,
+      "file": "archives/complex-bubble.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "complex-bubble",
+      "sha256": "6657de9f76372664d5ded373a6d473f02bff7f061ddde3227505f0c03cb9351f",
+      "sourceCommit": "5b3501b96a6c14099e734180f4ecdafc8ece0438"
+    },
+    {
+      "bytes": 257260,
+      "file": "archives/complex-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/rownames.txt",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "complex-heatmap",
+      "sha256": "20b7400d237bc5d901476e46abfb2f10ce7b21640601ea93a0463b088b84d8c6",
+      "sourceCommit": "9ec656250fc971abe4662c8d999fcc44afb9a98e"
+    },
+    {
+      "bytes": 1082019,
+      "file": "archives/complex-network.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/input.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "complex-network",
+      "sha256": "f9d5b34d794db123ecec6b1a06ccd872fb97fdd2a0a2666b2b71fbe56d43a4e1",
+      "sourceCommit": "77ea9a4d2fb31f68a1130cbade79d3520dcaf0e4"
+    },
+    {
+      "bytes": 56131,
+      "file": "archives/complex-percent-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "complex-percent-bar",
+      "sha256": "bc0975f9850659ef2814e72a36ed492c4992e283876f15c1f93e5fd7fb26679c",
+      "sourceCommit": "12baa605eaca5ca5b2ab9c63bda4378afd5a5c71"
+    },
+    {
+      "bytes": 316978,
+      "file": "archives/complex-violin.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data1.csv",
+        "data/data2.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "complex-violin",
+      "sha256": "f21f88f9da4e8f2fd7a591470cda8406fc1b2aa9a4f945dfe15d6f782d8777f0",
+      "sourceCommit": "c3e36a3f7c1af384660eb374f664a3338b308cfe"
+    },
+    {
+      "bytes": 229973,
+      "file": "archives/custom-sankey.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "custom-sankey",
+      "sha256": "2f16d631351882ce6408e83b184c005f1df88a2abf5bf7f3d0b9d4aaa36cc0c6",
+      "sourceCommit": "19eec0fee58a9ec35c2a80c30700b3bab6a4ca30"
     },
     {
       "bytes": 579598,
@@ -83,6 +567,155 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 105444,
+      "file": "archives/dumbbell-plot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/school_earnings.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "dumbbell-plot",
+      "sha256": "efa82fec154fc70b8526da88e31a2dcf73be62afae80614f23d29a34c7f86acb",
+      "sourceCommit": "4a5cc76ba88a47c7c36488928a28242283b95720"
+    },
+    {
+      "bytes": 369610,
+      "file": "archives/enrichment-circle.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/GO_enrichment_stat.txt",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "enrichment-circle",
+      "sha256": "33936b324f8c1959f5ec78f75102516c2d8cb288fd0aa010702837fe97454cc1",
+      "sourceCommit": "533ccd6bbbc7892a71702cae8793cab7520296d4"
+    },
+    {
+      "bytes": 90654,
+      "file": "archives/expression-radar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/radar.eg.xlsx",
+        "data/radar_groups.eg.xlsx",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "expression-radar",
+      "sha256": "d0cf4772eaa17d4923524e487a258c353c8574a1f135163e25a7c327660fc494",
+      "sourceCommit": "53b1423e0ad01bf0b39c6ce517139756f92fabcb"
+    },
+    {
+      "bytes": 47171,
+      "file": "archives/facet-bidirectional-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "facet-bidirectional-bar",
+      "sha256": "fe8f5d2d9497d3af1ea31aaa5beadd6980d8fa944fdb6d4cf45e4a89c0a6b64f",
+      "sourceCommit": "34e0718f62ce2638cd603ac8823a4ee65a9e8641"
+    },
+    {
+      "bytes": 92052,
+      "file": "archives/facet-forest.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "facet-forest",
+      "sha256": "7db2c4630a483a3709c9383feacdb87563277aca1a403e39b84789141a6b2459",
+      "sourceCommit": "1997f43284aea274f90f51daf08a8ed4830c2219"
+    },
+    {
+      "bytes": 215257,
+      "file": "archives/forest-effect-dotplot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/rownames.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "forest-effect-dotplot",
+      "sha256": "7fd7b4fc5866845e1c6263e07a1905f17ce303c0864f06c5bfbb63cc3b607606",
+      "sourceCommit": "c60e026b1774bfece059ca275f739d522e870d11"
+    },
+    {
+      "bytes": 186502,
+      "file": "archives/fusion-heatmap-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/input.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "fusion-heatmap-bar",
+      "sha256": "c035feb11a2b389bd8d9d5c5653ba61c3db3b6ce779c7fa2e87dbfa7992aa884",
+      "sourceCommit": "1cd0d48a0c8b7ed3ef9e7d9319a85e89556c62d8"
+    },
+    {
+      "bytes": 189087,
+      "file": "archives/gantt-survival-bars.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/test_data.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "gantt-survival-bars",
+      "sha256": "477fbcd422c07be4f059f09cdf029dfc4f108f4308e40e02f5992155cd86b6cb",
+      "sourceCommit": "b144a79faba6edec85d4fd8db58b566f09cb9c21"
+    },
+    {
       "bytes": 603884,
       "file": "archives/ggsankeyfier-layout-color-combo.zip",
       "files": [
@@ -104,6 +737,40 @@
       "moduleId": "ggsankeyfier-layout-color-combo",
       "sha256": "4e72d136b0d4d603fa0973ce217d6b3a36749eda02a8ec1521874008f295bd59",
       "sourceCommit": "7fa4e210e3283efea0250e73b43e139c941b478b"
+    },
+    {
+      "bytes": 548672,
+      "file": "archives/ggtree-ch10-abundance-boxplot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "ggtree-ch10-abundance-boxplot",
+      "sha256": "e1018dc3d18e3f9c77185f9026feb8da145b4f8f3c4ae2f160924d6a7fa38f18",
+      "sourceCommit": "8760a8e0d27caf3b7d29c94f7a491a4ab4bf59e6"
+    },
+    {
+      "bytes": 1183937,
+      "file": "archives/ggtree-ch10-cauris-resistance.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "ggtree-ch10-cauris-resistance",
+      "sha256": "c534513100408e95b168fd39dde45f44e3796348373c8c27fd8ba30113de74c8",
+      "sourceCommit": "4a33c2e8058fa238167ded8d98e9152c423e516d"
     },
     {
       "bytes": 313319,
@@ -180,6 +847,23 @@
       "sourceCommit": "649961e6cbd66bec676530e6ac927e539208ed73"
     },
     {
+      "bytes": 227871,
+      "file": "archives/go-bubble-advanced.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "go-bubble-advanced",
+      "sha256": "dc8ef7e7453f3dd135503085d26d7dfcc187f5aa9d7aaab6b04551a38b330668",
+      "sourceCommit": "d06ef2146736fcb5cc200f6e37614c4d5a8ed4c9"
+    },
+    {
       "bytes": 959042,
       "file": "archives/go-enrichment-comet-combined.zip",
       "files": [
@@ -218,6 +902,112 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 72960,
+      "file": "archives/gradient-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "gradient-bar",
+      "sha256": "fba707c222f42cdd39472f820e3812f255840065ce0f31556624bffbb5b56752",
+      "sourceCommit": "d8aa405def82bc740e0811e184b52d8fa06fd3c2"
+    },
+    {
+      "bytes": 381325,
+      "file": "archives/gradient-volcano.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data02.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "gradient-volcano",
+      "sha256": "8a6ee38443790cccf9e4c5ca0e729dac650bf68d98d8df56da85e510993742ce",
+      "sourceCommit": "6b35c0c3d77a4070353dd7b50d262caa2613f0b0"
+    },
+    {
+      "bytes": 103826,
+      "file": "archives/grouped-dumbbell.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "grouped-dumbbell",
+      "sha256": "37075483af39d3a3440013355e60d6bf38be2ec8be88b975e98447be75330d40",
+      "sourceCommit": "e3390eb0bffc9d0cfa0fefac189e9f49c2928414"
+    },
+    {
+      "bytes": 1280752,
+      "file": "archives/grouped-jitter-volcano.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data02.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "grouped-jitter-volcano",
+      "sha256": "4ac9c4a093277e3b8ff32b3bc6514e8612c138ad66de0eff615273c7e674782a",
+      "sourceCommit": "4ce5012c7299a5134c90ad4e7152ac38b770ff12"
+    },
+    {
+      "bytes": 80934,
+      "file": "archives/grouped-violin-signif.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "grouped-violin-signif",
+      "sha256": "cc49d270ef2cdf768b116710f63d1b494776ba953926d39182ceddf632a1e2d8",
+      "sourceCommit": "1295a03914d72f651900c8be6902f12309a444e2"
+    },
+    {
+      "bytes": 185948,
+      "file": "archives/half-boxplot-jitter.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "half-boxplot-jitter",
+      "sha256": "58eae591ca38bc4544510acf630fe6c3d1ac7b363911341cfed17d4c4e35271c",
+      "sourceCommit": "2f1627ae4420447eb5afeb9d1e1552bc735a5c87"
+    },
+    {
       "bytes": 274242,
       "file": "archives/hallmark-gsea-nes-ranked-scatter.zip",
       "files": [
@@ -237,6 +1027,59 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 515021,
+      "file": "archives/heatmap-gradient-links.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "heatmap-gradient-links",
+      "sha256": "f8b45960ad95380e9efdc0a0f5efd1dd14ee2540ff64100b21daaca1015ca069",
+      "sourceCommit": "17c15eb65ed1629a4a36626cf1b5d1030cb54d67"
+    },
+    {
+      "bytes": 246124,
+      "file": "archives/heatmap-local-zoom.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "heatmap-local-zoom",
+      "sha256": "73ab326440e728507e90157489b5fb4846816094f7218057bf96621bb821b23e",
+      "sourceCommit": "57779bac576ac457c3bb9e6c05aed227c86c57be"
+    },
+    {
+      "bytes": 757130,
+      "file": "archives/hierarchical-sunburst-tree.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/旭日图.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "hierarchical-sunburst-tree",
+      "sha256": "62690cae03b4585ef23270cddc474b1cd6b53729f75099ca1d9f56b3c6f0f4b6",
+      "sourceCommit": "9f5a02c0f7d6d3b53faf2c68b148d78f50b8aae2"
+    },
+    {
       "bytes": 1348439,
       "file": "archives/hlca-scib-integration-benchmark-matrix.zip",
       "files": [
@@ -254,6 +1097,42 @@
       "moduleId": "hlca-scib-integration-benchmark-matrix",
       "sha256": "2b5e002fbbb28fba4a1e93dcd4193394532cfb4ecf9cb46defff6a4d6d9ac6f2",
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+    },
+    {
+      "bytes": 90347,
+      "file": "archives/interaction-network.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "interaction-network",
+      "sha256": "d04eb1740a117ed800bfdaad92bcb388355f3693fa120176cca9737834d87d03",
+      "sourceCommit": "f1d7dbfdafa5d0a9452ed14ce71be36b34f6e994"
+    },
+    {
+      "bytes": 213473,
+      "file": "archives/kegg-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "kegg-bar",
+      "sha256": "0bfb8c5c81e06247ffb8b448bd9d6c8b3524fa53d0bbc67718edd71bb24e83af",
+      "sourceCommit": "0d1478300df863072619a8680574b5bafe877fcb"
     },
     {
       "bytes": 212138,
@@ -311,6 +1190,40 @@
       "moduleId": "kegg-variant-inside-label-bar",
       "sha256": "4cf7ce8112558e35daf6ff78b77c0ef0b61c06adce62426ecc56642dc7070ecf",
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+    },
+    {
+      "bytes": 70902,
+      "file": "archives/ks-density-histogram.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "ks-density-histogram",
+      "sha256": "327f56c11ed7850dd02ac445c8263cbac52eb39d544e0e5ccb4182b9bfbc7073",
+      "sourceCommit": "2c59ef3cad9d44ed9371a0257ab6f8d250095df2"
+    },
+    {
+      "bytes": 554503,
+      "file": "archives/manhattan-plot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "manhattan-plot",
+      "sha256": "a6a25ece1da95658af084ef11f1fbcafa472e840e402246d70068fdd31d62f6c",
+      "sourceCommit": "73676c8faee220953d45e9ca3e9d4f4b109926e5"
     },
     {
       "bytes": 866414,
@@ -511,6 +1424,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 93194,
+      "file": "archives/nine-quadrant-scatter.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "nine-quadrant-scatter",
+      "sha256": "cf73fed92219a8ed233dbcaa09d79aaf3598a94aab275f812bfff3479a1a632d",
+      "sourceCommit": "3fa92e9ef255d6739f713804be1ba94d206341cd"
+    },
+    {
       "bytes": 893682,
       "file": "archives/open-radial-multitrack-annotation.zip",
       "files": [
@@ -527,6 +1457,142 @@
       "moduleId": "open-radial-multitrack-annotation",
       "sha256": "9c29f4d272018bfeec90dde21701be90ece63958277ec6d1c2f1b44e6bfe0474",
       "sourceCommit": "b9a0c7e1f73785604fe6ecada7d5d8cfd602540f"
+    },
+    {
+      "bytes": 66653,
+      "file": "archives/overlap-histogram.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "overlap-histogram",
+      "sha256": "9e4f7ac4fea1b01a1321238ff6d148f2a5bc33818aff9e7f2e0b301c4a2b2905",
+      "sourceCommit": "caeefba7aa4accec37fb4fb65bfeb991371ff7c4"
+    },
+    {
+      "bytes": 81682,
+      "file": "archives/paired-box-scatter-lines.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "paired-box-scatter-lines",
+      "sha256": "33cb4382f822799afae3851e0f6cefea20eb3131f162a4d15614f339b952882a",
+      "sourceCommit": "611ac4ec9064be8cf0721358d566ecc3143074ff"
+    },
+    {
+      "bytes": 93005,
+      "file": "archives/pancancer-boxplot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "pancancer-boxplot",
+      "sha256": "f611bb830310c4713311e294331adb1aefd2a6409e468515af2fee2f76d85b34",
+      "sourceCommit": "c066c4b54f36c9964ba40aa817077913f8fdaadd"
+    },
+    {
+      "bytes": 90188,
+      "file": "archives/pca-3d-scatter.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "pca-3d-scatter",
+      "sha256": "d4264319efa636736a979c882f09087a53990148b14447eb0865a4a9c0ac3878",
+      "sourceCommit": "fe323cc5f9a8ad2be776dedb8c5638f34f5944b7"
+    },
+    {
+      "bytes": 117061,
+      "file": "archives/pca-scatter.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "pca-scatter",
+      "sha256": "14637fd2acb61b5b161ffa0f91e29d5252e1e38fe0aa8d645296258b3a5f448a",
+      "sourceCommit": "047be2ca8cddf4ed38104bcac2a3959ac6242fa9"
+    },
+    {
+      "bytes": 162818,
+      "file": "archives/percent-bar-errorbars.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "percent-bar-errorbars",
+      "sha256": "8a4cdac44a7ef1a61a75ae066cde7af9d806ee5957b6b4656e3e3704c8249cde",
+      "sourceCommit": "54d0ba250d38df6a60457c862c9a8eb3ffa4b00f"
+    },
+    {
+      "bytes": 70948,
+      "file": "archives/raincloud-plot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "raincloud-plot",
+      "sha256": "0cc63e4a7ea03d8ccc17a67effe64c5df6787bd14171b55d29a8505338e190f7",
+      "sourceCommit": "35e45ded294a9ad24e8179d960093d0e99aa5a3b"
+    },
+    {
+      "bytes": 158969,
+      "file": "archives/raindrop-plot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "raindrop-plot",
+      "sha256": "76773899f3c61350bae1e1685c0a25e8fabe0e084f20d8663452cb76c8229797",
+      "sourceCommit": "e92d4d11ee39fbeddb8d6e3decba0a681b9c5171"
     },
     {
       "bytes": 185312,
@@ -700,6 +1766,76 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 91850,
+      "file": "archives/scatter-bidirectional-errorbars.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "scatter-bidirectional-errorbars",
+      "sha256": "630228f980d248a71b803a86802c35c9b800b2c2c0061ee968f3b4e1233ef520",
+      "sourceCommit": "d6c782147a3ccfc86125dd950a21004252bacd53"
+    },
+    {
+      "bytes": 263859,
+      "file": "archives/scatter-contour.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "scatter-contour",
+      "sha256": "667917699991b1ecf3b0c8fdf956cc18478b8349733a6335f9d4daed1b433a7b",
+      "sourceCommit": "05aab1186ea5d0c3a9a5d134d7f6b74570dd2c31"
+    },
+    {
+      "bytes": 299474,
+      "file": "archives/scatter-hist-annot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "scatter-hist-annot",
+      "sha256": "6654c785abb6c5756f9454cdadbeaa47f6b32f082e9d7ed5aa077703e2e69a11",
+      "sourceCommit": "79fb13ab4a71cf7a484fbfeb26e7a8792ca6d4c7"
+    },
+    {
+      "bytes": 93765,
+      "file": "archives/scatterpie.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/input.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "scatterpie",
+      "sha256": "a12b48b366ca46be0aa94f2f8a37034bfc5b1f3fd95fb9f2eb94908189bd8871",
+      "sourceCommit": "5c7d4442781e21dbabaa0b82bc0927752240b3bb"
+    },
+    {
       "bytes": 723800,
       "file": "archives/science-mantel-corrplot.zip",
       "files": [
@@ -720,6 +1856,41 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 202187,
+      "file": "archives/shaped-scatter.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/total_w_unc.xlsx",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "shaped-scatter",
+      "sha256": "2ead6d24c843fc9324578eadb3e4077fe1517fa618740119d3530b8aee6b64df",
+      "sourceCommit": "e5d104fc475a36062aeb9ff56d7612a195171d98"
+    },
+    {
+      "bytes": 274424,
+      "file": "archives/shaped-volcano.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "shaped-volcano",
+      "sha256": "9546883d19eb40d38e7e1f3bf60642c04e06bf0af6a515b84022e79a2dfadf4c",
+      "sourceCommit": "a08bda90822ab2fa7bfa66985b6065ec3728ba72"
+    },
+    {
       "bytes": 349971,
       "file": "archives/single-cell-enrichment-bar-pathway-genes.zip",
       "files": [
@@ -737,6 +1908,91 @@
       "moduleId": "single-cell-enrichment-bar-pathway-genes",
       "sha256": "2c23ab2f33e63c63ac0860c8f5424da15bccc6d1c5a3a3c4daee7409bdcbb928",
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+    },
+    {
+      "bytes": 117329,
+      "file": "archives/stacked-bar-line-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "stacked-bar-line-heatmap",
+      "sha256": "7fe74d961d007159757f1157abde6f0ac8ff4c5adee9dc7b5d56d57fe509c4bf",
+      "sourceCommit": "06f7ef35c7ca1fdb5680ded389fe8a9281594b63"
+    },
+    {
+      "bytes": 92810,
+      "file": "archives/stacked-percent-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "stacked-percent-bar",
+      "sha256": "c9578b53cc90b50c3da086619bebfa12af0f7fd3fec5b5c7c294ed1e26344bd5",
+      "sourceCommit": "7c0e6bd3054cf3be05e03fcc53d6349c0c978447"
+    },
+    {
+      "bytes": 52891,
+      "file": "archives/styled-boxplot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "styled-boxplot",
+      "sha256": "0141e6cb3b0b5c60207ab00bd37041bcc8121439edb63fbcc5432370102aad9b",
+      "sourceCommit": "540fee347217a5bdf2bf2fa4fba737a06b341d29"
+    },
+    {
+      "bytes": 79668,
+      "file": "archives/three-line-table.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "three-line-table",
+      "sha256": "faa92d0b4ce98c36fdf4b61efb517cf164dc6cf3ae3f0b8f1834b6d038e178a7",
+      "sourceCommit": "002fb10fdfb23e87385edd5809115f4c128a9ce8"
+    },
+    {
+      "bytes": 74291,
+      "file": "archives/tile-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "tile-heatmap",
+      "sha256": "dfcae4770fc2fcfe8703bf2280a91fa5e87436e19184580b6de0ea66b2b97fb4",
+      "sourceCommit": "fb707fb6590e85c80ffd4c2a2dba8ee8a0aa3371"
     },
     {
       "bytes": 2768711,
@@ -889,9 +2145,45 @@
       "moduleId": "umap-unchull-main-type-circles",
       "sha256": "15ae043cfae66e48e74748fe5d8793f6b99303dbcdea064e36f48180a7465967",
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+    },
+    {
+      "bytes": 98057,
+      "file": "archives/upset-plot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/movies.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "upset-plot",
+      "sha256": "828620ba43d2b32ac27e1de54532265515a17035e2fe04a1d8fbfa7ca1505ea9",
+      "sourceCommit": "656df865d5803bbbe75e3f8ea296fcfdfc8d8028"
+    },
+    {
+      "bytes": 29334,
+      "file": "archives/venn-diagram.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "venn-diagram",
+      "sha256": "7c8d937aa11204951b0328248ceb25117420d9490484b5ccc995b0b6a2f706e8",
+      "sourceCommit": "2e76a1b46f78fa774484362010c7845906affa1c"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2000-01-01T00:00:00.000Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"

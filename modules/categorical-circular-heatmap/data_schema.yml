@@ -1,0 +1,12 @@
+format: csv
+columns:
+  - '""'
+  - '"drug target"'
+  - '"DEG by microarray"'
+  - '"DEG by RNA-seq"'
+  - '"DEG by proteome"'
+  - '"DEG with DAM"'
+  - '"DEG with DAA"'
+  - '"Demonstration track"'
+  - '"Sum"'
+note: Example or synthetic input used to demonstrate the plotting layer.

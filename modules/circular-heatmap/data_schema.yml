@@ -1,0 +1,11 @@
+format: csv
+columns:
+  - '""'
+  - '"Healthy-ACS"'
+  - '"DM-ACS"'
+  - '"Microbiome r2"'
+  - '"Diet r2"'
+  - '"Traditional Risk Factors r2"'
+  - '"Genetics r2"'
+  - '"SUPER_PATHWAY"'
+note: Example or synthetic input used to demonstrate the plotting layer.

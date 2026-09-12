@@ -1,0 +1,70 @@
+schema: figure-library.personal-module.v1
+moduleId: ks-density-histogram
+title: 同义替换率密度直方图
+titleEn: ks density histogram
+description: 在同一 Ks 轴上叠加多对比较的同义替换率分布。数据由 rnorm 模拟 8 列。
+application: |-
+  -已有多对 Ks 向量时，用叠加密度比较峰值位置。
+  -不适合：还没有 Ks 估计。
+scientificQuestion: 多对比较的同义替换率峰值是否分开？
+dataProfile: 脚本内 rnorm 模拟 8 列。无外部表。
+plotFamily: density_histogram
+language: R
+tags:
+  - Ks
+  - R
+  - density
+  - ggplot2
+  - histogram
+packages:
+  - dplyr
+  - ggplot2
+  - ragg
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 66190
+  sha256: 07e75c97a5b9a3759dd6bc6d86ea6392df51fbfa57a769821f66bf1fb7d826fb
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 8380
+  sha256: b2e6b4c705004140d8e92bdfa9f08f0f877937f07c84ae64bcb2cc0c13b28949
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry ks-density-histogram; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: authorized_adaptation
+    note: Adapted implementation redistributed with contributor authorization. This is not a claim of original authorship.
+      Only the declared public files are included.

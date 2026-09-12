@@ -1,0 +1,72 @@
+schema: figure-library.personal-module.v1
+moduleId: nine-quadrant-scatter
+title: 多组学九象限散点图
+titleEn: nine quadrant scatter
+description: 用两组 logFC 画九象限散点。preview 由 organized.R 渲染；数据为 MASS::mvrnorm 模拟，不是论文结果。
+application: |-
+  展示两组 logFC 的九象限散点。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 两组测量的一致与不一致象限如何读出？
+dataProfile: 脚本内 mvrnorm 模拟的两组 logFC，无外部文件。
+plotFamily: scatter
+language: R
+tags:
+  - R
+  - ggplot2
+  - personal-gallery
+  - scatter
+packages:
+  - MASS
+  - cowplot
+  - dplyr
+  - ggplot2
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 76645
+  sha256: 557604c0971f0dfd62bd615324326d4ba83ce4398746f44fa9309cc68b4c668b
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 16798
+  sha256: 72ce69be83f580956a8f3460be2081de040f42a32d2c9a791054c40d8464f343
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry nine-quadrant-scatter; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: authorized_adaptation
+    note: Adapted implementation redistributed with contributor authorization. This is not a claim of original authorship.
+      Only the declared public files are included.

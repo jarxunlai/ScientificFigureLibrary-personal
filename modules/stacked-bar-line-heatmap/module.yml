@@ -1,0 +1,79 @@
+schema: figure-library.personal-module.v1
+moduleId: stacked-bar-line-heatmap
+title: 堆积柱加折线热图注释
+titleEn: stacked bar line heatmap
+description: 将样本注释、数量指标与组成比例按相同样本顺序上下对照。
+application: |-
+  - 可用于将样本注释、数量指标与组成比例按相同样本顺序上下对照，但需要先确认自己的数据结构和统计量定义与该编码一致。
+  - 当前图仅是模拟示例，用于检查布局；正式分析必须替换为经过审核的数据和结果。
+scientificQuestion: 将样本注释、数量指标与组成比例按相同样本顺序上下对照。
+dataProfile: 30 个模拟样本，类别注释、数量指标与多组分比例；不对应真实公共队列。
+plotFamily: combo
+language: R
+tags:
+  - ComplexHeatmap
+  - R
+  - combo
+  - ggplot2
+  - personal-gallery
+  - synthetic-example
+packages:
+  - ComplexHeatmap
+  - RColorBrewer
+  - dplyr
+  - forcats
+  - ggplot2
+  - patchwork
+  - readr
+  - stringr
+  - tibble
+  - tidyr
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 110919
+  sha256: 62fd43d2f4b02f20cfe70b82d8f11b10d803dc6e3bda6a57dad249097b651752
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 23184
+  sha256: 4ace6077eec0f92647ca6a43a0937d222b7ad07a440b9d3aca30cc76069992a9
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry stacked-bar-line-heatmap; internal Library state is not
+      distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.

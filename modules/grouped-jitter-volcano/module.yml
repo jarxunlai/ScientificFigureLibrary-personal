@@ -1,0 +1,79 @@
+schema: figure-library.personal-module.v1
+moduleId: grouped-jitter-volcano
+title: 单细胞分组抖动火山图
+titleEn: grouped jitter volcano
+description: 把多细胞类型的 log2FC 画成 8 列抖动火山图。示例示例对同一张 DEG 表随机抽样拼出 8 组。
+application: |-
+  -已有按细胞类型分开的 DEG 表时，用分组抖动火山图并排比较各群的上下调幅度。
+  -不适合经典 -log10(p) 火山图。
+scientificQuestion: 八个细胞类型里，哪些基因的 log2FC 最强上调或下调？
+dataProfile: data02.csv：基因×DEG 列。脚本随机抽 8×2000 行当作细胞类型。
+plotFamily: volcano
+language: R
+tags:
+  - DEG
+  - R
+  - ggplot2
+  - ggrepel
+  - jitter
+  - single-cell
+  - volcano
+packages:
+  - RColorBrewer
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - ragg
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/data02.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/data02.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/data02.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 986275
+  sha256: 3d5fbd35aca4ffb5b63ee38cdb2139ace38ae2dd57670cbe0778d06f6d21d263
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 29626
+  sha256: 4caba0d6764c0840854fd5932af4ca7657b444840e8534c0f6a5d64c3aec9d34
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry grouped-jitter-volcano; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.

@@ -1,0 +1,77 @@
+schema: figure-library.personal-module.v1
+moduleId: pancancer-boxplot
+title: 泛癌箱线显著性图
+titleEn: pancancer boxplot
+description: 比较多个队列内两组数值分布，并在各队列上方标示统计检验结果。
+application: |-
+  - 可用于比较多个队列内两组数值分布，并在各队列上方标示统计检验结果，但需要先确认自己的数据结构和统计量定义与该编码一致。
+  - 当前图仅是模拟示例，用于检查布局；正式分析必须替换为经过审核的数据和结果。
+scientificQuestion: 比较多个队列内两组数值分布，并在各队列上方标示统计检验结果。
+dataProfile: 12 个完全模拟队列、每组 40 个观测；检验仅针对模拟数据，不含真实样本编号。
+plotFamily: boxplot
+language: R
+tags:
+  - R
+  - boxplot
+  - ggplot2
+  - personal-gallery
+  - synthetic-example
+packages:
+  - dplyr
+  - forcats
+  - ggplot2
+  - ggpubr
+  - latex2exp
+  - readr
+  - rstatix
+  - stringr
+  - tibble
+  - tidyr
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 91383
+  sha256: 3198682351cf64adc790eadab57cedf5c82bfb3f9cd189ca03250dd01afc9c5b
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 13978
+  sha256: 3cdb9185b63c297dab29b8a7dc019e1e1c6d3508cf681b3a426d251b5ff2530a
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry pancancer-boxplot; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.

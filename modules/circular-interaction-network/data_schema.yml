@@ -1,0 +1,8 @@
+format: csv
+columns:
+  - '"Pollutant"'
+  - '"Biomaker"'
+  - '"Estimate"'
+  - '"FDR"'
+  - '"Super pathway"'
+note: Example or synthetic input used to demonstrate the plotting layer.

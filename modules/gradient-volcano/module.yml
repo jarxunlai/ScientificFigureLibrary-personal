@@ -1,0 +1,75 @@
+schema: figure-library.personal-module.v1
+moduleId: gradient-volcano
+title: 渐变火山图
+titleEn: gradient volcano
+description: 按 log2FC 与显著性填色的火山图。preview 由 organized.R 渲染；示例表 data02.csv。
+application: |-
+  展示差异表达基因的方向与显著性强度。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 哪些基因在 log2FC 与显著性上突出？
+dataProfile: 示例示例表 data/data02.csv。
+plotFamily: volcano
+language: R
+tags:
+  - R
+  - ggplot2
+  - personal-gallery
+  - volcano
+packages:
+  - dplyr
+  - ggplot2
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/data02.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/data02.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/data02.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 86016
+  sha256: 8bdbe8e6fac8276568469517191ca69f00449ba481481eb2241bf306e5ff7ac7
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 12946
+  sha256: 57f89845cdb0ab897374a7f78b81c56708914aaca0d90e1c740cdb3d217b99f5
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry gradient-volcano; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.

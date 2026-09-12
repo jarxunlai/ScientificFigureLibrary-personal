@@ -1,0 +1,32 @@
+class,group
+Cer(d),sphingolipids
+HexCer,sphingolipids
+Hex2Cer,sphingolipids
+Hex3Cer,sphingolipids
+GM3,sphingolipids
+GM1,sphingolipids
+SHexCer,sphingolipids
+SM,sphingolipids
+PC,phospholipids
+PC(O),phospholipids
+PC(P),phospholipids
+LPC,phospholipids
+LPC(O),phospholipids
+LPC(P),phospholipids
+PE,phospholipids
+PE(O),phospholipids
+PE(P),phospholipids
+LPE,phospholipids
+LPE(P),phospholipids
+PI,phospholipids
+LPI,phospholipids
+PS,phospholipids
+PG,phospholipids
+CE,neutral lipids
+COH,neutral lipids
+DE,neutral lipids
+AC,neutral lipids
+DG,neutral lipids
+TG [NL],neutral lipids
+TG(O),neutral lipids
+CAD,All
