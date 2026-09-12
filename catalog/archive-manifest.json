@@ -564,6 +564,23 @@
       "sourceCommit": "1295a03914d72f651900c8be6902f12309a444e2"
     },
     {
+      "bytes": 185948,
+      "file": "archives/half-boxplot-jitter.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "half-boxplot-jitter",
+      "sha256": "58eae591ca38bc4544510acf630fe6c3d1ac7b363911341cfed17d4c4e35271c",
+      "sourceCommit": "2f1627ae4420447eb5afeb9d1e1552bc735a5c87"
+    },
+    {
       "bytes": 274242,
       "file": "archives/hallmark-gsea-nes-ranked-scatter.zip",
       "files": [
