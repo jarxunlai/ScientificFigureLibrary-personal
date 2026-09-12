@@ -1,0 +1,12 @@
+format: csv
+columns:
+  - '""'
+  - '"high"'
+  - '"low"'
+  - '"mean"'
+  - '"x"'
+  - '"group1"'
+  - '"group2"'
+  - '"Trend"'
+  - '"Signif"'
+note: Example or synthetic input used to demonstrate the plotting layer.

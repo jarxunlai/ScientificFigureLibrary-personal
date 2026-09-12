@@ -585,6 +585,25 @@
       "sourceCommit": "34e0718f62ce2638cd603ac8823a4ee65a9e8641"
     },
     {
+      "bytes": 92052,
+      "file": "archives/facet-forest.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "facet-forest",
+      "sha256": "7db2c4630a483a3709c9383feacdb87563277aca1a403e39b84789141a6b2459",
+      "sourceCommit": "1997f43284aea274f90f51daf08a8ed4830c2219"
+    },
+    {
       "bytes": 215257,
       "file": "archives/forest-effect-dotplot.zip",
       "files": [
