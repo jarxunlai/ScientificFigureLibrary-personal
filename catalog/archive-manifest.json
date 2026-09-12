@@ -69,6 +69,23 @@
       "sourceCommit": "ca8db9ab2bc29e467d1e67601b3242533cfcedca"
     },
     {
+      "bytes": 228557,
+      "file": "archives/boxplot-jitter.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "boxplot-jitter",
+      "sha256": "61cdd200aea02bde95a557a6ed9dd5cc5e69a72f3e45026ec1ef5b78096ef9ca",
+      "sourceCommit": "2e2079b13266f3f46f26efe51ccca462a3f036fd"
+    },
+    {
       "bytes": 293426,
       "file": "archives/cancercell-pathway-nes-heatmap.zip",
       "files": [
