@@ -529,6 +529,23 @@
       "sourceCommit": "b9a0c7e1f73785604fe6ecada7d5d8cfd602540f"
     },
     {
+      "bytes": 158969,
+      "file": "archives/raindrop-plot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "raindrop-plot",
+      "sha256": "cc5af9a57f0fc42ad5798c54ff17e57fe14a2d39a495d82c56c8f5a1ee0e24b7",
+      "sourceCommit": "e92d4d11ee39fbeddb8d6e3decba0a681b9c5171"
+    },
+    {
       "bytes": 185312,
       "file": "archives/sc-celltype-grouped-dodge-count.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-12T05:17:26.748Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
