@@ -1199,6 +1199,23 @@
       "sourceCommit": "05aab1186ea5d0c3a9a5d134d7f6b74570dd2c31"
     },
     {
+      "bytes": 299474,
+      "file": "archives/scatter-hist-annot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "scatter-hist-annot",
+      "sha256": "6654c785abb6c5756f9454cdadbeaa47f6b32f082e9d7ed5aa077703e2e69a11",
+      "sourceCommit": "79fb13ab4a71cf7a484fbfeb26e7a8792ca6d4c7"
+    },
+    {
       "bytes": 723800,
       "file": "archives/science-mantel-corrplot.zip",
       "files": [
