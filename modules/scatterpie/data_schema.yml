@@ -1,0 +1,13 @@
+format: csv
+columns:
+  - '"Time"'
+  - '"Proportion"'
+  - '"ProNeu"'
+  - '"PreNeu"'
+  - '"MatureNeu"'
+  - '"Monocyte"'
+  - '"B"'
+  - '"T"'
+  - '"NK"'
+  - '"Megakaryocyte"'
+note: Example or synthetic input used to demonstrate the plotting layer.

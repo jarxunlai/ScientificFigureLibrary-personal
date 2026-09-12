@@ -1,0 +1,81 @@
+schema: figure-library.personal-module.v1
+moduleId: scatterpie
+title: 散点饼图
+titleEn: scatterpie
+description: 把观测的细胞组成放在时间轴上，同时通过纵轴呈现残余比例。
+application: |-
+  - 可用于把观测的细胞组成放在时间轴上，同时通过纵轴呈现残余比例，但需要先确认自己的数据结构和统计量定义与该编码一致。
+  - 当前图仅是模拟示例，用于检查布局；正式分析必须替换为经过审核的数据和结果。
+scientificQuestion: 把观测的细胞组成放在时间轴上，同时通过纵轴呈现残余比例。
+dataProfile: 24 行模拟观测，时间、比例及八类细胞组成；每行细胞组成之和为 100%。
+plotFamily: pie
+language: R
+tags:
+  - R
+  - personal-gallery
+  - pie
+  - scatterpie
+  - synthetic-example
+packages:
+  - dplyr
+  - forcats
+  - ggplot2
+  - readr
+  - readxl
+  - scatterpie
+  - stringr
+  - tibble
+  - tidyr
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/input.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/input.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/input.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 83987
+  sha256: a13df0aea3b3a0af287897e0d246de4ba49239f7f02e8527f22c065494948725
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 11733
+  sha256: a4ec7b14bb53555824dbff8dadcafd623d1cd2c9dd832d89fc1b0697c2bbe0b6
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry scatterpie; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
