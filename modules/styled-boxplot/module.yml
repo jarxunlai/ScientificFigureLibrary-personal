@@ -1,0 +1,71 @@
+schema: figure-library.personal-module.v1
+moduleId: styled-boxplot
+title: 美化箱线图
+titleEn: styled boxplot
+description: 美化箱线图。preview 由 organized.R 渲染。
+application: |-
+  展示分组箱线与显著性标注。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 分组连续值的分布如何对比？
+dataProfile: 示例示例或脚本内模拟数据。
+plotFamily: boxplot
+language: R
+tags:
+  - R
+  - boxplot
+  - ggplot2
+  - personal-gallery
+packages:
+  - dplyr
+  - ggplot2
+  - ggsignif
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 44839
+  sha256: ac7c1173f85cfd43562899130cf64f2db7a18c8e343162d509c958a4c256d823
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 11348
+  sha256: 9778f3a429ca7c5e169909df67f17bd0f56c7968ed3d264d5366c4aa712b5318
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry styled-boxplot; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
