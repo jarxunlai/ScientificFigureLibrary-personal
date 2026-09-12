@@ -218,6 +218,25 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 1280752,
+      "file": "archives/grouped-jitter-volcano.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data02.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "grouped-jitter-volcano",
+      "sha256": "4ac9c4a093277e3b8ff32b3bc6514e8612c138ad66de0eff615273c7e674782a",
+      "sourceCommit": "4ce5012c7299a5134c90ad4e7152ac38b770ff12"
+    },
+    {
       "bytes": 274242,
       "file": "archives/hallmark-gsea-nes-ranked-scatter.zip",
       "files": [
@@ -891,7 +910,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-12T02:48:35.600Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
