@@ -529,6 +529,23 @@
       "sourceCommit": "b9a0c7e1f73785604fe6ecada7d5d8cfd602540f"
     },
     {
+      "bytes": 93005,
+      "file": "archives/pancancer-boxplot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "pancancer-boxplot",
+      "sha256": "f611bb830310c4713311e294331adb1aefd2a6409e468515af2fee2f76d85b34",
+      "sourceCommit": "c066c4b54f36c9964ba40aa817077913f8fdaadd"
+    },
+    {
       "bytes": 185312,
       "file": "archives/sc-celltype-grouped-dodge-count.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-12T05:11:36.294Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
