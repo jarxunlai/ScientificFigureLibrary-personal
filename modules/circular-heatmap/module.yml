@@ -1,0 +1,81 @@
+schema: figure-library.personal-module.v1
+moduleId: circular-heatmap
+title: 复杂环形热图
+titleEn: circular heatmap
+description: 将多组代谢物统计量及类别放在同一环形布局中，观察不同对比中的模式。
+application: |-
+  - 可用于将多组代谢物统计量及类别放在同一环形布局中，观察不同对比中的模式，但需要先确认自己的数据结构和统计量定义与该编码一致。
+  - 当前展示的是授权示例或包内数据；套用于新的研究时须核对输入含义、缺失处理及上游统计。
+scientificQuestion: 将多组代谢物统计量及类别放在同一环形布局中，观察不同对比中的模式。
+dataProfile: 200 行代谢物，六列对比统计量与一列类别；由授权附表提取的聚合值。
+plotFamily: circos
+language: R
+tags:
+  - R
+  - circlize
+  - heatmap
+  - personal-gallery
+packages:
+  - ComplexHeatmap
+  - circlize
+  - dplyr
+  - forcats
+  - ggplot2
+  - readr
+  - readxl
+  - stringr
+  - tibble
+  - tidyr
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/input.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/input.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/input.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 851183
+  sha256: db2bde53ff8fab09effde79a9d6643e68e836d42264433a8843f142b06805ccf
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 31339
+  sha256: 276ba08ea9857a8eb0a084dca377726e3f0ca991a5bc767b166add6320a48e4f
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry circular-heatmap; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
