@@ -35,6 +35,23 @@
       "sourceCommit": "8e7251504af94eca151a4c92d17bdbe706d3515d"
     },
     {
+      "bytes": 101929,
+      "file": "archives/batch-boxplot-signif.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "batch-boxplot-signif",
+      "sha256": "c7cff958324568b4acb5a53fa9047f1b22a45503e40f23f789c674d5eee611a6",
+      "sourceCommit": "42eb4b07dfe40ea02cdb05f164a819a0ae9d6cc2"
+    },
+    {
       "bytes": 54996,
       "file": "archives/bidirectional-bar.zip",
       "files": [
