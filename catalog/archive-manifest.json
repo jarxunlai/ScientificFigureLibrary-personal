@@ -1,6 +1,23 @@
 {
   "entries": [
     {
+      "bytes": 56290,
+      "file": "archives/alluvial-plot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "alluvial-plot",
+      "sha256": "88f99c9cf88a59dbfc95bb7f8ac5dd186512835baebe68f6faa7795a2c8f536e",
+      "sourceCommit": "c40c3c71a0038f2c92261d56a13797768190bd99"
+    },
+    {
       "bytes": 293426,
       "file": "archives/cancercell-pathway-nes-heatmap.zip",
       "files": [
