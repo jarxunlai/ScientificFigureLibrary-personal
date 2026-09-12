@@ -1082,6 +1082,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 90347,
+      "file": "archives/interaction-network.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "interaction-network",
+      "sha256": "d04eb1740a117ed800bfdaad92bcb388355f3693fa120176cca9737834d87d03",
+      "sourceCommit": "f1d7dbfdafa5d0a9452ed14ce71be36b34f6e994"
+    },
+    {
       "bytes": 213473,
       "file": "archives/kegg-bar.zip",
       "files": [
