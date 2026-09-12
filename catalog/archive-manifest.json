@@ -739,6 +739,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 117329,
+      "file": "archives/stacked-bar-line-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "stacked-bar-line-heatmap",
+      "sha256": "db83f3a4a5912717d82089c0ee791dff8edc7de6a481f38948682281249c0457",
+      "sourceCommit": "06f7ef35c7ca1fdb5680ded389fe8a9281594b63"
+    },
+    {
       "bytes": 2768711,
       "file": "archives/umap-style-density-heatmap.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-12T05:17:23.054Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
