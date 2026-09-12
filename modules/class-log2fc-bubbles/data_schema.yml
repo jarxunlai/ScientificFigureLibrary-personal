@@ -1,0 +1,6 @@
+format: csv
+columns:
+  - '"Class"'
+  - '"Log2FC"'
+  - '"Pvalue"'
+note: Example or synthetic input used to demonstrate the plotting layer.

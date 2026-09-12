@@ -40,6 +40,25 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 313347,
+      "file": "archives/class-log2fc-bubbles.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "class-log2fc-bubbles",
+      "sha256": "5a928e25520b1d0098133161c7b9d364570f8b6e914d85c77b459041d3b39163",
+      "sourceCommit": "c66b47f24b35bb8558df726132faee48e8d5364d"
+    },
+    {
       "bytes": 543955,
       "file": "archives/clustergvis-deg-go-kegg-combo.zip",
       "files": [
