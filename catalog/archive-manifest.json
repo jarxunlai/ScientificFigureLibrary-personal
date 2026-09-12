@@ -1840,6 +1840,23 @@
       "sourceCommit": "e5d104fc475a36062aeb9ff56d7612a195171d98"
     },
     {
+      "bytes": 274424,
+      "file": "archives/shaped-volcano.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "shaped-volcano",
+      "sha256": "9546883d19eb40d38e7e1f3bf60642c04e06bf0af6a515b84022e79a2dfadf4c",
+      "sourceCommit": "a08bda90822ab2fa7bfa66985b6065ec3728ba72"
+    },
+    {
       "bytes": 349971,
       "file": "archives/single-cell-enrichment-bar-pathway-genes.zip",
       "files": [
