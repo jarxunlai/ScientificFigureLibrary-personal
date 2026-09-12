@@ -61,6 +61,24 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 257260,
+      "file": "archives/complex-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/rownames.txt",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "complex-heatmap",
+      "sha256": "20b7400d237bc5d901476e46abfb2f10ce7b21640601ea93a0463b088b84d8c6",
+      "sourceCommit": "9ec656250fc971abe4662c8d999fcc44afb9a98e"
+    },
+    {
       "bytes": 579598,
       "file": "archives/deg-heatmap-go-panel.zip",
       "files": [
@@ -891,7 +909,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-12T05:08:59.605Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
