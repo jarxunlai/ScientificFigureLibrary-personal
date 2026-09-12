@@ -1459,6 +1459,23 @@
       "sourceCommit": "611ac4ec9064be8cf0721358d566ecc3143074ff"
     },
     {
+      "bytes": 93005,
+      "file": "archives/pancancer-boxplot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "pancancer-boxplot",
+      "sha256": "f611bb830310c4713311e294331adb1aefd2a6409e468515af2fee2f76d85b34",
+      "sourceCommit": "c066c4b54f36c9964ba40aa817077913f8fdaadd"
+    },
+    {
       "bytes": 162818,
       "file": "archives/percent-bar-errorbars.zip",
       "files": [
