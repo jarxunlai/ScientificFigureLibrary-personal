@@ -1,0 +1,12 @@
+format: csv
+columns:
+  - '"Level"'
+  - '"ID"'
+  - '"IVW"'
+  - '"...9"'
+  - '"MR Egger"'
+  - '"Weighted median"'
+  - '"MLE"'
+  - '"MR-RAPS"'
+  - "\"Heterogeneity (Cochrane's Q)\""
+note: Example or synthetic input used to demonstrate the plotting layer.
