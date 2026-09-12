@@ -641,6 +641,25 @@
       "sourceCommit": "c60e026b1774bfece059ca275f739d522e870d11"
     },
     {
+      "bytes": 186502,
+      "file": "archives/fusion-heatmap-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/input.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "fusion-heatmap-bar",
+      "sha256": "c035feb11a2b389bd8d9d5c5653ba61c3db3b6ce779c7fa2e87dbfa7992aa884",
+      "sourceCommit": "1cd0d48a0c8b7ed3ef9e7d9319a85e89556c62d8"
+    },
+    {
       "bytes": 189087,
       "file": "archives/gantt-survival-bars.zip",
       "files": [
