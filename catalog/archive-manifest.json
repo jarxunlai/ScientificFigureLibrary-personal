@@ -57,6 +57,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 162199,
+      "file": "archives/circular-grouped-line.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "circular-grouped-line",
+      "sha256": "ed29b70085016c66a92f7012d1c21baa46198ed532da9fedea1c4dc022f32cd2",
+      "sourceCommit": "c16a67a9314ae856d777ed7c955c46024b9db89e"
+    },
+    {
       "bytes": 313347,
       "file": "archives/class-log2fc-bubbles.zip",
       "files": [
