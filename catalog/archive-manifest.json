@@ -1561,6 +1561,23 @@
       "sourceCommit": "35e45ded294a9ad24e8179d960093d0e99aa5a3b"
     },
     {
+      "bytes": 158969,
+      "file": "archives/raindrop-plot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "raindrop-plot",
+      "sha256": "76773899f3c61350bae1e1685c0a25e8fabe0e084f20d8663452cb76c8229797",
+      "sourceCommit": "e92d4d11ee39fbeddb8d6e3decba0a681b9c5171"
+    },
+    {
       "bytes": 185312,
       "file": "archives/sc-celltype-grouped-dodge-count.zip",
       "files": [
