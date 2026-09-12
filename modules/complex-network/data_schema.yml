@@ -1,0 +1,7 @@
+format: csv
+columns:
+  - '"Serum metabolite"'
+  - '"Super pathway"'
+  - '"Pollutant"'
+  - '"Outcome"'
+note: Example or synthetic input used to demonstrate the plotting layer.
