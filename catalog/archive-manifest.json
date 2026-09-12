@@ -103,6 +103,23 @@
       "sourceCommit": "ca8db9ab2bc29e467d1e67601b3242533cfcedca"
     },
     {
+      "bytes": 93884,
+      "file": "archives/boxplot-heatmap-annot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "boxplot-heatmap-annot",
+      "sha256": "77f8d56d75d089d7bc3c25ae749820d5f2d847bff83672102ac5c8c84005823c",
+      "sourceCommit": "78e81e3d1d2ad6e7f52c487e21ab653ed12e6c19"
+    },
+    {
       "bytes": 228557,
       "file": "archives/boxplot-jitter.zip",
       "files": [
