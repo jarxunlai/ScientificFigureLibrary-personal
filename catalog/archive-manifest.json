@@ -2130,6 +2130,25 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 98057,
+      "file": "archives/upset-plot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/movies.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "upset-plot",
+      "sha256": "828620ba43d2b32ac27e1de54532265515a17035e2fe04a1d8fbfa7ca1505ea9",
+      "sourceCommit": "656df865d5803bbbe75e3f8ea296fcfdfc8d8028"
+    },
+    {
       "bytes": 29334,
       "file": "archives/venn-diagram.zip",
       "files": [
