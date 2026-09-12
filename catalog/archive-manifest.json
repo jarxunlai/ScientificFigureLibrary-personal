@@ -301,6 +301,23 @@
       "sourceCommit": "5b3501b96a6c14099e734180f4ecdafc8ece0438"
     },
     {
+      "bytes": 56131,
+      "file": "archives/complex-percent-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "complex-percent-bar",
+      "sha256": "bc0975f9850659ef2814e72a36ed492c4992e283876f15c1f93e5fd7fb26679c",
+      "sourceCommit": "12baa605eaca5ca5b2ab9c63bda4378afd5a5c71"
+    },
+    {
       "bytes": 579598,
       "file": "archives/deg-heatmap-go-panel.zip",
       "files": [
