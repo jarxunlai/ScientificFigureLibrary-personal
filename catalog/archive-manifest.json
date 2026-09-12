@@ -585,6 +585,23 @@
       "sourceCommit": "d8aa405def82bc740e0811e184b52d8fa06fd3c2"
     },
     {
+      "bytes": 103826,
+      "file": "archives/grouped-dumbbell.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "grouped-dumbbell",
+      "sha256": "37075483af39d3a3440013355e60d6bf38be2ec8be88b975e98447be75330d40",
+      "sourceCommit": "e3390eb0bffc9d0cfa0fefac189e9f49c2928414"
+    },
+    {
       "bytes": 80934,
       "file": "archives/grouped-violin-signif.zip",
       "files": [
