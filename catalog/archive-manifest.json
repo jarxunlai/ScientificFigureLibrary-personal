@@ -488,6 +488,26 @@
       "sourceCommit": "12baa605eaca5ca5b2ab9c63bda4378afd5a5c71"
     },
     {
+      "bytes": 316978,
+      "file": "archives/complex-violin.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data1.csv",
+        "data/data2.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "complex-violin",
+      "sha256": "f21f88f9da4e8f2fd7a591470cda8406fc1b2aa9a4f945dfe15d6f782d8777f0",
+      "sourceCommit": "c3e36a3f7c1af384660eb374f664a3338b308cfe"
+    },
+    {
       "bytes": 579598,
       "file": "archives/deg-heatmap-go-panel.zip",
       "files": [
