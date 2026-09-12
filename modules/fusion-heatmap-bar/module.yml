@@ -1,0 +1,81 @@
+schema: figure-library.personal-module.v1
+moduleId: fusion-heatmap-bar
+title: 基因融合热图堆积柱
+titleEn: fusion heatmap bar
+description: 并排展示各基因在不同肿瘤类型中的融合计数及其组成比例。
+application: |-
+  - 可用于并排展示各基因在不同肿瘤类型中的融合计数及其组成比例，但需要先确认自己的数据结构和统计量定义与该编码一致。
+  - 当前展示的是授权示例或包内数据；套用于新的研究时须核对输入含义、缺失处理及上游统计。
+scientificQuestion: 并排展示各基因在不同肿瘤类型中的融合计数及其组成比例。
+dataProfile: 31 个基因 × 21 个肿瘤类型的聚合计数矩阵；不发布个体级原表。
+plotFamily: heatmap
+language: R
+tags:
+  - ComplexHeatmap
+  - R
+  - heatmap
+  - personal-gallery
+packages:
+  - ComplexHeatmap
+  - circlize
+  - dplyr
+  - forcats
+  - ggplot2
+  - patchwork
+  - readr
+  - stringr
+  - tibble
+  - tidyr
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/input.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/input.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/input.csv
+  - data_schema.yml
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 171020
+  sha256: fd398a23c1a21f7110c572cb5949acf3dfdfc491ac85c9c185f7ada6dc277886
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 24811
+  sha256: c825fa2644b82bcd17e3e457a0f5b1c9fc43c40139007c03cc8f21f5cd1b9f78
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry fusion-heatmap-bar; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
