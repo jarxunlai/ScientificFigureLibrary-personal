@@ -284,6 +284,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 92016,
+      "file": "archives/complex-bubble.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "complex-bubble",
+      "sha256": "6657de9f76372664d5ded373a6d473f02bff7f061ddde3227505f0c03cb9351f",
+      "sourceCommit": "5b3501b96a6c14099e734180f4ecdafc8ece0438"
+    },
+    {
       "bytes": 579598,
       "file": "archives/deg-heatmap-go-panel.zip",
       "files": [
