@@ -35,6 +35,23 @@
       "sourceCommit": "8e7251504af94eca151a4c92d17bdbe706d3515d"
     },
     {
+      "bytes": 54996,
+      "file": "archives/bidirectional-bar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "bidirectional-bar",
+      "sha256": "fad099c6e3690caf2ea29678268e157e8ec025db584cd464daa37fb0aef04ad6",
+      "sourceCommit": "ca8db9ab2bc29e467d1e67601b3242533cfcedca"
+    },
+    {
       "bytes": 293426,
       "file": "archives/cancercell-pathway-nes-heatmap.zip",
       "files": [

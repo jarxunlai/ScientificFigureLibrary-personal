@@ -1,0 +1,70 @@
+schema: figure-library.personal-module.v1
+moduleId: bidirectional-bar
+title: 双向柱状图
+titleEn: bidirectional bar
+description: 用正负双向柱展示模拟通路值。preview 由 organized.R 渲染；数据为 sample() 模拟，不是论文结果。
+application: |-
+  展示正负两侧的柱状对比。
+
+  - 作为该图类型的 R 代码与布局参考。
+  - 在确认前不作为论文结果或上游分析复现。
+scientificQuestion: 正负两侧的数值如何对照？
+dataProfile: 脚本内 sample() 模拟的 12 条通路值，无外部文件。
+plotFamily: bar
+language: R
+tags:
+  - R
+  - bar
+  - ggplot2
+  - personal-gallery
+packages:
+  - dplyr
+  - ggplot2
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 52845
+  sha256: 0131e40acd3181690693ef3b0ba091e4b35e55083c4c3a464744909a683dba1b
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 13085
+  sha256: ef507fb28cc1da2980f1d06dedb76667f4405a601af8a548967731d59b75c9d5
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry bidirectional-bar; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: authorized_adaptation
+    note: Adapted implementation redistributed with contributor authorization. This is not a claim of original authorship.
+      Only the declared public files are included.
