@@ -452,6 +452,24 @@
       "sourceCommit": "5b3501b96a6c14099e734180f4ecdafc8ece0438"
     },
     {
+      "bytes": 257260,
+      "file": "archives/complex-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/rownames.txt",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "complex-heatmap",
+      "sha256": "20b7400d237bc5d901476e46abfb2f10ce7b21640601ea93a0463b088b84d8c6",
+      "sourceCommit": "9ec656250fc971abe4662c8d999fcc44afb9a98e"
+    },
+    {
       "bytes": 1082019,
       "file": "archives/complex-network.zip",
       "files": [
