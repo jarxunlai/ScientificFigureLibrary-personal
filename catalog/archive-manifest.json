@@ -1927,6 +1927,23 @@
       "sourceCommit": "7c0e6bd3054cf3be05e03fcc53d6349c0c978447"
     },
     {
+      "bytes": 52891,
+      "file": "archives/styled-boxplot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "styled-boxplot",
+      "sha256": "0141e6cb3b0b5c60207ab00bd37041bcc8121439edb63fbcc5432370102aad9b",
+      "sourceCommit": "540fee347217a5bdf2bf2fa4fba737a06b341d29"
+    },
+    {
       "bytes": 2768711,
       "file": "archives/umap-style-density-heatmap.zip",
       "files": [
