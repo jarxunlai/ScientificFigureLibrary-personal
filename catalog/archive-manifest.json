@@ -397,6 +397,25 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 143614,
+      "file": "archives/colocalization-matrix.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/data.xlsx",
+        "data/group.csv",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "colocalization-matrix",
+      "sha256": "196173236db89961fe31179d935c4100b51af2df0508427fe3f33a23427b21bb",
+      "sourceCommit": "c2ecdac376afcd052cacde302c94e48df158dabf"
+    },
+    {
       "bytes": 92016,
       "file": "archives/complex-bubble.zip",
       "files": [
