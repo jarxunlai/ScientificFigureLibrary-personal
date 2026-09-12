@@ -106,6 +106,23 @@
       "sourceCommit": "7fa4e210e3283efea0250e73b43e139c941b478b"
     },
     {
+      "bytes": 548593,
+      "file": "archives/ggtree-ch10-abundance-boxplot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "ggtree-ch10-abundance-boxplot",
+      "sha256": "c3e4387ff86c257c71480683c6617078ebb1a7a4050a4b7fdc3c9e01b0b0f83d",
+      "sourceCommit": "98c54bf8486d70b859b5b695941eac233c7ac937"
+    },
+    {
       "bytes": 313319,
       "file": "archives/ggtree-ch13-bootstrap-points.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-12T05:39:54.753Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
