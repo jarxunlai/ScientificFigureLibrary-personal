@@ -69,6 +69,23 @@
       "sourceCommit": "cc0de25b6ee7319fc7f4685c877bbb08626f66a3"
     },
     {
+      "bytes": 140913,
+      "file": "archives/batch-scatter-line.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "batch-scatter-line",
+      "sha256": "3b4088b935aea2cb61ec1d308498c3220937ec9a6a0a29f61773f05f9d8aa962",
+      "sourceCommit": "8f698ed9ac2857772178d398d38ad287b011e5c7"
+    },
+    {
       "bytes": 54996,
       "file": "archives/bidirectional-bar.zip",
       "files": [
