@@ -40,6 +40,25 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 684755,
+      "file": "archives/circular-scatter-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/input.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "circular-scatter-heatmap",
+      "sha256": "e686adc5927322d9aae03b2d867154f24fe66ec97a3dc01e2f54b58345f32df1",
+      "sourceCommit": "b7715f2910b7b362ee6ceaab56940d6c90cdf482"
+    },
+    {
       "bytes": 543955,
       "file": "archives/clustergvis-deg-go-kegg-combo.zip",
       "files": [
@@ -891,7 +910,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-12T02:37:01.126Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
