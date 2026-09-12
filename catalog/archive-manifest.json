@@ -739,6 +739,23 @@
       "sourceCommit": "7fa4e210e3283efea0250e73b43e139c941b478b"
     },
     {
+      "bytes": 548672,
+      "file": "archives/ggtree-ch10-abundance-boxplot.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "ggtree-ch10-abundance-boxplot",
+      "sha256": "e1018dc3d18e3f9c77185f9026feb8da145b4f8f3c4ae2f160924d6a7fa38f18",
+      "sourceCommit": "8760a8e0d27caf3b7d29c94f7a491a4ab4bf59e6"
+    },
+    {
       "bytes": 1183937,
       "file": "archives/ggtree-ch10-cauris-resistance.zip",
       "files": [
