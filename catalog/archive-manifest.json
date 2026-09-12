@@ -102,6 +102,25 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 189087,
+      "file": "archives/gantt-survival-bars.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/test_data.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "gantt-survival-bars",
+      "sha256": "477fbcd422c07be4f059f09cdf029dfc4f108f4308e40e02f5992155cd86b6cb",
+      "sourceCommit": "b144a79faba6edec85d4fd8db58b566f09cb9c21"
+    },
+    {
       "bytes": 603884,
       "file": "archives/ggsankeyfier-layout-color-combo.zip",
       "files": [

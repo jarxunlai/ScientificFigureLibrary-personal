@@ -1,0 +1,9 @@
+format: csv
+columns:
+  - CancerType
+  - low
+  - high
+  - means
+  - metastasis
+  - number
+note: Example or synthetic input used to demonstrate the plotting layer.
