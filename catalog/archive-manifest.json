@@ -2128,6 +2128,23 @@
       "moduleId": "umap-unchull-main-type-circles",
       "sha256": "15ae043cfae66e48e74748fe5d8793f6b99303dbcdea064e36f48180a7465967",
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+    },
+    {
+      "bytes": 29334,
+      "file": "archives/venn-diagram.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "venn-diagram",
+      "sha256": "7c8d937aa11204951b0328248ceb25117420d9490484b5ccc995b0b6a2f706e8",
+      "sourceCommit": "2e76a1b46f78fa774484362010c7845906affa1c"
     }
   ],
   "generatedAt": "2000-01-01T00:00:00.000Z",
