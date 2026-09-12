@@ -1,6 +1,26 @@
 {
   "entries": [
     {
+      "bytes": 424716,
+      "file": "archives/bubble-volcano.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/DEG.csv",
+        "data/term_data.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "bubble-volcano",
+      "sha256": "638c4901bd2e7cb2082538befe1e08ddbf59a5d2d9732ae87943eb34e9602117",
+      "sourceCommit": "1f7a3d857126f57a286a6d697bd474971b80f981"
+    },
+    {
       "bytes": 293426,
       "file": "archives/cancercell-pathway-nes-heatmap.zip",
       "files": [
@@ -891,7 +911,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-12T02:33:17.561Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
