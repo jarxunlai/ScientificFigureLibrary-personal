@@ -1476,6 +1476,23 @@
       "sourceCommit": "c066c4b54f36c9964ba40aa817077913f8fdaadd"
     },
     {
+      "bytes": 90188,
+      "file": "archives/pca-3d-scatter.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "pca-3d-scatter",
+      "sha256": "d4264319efa636736a979c882f09087a53990148b14447eb0865a4a9c0ac3878",
+      "sourceCommit": "fe323cc5f9a8ad2be776dedb8c5638f34f5944b7"
+    },
+    {
       "bytes": 162818,
       "file": "archives/percent-bar-errorbars.zip",
       "files": [

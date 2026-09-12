@@ -1,0 +1,75 @@
+schema: figure-library.personal-module.v1
+moduleId: pca-3d-scatter
+title: 三维嵌入坐标散点图
+titleEn: pca 3d scatter
+description: 用三维坐标展示分组和分支结构，不将预先给出的坐标误称为 PCA 结果。
+application: |-
+  - 可用于用三维坐标展示分组和分支结构，不将预先给出的坐标误称为 PCA 结果，但需要先确认自己的数据结构和统计量定义与该编码一致。
+  - 当前图仅是模拟示例，用于检查布局；正式分析必须替换为经过审核的数据和结果。
+scientificQuestion: 用三维坐标展示分组和分支结构，不将预先给出的坐标误称为 PCA 结果。
+dataProfile: 300 个独立模拟三维坐标、三个分组；未执行 PCA 或扩散映射算法。
+plotFamily: pca
+language: R
+tags:
+  - R
+  - pca
+  - personal-gallery
+  - plot3D
+  - synthetic-example
+packages:
+  - dplyr
+  - forcats
+  - ggplot2
+  - readr
+  - scatterplot3d
+  - stringr
+  - tibble
+  - tidyr
+codeFiles:
+  - code/organized.R
+inputFiles: []
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - description.md
+  - docs/doc-description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 87808
+  sha256: 33d443220aa2502fa893687eaa69d2c46dbdf0c6f3ed24456e3d1bdc8919c9f9
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 15512
+  sha256: 4fedfeba5d8f2fa28554afd31e003c3140d635fc44072053a77b72d2f24ecf6e
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry pca-3d-scatter; internal Library state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
