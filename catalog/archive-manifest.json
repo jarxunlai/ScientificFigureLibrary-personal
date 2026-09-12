@@ -586,6 +586,25 @@
       "sourceCommit": "533ccd6bbbc7892a71702cae8793cab7520296d4"
     },
     {
+      "bytes": 90654,
+      "file": "archives/expression-radar.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/radar.eg.xlsx",
+        "data/radar_groups.eg.xlsx",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "expression-radar",
+      "sha256": "d0cf4772eaa17d4923524e487a258c353c8574a1f135163e25a7c327660fc494",
+      "sourceCommit": "53b1423e0ad01bf0b39c6ce517139756f92fabcb"
+    },
+    {
       "bytes": 47171,
       "file": "archives/facet-bidirectional-bar.zip",
       "files": [
