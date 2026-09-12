@@ -546,6 +546,23 @@
       "sourceCommit": "b9a0c7e1f73785604fe6ecada7d5d8cfd602540f"
     },
     {
+      "bytes": 162818,
+      "file": "archives/percent-bar-errorbars.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "percent-bar-errorbars",
+      "sha256": "8a4cdac44a7ef1a61a75ae066cde7af9d806ee5957b6b4656e3e3704c8249cde",
+      "sourceCommit": "54d0ba250d38df6a60457c862c9a8eb3ffa4b00f"
+    },
+    {
       "bytes": 185312,
       "file": "archives/sc-celltype-grouped-dodge-count.zip",
       "files": [
