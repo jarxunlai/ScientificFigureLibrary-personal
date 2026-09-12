@@ -529,6 +529,23 @@
       "sourceCommit": "b9a0c7e1f73785604fe6ecada7d5d8cfd602540f"
     },
     {
+      "bytes": 81682,
+      "file": "archives/paired-box-scatter-lines.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "paired-box-scatter-lines",
+      "sha256": "33cb4382f822799afae3851e0f6cefea20eb3131f162a4d15614f339b952882a",
+      "sourceCommit": "611ac4ec9064be8cf0721358d566ecc3143074ff"
+    },
+    {
       "bytes": 185312,
       "file": "archives/sc-celltype-grouped-dodge-count.zip",
       "files": [
@@ -891,7 +908,7 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     }
   ],
-  "generatedAt": "2026-09-07T10:46:33.389Z",
+  "generatedAt": "2026-09-12T05:06:15.184Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
