@@ -137,6 +137,23 @@
       "sourceCommit": "2e2079b13266f3f46f26efe51ccca462a3f036fd"
     },
     {
+      "bytes": 104371,
+      "file": "archives/boxplot-paired-lines.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "boxplot-paired-lines",
+      "sha256": "7e29dd1de1e117651b5c1a8e34c9351d5e67936a677d6da920e3d03a819689af",
+      "sourceCommit": "260ffb3bcf61701f6895f2737a7f6966f3874a9f"
+    },
+    {
       "bytes": 293426,
       "file": "archives/cancercell-pathway-nes-heatmap.zip",
       "files": [
