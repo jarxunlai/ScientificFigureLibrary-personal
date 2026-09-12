@@ -285,6 +285,25 @@
       "sourceCommit": "c16a67a9314ae856d777ed7c955c46024b9db89e"
     },
     {
+      "bytes": 879977,
+      "file": "archives/circular-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/input.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "circular-heatmap",
+      "sha256": "33a96863371a28acd840ba4b6e75cb7f04161f37d113790191a7a981afe83c98",
+      "sourceCommit": "a6dff2f4b11c4227dce8cbbc8055e43784fbf303"
+    },
+    {
       "bytes": 2204458,
       "file": "archives/circular-interaction-network.zip",
       "files": [
