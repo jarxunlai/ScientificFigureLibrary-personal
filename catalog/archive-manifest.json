@@ -1493,6 +1493,23 @@
       "sourceCommit": "fe323cc5f9a8ad2be776dedb8c5638f34f5944b7"
     },
     {
+      "bytes": 117061,
+      "file": "archives/pca-scatter.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "pca-scatter",
+      "sha256": "14637fd2acb61b5b161ffa0f91e29d5252e1e38fe0aa8d645296258b3a5f448a",
+      "sourceCommit": "047be2ca8cddf4ed38104bcac2a3959ac6242fa9"
+    },
+    {
       "bytes": 162818,
       "file": "archives/percent-bar-errorbars.zip",
       "files": [
