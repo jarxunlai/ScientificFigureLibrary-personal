@@ -475,6 +475,23 @@
       "sourceCommit": "649961e6cbd66bec676530e6ac927e539208ed73"
     },
     {
+      "bytes": 227871,
+      "file": "archives/go-bubble-advanced.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "go-bubble-advanced",
+      "sha256": "dc8ef7e7453f3dd135503085d26d7dfcc187f5aa9d7aaab6b04551a38b330668",
+      "sourceCommit": "d06ef2146736fcb5cc200f6e37614c4d5a8ed4c9"
+    },
+    {
       "bytes": 959042,
       "file": "archives/go-enrichment-comet-combined.zip",
       "files": [
