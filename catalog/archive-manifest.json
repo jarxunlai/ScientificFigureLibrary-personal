@@ -52,6 +52,23 @@
       "sourceCommit": "42eb4b07dfe40ea02cdb05f164a819a0ae9d6cc2"
     },
     {
+      "bytes": 151441,
+      "file": "archives/batch-scatter-fit.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "batch-scatter-fit",
+      "sha256": "a5c8fe3a89f917d68def651a4486cc95a07964cc2728eabd7b6d60bbdac66683",
+      "sourceCommit": "cc0de25b6ee7319fc7f4685c877bbb08626f66a3"
+    },
+    {
       "bytes": 54996,
       "file": "archives/bidirectional-bar.zip",
       "files": [
