@@ -600,6 +600,23 @@
       "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
     },
     {
+      "bytes": 515021,
+      "file": "archives/heatmap-gradient-links.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "description.md",
+        "docs/doc-description.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "heatmap-gradient-links",
+      "sha256": "f8b45960ad95380e9efdc0a0f5efd1dd14ee2540ff64100b21daaca1015ca069",
+      "sourceCommit": "17c15eb65ed1629a4a36626cf1b5d1030cb54d67"
+    },
+    {
       "bytes": 1348439,
       "file": "archives/hlca-scib-integration-benchmark-matrix.zip",
       "files": [
