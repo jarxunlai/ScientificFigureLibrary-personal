@@ -1595,7 +1595,7 @@
       "sourceCommit": "e92d4d11ee39fbeddb8d6e3decba0a681b9c5171"
     },
     {
-      "bytes": 768597,
+      "bytes": 768522,
       "file": "archives/rat-cardiovascular-marker-go-dotplot-panel-a.zip",
       "files": [
         "README.md",
@@ -1612,8 +1612,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "rat-cardiovascular-marker-go-dotplot-panel-a",
-      "sha256": "0cf00615fb738e898f65acc848d57ff093d5d1433bec04c5fe3364c27dd3329e",
-      "sourceCommit": "327ddbf223e7da8b4f69ea323e4c5a9671802866"
+      "sha256": "b5f9ed7cbfd87b492dbf3591597c8afa774ee61176fd756fd23faf848b5dac6d",
+      "sourceCommit": "d06033f354be581c16705fb416806eb92700a465"
     },
     {
       "bytes": 185312,
@@ -2204,7 +2204,7 @@
       "sourceCommit": "2e76a1b46f78fa774484362010c7845906affa1c"
     }
   ],
-  "generatedAt": "2026-09-29T05:16:09.007Z",
+  "generatedAt": "2026-09-29T05:23:00.217Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
