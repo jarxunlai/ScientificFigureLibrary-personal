@@ -1,0 +1,7 @@
+format: csv
+columns:
+  - '"row_order"'
+  - '"row_label"'
+  - '"trajectory"'
+  - '"gene_trend"'
+note: Example or synthetic input used to demonstrate the plotting layer.

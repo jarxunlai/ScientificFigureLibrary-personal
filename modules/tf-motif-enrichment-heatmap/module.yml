@@ -1,0 +1,85 @@
+schema: figure-library.personal-module.v1
+moduleId: tf-motif-enrichment-heatmap
+title: 转录因子基序富集注释热图
+titleEn: Annotated TF motif enrichment heatmap
+description: 以稀疏方格热图展示基因趋势组与 TF motif 的对应模式，将行侧轨迹和趋势注释、列侧转录因子家族色条与连续色标组合在同一视图中，便于比较组间模式及家族分布。
+application: |-
+  - 调控模式比较：用已有 motif 富集结果对照不同细胞轨迹或基因趋势组，观察共同和特异模式。
+  - TF 家族概览：结合列侧家族注释，检查候选 motif 在不同分组中的分布与聚集情况。
+scientificQuestion: 不同细胞轨迹或基因表达趋势组对应哪些 TF motif 富集模式，这些模式在转录因子家族之间如何分布？
+dataProfile: 三张 CSV：18 行趋势组信息、39 行 motif 及家族信息、117 行方格数值记录。
+plotFamily: annotated_heatmap
+language: R
+tags:
+  - R
+  - TF motif
+  - annotated heatmap
+  - ggplot2
+  - heatmap
+  - synthetic
+packages:
+  - cowplot
+  - ggplot2
+  - grid
+  - ragg
+  - scales
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/gene_trends.csv
+  - data/motif_enrichment.csv
+  - data/tf_motifs.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/gene_trends.csv
+  - data/motif_enrichment.csv
+  - data/tf_motifs.csv
+  - data_schema.yml
+  - description.md
+  - docs/asset-8.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/gene_trends.csv
+  - data/motif_enrichment.csv
+  - data/tf_motifs.csv
+  - data_schema.yml
+  - description.md
+  - docs/asset-8.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 255757
+  sha256: fcc4ff121a416de6fa6b32f0aa9a1b888898726a7f207b00ac6778c13008ea68
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 14795
+  sha256: d3f9762dd9910a8622caace173ef714ed4db6731c4b650d91fc1383dac43f660
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry tf-motif-enrichment-heatmap; internal Library state is not
+      distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.
