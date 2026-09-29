@@ -1,4 +1,4 @@
-# 大鼠心血管细胞 marker–GO 组合点图（Supplementary Figure 2A 视觉复刻）
+# 单细胞 marker 点图与 GO 条形组合图
 
 本模块展示 26 个细胞簇 × 130 个 marker 的点阵和与之对齐的 GO 术语三联 NES 条形。灵感和细胞类型/基因/GO 标签来源：Arduini et al., *Cell Reports* 44, 115091 (2025), DOI [10.1016/j.celrep.2024.115091](https://doi.org/10.1016/j.celrep.2024.115091)，Supplementary Figure 2A。独立生成的预览已去掉多面板字母 `a`。
 
