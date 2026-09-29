@@ -1,0 +1,84 @@
+schema: figure-library.personal-module.v1
+moduleId: rat-cardiovascular-marker-go-dotplot-panel-a
+title: 大鼠心血管细胞marker点图与GO条形组合图
+titleEn: Rat cardiovascular marker dotplot with aligned GO NES bars
+description: 将细胞簇的标记基因点图、细胞类型注释和 GO 功能条形图逐组对齐，在同一视图中关联分子标记与功能特征。点大小和色深表达两个数值维度，右侧条形与文字便于对照各簇的功能模式。
+application: |-
+  - 单细胞图谱注释：并排查看候选 marker 的表达模式和对应功能特征，比较相邻细胞类型。
+  - 细胞群功能概览：用分组点阵、细胞类型颜色与 GO 条形联动展示多组信息。
+scientificQuestion: 细胞簇的标记基因表达模式与对应 GO 功能是否相互支持其细胞身份注释？
+dataProfile: 三张输入表：26 行细胞簇标签与注释、3380 行 marker 点阵记录、78 行 GO 条形记录。
+plotFamily: marker-dotplot-go-nes-combo
+language: R
+tags:
+  - GO
+  - NES
+  - R
+  - cell type
+  - dotplot
+  - marker
+  - rat cardiovascular
+  - single-cell
+  - synthetic
+packages:
+  - ragg
+codeFiles:
+  - code/organized.R
+inputFiles:
+  - data/dotplot_synthetic.csv
+  - data/go_nes_synthetic.csv
+  - data/panel_a_labels.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - README.md
+  - code/organized.R
+  - data/dotplot_synthetic.csv
+  - data/go_nes_synthetic.csv
+  - data/panel_a_labels.csv
+  - data_schema.yml
+  - description.md
+  - docs/asset-6.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - README.md
+  - code/organized.R
+  - data/dotplot_synthetic.csv
+  - data/go_nes_synthetic.csv
+  - data/panel_a_labels.csv
+  - data_schema.yml
+  - description.md
+  - docs/asset-6.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 810222
+  sha256: 5148a64cb8809ecd3c25093aaca232b0f8cba0235ed485bccf876570749eafce
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 16971
+  sha256: ff5af1e9acd61d86d1ecd9cae32da7b549c87e0661f0b32ba32431cfc4069d80
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: not_run
+  executionScope: unknown
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed Local Published entry rat-cardiovascular-marker-go-dotplot-panel-a; internal Library
+      state is not distributed.
+  - type: public_input_scope
+    note: Only explicitly selected public input assets are distributed; Local Published execution and scientific-validation
+      claims are not inherited.
+  - type: clean_room_transformation
+    note: Only files listed in this manifest are distributed; source/reference images, PDFs, logs, receipts, and
+      machine-local state are excluded.

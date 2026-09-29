@@ -1,0 +1,79 @@
+cell_type,color,rank,go_term,nes,origin,seed
+0: FB 1,#4285BA,1,ECM struct. constituent,2.659005682412535,synthetic_visual_mimic,20250128
+0: FB 1,#4285BA,2,collagen fibril organization,2.3048151469789446,synthetic_visual_mimic,20250128
+0: FB 1,#4285BA,3,collagen containing ECM,2.044538630414754,synthetic_visual_mimic,20250128
+1: EC 1,#EA7E2D,1,blood vessel endothelial cell migration,2.6685081698745488,synthetic_visual_mimic,20250128
+1: EC 1,#EA7E2D,2,endothelium development,2.179927371237427,synthetic_visual_mimic,20250128
+1: EC 1,#EA7E2D,3,endothelial cell migration,1.9459980753064154,synthetic_visual_mimic,20250128
+2: FB 2,#4BB150,1,ECM struct. constituent,2.5494995988719165,synthetic_visual_mimic,20250128
+2: FB 2,#4BB150,2,collagen fibril organization,2.1590658048167826,synthetic_visual_mimic,20250128
+2: FB 2,#4BB150,3,collagen containing ECM,1.9000680670514702,synthetic_visual_mimic,20250128
+3: Ventricular CM,#DB302D,1,I band,2.560801096949726,synthetic_visual_mimic,20250128
+3: Ventricular CM,#DB302D,2,contractile fiber,2.2475895418412986,synthetic_visual_mimic,20250128
+3: Ventricular CM,#DB302D,3,striated muscle contraction,1.9413762475736438,synthetic_visual_mimic,20250128
+4: FB 3,#9066B2,1,ECM struct. constituent,2.6338024291768667,synthetic_visual_mimic,20250128
+4: FB 3,#9066B2,2,collagen containing ECM,2.1570780018903317,synthetic_visual_mimic,20250128
+4: FB 3,#9066B2,3,ECM,1.92889939494431,synthetic_visual_mimic,20250128
+5: EC 2,#8C574E,1,endothelial cell migration,2.593195572327822,synthetic_visual_mimic,20250128
+5: EC 2,#8C574E,2,endothelium development,2.211246029678732,synthetic_visual_mimic,20250128
+5: EC 2,#8C574E,3,sprouting angiogenesis,1.9946050978638232,synthetic_visual_mimic,20250128
+6: Macrophage,#D37ABB,1,B cell receptor sig. path.,2.6451331796497106,synthetic_visual_mimic,20250128
+6: Macrophage,#D37ABB,2,B cell activation,2.1961006633378566,synthetic_visual_mimic,20250128
+6: Macrophage,#D37ABB,3,pos. reg. of immune response,2.0377379951812324,synthetic_visual_mimic,20250128
+7: Pericyte,#9A9A9A,1,artery morphogenesis,2.5024200509302315,synthetic_visual_mimic,20250128
+7: Pericyte,#9A9A9A,2,artery development,2.227722872067243,synthetic_visual_mimic,20250128
+7: Pericyte,#9A9A9A,3,endocardial cushion development,2.0337860850803553,synthetic_visual_mimic,20250128
+8: T cell,#B8C83F,1,T cell differentiation,2.6659011342935264,synthetic_visual_mimic,20250128
+8: T cell,#B8C83F,2,adaptive immune response,2.3327324619702994,synthetic_visual_mimic,20250128
+8: T cell,#B8C83F,3,antigen receptor med. sig. path.,1.8398331967368722,synthetic_visual_mimic,20250128
+9: Atrial CM,#62D4D4,1,I band,2.5841781415790317,synthetic_visual_mimic,20250128
+9: Atrial CM,#62D4D4,2,contractile fiber,2.262107136603445,synthetic_visual_mimic,20250128
+9: Atrial CM,#62D4D4,3,striated muscle contraction,1.8490914300084114,synthetic_visual_mimic,20250128
+10: VSMC 1,#BDBDBD,1,ECM struct. constituent,2.6089093971066175,synthetic_visual_mimic,20250128
+10: VSMC 1,#BDBDBD,2,contractile fiber,2.1799058452248574,synthetic_visual_mimic,20250128
+10: VSMC 1,#BDBDBD,3,I band,1.9821075888723134,synthetic_visual_mimic,20250128
+11: EC 3,#E3CEA6,1,endothelium development,2.4911565699800846,synthetic_visual_mimic,20250128
+11: EC 3,#E3CEA6,2,neg. reg. of vasculature development,2.267398645989597,synthetic_visual_mimic,20250128
+11: EC 3,#E3CEA6,3,sprouting angiogenesis,2.0563984108529985,synthetic_visual_mimic,20250128
+12: B. Adipose,#ECE143,1,cellular respiration,2.568949556965381,synthetic_visual_mimic,20250128
+12: B. Adipose,#ECE143,2,mitochondrial protein complex,2.183026378992945,synthetic_visual_mimic,20250128
+12: B. Adipose,#ECE143,3,energy deriv. by oxidation of org. cmpd.,2.0045854488015173,synthetic_visual_mimic,20250128
+13: Lymph. EC,#B9E378,1,neg. reg. of vasculature development,2.5862737750075757,synthetic_visual_mimic,20250128
+13: Lymph. EC,#B9E378,2,sprouting angiogenesis,2.3498142462037506,synthetic_visual_mimic,20250128
+13: Lymph. EC,#B9E378,3,lymph vessel development,1.9179361365549266,synthetic_visual_mimic,20250128
+14: Mesothelial,#E6AAD2,1,neur. proj. ext. inv. in neur. proj. guidance,2.45029473753646,synthetic_visual_mimic,20250128
+14: Mesothelial,#E6AAD2,2,pancreas development,2.2184174981340767,synthetic_visual_mimic,20250128
+14: Mesothelial,#E6AAD2,3,ECM struct. constituent,1.9779383687116205,synthetic_visual_mimic,20250128
+15: W. Adipose,#8EA2CD,1,fatty acid catabolic process,2.582964525930583,synthetic_visual_mimic,20250128
+15: W. Adipose,#8EA2CD,2,monocarboxylic acid catabolic process,2.235306564364582,synthetic_visual_mimic,20250128
+15: W. Adipose,#8EA2CD,3,fatty acid metabolic process,1.9713363220542668,synthetic_visual_mimic,20250128
+16: Monocyte,#E98663,1,myeloid leukocyte med. immunity,2.6626649849675594,synthetic_visual_mimic,20250128
+16: Monocyte,#E98663,2,leukocyte med. immunity,2.3050037394091487,synthetic_visual_mimic,20250128
+16: Monocyte,#E98663,3,cell activation inv. in immune response,2.0205468358285725,synthetic_visual_mimic,20250128
+17: Neuronal,#94DBBB,1,syn. membr. adhesion,2.624155455417931,synthetic_visual_mimic,20250128
+17: Neuronal,#94DBBB,2,ECM struct. constituent conf. tens. strength,2.157029973082244,synthetic_visual_mimic,20250128
+17: Neuronal,#94DBBB,3,reg. of synapse assembly,1.969671144336462,synthetic_visual_mimic,20250128
+18: B cell,#4DAE7F,1,adaptive immune response,2.654634279627353,synthetic_visual_mimic,20250128
+18: B cell,#4DAE7F,2,B cell activation,2.2900971123576164,synthetic_visual_mimic,20250128
+18: B cell,#4DAE7F,3,B cell receptor sig. path.,1.84840643690899,synthetic_visual_mimic,20250128
+19: VSMC 2,#E0875F,1,relaxation of muscle,2.653512217774987,synthetic_visual_mimic,20250128
+19: VSMC 2,#E0875F,2,membr. depolar. during action potential,2.325844040885568,synthetic_visual_mimic,20250128
+19: VSMC 2,#E0875F,3,reg. of voltage gated Ca ch. activity,1.913632510844618,synthetic_visual_mimic,20250128
+21: Top2a+ EC,#EB53AB,1,kinesin complex,2.4693211574479936,synthetic_visual_mimic,20250128
+21: Top2a+ EC,#EB53AB,2,sister chromatid segregation,2.1733488558232783,synthetic_visual_mimic,20250128
+21: Top2a+ EC,#EB53AB,3,meiotic cell cycle process,1.9997485516034066,synthetic_visual_mimic,20250128
+22: APC,#80BD5F,1,B cell receptor sig. path.,2.4601819525659083,synthetic_visual_mimic,20250128
+22: APC,#80BD5F,2,B cell activation,2.2960774755477904,synthetic_visual_mimic,20250128
+22: APC,#80BD5F,3,response to interferon gamma,1.974161978289485,synthetic_visual_mimic,20250128
+23: Club cell,#DFB950,1,ciliary plasm,2.4560557496175166,synthetic_visual_mimic,20250128
+23: Club cell,#DFB950,2,cilium movement,2.344692711029202,synthetic_visual_mimic,20250128
+23: Club cell,#DFB950,3,motile cilium,2.0522930124029517,synthetic_visual_mimic,20250128
+24: G. Plexi Neur,#B18E50,1,ECM struct. constituent,2.6428601736947894,synthetic_visual_mimic,20250128
+24: G. Plexi Neur,#B18E50,2,basement membr.,2.3049800303578376,synthetic_visual_mimic,20250128
+24: G. Plexi Neur,#B18E50,3,collagen containing ECM,1.952609809488058,synthetic_visual_mimic,20250128
+25: Fmod+ FB,#9A9A9A,1,ECM struct. constituent,2.439409120827913,synthetic_visual_mimic,20250128
+25: Fmod+ FB,#9A9A9A,2,collagen containing ECM,2.152237712088972,synthetic_visual_mimic,20250128
+25: Fmod+ FB,#9A9A9A,3,ECM,1.968873147368431,synthetic_visual_mimic,20250128
+26: NM Schwann,#73A4CB,1,ATPase coupled ion t.mem. trans. activity,2.669614687208086,synthetic_visual_mimic,20250128
+26: NM Schwann,#73A4CB,2,integral comp. of syn. vesicle membr.,2.153740774076432,synthetic_visual_mimic,20250128
+26: NM Schwann,#73A4CB,3,syn. vesicle priming,1.8685469339042902,synthetic_visual_mimic,20250128

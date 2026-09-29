@@ -1,0 +1,27 @@
+cluster_id,cell_type,color,gene_1,gene_2,gene_3,gene_4,gene_5,go_1,go_2,go_3
+0,0: FB 1,#4285BA,Gsn,Dcn,Col3a1,Opcml,C7,ECM struct. constituent,collagen fibril organization,collagen containing ECM
+1,1: EC 1,#EA7E2D,Flt1,Dach1,Cyyr1,Ptprb,LOC103690141,blood vessel endothelial cell migration,endothelium development,endothelial cell migration
+2,2: FB 2,#4BB150,Ccbe1,Mgp,Tmeff2,B3galt1,Nrxn1,ECM struct. constituent,collagen fibril organization,collagen containing ECM
+3,3: Ventricular CM,#DB302D,Ryr2,Ttn,Fhl2,Rbm20,Myh6,I band,contractile fiber,striated muscle contraction
+4,4: FB 3,#9066B2,Col1a1,Pi16,Fbn1,Adgrd1,Scara5,ECM struct. constituent,collagen containing ECM,ECM
+5,5: EC 2,#8C574E,Hmcn1,Pgm5,Cgnl1,Npr3,Pkhd1l1,endothelial cell migration,endothelium development,sprouting angiogenesis
+6,6: Macrophage,#D37ABB,Rbpj,Cd74,Cd163,Mrc1,Heph,B cell receptor sig. path.,B cell activation,pos. reg. of immune response
+7,7: Pericyte,#9A9A9A,Abcc9,Rgs5,Plcl1,Adgrl3,Prkg1,artery morphogenesis,artery development,endocardial cushion development
+8,8: T cell,#B8C83F,Skap1,Ptprc,Ccl5,Ikzf1,Arhgap15,T cell differentiation,adaptive immune response,antigen receptor med. sig. path.
+9,9: Atrial CM,#62D4D4,Kcnj3,Dmd,Ldb3,Ankrd1,Erbb4,I band,contractile fiber,striated muscle contraction
+10,10: VSMC 1,#BDBDBD,Acta2,Eln,Itga8,Myh11,Tpm1,ECM struct. constituent,contractile fiber,I band
+11,11: EC 3,#E3CEA6,Vwf,Pcdh7,Dkk2,Nuak1,Clu,endothelium development,neg. reg. of vasculature development,sprouting angiogenesis
+12,12: B. Adipose,#ECE143,Gpd1,Plin1,Cidea,Thrsp,Acsl1,cellular respiration,mitochondrial protein complex,energy deriv. by oxidation of org. cmpd.
+13,13: Lymph. EC,#B9E378,Ccl21,Reln,Mmrn1,Flt4,Prox1,neg. reg. of vasculature development,sprouting angiogenesis,lymph vessel development
+14,14: Mesothelial,#E6AAD2,AABR07069371.1,Wfdc21,Gpm6a,Msln,Sema3c,neur. proj. ext. inv. in neur. proj. guidance,pancreas development,ECM struct. constituent
+15,15: W. Adipose,#8EA2CD,Car3,Kcnip1,Retn,Nnat,Acvr1c,fatty acid catabolic process,monocarboxylic acid catabolic process,fatty acid metabolic process
+16,16: Monocyte,#E98663,S100a9,Lyz2,Slfn4,S100a8,Tyrobp,myeloid leukocyte med. immunity,leukocyte med. immunity,cell activation inv. in immune response
+17,17: Neuronal,#94DBBB,Scn7a,Cdh19,Grik2,Csmd1,Ncam2,syn. membr. adhesion,ECM struct. constituent conf. tens. strength,reg. of synapse assembly
+18,18: B cell,#4DAE7F,Bank1,Ighm,Ikzf3,Pax5,Prkcb,adaptive immune response,B cell activation,B cell receptor sig. path.
+19,19: VSMC 2,#E0875F,Kcnab1,Slit3,Cdh6,Ctnna3,Notch3,relaxation of muscle,membr. depolar. during action potential,reg. of voltage gated Ca ch. activity
+21,21: Top2a+ EC,#EB53AB,Top2a,Nusap1,Ect2,Diaph3,Troap,kinesin complex,sister chromatid segregation,meiotic cell cycle process
+22,22: APC,#80BD5F,Wdfy4,RT1-Db1,Slpi,AC120486.10,RT1-Bb,B cell receptor sig. path.,B cell activation,response to interferon gamma
+23,23: Club cell,#DFB950,Scgb1a1,Bpifa1,Wfdc2,Aurkb,C3,ciliary plasm,cilium movement,motile cilium
+24,24: G. Plexi Neur,#B18E50,Apod,Tenm2,Fgf14,Itgb4,Bnc2,ECM struct. constituent,basement membr.,collagen containing ECM
+25,25: Fmod+ FB,#9A9A9A,Fmod,Kcnma1,Il1rapl1,Fam163a,Postn,ECM struct. constituent,collagen containing ECM,ECM
+26,26: NM Schwann,#73A4CB,Cntn5,Snhg11,Stmn2,Snap25,Nefl,ATPase coupled ion t.mem. trans. activity,integral comp. of syn. vesicle membr.,syn. vesicle priming
