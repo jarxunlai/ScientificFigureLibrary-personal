@@ -1982,6 +1982,27 @@
       "sourceCommit": "540fee347217a5bdf2bf2fa4fba737a06b341d29"
     },
     {
+      "bytes": 241377,
+      "file": "archives/tf-motif-enrichment-heatmap.zip",
+      "files": [
+        "README.md",
+        "code/organized.R",
+        "data/gene_trends.csv",
+        "data/motif_enrichment.csv",
+        "data/tf_motifs.csv",
+        "data_schema.yml",
+        "description.md",
+        "docs/asset-8.md",
+        "module.yml",
+        "preview.png",
+        "provenance.md",
+        "thumbnail.jpg"
+      ],
+      "moduleId": "tf-motif-enrichment-heatmap",
+      "sha256": "e43fd50743da5b6231f959b3433ce1ea023c8775cc4e6fb8eba00a8701d97fde",
+      "sourceCommit": "bbd64f458a15e0982d3fd5aa5884cf335baea94a"
+    },
+    {
       "bytes": 79668,
       "file": "archives/three-line-table.zip",
       "files": [
@@ -2204,7 +2225,7 @@
       "sourceCommit": "2e76a1b46f78fa774484362010c7845906affa1c"
     }
   ],
-  "generatedAt": "2026-09-29T05:23:00.217Z",
+  "generatedAt": "2026-10-29T12:09:29.615Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
