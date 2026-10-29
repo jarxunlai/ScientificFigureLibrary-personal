@@ -1,20 +1,20 @@
 {
   "authorizedNextKeys": [],
   "catalog": {
-    "bytes": 600558,
+    "bytes": 606428,
     "mediaType": "application/json",
-    "sha256": "faa031c9a57d342f0afd3d55c085c61c880ce63f4ba89777e9c42a0d1a6b4a1d",
-    "url": "https://raw.githubusercontent.com/jarxunlai/ScientificFigureLibrary-personal/3580837e597e4c2cb17c443e496daee52c417613/snapshots/3/module-catalog.json"
+    "sha256": "86106adecff9b7a835c9ce67be1e622598794525bd2531534596fce204717b1a",
+    "url": "https://raw.githubusercontent.com/jarxunlai/ScientificFigureLibrary-personal/4e0fd33eb0c0a5aee9bc9870b29e40e84541b882/snapshots/4/module-catalog.json"
   },
-  "generatedAt": "2026-10-29T12:10:19.000Z",
+  "generatedAt": "2026-10-29T12:14:42.000Z",
   "previews": {
-    "bytes": 51891093,
+    "bytes": 52124345,
     "mediaType": "application/zip",
-    "sha256": "cb3d5d75a3f19b2605d68c74654d27cf259d57a2794ca86c06f6e7a0b3d7d799",
-    "url": "https://raw.githubusercontent.com/jarxunlai/ScientificFigureLibrary-personal/3580837e597e4c2cb17c443e496daee52c417613/snapshots/3/module-previews.zip"
+    "sha256": "df68a663c71b5d73823ca748806210742d74e84d29d82a8cb7e4048d10e21c7a",
+    "url": "https://raw.githubusercontent.com/jarxunlai/ScientificFigureLibrary-personal/4e0fd33eb0c0a5aee9bc9870b29e40e84541b882/snapshots/4/module-previews.zip"
   },
   "providerId": "io.github.jarxunlai.personal-figures",
   "schema": "figure-library.provider-source-manifest.v1",
-  "sequence": 3,
+  "sequence": 4,
   "tombstones": []
 }
