@@ -1,0 +1,125 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/cell_factor_correlation.csv
+    format: csv
+    rows: 22
+    columns:
+      - ""
+      - NMF1
+      - NMF2
+      - NMF3
+      - NMF4
+      - NMF5
+      - NMF6
+      - NMF7
+      - NMF8
+      - NMF9
+      - NMF10
+      - NMF11
+      - NMF12
+  - path: data/cell_groups.csv
+    format: csv
+    rows: 22
+    columns:
+      - ""
+      - lineage
+  - path: data/environment_groups.csv
+    format: csv
+    rows: 36
+    columns:
+      - variable
+      - group
+  - path: data/environment_variables.csv
+    format: csv
+    rows: 75
+    columns:
+      - sample
+      - MAG richness
+      - Shannon diversity
+      - Gene richness
+      - Mean diversity
+      - Aerobic fraction
+      - Lipid richness
+      - Nitrate
+      - Nitrite
+      - Ammonium
+      - Phosphate
+      - Stream order
+      - Latitude
+      - Longitude
+      - Elevation
+      - Slope
+      - Rock cover
+      - Open water
+      - Developed open
+      - Low intensity
+      - Medium intensity
+      - High intensity
+      - Deciduous forest
+      - Evergreen forest
+      - Mixed forest
+      - Shrub
+      - Grassland
+      - Pasture
+      - Crops
+      - Wetland
+      - MTD diversity
+      - Aridity
+      - Temperature
+      - Precipitation
+      - Runoff
+      - Drainage area
+      - Snow
+  - path: data/mantel_communities.csv
+    format: csv
+    rows: 75
+    columns:
+      - ""
+      - feature1
+      - feature2
+      - feature3
+      - feature4
+      - feature5
+      - feature6
+      - feature7
+      - feature8
+      - feature9
+      - feature10
+      - feature11
+      - feature12
+      - feature13
+      - feature14
+      - feature15
+      - feature16
+      - feature17
+      - feature18
+      - feature19
+      - feature20
+      - feature21
+      - feature22
+      - feature23
+      - feature24
+  - path: data/mantel_environment.csv
+    format: csv
+    rows: 75
+    columns:
+      - ""
+      - Temperature
+      - Salinity
+      - pH
+      - TOC
+      - TN
+      - TP
+      - NO3
+      - NH4
+      - Moisture
+      - Depth
+      - Latitude
+  - path: data/mantel_geography.csv
+    format: csv
+    rows: 75
+    columns:
+      - ""
+      - latitude
+      - longitude

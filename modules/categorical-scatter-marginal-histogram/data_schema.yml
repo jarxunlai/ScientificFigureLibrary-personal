@@ -1,0 +1,14 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/runaways.csv
+    format: csv
+    rows: 52
+    columns:
+      - t_kin
+      - v_t
+      - t_min
+      - t_plus
+      - v_err
+      - spectral
+      - magnitude

@@ -1,0 +1,98 @@
+schema: figure-library.personal-module.v1
+moduleId: inverted-triangle-dendrogram
+title: 倒三角相关热图与聚类树
+titleEn: Inverted triangle and dendrogram
+description: 将相关矩阵的上三角以菱形单元旋转为倒三角，顶部保留complete-linkage聚类树，两条斜边分别标注相同变量，并用类别色点提示所属分组。
+scientificQuestion: 变量是否形成相近的共变模块，模块边界如何与分类对应？
+application: |-
+  - 展示共表达、代谢物或生理指标的模块化相关结构。
+  - 用较紧凑的倒三角版式保留树与变量名称，供后续人工拼版。
+dataProfile: 合成示例输入；2个运行期输入表。abundance.csv：90行×27列；groups.csv：26行×2列
+plotFamily: rotated_correlation_heatmap
+language: R
+tags:
+  - rotated_correlation_heatmap
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggdendro
+  - ggplot2
+  - patchwork
+  - ragg
+  - scales
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/abundance.csv
+  - data/groups.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/abundance.csv
+  - data/groups.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/abundance.csv
+  - data/groups.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 529960
+  sha256: 8e918c1e90436a5604c4dbe9b13d82b6b4a29bdd0a92694087034bfed62561ae
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 13230
+  sha256: 099ebda8558253dd62f4c2767b3fa5477052f44249c73c0c86e811c02c1a13cb
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template inverted-triangle-dendrogram; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247483757&idx=1&sn=3bd7020acab51b826e3d8a0f7b44f777&chksm=c16b04d3f61c8dc58ef3b6d658cf1b2c45e7a26c72a101d88ec9552c04d1afea61eaf01fa1c6#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 菱形倒三角、模块边界和树已恢复；合成数据的四模块边界、聚类叶序和浅蓝色块位置不同。
+    nextStep: 细调模块间协方差及树/标签间隔，保留当前实际相关值。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

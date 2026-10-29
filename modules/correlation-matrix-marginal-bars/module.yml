@@ -1,0 +1,93 @@
+schema: figure-library.personal-module.v1
+moduleId: correlation-matrix-marginal-bars
+title: 胆汁酸相关矩阵与边缘浓度条形图
+titleEn: Bile acid correlations and marginal bars
+description: 用上三角气泡矩阵表现胆汁酸的两两Pearson相关，颜色与点大小共同表达相关方向和强度；斜向变量名按胆汁酸类别着色，右侧浓度条形与矩阵行严格对齐，左侧小图显示五类总量之间的相关。
+scientificQuestion: 胆汁酸之间是否呈现分组相关，变量平均丰度是否与相关模式一致？
+application: |-
+  - 检查代谢组中同类及跨类别代谢物的共变模式。
+  - 同时查看高丰度代谢物与相关模块，避免只从相关强度猜测浓度。
+dataProfile: 合成示例输入；1个运行期输入表。bile_acid_abundance.csv：90行×37列
+plotFamily: correlation_matrix_marginal
+language: R
+tags:
+  - correlation_matrix_marginal
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/bile_acid_abundance.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/bile_acid_abundance.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/bile_acid_abundance.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 954579
+  sha256: 734ce9360d59017803d93e9cba122695956a0d710860dfa5cbd6f9e463b53f02
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 23446
+  sha256: 531db0e9522460132aac1e9ccc66f013b7d7de4a2172f2f6603595c34760823c
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template correlation-matrix-marginal-bars; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247483799&idx=1&sn=8b2059d3ed7463af1d6ea2c619f4169d&chksm=c16b0429f61c8d3f701d9e03afa1f9ed22a2425c9f0f50ef9cecbad473ec77b78a37a76d6e0c#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 相关圆点大小、局部色块和条长仍不等同于来源：它们从合成示例计算，未抄录原图结果值。
+    nextStep: 如取得原输入表，替换合成数据并重算圆点大小和边际条长；否则仅细调相关块结构，不照抄来源结果值。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

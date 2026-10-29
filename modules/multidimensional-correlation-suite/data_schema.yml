@@ -1,0 +1,181 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/cell_factor_correlations.csv
+    format: csv
+    rows: 31
+    columns:
+      - ""
+      - factor_1
+      - factor_2
+      - factor_3
+      - factor_4
+      - factor_5
+      - factor_6
+      - factor_7
+      - factor_8
+      - factor_9
+      - factor_10
+      - factor_11
+      - factor_12
+      - factor_13
+      - factor_14
+      - factor_15
+      - factor_16
+      - factor_17
+      - factor_18
+      - factor_19
+      - factor_20
+      - factor_21
+      - factor_22
+      - factor_23
+      - factor_24
+      - factor_25
+      - factor_26
+      - factor_27
+      - factor_28
+      - factor_29
+      - factor_30
+      - factor_31
+  - path: data/cell_groups.csv
+    format: csv
+    rows: 31
+    columns:
+      - Cell
+      - cell_group
+  - path: data/environment_groups.csv
+    format: csv
+    rows: 46
+    columns:
+      - Variable
+      - Group
+  - path: data/environment_observations.csv
+    format: csv
+    rows: 100
+    columns:
+      - Sample
+      - MAG richness
+      - MAG Shannon diversity
+      - Gene richness
+      - Gene Shannon diversity
+      - Aerobic
+      - Microaerophilic
+      - Light driven
+      - N reducer
+      - DNRA
+      - Methanotroph
+      - Stream order
+      - Latitude
+      - Longitude
+      - Water column height
+      - Flow
+      - Specific conductivity
+      - SO4
+      - NO3
+      - Total nitrogen
+      - Dam density
+      - Percentage fire
+      - Percentage open water
+      - Percentage ice
+      - Percentage developed open space
+      - Percentage low intensity developed
+      - Percentage medium intensity developed
+      - Percentage high intensity developed
+      - Percentage barren land
+      - Percentage deciduous forest
+      - Percentage coniferous forest
+      - Percentage mixed forest
+      - Percentage shrub land
+      - Percentage grassland
+      - Percentage hay
+      - Percentage crops
+      - Percentage woody wetland
+      - Percentage herbaceous wetland
+      - Population density
+      - Precipitation
+      - WWTP density
+      - Aridity
+      - NPP
+      - Max temperature
+      - Mean temperature
+      - Runoff
+      - Drainage area
+  - path: data/geography.csv
+    format: csv
+    rows: 36
+    columns:
+      - Sample
+      - Longitude
+      - Latitude
+  - path: data/host.csv
+    format: csv
+    rows: 36
+    columns:
+      - Sample
+      - Taxon_1
+      - Taxon_2
+      - Taxon_3
+      - Taxon_4
+      - Taxon_5
+      - Taxon_6
+      - Taxon_7
+      - Taxon_8
+      - Taxon_9
+  - path: data/mOTUs.csv
+    format: csv
+    rows: 36
+    columns:
+      - Sample
+      - Taxon_1
+      - Taxon_2
+      - Taxon_3
+      - Taxon_4
+      - Taxon_5
+      - Taxon_6
+      - Taxon_7
+      - Taxon_8
+      - Taxon_9
+  - path: data/mantel_environment.csv
+    format: csv
+    rows: 36
+    columns:
+      - Sample
+      - NH4-N
+      - NO3-N
+      - NO2-N
+      - TN
+      - TP
+      - pH
+      - SO4
+      - Temperature
+      - Salinity
+      - Moisture
+      - TOC
+  - path: data/vOTUs.csv
+    format: csv
+    rows: 36
+    columns:
+      - Sample
+      - Taxon_1
+      - Taxon_2
+      - Taxon_3
+      - Taxon_4
+      - Taxon_5
+      - Taxon_6
+      - Taxon_7
+      - Taxon_8
+      - Taxon_9
+  - path: data/virus.csv
+    format: csv
+    rows: 36
+    columns:
+      - Sample
+      - Taxon_1
+      - Taxon_2
+      - Taxon_3
+      - Taxon_4
+      - Taxon_5
+      - Taxon_6
+      - Taxon_7
+      - Taxon_8
+      - Taxon_9

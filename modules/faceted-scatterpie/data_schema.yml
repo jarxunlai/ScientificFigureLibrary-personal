@@ -1,0 +1,18 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/hospital_plasmids.csv
+    format: csv
+    rows: 160
+    columns:
+      - Gene
+      - Hospital_id
+      - Plasmid_id
+      - Plasmid
+      - Klebsiella spp
+      - Escherichia coli
+      - Enterobacter spp
+      - Citrobacter freundii
+      - others
+      - Total
+      - Radius

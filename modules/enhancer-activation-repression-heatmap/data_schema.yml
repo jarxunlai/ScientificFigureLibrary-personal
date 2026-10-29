@@ -1,0 +1,22 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/factor_state_counts.csv
+    format: csv
+    rows: 490
+    columns:
+      - TFcombo
+      - CellState
+      - Faceting
+      - N
+      - Active
+      - Repressed
+  - path: data/paired_factor_counts.csv
+    format: csv
+    rows: 1764
+    columns:
+      - TF1
+      - TF2
+      - N
+      - Active
+      - Repressed

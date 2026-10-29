@@ -1,0 +1,13 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/subjects.csv
+    format: csv
+    rows: 108
+    columns:
+      - subject
+      - age
+      - BMI
+      - Gender
+      - Ethnicity
+      - IRIS

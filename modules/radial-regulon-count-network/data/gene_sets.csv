@@ -1,0 +1,69 @@
+"category","set","number"
+"Miscellaneous Metabolism","Translation_1",70
+"Miscellaneous Metabolism","Translation_2",49
+"Miscellaneous Metabolism","LTA",40
+"Miscellaneous Metabolism","Glucose",39
+"Miscellaneous Metabolism","Biofilm",34
+"Miscellaneous Metabolism","Membrane",33
+"Miscellaneous Metabolism","Respiration",13
+"Miscellaneous Metabolism","Nitrogen",11
+"Miscellaneous Metabolism","Lipid",7
+"Stress Response","SigB_1",66
+"Stress Response","SigB_2",57
+"Stress Response","VraR_1",45
+"Stress Response","VraR_2",38
+"Stress Response","DnaK",26
+"Stress Response","Beta-lactam",13
+"Stress Response","LytR",10
+"Stress Response","TTA",9
+"Carbon Metabolism","CcpA_1",74
+"Carbon Metabolism","CcpA_2",52
+"Carbon Metabolism","CcpE",35
+"Carbon Metabolism","CcpF",31
+"Carbon Metabolism","GlpR",24
+"Carbon Metabolism","FruR",23
+"Carbon Metabolism","MalR",15
+"Uncharacterized","Uncharacterized_1",69
+"Uncharacterized","Uncharacterized_2",67
+"Uncharacterized","Uncharacterized_3",66
+"Uncharacterized","Uncharacterized_4",57
+"Uncharacterized","Uncharacterized_5",51
+"Uncharacterized","Uncharacterized_6",43
+"Uncharacterized","Uncharacterized_7",41
+"Uncharacterized","Uncharacterized_8",35
+"Uncharacterized","Uncharacterized_9",32
+"Uncharacterized","Uncharacterized_10",4
+"Cellular Processes","WalKR",47
+"Cellular Processes","Cell_wall",28
+"Cellular Processes","Division",20
+"Cellular Processes","Sporulation",18
+"Prophages","Prophage_1",60
+"Prophages","Prophage_2",41
+"Prophages","Prophage_3",6
+"Other","SOD",59
+"Other","Unassigned",40
+"Other","SufR",10
+"Single Genes","SG_1",74
+"Single Genes","SG_2",68
+"Single Genes","SG_3",64
+"Single Genes","SG_4",41
+"Single Genes","SG_5",30
+"Single Genes","SG_6",13
+"Virulence","MrgA",74
+"Virulence","Vir_1",72
+"Virulence","Vir_2",52
+"Virulence","SarR_1",43
+"Virulence","SarR_2",42
+"Virulence","SaeR_1",26
+"Virulence","Capsule",17
+"Virulence","AgrA",12
+"Virulence","ArlRS",9
+"AA/Nucleotide Metabolism","CodY_1",68
+"AA/Nucleotide Metabolism","CodY_2",62
+"AA/Nucleotide Metabolism","PurR",51
+"AA/Nucleotide Metabolism","ArgR",50
+"AA/Nucleotide Metabolism","CymR",40
+"AA/Nucleotide Metabolism","NrdR",38
+"AA/Nucleotide Metabolism","Rex",25
+"AA/Nucleotide Metabolism","PyrR",13
+"AA/Nucleotide Metabolism","GntR",8

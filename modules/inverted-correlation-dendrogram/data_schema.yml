@@ -1,0 +1,55 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/bile_acid_observations.csv
+    format: csv
+    rows: 100
+    columns:
+      - Sample
+      - GCA
+      - GCDCA
+      - GDCA
+      - GLCA
+      - GUDCA
+      - GHCA
+      - TCA
+      - TCDCA
+      - TDCA
+      - TLCA
+      - CA
+      - CDCA
+      - HCA
+      - UDCA
+      - DCA
+      - LCA
+      - IsoDCA
+      - IsoLCA
+      - HDCA
+      - 7oxoDCA
+      - Gly-CA
+      - Ala-CA
+      - Phe-CA
+      - Tyr-CA
+      - Leu-CA
+      - Glu-CA
+      - Val-CA
+      - Ser-CA
+      - Trp-CA
+      - His-CA
+      - Lys-CA
+      - Met-CA
+      - Pro-CA
+      - Gly-CDCA
+      - Ala-CDCA
+      - Phe-CDCA
+      - Tyr-CDCA
+      - Leu-CDCA
+      - Glu-CDCA
+      - Val-CDCA
+      - Ser-CDCA
+  - path: data/variable_groups.csv
+    format: csv
+    rows: 41
+    columns:
+      - Variable
+      - Group

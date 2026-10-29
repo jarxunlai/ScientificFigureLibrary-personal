@@ -1,0 +1,88 @@
+schema: figure-library.personal-module.v1
+moduleId: polar-trait-error-bars
+title: 根系多指标极坐标条形图
+titleEn: Polar bars for multiple root traits
+description: "*Polar bars for multiple root traits*"
+scientificQuestion: 不同处理的根系指标在各自量纲内如何比较？
+application: 根长、表面积和根体积等多指标比较；适合单位不同但需要共同展示的处理实验。
+dataProfile: 合成示例输入；1个运行期输入表。root_traits.csv：21行×6列
+plotFamily: polar_grouped_bar
+language: R
+tags:
+  - polar_grouped_bar
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ragg
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/root_traits.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/root_traits.csv
+  - data_schema.yml
+  - description.md
+  - figures/02_root_traits_polar.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/root_traits.csv
+  - data_schema.yml
+  - description.md
+  - figures/02_root_traits_polar.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 684715
+  sha256: 06c84585bf597a73fd298002fb21ecaa0eac61c12f0478e26d7bf29f8c73b08a
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 24452
+  sha256: 245fe13a8ea966d3a0142290fe151537d85b5ca76773121f07232e7383b65144
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template polar-trait-error-bars; internal Library state is not distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484372&idx=1&sn=8d624387ba7ede775a06dadadd1205db&chksm=c16b066af61c8f7c7412422a1fdb0d1a95545bfca58c86a80e90438b013e61004aeaef768496#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 2
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 七扇区、独立量纲、三处理误差和图例均完整；柱高、误差及字母排列与来源不同。
+    nextStep: 继续调整拟态均值/SE以贴近轮廓；字母仍为示例注释，不解释成来源统计。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

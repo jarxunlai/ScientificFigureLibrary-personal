@@ -1,0 +1,108 @@
+schema: figure-library.personal-module.v1
+moduleId: bubble-regression-enrichment-scatter
+title: 气泡回归与肿瘤富集关联散点图
+titleEn: Bubble regressions and tumor-enrichment association scatter
+description: "**Bubble regressions and tumor-enrichment association scatter**"
+scientificQuestion: 两种测量是否一致，富集程度与疗效指标有何关联？
+application: 四面板观测对照、气泡大小编码深度、回归与相关性标注；第二例为细胞群富集和疗效指标。
+dataProfile: 合成示例输入；2个运行期输入表。ocean.csv：440行×6列；tumor_response.csv：65行×4列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - scales
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/ocean.csv
+  - data/tumor_response.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/ocean.csv
+  - data/tumor_response.csv
+  - data_schema.yml
+  - description.md
+  - figures/07_EHTA.png
+  - figures/07_ELTA.png
+  - figures/07_pEHTA.png
+  - figures/07_pELTA.png
+  - figures/07b_tumor_response.png
+  - figures/07c_tumor_response_increase.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/ocean.csv
+  - data/tumor_response.csv
+  - data_schema.yml
+  - description.md
+  - figures/07_EHTA.png
+  - figures/07_ELTA.png
+  - figures/07_pEHTA.png
+  - figures/07_pELTA.png
+  - figures/07b_tumor_response.png
+  - figures/07c_tumor_response_increase.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 421487
+  sha256: 4b58144a914fb7f42531554da4774f70dbc3967d60b7f77fdcbe1c2790219c57
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 20916
+  sha256: b99158ca1364312533b907e988c0e0644c302b282a297d8451fd9708353661c1
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template bubble-regression-enrichment-scatter; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484608&idx=1&sn=12b3923dd15c8eff069bfc4c5670c8fa&chksm=c16b017ef61c8868954eafa48b70a57c4024a0772134390a29b640b3c89b1a73966ed7b1b92e#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 7
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 保留海洋四面板与正负两种疗效图，气泡面积和处理方向明确；各站点、回归斜率及标签位置不同。
+    nextStep: 继续核对合成站点数据与颜色顺序；所有r/P保留当前计算，不复制来源。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

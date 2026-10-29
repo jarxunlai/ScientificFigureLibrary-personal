@@ -1,0 +1,22 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/arg_correlations.csv
+    format: csv
+    rows: 150
+    columns:
+      - Phylum
+      - dataset
+      - rho
+      - pval
+      - abundance
+  - path: data/wgd_correlations.csv
+    format: csv
+    rows: 192
+    columns:
+      - Feature
+      - CNV
+      - Group
+      - Type
+      - rho
+      - pval

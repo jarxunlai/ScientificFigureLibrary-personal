@@ -1,0 +1,57 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/cohort_GEO.csv
+    format: csv
+    rows: 80
+    columns:
+      - ""
+      - CD8 Tex
+      - CD8 Temra
+      - CD4 Proliferative
+      - CD8 Proliferative
+      - CD8 HSP-high
+      - CD4 HSP-high
+      - CD4 Th17-like
+      - CD4 Tm
+      - CD4 Tem
+      - CD8 Tem
+      - CD8 MAIT
+      - CD4 Tex
+      - CD8 EGR-high
+      - CD8 ISG-high
+      - CD8 IE-high
+      - CD4 Resting Treg
+      - CD4 Effector Treg
+      - CD4 IFN-responding
+      - CD8 IFN-responding
+      - CD4 Naive
+      - CD8 Naive
+      - CD4 GZMK+
+  - path: data/cohort_inhouse.csv
+    format: csv
+    rows: 80
+    columns:
+      - ""
+      - CD8 Tex
+      - CD8 Temra
+      - CD4 Proliferative
+      - CD8 Proliferative
+      - CD8 HSP-high
+      - CD4 HSP-high
+      - CD4 Th17-like
+      - CD4 Tm
+      - CD4 Tem
+      - CD8 Tem
+      - CD8 MAIT
+      - CD4 Tex
+      - CD8 EGR-high
+      - CD8 ISG-high
+      - CD8 IE-high
+      - CD4 Resting Treg
+      - CD4 Effector Treg
+      - CD4 IFN-responding
+      - CD8 IFN-responding
+      - CD4 Naive
+      - CD8 Naive
+      - CD4 GZMK+

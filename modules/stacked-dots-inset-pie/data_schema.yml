@@ -1,0 +1,9 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/metastases.csv
+    format: csv
+    rows: 314
+    columns:
+      - id
+      - group

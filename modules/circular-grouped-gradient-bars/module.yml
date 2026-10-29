@@ -1,0 +1,94 @@
+schema: figure-library.personal-module.v1
+moduleId: circular-grouped-gradient-bars
+title: 分组筛选与连续渐变环形条形图
+titleEn: Grouped screening and continuous circular bar plots
+description: "*Grouped screening and continuous circular bar plots*"
+scientificQuestion: 分组筛选结果与连续变量排序分别适合怎样的环形编码？
+application: 药物靶点筛选面板；带正负值的城市或样本排序。
+dataProfile: 合成示例输入；2个运行期输入表。screening.csv：72行×3列；city_indicator.csv：92行×2列
+plotFamily: circular_bar
+language: R
+tags:
+  - circular_bar
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - RColorBrewer
+  - circlize
+  - ragg
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/city_indicator.csv
+  - data/screening.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/city_indicator.csv
+  - data/screening.csv
+  - data_schema.yml
+  - description.md
+  - figures/09_continuous_city_bars.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/city_indicator.csv
+  - data/screening.csv
+  - data_schema.yml
+  - description.md
+  - figures/09_continuous_city_bars.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 417731
+  sha256: c235095b06595cf5e521166738175bfd8d273fb79b1920e1c145e6c1efa47555
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 16179
+  sha256: 39f7af648b577dedbe6e3d943a5e9d874a5abad3efbeab13eca09458a63bb396
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template circular-grouped-gradient-bars; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485247&idx=1&sn=02082227cf20a8fc50947deedbecc991&chksm=c16b0281f61c8b974323a74fc93b20dac44e8e0dc80de85d63a8cce471d3c5baa158e7ac1ad9#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 2
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 分组筛选和连续城市柱各自保留，负值/零环清楚；类别个数、标签顺序及大小轮廓不同。
+    nextStep: 使用已保存的绘图顺序表继续调整合成筛选/城市数据，不改量纲含义。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

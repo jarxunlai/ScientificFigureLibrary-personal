@@ -1,0 +1,20 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/conservation.csv
+    format: csv
+    rows: 2100
+    columns:
+      - human
+      - lemur
+      - category
+      - gene
+      - label
+  - path: data/periodicity.csv
+    format: csv
+    rows: 2800
+    columns:
+      - Region
+      - id
+      - logP
+      - length

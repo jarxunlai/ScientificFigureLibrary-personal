@@ -1,0 +1,92 @@
+schema: figure-library.personal-module.v1
+moduleId: trajectory-expression-dot-heatmap
+title: 分轨迹绿色气泡表达热图
+titleEn: Trajectory-faceted green expression dot heatmap
+description: "**Trajectory-faceted green expression dot heatmap**"
+scientificQuestion: 不同轨迹阶段的基因在各细胞类型中的表达强度与阳性比例如何分布？
+application: |-
+  单细胞 marker 或轨迹基因表达；颜色与点面积分别编码平均表达和阳性比例。
+
+  输入、绘图步骤与配色均在 `code/organized.R` 中；数据来源和执行边界见 `provenance.json`。
+dataProfile: 合成示例输入；1个运行期输入表。expression_dotplot.csv：378行×5列
+plotFamily: heatmap
+language: R
+tags:
+  - heatmap
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ggplot2
+  - ragg
+  - scales
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/expression_dotplot.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/expression_dotplot.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/expression_dotplot.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 346372
+  sha256: c1044748cf7013a942a5d8b6af069dace08b22cb1e31bc2c91f1b33918dbee5f
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 19950
+  sha256: acb029d33c2eb30b7436af0d8f2b445e04518ea6ed788cb1a3c5ccd1707c2e1e
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template trajectory-expression-dot-heatmap; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484000&idx=1&sn=9659f76dafffb7d3300316e558256ece&chksm=c16b07def61c8ec84ba7ca8210e576528ec251ed2623bee752b1cc07153507ddf5bd42bd5865#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: Early/Intermediate/Late自由高度分面、绿色表达和比例图例保留；大小/表达纹理不相同。
+    nextStep: 从当前表达/比例表细调稀疏程度，保留同一细胞类群及基因顺序。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

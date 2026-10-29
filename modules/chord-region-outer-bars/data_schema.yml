@@ -1,0 +1,24 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/crop_regions.csv
+    format: csv
+    rows: 18
+    columns:
+      - Region
+      - Crop
+      - node
+  - path: data/inner_links.csv
+    format: csv
+    rows: 162
+    columns:
+      - from
+      - to
+      - value
+  - path: data/outer_management.csv
+    format: csv
+    rows: 144
+    columns:
+      - Species
+      - Type
+      - EF_mean

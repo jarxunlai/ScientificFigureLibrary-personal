@@ -1,0 +1,105 @@
+schema: figure-library.personal-module.v1
+moduleId: paired-scatter-rotated-histograms
+title: 配对散点与对角线旋转直方图
+titleEn: Paired scatter with diagonal rotated histograms
+description: "**Paired scatter with diagonal rotated histograms**"
+scientificQuestion: 处理前后配对读数的差异在条件和动物之间如何变化？
+application: 两只动物三条件的六个面板；显示配对检验和差值中位数。
+dataProfile: 合成示例输入；1个运行期输入表。paired_neural.csv：330行×6列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - cowplot
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/paired_neural.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/paired_neural.csv
+  - data_schema.yml
+  - description.md
+  - figures/18_Monkey_D_Combined.png
+  - figures/18_Monkey_D_Vestibular.png
+  - figures/18_Monkey_D_Visual.png
+  - figures/18_Monkey_F_Combined.png
+  - figures/18_Monkey_F_Vestibular.png
+  - figures/18_Monkey_F_Visual.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/paired_neural.csv
+  - data_schema.yml
+  - description.md
+  - figures/18_Monkey_D_Combined.png
+  - figures/18_Monkey_D_Vestibular.png
+  - figures/18_Monkey_D_Visual.png
+  - figures/18_Monkey_F_Combined.png
+  - figures/18_Monkey_F_Vestibular.png
+  - figures/18_Monkey_F_Visual.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 457477
+  sha256: 98a37062109f3de3ec1601b8211970f6e9ae6be9c3ec28c99b7e3c9f08b1f616
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 18984
+  sha256: 0db89d35d5fbf524b238ead2da64f3467ffaa396b3e6ee2101b43b2fa6c9fd8a
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template paired-scatter-rotated-histograms; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485749&idx=1&sn=4848f1bed782b112c209848140062647&chksm=c16b0c8bf61c859df13a1f318c4cbe2b313ac56f6720d429be6cad0565797db3445b40288451#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 7
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: Monkey D圆点/F三角与6个旋转直方图已恢复；差值分布、中位数和P与来源不同。
+    nextStep: 继续调节示例配对差的异质性，重新计算Wilcoxon与中位数，保留空/实心语义。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

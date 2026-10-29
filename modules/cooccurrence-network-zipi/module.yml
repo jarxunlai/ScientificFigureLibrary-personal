@@ -1,0 +1,110 @@
+schema: figure-library.personal-module.v1
+moduleId: cooccurrence-network-zipi
+title: 微生物共现网络与Zi-Pi角色
+titleEn: Co-occurrence networks and Zi-Pi roles
+description: 两组合成OTU计数分别经过相对丰度与出现频率过滤、Spearman相关筛边、Fast Greedy模块划分，网络按门着色并区分相关正负；下方用Pi=0.62和Zi=2.5显示拓扑角色。保留GraphML、节点角色和网络指标。
+scientificQuestion: OTU相关网络中哪些节点跨模块连接较多，哪些节点模块内连接较强？
+application: |-
+  - 基于明确阈值审阅微生物共现图及节点拓扑角色。
+  - 将网络计算结果导出到Gephi继续布局，而不把正负相关解释为已证实的协作或竞争。
+dataProfile: 合成示例输入；3个运行期输入表。otu_counts_G.csv：225行×33列；otu_counts_T.csv：175行×29列
+plotFamily: cooccurrence_network_zipi
+language: R
+tags:
+  - cooccurrence_network_zipi
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - Hmisc
+  - cowplot
+  - dplyr
+  - ggnewscale
+  - ggplot2
+  - igraph
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/otu_counts_G.csv
+  - data/otu_counts_T.csv
+  - data/taxonomy.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/otu_counts_G.csv
+  - data/otu_counts_T.csv
+  - data/taxonomy.csv
+  - data_schema.yml
+  - description.md
+  - figures/13_G_ZiPi_roles.png
+  - figures/13_G_cooccurrence_network.png
+  - figures/13_T_ZiPi_roles.png
+  - figures/13_T_cooccurrence_network.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/otu_counts_G.csv
+  - data/otu_counts_T.csv
+  - data/taxonomy.csv
+  - data_schema.yml
+  - description.md
+  - figures/13_G_ZiPi_roles.png
+  - figures/13_G_cooccurrence_network.png
+  - figures/13_T_ZiPi_roles.png
+  - figures/13_T_cooccurrence_network.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 3141344
+  sha256: bd5a681cf519f28bb30e2266972903a080b1b04988b671be209f5a9197103d48
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 20371
+  sha256: 5583b6021a43f5755ee6f9dfe13e8bfbf1634e3146d323ef886f2b9f1441a2fa
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template cooccurrence-network-zipi; internal Library state is not distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247486012&idx=1&sn=6239a8fd1e63d140b7f4d9d5f60d0dff&chksm=c16b0f82f61c8694399a29985c1099d9a2ecf40ab2365fa26d4efba714ee80bd247bcc094b75#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 5
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 网络连边密度/模块形状与来源仍不同；当前合成图计算出G=182、T=42个Connectors，但没有Module hubs，Zi分布也有较低尾部。未伪造青色枢纽。
+    nextStep: 优先取得原OTU/ASV表和网络阈值以重算模块、Zi/Pi；若仍用示例数据，明确调整模块化结构后重新计算，不直接指定枢纽身份。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

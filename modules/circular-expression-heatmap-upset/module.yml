@@ -1,0 +1,97 @@
+schema: figure-library.personal-module.v1
+moduleId: circular-expression-heatmap-upset
+title: 环形表达热图与中心 UpSet
+titleEn: Circular expression heatmap with an UpSet inset
+description: "**Circular expression heatmap with an UpSet inset**"
+scientificQuestion: 多个功能基因集合的交集组成与其表达模式如何联动展示？
+application: |-
+  四组及以上集合的表达概览；中心 UpSet 与外环表达行顺序分别有据可查。
+
+  输入、绘图步骤与配色均在 `code/organized.R` 中；数据来源和执行边界见 `provenance.json`。
+dataProfile: 合成示例输入；2个运行期输入表。grouped_expression.csv：79行×7列；set_membership.csv：55行×6列
+plotFamily: heatmap
+language: R
+tags:
+  - heatmap
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ComplexHeatmap
+  - RColorBrewer
+  - circlize
+  - ggplot2
+  - ragg
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/grouped_expression.csv
+  - data/set_membership.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/grouped_expression.csv
+  - data/set_membership.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/grouped_expression.csv
+  - data/set_membership.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 765776
+  sha256: cccead7711718b5d72cb65da269cd65b2d3fd97683dd15cc6a0b3d45d745d22e
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 24140
+  sha256: dac4116c62b0e05e0ade7f3f9d78524ed65c1513c7fb4b9242cdf39dbe754b2d
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template circular-expression-heatmap-upset; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485732&idx=1&sn=c9101526e58c46bdaba8c998048f07cf&chksm=c16b0c9af61c858cf4327485c377ff54dddfb3f1270a970dcc71ae43dc7baa59f9d17f7130f3#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 完整环形与原生UpSet恢复，交集按小到大排序；集合大小/交集和圆内比例仍不同。
+    nextStep: 从当前成员表调整并同步环图/UpSet，继续微调中心字号与留白。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

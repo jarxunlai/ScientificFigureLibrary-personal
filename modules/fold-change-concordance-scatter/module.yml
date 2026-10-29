@@ -1,0 +1,92 @@
+schema: figure-library.personal-module.v1
+moduleId: fold-change-concordance-scatter
+title: Science式FC–FC差异基因散点图
+titleEn: Science-style fold-change concordance scatter
+description: "**Science-style fold-change concordance scatter**"
+scientificQuestion: 两个扰动比较中的表达变化方向是否一致，哪些基因最突出？
+application: 转录组中两个比较的交集、双FDR编码和候选基因标记。
+dataProfile: 合成示例输入；1个运行期输入表。fold_changes.csv：3200行×5列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/fold_changes.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/fold_changes.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/fold_changes.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 440153
+  sha256: 10bf51b5b6a7f9d160fe2275c59f61fd2953ebcf4a40dc9fa5367c54ce0ce616
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 23105
+  sha256: 639be56074306a72a840b59562378d597e1379809d57cb985457ba4449d8e178
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template fold-change-concordance-scatter; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484021&idx=1&sn=edba81bda40fc25f56a0d4fef5dc3500&chksm=c16b07cbf61c8edd40f44374c89ccb15f28c50dd7f6632c111d209b2bef2a729729af48f9904#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 上下调标签与双FDR层级恢复；DE点云仍呈两个较集中的岛，未完全恢复来源连续扇形分布。
+    nextStep: 调整示例FC/FDR的联合分布及标记落点，不靠移动文本伪装点云。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

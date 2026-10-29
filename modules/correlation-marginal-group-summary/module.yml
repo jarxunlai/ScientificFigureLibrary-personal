@@ -1,0 +1,91 @@
+schema: figure-library.personal-module.v1
+moduleId: correlation-marginal-group-summary
+title: 相关性矩阵与边缘分布及分组摘要
+titleEn: Correlation matrix with marginal bars and group summary
+description: "**Correlation matrix with marginal bars and group summary**"
+scientificQuestion: 代谢物之间的共变关系是否与其类别及平均丰度对应？
+application: |-
+  胆汁酸或代谢组相关性；同时展示变量分组、浓度条和组级关联。
+
+  输入、绘图步骤与配色均在 `code/organized.R` 中；数据来源和执行边界见 `provenance.json`。
+dataProfile: 合成示例输入；1个运行期输入表。bile_acid_observations.csv：100行×42列
+plotFamily: heatmap
+language: R
+tags:
+  - heatmap
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ggplot2
+  - ragg
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/bile_acid_observations.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/bile_acid_observations.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/bile_acid_observations.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 837372
+  sha256: 9600a2d7908d3c18df309fadf8243f7308010ad62700869af1929766d719735c
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 20628
+  sha256: c1e954f5e2c94db3b5e5c361fb64dc58c88eaf515cf4afab7866a71eb960b45e
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template correlation-marginal-group-summary; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247483799&idx=1&sn=8b2059d3ed7463af1d6ea2c619f4169d&chksm=c16b0429f61c8d3f701d9e03afa1f9ed22a2425c9f0f50ef9cecbad473ec77b78a37a76d6e0c#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 41变量上三角与边缘摘要同步对齐；圆点、浓度条长和组内相关值不同。
+    nextStep: 继续在合成丰度表上微调模块结构，取得作者数据后可直接替换。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

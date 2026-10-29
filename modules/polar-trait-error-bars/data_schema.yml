@@ -1,0 +1,13 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/root_traits.csv
+    format: csv
+    rows: 21
+    columns:
+      - group
+      - category
+      - value
+      - se
+      - significance
+      - unit

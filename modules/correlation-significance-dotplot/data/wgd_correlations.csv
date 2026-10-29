@@ -1,0 +1,193 @@
+"Feature","CNV","Group","Type","rho","pval"
+"ISG","Chrom. Gain","WGD-low","Curated",0.0426295794579644,0.72217386471612
+"IFNg (B)","Chrom. Gain","WGD-low","Curated",0.326530818392006,0.00511995688161234
+"Inflam.","Chrom. Gain","WGD-low","Curated",0.0564808913335424,0.637465752508865
+"CIN","Chrom. Gain","WGD-low","Curated",0.0728074514629151,0.543328797539396
+"STING1","Chrom. Gain","WGD-low","Gene",0.0336180595260819,0.779212452896085
+"IFNg (H)","Chrom. Gain","WGD-low","Hallmark pathways",-0.154885409621333,0.193909459831104
+"IFNa","Chrom. Gain","WGD-low","Hallmark pathways",0.147866571161954,0.215139056996192
+"Protein Secretion","Chrom. Gain","WGD-low","Hallmark pathways",-0.0164650423612729,0.890813706841834
+"Inflam. Resp.","Chrom. Gain","WGD-low","Hallmark pathways",-0.456955955114242,5.46178309755047e-05
+"TNFa via NFKB","Chrom. Gain","WGD-low","Hallmark pathways",-0.153168290327485,0.198958461894466
+"Apoptosis","Chrom. Gain","WGD-low","Hallmark pathways",-0.116553814494101,0.329554642282076
+"Complement","Chrom. Gain","WGD-low","Hallmark pathways",0.142462251269744,0.232565527806515
+"Interferon MHC II (1)","Chrom. Gain","WGD-low","Malignant metaprograms",-0.179978603738595,0.130324246780403
+"Interferon MHC II (2)","Chrom. Gain","WGD-low","Malignant metaprograms",-0.0518331183945664,0.665441997997983
+"MHC-I","Chrom. Gain","WGD-low","MHC",-0.0280350880852377,0.815164947224421
+"MHC-II","Chrom. Gain","WGD-low","MHC",-0.0131555760630936,0.912663309847568
+"ISG","Chrom. Loss","WGD-low","Curated",0.413051227794594,0.000311007803807971
+"IFNg (B)","Chrom. Loss","WGD-low","Curated",-0.135734685929645,0.255596623815886
+"Inflam.","Chrom. Loss","WGD-low","Curated",0.0167692720502628,0.888808950189
+"CIN","Chrom. Loss","WGD-low","Curated",-0.0479771333307365,0.689005355003391
+"STING1","Chrom. Loss","WGD-low","Gene",0.251487544134663,0.0330913478218225
+"IFNg (H)","Chrom. Loss","WGD-low","Hallmark pathways",-0.285242134447249,0.0151535935200285
+"IFNa","Chrom. Loss","WGD-low","Hallmark pathways",-0.403188573516692,0.000445400270886441
+"Protein Secretion","Chrom. Loss","WGD-low","Hallmark pathways",0.59,4.92791518519037e-08
+"Inflam. Resp.","Chrom. Loss","WGD-low","Hallmark pathways",0.428758176017098,0.000171500965862456
+"TNFa via NFKB","Chrom. Loss","WGD-low","Hallmark pathways",-0.07583985335901,0.526620816190866
+"Apoptosis","Chrom. Loss","WGD-low","Hallmark pathways",-0.578194818854141,1.04474153812422e-07
+"Complement","Chrom. Loss","WGD-low","Hallmark pathways",-0.264649553165578,0.0246692291368471
+"Interferon MHC II (1)","Chrom. Loss","WGD-low","Malignant metaprograms",0.163781971434544,0.169219322293442
+"Interferon MHC II (2)","Chrom. Loss","WGD-low","Malignant metaprograms",0.306629767221449,0.0087997835825005
+"MHC-I","Chrom. Loss","WGD-low","MHC",0.0657079947244079,0.583426839325404
+"MHC-II","Chrom. Loss","WGD-low","MHC",-0.218836268797321,0.0647698465413467
+"ISG","Arm Gain","WGD-low","Curated",0.196922669889857,0.0973218273830135
+"IFNg (B)","Arm Gain","WGD-low","Curated",-0.0979942073029892,0.412826660336585
+"Inflam.","Arm Gain","WGD-low","Curated",-0.438134878422019,0.000118528760826681
+"CIN","Arm Gain","WGD-low","Curated",-0.217665089440297,0.0662520489419156
+"STING1","Arm Gain","WGD-low","Gene",0.129549096010841,0.278098776757759
+"IFNg (H)","Arm Gain","WGD-low","Hallmark pathways",0.232458149786721,0.0494189552265568
+"IFNa","Arm Gain","WGD-low","Hallmark pathways",-0.0818466294685467,0.49430035932567
+"Protein Secretion","Arm Gain","WGD-low","Hallmark pathways",0.220452012343936,0.0627690790254954
+"Inflam. Resp.","Arm Gain","WGD-low","Hallmark pathways",-0.00673004021378844,0.95525620155201
+"TNFa via NFKB","Arm Gain","WGD-low","Hallmark pathways",-0.157548681013787,0.186261541223238
+"Apoptosis","Arm Gain","WGD-low","Hallmark pathways",0.13780031042057,0.248366070778712
+"Complement","Arm Gain","WGD-low","Hallmark pathways",0.0701117648455603,0.558395079205161
+"Interferon MHC II (1)","Arm Gain","WGD-low","Malignant metaprograms",-0.033912428591352,0.777328864785044
+"Interferon MHC II (2)","Arm Gain","WGD-low","Malignant metaprograms",0.0993882873135535,0.40617852966195
+"MHC-I","Arm Gain","WGD-low","MHC",-0.201972341745349,0.088871491710535
+"MHC-II","Arm Gain","WGD-low","MHC",0.378487017553593,0.00104459568433896
+"ISG","Arm Loss","WGD-low","Curated",-0.0318790787481403,0.790365276097323
+"IFNg (B)","Arm Loss","WGD-low","Curated",-0.253596639800144,0.0315987486570983
+"Inflam.","Arm Loss","WGD-low","Curated",-0.0553261435859678,0.64437140708857
+"CIN","Arm Loss","WGD-low","Curated",0.345407896113418,0.00296224227473386
+"STING1","Arm Loss","WGD-low","Gene",-0.293303794161031,0.0124030199322822
+"IFNg (H)","Arm Loss","WGD-low","Hallmark pathways",-0.112022598768495,0.348830258568644
+"IFNa","Arm Loss","WGD-low","Hallmark pathways",-0.0380405195229417,0.751053787015853
+"Protein Secretion","Arm Loss","WGD-low","Hallmark pathways",0.219022073520875,0.0645371782730879
+"Inflam. Resp.","Arm Loss","WGD-low","Hallmark pathways",-0.0988153071982968,0.408903370895748
+"TNFa via NFKB","Arm Loss","WGD-low","Hallmark pathways",0.0638827563684792,0.593949606605241
+"Apoptosis","Arm Loss","WGD-low","Hallmark pathways",0.0442559803810684,0.712028469197625
+"Complement","Arm Loss","WGD-low","Hallmark pathways",-0.455844490504774,5.72475259232069e-05
+"Interferon MHC II (1)","Arm Loss","WGD-low","Malignant metaprograms",0.156456002340449,0.189372485021354
+"Interferon MHC II (2)","Arm Loss","WGD-low","Malignant metaprograms",-0.147225255736193,0.217157452713586
+"MHC-I","Arm Loss","WGD-low","MHC",-0.59,4.92791518519037e-08
+"MHC-II","Arm Loss","WGD-low","MHC",0.176649600196302,0.137705730800431
+"ISG","Segment Gain","WGD-low","Curated",0.139599336628069,0.242183834302541
+"IFNg (B)","Segment Gain","WGD-low","Curated",0.220937154483631,0.0621781871418129
+"Inflam.","Segment Gain","WGD-low","Curated",-0.0789005856306401,0.510021154513627
+"CIN","Segment Gain","WGD-low","Curated",-0.302345172469606,0.00984286071767654
+"STING1","Segment Gain","WGD-low","Gene",-0.188384614641146,0.113024176100172
+"IFNg (H)","Segment Gain","WGD-low","Hallmark pathways",0.272579766027337,0.0205316087037984
+"IFNa","Segment Gain","WGD-low","Hallmark pathways",0.203249779731913,0.0868282235559963
+"Protein Secretion","Segment Gain","WGD-low","Hallmark pathways",-0.284845172801234,0.0153016404748931
+"Inflam. Resp.","Segment Gain","WGD-low","Hallmark pathways",-0.0648793539832642,0.588193538848637
+"TNFa via NFKB","Segment Gain","WGD-low","Hallmark pathways",-0.0206835085850702,0.863082035465343
+"Apoptosis","Segment Gain","WGD-low","Hallmark pathways",0.277828945022353,0.018131485912271
+"Complement","Segment Gain","WGD-low","Hallmark pathways",-0.0474963513920547,0.691964722153615
+"Interferon MHC II (1)","Segment Gain","WGD-low","Malignant metaprograms",-0.0682985679921608,0.568639577530116
+"Interferon MHC II (2)","Segment Gain","WGD-low","Malignant metaprograms",0.19408911935674,0.102331642649739
+"MHC-I","Segment Gain","WGD-low","MHC",-0.0889099613197319,0.457666266367046
+"MHC-II","Segment Gain","WGD-low","MHC",0.227851158147802,0.0542359770764631
+"ISG","Segment Loss","WGD-low","Curated",0.0153666248455213,0.898057452018147
+"IFNg (B)","Segment Loss","WGD-low","Curated",-0.325065995344604,0.00533465613257639
+"Inflam.","Segment Loss","WGD-low","Curated",-0.53117243259503,1.58378654159591e-06
+"CIN","Segment Loss","WGD-low","Curated",0.415695899946888,0.000281919057454876
+"STING1","Segment Loss","WGD-low","Gene",0.353451879347454,0.00232212243409487
+"IFNg (H)","Segment Loss","WGD-low","Hallmark pathways",-0.107644311194529,0.368106682246091
+"IFNa","Segment Loss","WGD-low","Hallmark pathways",-0.415602637243171,0.000282900898354233
+"Protein Secretion","Segment Loss","WGD-low","Hallmark pathways",0.0505100855611702,0.673491906037221
+"Inflam. Resp.","Segment Loss","WGD-low","Hallmark pathways",-0.0733825226425841,0.540140528806996
+"TNFa via NFKB","Segment Loss","WGD-low","Hallmark pathways",-0.0703789389403681,0.556893008207818
+"Apoptosis","Segment Loss","WGD-low","Hallmark pathways",0.0182601540400334,0.878994899943128
+"Complement","Segment Loss","WGD-low","Hallmark pathways",0.159780762300338,0.180021800113937
+"Interferon MHC II (1)","Segment Loss","WGD-low","Malignant metaprograms",-0.15438640416534,0.195367148183191
+"Interferon MHC II (2)","Segment Loss","WGD-low","Malignant metaprograms",0.364173314492125,0.00166215146503858
+"MHC-I","Segment Loss","WGD-low","MHC",-0.099169281153429,0.407218771951998
+"MHC-II","Segment Loss","WGD-low","MHC",0.200244377786204,0.0916954731634785
+"ISG","Chrom. Gain","WGD-high","Curated",-0.303182128375457,0.00963102546760259
+"IFNg (B)","Chrom. Gain","WGD-high","Curated",-0.138963345484236,0.244357156873754
+"Inflam.","Chrom. Gain","WGD-high","Curated",0.138536229034322,0.245824205751833
+"CIN","Chrom. Gain","WGD-high","Curated",0.16405892792698,0.168489595477226
+"STING1","Chrom. Gain","WGD-high","Gene",-0.235314756362139,0.0466126044659926
+"IFNg (H)","Chrom. Gain","WGD-high","Hallmark pathways",-0.398753599773865,0.000521604910283902
+"IFNa","Chrom. Gain","WGD-high","Hallmark pathways",-0.198308729001252,0.0949421357620051
+"Protein Secretion","Chrom. Gain","WGD-high","Hallmark pathways",-0.0538785792695177,0.65307071023836
+"Inflam. Resp.","Chrom. Gain","WGD-high","Hallmark pathways",-0.33918899217463,0.00356054440864059
+"TNFa via NFKB","Chrom. Gain","WGD-high","Hallmark pathways",-0.0942586697073694,0.430948737228784
+"Apoptosis","Chrom. Gain","WGD-high","Hallmark pathways",0.159530692160738,0.180713208934833
+"Complement","Chrom. Gain","WGD-high","Hallmark pathways",-0.13582574346524,0.255274900078701
+"Interferon MHC II (1)","Chrom. Gain","WGD-high","Malignant metaprograms",0.108072586101618,0.366192981363692
+"Interferon MHC II (2)","Chrom. Gain","WGD-high","Malignant metaprograms",-0.149975294023811,0.208595677531808
+"MHC-I","Chrom. Gain","WGD-high","MHC",0.242898546361789,0.0397930840694591
+"MHC-II","Chrom. Gain","WGD-high","MHC",-0.250544210133223,0.0337778032013451
+"ISG","Chrom. Loss","WGD-high","Curated",-0.320635820917549,0.0060331711939341
+"IFNg (B)","Chrom. Loss","WGD-high","Curated",0.180319798868088,0.129585015602012
+"Inflam.","Chrom. Loss","WGD-high","Curated",-0.0831982534378737,0.487173586423196
+"CIN","Chrom. Loss","WGD-high","Curated",-0.127239238844284,0.286830029743089
+"STING1","Chrom. Loss","WGD-high","Gene",0.265600559808762,0.0241384413643263
+"IFNg (H)","Chrom. Loss","WGD-high","Hallmark pathways",0.0158727016222322,0.894718953252526
+"IFNa","Chrom. Loss","WGD-high","Hallmark pathways",-0.133569194989513,0.263329021938568
+"Protein Secretion","Chrom. Loss","WGD-high","Hallmark pathways",-0.0580333347032283,0.628230188128882
+"Inflam. Resp.","Chrom. Loss","WGD-high","Hallmark pathways",0.247265116940408,0.0362573208894965
+"TNFa via NFKB","Chrom. Loss","WGD-high","Hallmark pathways",-0.131709595515621,0.270093968710462
+"Apoptosis","Chrom. Loss","WGD-high","Hallmark pathways",0.321733564570173,0.00585296680313641
+"Complement","Chrom. Loss","WGD-high","Hallmark pathways",-0.202623124825575,0.0878258753405551
+"Interferon MHC II (1)","Chrom. Loss","WGD-high","Malignant metaprograms",-0.130143175637446,0.275882086749806
+"Interferon MHC II (2)","Chrom. Loss","WGD-high","Malignant metaprograms",0.43041376033967,0.000160796543201305
+"MHC-I","Chrom. Loss","WGD-high","MHC",-0.0947182927517883,0.42869493551891
+"MHC-II","Chrom. Loss","WGD-high","MHC",-0.0683115089807941,0.568566151112623
+"ISG","Arm Gain","WGD-high","Curated",0.0915687343195921,0.444273158293943
+"IFNg (B)","Arm Gain","WGD-high","Curated",-0.188112654370044,0.113554664194571
+"Inflam.","Arm Gain","WGD-high","Curated",-0.217005095971018,0.0670992824323993
+"CIN","Arm Gain","WGD-high","Curated",0.143526024746349,0.229060166181793
+"STING1","Arm Gain","WGD-high","Gene",0.286988879234818,0.0145167145707775
+"IFNg (H)","Arm Gain","WGD-high","Hallmark pathways",0.163261955941614,0.170595723329328
+"IFNa","Arm Gain","WGD-high","Hallmark pathways",-0.145870803303278,0.221463991446596
+"Protein Secretion","Arm Gain","WGD-high","Hallmark pathways",0.133370798126168,0.264045258402007
+"Inflam. Resp.","Arm Gain","WGD-high","Hallmark pathways",-0.0330895198781308,0.78259761419324
+"TNFa via NFKB","Arm Gain","WGD-high","Hallmark pathways",-0.132946148815796,0.265582707524493
+"Apoptosis","Arm Gain","WGD-high","Hallmark pathways",-0.0946678011543449,0.428942197030807
+"Complement","Arm Gain","WGD-high","Hallmark pathways",0.187406834277053,0.114940394778945
+"Interferon MHC II (1)","Arm Gain","WGD-high","Malignant metaprograms",0.218496661445618,0.0651968590197101
+"Interferon MHC II (2)","Arm Gain","WGD-high","Malignant metaprograms",-0.0373349151458793,0.75552587944498
+"MHC-I","Arm Gain","WGD-high","MHC",-0.398034396207224,0.000535026896109796
+"MHC-II","Arm Gain","WGD-high","MHC",-0.0763878626535782,0.523629014531096
+"ISG","Arm Loss","WGD-high","Curated",0.349794356947864,0.00259596924527876
+"IFNg (B)","Arm Loss","WGD-high","Curated",-0.507271416393058,5.42750187442733e-06
+"Inflam.","Arm Loss","WGD-high","Curated",-0.196382645156731,0.0982615125348269
+"CIN","Arm Loss","WGD-high","Curated",0.00835374920812608,0.944476589543618
+"STING1","Arm Loss","WGD-high","Gene",-0.491302434373593,1.17518035976464e-05
+"IFNg (H)","Arm Loss","WGD-high","Hallmark pathways",-0.3126350007506,0.00750088250706331
+"IFNa","Arm Loss","WGD-high","Hallmark pathways",-0.39365650109339,0.000623746885848923
+"Protein Secretion","Arm Loss","WGD-high","Hallmark pathways",-0.183376292837403,0.12310423335773
+"Inflam. Resp.","Arm Loss","WGD-high","Hallmark pathways",0.0958937498756808,0.422961589588512
+"TNFa via NFKB","Arm Loss","WGD-high","Hallmark pathways",0.252054392389824,0.0326845046973897
+"Apoptosis","Arm Loss","WGD-high","Hallmark pathways",0.00925057307310849,0.938526819669722
+"Complement","Arm Loss","WGD-high","Hallmark pathways",-0.0374463832506075,0.75481886146127
+"Interferon MHC II (1)","Arm Loss","WGD-high","Malignant metaprograms",-0.010357807353688,0.931185794760675
+"Interferon MHC II (2)","Arm Loss","WGD-high","Malignant metaprograms",-0.000943769816553724,0.993722311209753
+"MHC-I","Arm Loss","WGD-high","MHC",-0.0252195301516835,0.833446800933311
+"MHC-II","Arm Loss","WGD-high","MHC",-0.277153243342561,0.0184262894860041
+"ISG","Segment Gain","WGD-high","Curated",0.0554777844396612,0.643462829303165
+"IFNg (B)","Segment Gain","WGD-high","Curated",-0.0723426807452826,0.545912226131773
+"Inflam.","Segment Gain","WGD-high","Curated",0.446836683001959,8.33090590394747e-05
+"CIN","Segment Gain","WGD-high","Curated",0.0152173182384173,0.899042741233138
+"STING1","Segment Gain","WGD-high","Gene",0.191327807826731,0.1074046835528
+"IFNg (H)","Segment Gain","WGD-high","Hallmark pathways",-0.0633919359536791,0.596793681164267
+"IFNa","Segment Gain","WGD-high","Hallmark pathways",0.105845618589331,0.37621026388806
+"Protein Secretion","Segment Gain","WGD-high","Hallmark pathways",-0.129062526147643,0.279923127871756
+"Inflam. Resp.","Segment Gain","WGD-high","Hallmark pathways",-0.444795547599731,9.05698623099126e-05
+"TNFa via NFKB","Segment Gain","WGD-high","Hallmark pathways",-0.0871192101203957,0.466810349090646
+"Apoptosis","Segment Gain","WGD-high","Hallmark pathways",0.133346755702821,0.26413214364141
+"Complement","Segment Gain","WGD-high","Hallmark pathways",-0.367691730677273,0.00148569086432191
+"Interferon MHC II (1)","Segment Gain","WGD-high","Malignant metaprograms",-0.314657585890376,0.00710297872052667
+"Interferon MHC II (2)","Segment Gain","WGD-high","Malignant metaprograms",-0.266416779314262,0.0236906380098763
+"MHC-I","Segment Gain","WGD-high","MHC",0.0913078601652223,0.445577501915685
+"MHC-II","Segment Gain","WGD-high","MHC",-0.550941604462915,5.31213358117757e-07
+"ISG","Segment Loss","WGD-high","Curated",-0.08334318922061,0.486412613265199
+"IFNg (B)","Segment Loss","WGD-high","Curated",0.19858060968075,0.0944807465768551
+"Inflam.","Segment Loss","WGD-high","Curated",-0.106035409098802,0.37535016022738
+"CIN","Segment Loss","WGD-high","Curated",-0.519433589289986,2.93420217149018e-06
+"STING1","Segment Loss","WGD-high","Gene",0.113276591200416,0.343427022453493
+"IFNg (H)","Segment Loss","WGD-high","Hallmark pathways",-0.0251822544554879,0.833689452551972
+"IFNa","Segment Loss","WGD-high","Hallmark pathways",0.227663770488005,0.0544397438972332
+"Protein Secretion","Segment Loss","WGD-high","Hallmark pathways",-0.107814450192694,0.36734570610019
+"Inflam. Resp.","Segment Loss","WGD-high","Hallmark pathways",0.224974171779701,0.0574338903127995
+"TNFa via NFKB","Segment Loss","WGD-high","Hallmark pathways",-0.526579683473871,2.02146107905657e-06
+"Apoptosis","Segment Loss","WGD-high","Hallmark pathways",0.182898705119083,0.124100220417534
+"Complement","Segment Loss","WGD-high","Hallmark pathways",0.115955689664182,0.332059620126552
+"Interferon MHC II (1)","Segment Loss","WGD-high","Malignant metaprograms",-0.239733287387615,0.0425312499905414
+"Interferon MHC II (2)","Segment Loss","WGD-high","Malignant metaprograms",-0.0440793595499128,0.713127845960456
+"MHC-I","Segment Loss","WGD-high","MHC",-0.272628564644828,0.0205081055187228
+"MHC-II","Segment Loss","WGD-high","MHC",0.24162205803855,0.0408791884852497

@@ -1,0 +1,21 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/ocean.csv
+    format: csv
+    rows: 440
+    columns:
+      - id
+      - Metric
+      - Site
+      - Depth
+      - x
+      - y
+  - path: data/tumor_response.csv
+    format: csv
+    rows: 65
+    columns:
+      - SubCellType
+      - Tumor
+      - Ti
+      - label

@@ -1,0 +1,16 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/city_indicator.csv
+    format: csv
+    rows: 92
+    columns:
+      - City
+      - CPUG
+  - path: data/screening.csv
+    format: csv
+    rows: 72
+    columns:
+      - Group
+      - Type
+      - Value

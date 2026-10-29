@@ -1,0 +1,98 @@
+schema: figure-library.personal-module.v1
+moduleId: volcano-geneset-rug
+title: 火山图与基因集rug条
+titleEn: Volcano plot with gene-set rug tracks
+description: "**Volcano plot with gene-set rug tracks**"
+scientificQuestion: 差异表达分布与特征基因集成员在FC轴上如何对应？
+application: 单个差异比较的火山图、双侧候选区域、基因标签和底部基因集位置。
+dataProfile: 合成示例输入；2个运行期输入表。volcano.csv：2200行×5列；signature_rug.csv：240行×2列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/signature_rug.csv
+  - data/volcano.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/signature_rug.csv
+  - data/volcano.csv
+  - data_schema.yml
+  - description.md
+  - figures/09a_volcano.png
+  - figures/09b_signature_rug.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/signature_rug.csv
+  - data/volcano.csv
+  - data_schema.yml
+  - description.md
+  - figures/09a_volcano.png
+  - figures/09b_signature_rug.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 357601
+  sha256: 654b2ccc4fafdc98f485d987c328bf200a151bd7425d29c4aaf1e7398d083c35
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 18918
+  sha256: 719ccbca90d3f86ebd17c246d898e72937b1bafdc75f0e9e53fd80d38c9196a1
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template volcano-geneset-rug; internal Library state is not distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247483859&idx=1&sn=28becdcb76096e1218715eeb75b43452&chksm=c16b046df61c8d7b452b8120fc68948e1ba93d080e20767fc0a1c1d20117f36a4ce576554f58#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 3
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 双Top区、目标标签与两层rug保留；来源ES/P摘要未复制，标记集合的富集方向/点云纹理仍不同。
+    nextStep: 按当前基因集重算ES及明确的置换P值，再补右侧摘要，禁止照抄来源数值。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

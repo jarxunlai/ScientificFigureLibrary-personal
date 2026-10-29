@@ -1,0 +1,10 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/genomes.csv
+    format: csv
+    rows: 1180
+    columns:
+      - type
+      - length
+      - number_of_cds

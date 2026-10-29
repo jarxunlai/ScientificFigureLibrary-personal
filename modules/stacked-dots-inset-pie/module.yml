@@ -1,0 +1,95 @@
+schema: figure-library.personal-module.v1
+moduleId: stacked-dots-inset-pie
+title: 堆积病灶点图与内嵌饼图
+titleEn: Stacked lesion dots with an inset summary pie
+description: "**Stacked lesion dots with an inset summary pie**"
+scientificQuestion: 每个对象的观测是否被采样覆盖，整体覆盖比例是多少？
+application: 逐病灶计数并按患者总量排序，饼图汇总三种成像/采样状态。
+dataProfile: 合成示例输入；1个运行期输入表。metastases.csv：314行×2列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/metastases.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/metastases.csv
+  - data_schema.yml
+  - description.md
+  - figures/22a_stacked_dots.png
+  - figures/22b_summary_pie.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/metastases.csv
+  - data_schema.yml
+  - description.md
+  - figures/22a_stacked_dots.png
+  - figures/22b_summary_pie.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 254984
+  sha256: 24cfcc2b598417dddb8b6025d1b57b8fd92ee419d48662416999043cd077a45b
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 23293
+  sha256: 346edb6e0e1bfffae531f648271f0224d673d3082fd82f73d4a6d48fad54ab0c
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template stacked-dots-inset-pie; internal Library state is not distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485909&idx=1&sn=c291a98d8e71e8b4c037da7a67bf2250&chksm=c16b0c6bf61c857d136b9ceac562d67f73954b847df80854be850374f70120ca7d6bb232ee17#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 3
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 排序堆积点与同表汇总饼图联动；病例采用合成Patient编号，分布及扇区比例不同。
+    nextStep: 从同一病灶表调整轮廓并重算饼图，不替换成来源患者结果。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

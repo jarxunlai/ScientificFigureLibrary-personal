@@ -1,0 +1,79 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/otu_counts_G.csv
+    format: csv
+    rows: 225
+    columns:
+      - ""
+      - G_1
+      - G_2
+      - G_3
+      - G_4
+      - G_5
+      - G_6
+      - G_7
+      - G_8
+      - G_9
+      - G_10
+      - G_11
+      - G_12
+      - G_13
+      - G_14
+      - G_15
+      - G_16
+      - G_17
+      - G_18
+      - G_19
+      - G_20
+      - G_21
+      - G_22
+      - G_23
+      - G_24
+      - G_25
+      - G_26
+      - G_27
+      - G_28
+      - G_29
+      - G_30
+      - G_31
+      - G_32
+  - path: data/otu_counts_T.csv
+    format: csv
+    rows: 175
+    columns:
+      - ""
+      - T_1
+      - T_2
+      - T_3
+      - T_4
+      - T_5
+      - T_6
+      - T_7
+      - T_8
+      - T_9
+      - T_10
+      - T_11
+      - T_12
+      - T_13
+      - T_14
+      - T_15
+      - T_16
+      - T_17
+      - T_18
+      - T_19
+      - T_20
+      - T_21
+      - T_22
+      - T_23
+      - T_24
+      - T_25
+      - T_26
+      - T_27
+      - T_28
+  - path: data/taxonomy.csv
+    format: csv
+    rows: 225
+    columns:
+      - OTU_ID
+      - Phylum

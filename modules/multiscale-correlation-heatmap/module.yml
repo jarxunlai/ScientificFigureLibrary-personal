@@ -1,0 +1,118 @@
+schema: figure-library.personal-module.v1
+moduleId: multiscale-correlation-heatmap
+title: 一维二维多维相关性热图
+titleEn: Multiscale correlation heatmaps
+description: 保留文章的三类表达：按变量组着色的显著相关三角矩阵、细胞类型与NMF因子的双向聚类热图、环境相关矩阵与partial Mantel网络。三幅图分别保存，避免把不同统计对象混成一张相关图。
+scientificQuestion: 单组变量、两类特征及群落与环境的关联分别如何展示？
+application: |-
+  - 用分组矩阵比较水质、地理和微生物指标。
+  - 比较细胞类型与NMF因子，或用距离矩阵检验群落与环境的关联；具体解释仍受距离和置换设计约束。
+dataProfile: 合成示例输入；7个运行期输入表。environment_variables.csv：75行×37列；environment_groups.csv：36行×2列
+plotFamily: correlation_heatmap_mantel
+language: R
+tags:
+  - correlation_heatmap_mantel
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - circlize
+  - dplyr
+  - ggplot2
+  - linkET
+  - patchwork
+  - pheatmap
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/cell_factor_correlation.csv
+  - data/cell_groups.csv
+  - data/environment_groups.csv
+  - data/environment_variables.csv
+  - data/mantel_communities.csv
+  - data/mantel_environment.csv
+  - data/mantel_geography.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/cell_factor_correlation.csv
+  - data/cell_groups.csv
+  - data/environment_groups.csv
+  - data/environment_variables.csv
+  - data/mantel_communities.csv
+  - data/mantel_environment.csv
+  - data/mantel_geography.csv
+  - data_schema.yml
+  - description.md
+  - figures/02b_cell_factor_clustered_heatmap.png
+  - figures/02c_mantel_environment_network.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/cell_factor_correlation.csv
+  - data/cell_groups.csv
+  - data/environment_groups.csv
+  - data/environment_variables.csv
+  - data/mantel_communities.csv
+  - data/mantel_environment.csv
+  - data/mantel_geography.csv
+  - data_schema.yml
+  - description.md
+  - figures/02b_cell_factor_clustered_heatmap.png
+  - figures/02c_mantel_environment_network.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 314022
+  sha256: 0de2b782a08a7d5395bca1c687e2b6682211dadf89e43f1668ff82caaf8290c3
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 14510
+  sha256: 2d5a619bc6bb4b59f305649613ae522d39f9ab5ae14c32058fab4c253117d68a
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template multiscale-correlation-heatmap; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484489&idx=1&sn=acb7e4629d8f3cc3ab06322e1b0c13dc&chksm=c16b01f7f61c88e15006a7bbe22299b48c2bfd73e34a1de24559e1ee9f92c9f7b3afc327b136#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 3
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 三类完整图和注释已保留；显著相关块仍偏分组内，跨组灰块较少，细胞因子矩阵的行列数量少于来源。
+    nextStep: 补足合成细胞/因子维度并重建跨组载荷；相关与Mantel检验继续从同一输入计算。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

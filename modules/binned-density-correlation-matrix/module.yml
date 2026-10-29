@@ -1,0 +1,95 @@
+schema: figure-library.personal-module.v1
+moduleId: binned-density-correlation-matrix
+title: 密度散点相关矩阵分箱版本
+titleEn: Binned-density correlation matrix
+description: 上三角用色块与数值展示Spearman相关，对角写变量名，下三角用二维分箱密度展示观测分布。保留彩虹和红色两套上三角配色，所有相关值由同一示例表计算。
+scientificQuestion: 多个核小体扰动指标的相关强度与二维分布形状是否一致？
+application: |-
+  - 大规模多变量测量中，用密度避免散点覆盖。
+  - 比较相似的整体相关值背后是否存在不同分布形状。
+dataProfile: 合成示例输入；1个运行期输入表。nucleosome_features.csv：9000行×7列
+plotFamily: binned_density_correlation_matrix
+language: R
+tags:
+  - binned_density_correlation_matrix
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/nucleosome_features.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/nucleosome_features.csv
+  - data_schema.yml
+  - description.md
+  - figures/11_density_matrix_red.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/nucleosome_features.csv
+  - data_schema.yml
+  - description.md
+  - figures/11_density_matrix_red.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 232961
+  sha256: 38f9561ffc8338ae504eca9a4283ec4c0500fe70106d60b3f5c7f547ca459131
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 41444
+  sha256: 91bd989bc63a6544bce4227502c1c94fc2041855a966f3ac4ee131b097add74b
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template binned-density-correlation-matrix; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485641&idx=1&sn=629f58eedc235ff01ca335095e6aa71a&chksm=c16b0d77f61c8461a3720dcbefd4cbd81ad59add745b938b95f1e18422cd178cb0bc8e1210e3#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 2
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 七变量分箱矩阵、数学符号、全高色标和密度坐标已修正；HP1等变量的相关强度及分箱纹理不同。
+    nextStep: 调整示例协方差与分箱宽度，保持分箱密度而非冒充KDE。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

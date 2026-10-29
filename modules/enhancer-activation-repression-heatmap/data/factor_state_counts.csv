@@ -1,0 +1,491 @@
+"TFcombo","CellState","Faceting","N","Active","Repressed"
+"Cebpa","MegEry","Set 1 (single f.)",120,31,11
+"Spi1","MegEry","Set 1 (single f.)",120,42,17
+"Elk1","MegEry","Set 1 (single f.)",120,51,11
+"Trp53","MegEry","Set 1 (single f.)",120,64,6
+"Fli1","MegEry","Set 1 (single f.)",120,57,8
+"Nfyc","MegEry","Set 1 (single f.)",120,53,3
+"Klf4","MegEry","Set 1 (single f.)",120,51,4
+"Cebpa-Gata1","MegEry","Set 1 (pairs)",120,38,5
+"Cebpa-Creb1","MegEry","Set 1 (pairs)",120,25,2
+"Cebpa-Myc","MegEry","Set 1 (pairs)",120,18,3
+"Cebpa-Gata2","MegEry","Set 1 (pairs)",120,9,6
+"Spi1-Gata1","MegEry","Set 1 (pairs)",120,8,2
+"Spi1-Creb1","MegEry","Set 1 (pairs)",120,5,0
+"Spi1-Myc","MegEry","Set 1 (pairs)",120,4,3
+"Spi1-Gata2","MegEry","Set 1 (pairs)",120,10,0
+"Elk1-Gata1","MegEry","Set 1 (pairs)",120,4,1
+"Elk1-Creb1","MegEry","Set 1 (pairs)",120,10,4
+"Elk1-Myc","MegEry","Set 1 (pairs)",120,15,6
+"Elk1-Gata2","MegEry","Set 1 (pairs)",120,28,5
+"Trp53-Gata1","MegEry","Set 1 (pairs)",120,36,5
+"Trp53-Creb1","MegEry","Set 1 (pairs)",120,46,8
+"Trp53-Myc","MegEry","Set 1 (pairs)",120,52,8
+"Trp53-Gata2","MegEry","Set 1 (pairs)",120,63,14
+"Fli1-Gata1","MegEry","Set 1 (pairs)",120,60,15
+"Fli1-Creb1","MegEry","Set 1 (pairs)",120,42,15
+"Fli1-Myc","MegEry","Set 1 (pairs)",120,36,7
+"Fli1-Gata2","MegEry","Set 1 (pairs)",120,29,9
+"Nfyc-Gata1","MegEry","Set 1 (pairs)",120,25,11
+"Nfyc-Creb1","MegEry","Set 1 (pairs)",120,17,8
+"Nfyc-Myc","MegEry","Set 1 (pairs)",120,13,10
+"Nfyc-Gata2","MegEry","Set 1 (pairs)",120,9,3
+"Klf4-Gata1","MegEry","Set 1 (pairs)",120,7,2
+"Klf4-Creb1","MegEry","Set 1 (pairs)",120,4,6
+"Klf4-Myc","MegEry","Set 1 (pairs)",120,6,6
+"Klf4-Gata2","MegEry","Set 1 (pairs)",120,6,3
+"Ddit3","MegEry","Set 2 (single factors)",120,9,4
+"Klf1","MegEry","Set 2 (single factors)",120,20,2
+"Stat5a","MegEry","Set 2 (single factors)",120,25,1
+"Sp1","MegEry","Set 2 (single factors)",120,41,2
+"Fos","MegEry","Set 2 (single factors)",120,35,2
+"Nfkb1","MegEry","Set 2 (single factors)",120,65,2
+"Spdef","MegEry","Set 2 (single factors)",120,56,3
+"Mecom","MegEry","Set 2 (single factors)",120,52,2
+"Yy1","MegEry","Set 2 (single factors)",120,51,1
+"Cic","MegEry","Set 2 (single factors)",120,56,4
+"Myb","MegEry","Set 2 (single factors)",120,42,9
+"Lyl1","MegEry","Set 2 (single factors)",120,26,16
+"Irf7","MegEry","Set 2 (single factors)",120,13,14
+"Gata1","MegEry","Set 2 (single factors)",120,7,22
+"Creb1","MegEry","Set 2 (single factors)",120,8,23
+"Myc","MegEry","Set 2 (single factors)",120,5,21
+"Gata2","MegEry","Set 2 (single factors)",120,4,17
+"Nr2c2","MegEry","Set 2 (single factors)",120,7,20
+"Tcf3","MegEry","Set 2 (single factors)",120,5,11
+"Ikzf1","MegEry","Set 2 (single factors)",120,13,12
+"Tfap2a","MegEry","Set 2 (single factors)",120,18,4
+"Gfi1","MegEry","Set 2 (single factors)",120,26,3
+"Gfi1b","MegEry","Set 2 (single factors)",120,37,0
+"Runx1","MegEry","Set 2 (single factors)",120,50,2
+"Meis1","MegEry","Set 2 (single factors)",120,53,2
+"Pbx1","MegEry","Set 2 (single factors)",120,59,0
+"Meis2","MegEry","Set 2 (single factors)",120,47,2
+"Tcf12","MegEry","Set 2 (single factors)",120,56,2
+"Rxrg","MegEry","Set 2 (single factors)",120,40,1
+"Zbtb7a","MegEry","Set 2 (single factors)",120,30,2
+"Nfix","MegEry","Set 2 (single factors)",120,21,4
+"Cebpe","MegEry","Set 2 (single factors)",120,12,3
+"Ctcf","MegEry","Set 2 (single factors)",120,9,4
+"Foxa1","MegEry","Set 2 (single factors)",120,6,8
+"Cdx4","MegEry","Set 2 (single factors)",120,10,6
+"Cebpa","Basophil","Set 1 (single f.)",120,19,22
+"Spi1","Basophil","Set 1 (single f.)",120,16,10
+"Elk1","Basophil","Set 1 (single f.)",120,23,18
+"Trp53","Basophil","Set 1 (single f.)",120,44,14
+"Fli1","Basophil","Set 1 (single f.)",120,34,10
+"Nfyc","Basophil","Set 1 (single f.)",120,26,5
+"Klf4","Basophil","Set 1 (single f.)",120,27,4
+"Cebpa-Gata1","Basophil","Set 1 (pairs)",120,24,2
+"Cebpa-Creb1","Basophil","Set 1 (pairs)",120,11,4
+"Cebpa-Myc","Basophil","Set 1 (pairs)",120,10,5
+"Cebpa-Gata2","Basophil","Set 1 (pairs)",120,6,1
+"Spi1-Gata1","Basophil","Set 1 (pairs)",120,4,2
+"Spi1-Creb1","Basophil","Set 1 (pairs)",120,3,1
+"Spi1-Myc","Basophil","Set 1 (pairs)",120,5,4
+"Spi1-Gata2","Basophil","Set 1 (pairs)",120,0,3
+"Elk1-Gata1","Basophil","Set 1 (pairs)",120,7,1
+"Elk1-Creb1","Basophil","Set 1 (pairs)",120,6,5
+"Elk1-Myc","Basophil","Set 1 (pairs)",120,10,4
+"Elk1-Gata2","Basophil","Set 1 (pairs)",120,9,6
+"Trp53-Gata1","Basophil","Set 1 (pairs)",120,21,11
+"Trp53-Creb1","Basophil","Set 1 (pairs)",120,21,4
+"Trp53-Myc","Basophil","Set 1 (pairs)",120,21,14
+"Trp53-Gata2","Basophil","Set 1 (pairs)",120,34,9
+"Fli1-Gata1","Basophil","Set 1 (pairs)",120,38,13
+"Fli1-Creb1","Basophil","Set 1 (pairs)",120,29,16
+"Fli1-Myc","Basophil","Set 1 (pairs)",120,30,12
+"Fli1-Gata2","Basophil","Set 1 (pairs)",120,16,12
+"Nfyc-Gata1","Basophil","Set 1 (pairs)",120,11,17
+"Nfyc-Creb1","Basophil","Set 1 (pairs)",120,11,7
+"Nfyc-Myc","Basophil","Set 1 (pairs)",120,3,10
+"Nfyc-Gata2","Basophil","Set 1 (pairs)",120,2,9
+"Klf4-Gata1","Basophil","Set 1 (pairs)",120,3,5
+"Klf4-Creb1","Basophil","Set 1 (pairs)",120,3,2
+"Klf4-Myc","Basophil","Set 1 (pairs)",120,5,3
+"Klf4-Gata2","Basophil","Set 1 (pairs)",120,4,4
+"Ddit3","Basophil","Set 2 (single factors)",120,3,2
+"Klf1","Basophil","Set 2 (single factors)",120,7,1
+"Stat5a","Basophil","Set 2 (single factors)",120,11,1
+"Sp1","Basophil","Set 2 (single factors)",120,20,1
+"Fos","Basophil","Set 2 (single factors)",120,21,3
+"Nfkb1","Basophil","Set 2 (single factors)",120,25,1
+"Spdef","Basophil","Set 2 (single factors)",120,29,4
+"Mecom","Basophil","Set 2 (single factors)",120,31,7
+"Yy1","Basophil","Set 2 (single factors)",120,25,6
+"Cic","Basophil","Set 2 (single factors)",120,21,3
+"Myb","Basophil","Set 2 (single factors)",120,15,10
+"Lyl1","Basophil","Set 2 (single factors)",120,11,14
+"Irf7","Basophil","Set 2 (single factors)",120,4,15
+"Gata1","Basophil","Set 2 (single factors)",120,3,20
+"Creb1","Basophil","Set 2 (single factors)",120,5,23
+"Myc","Basophil","Set 2 (single factors)",120,2,20
+"Gata2","Basophil","Set 2 (single factors)",120,0,21
+"Nr2c2","Basophil","Set 2 (single factors)",120,4,11
+"Tcf3","Basophil","Set 2 (single factors)",120,3,15
+"Ikzf1","Basophil","Set 2 (single factors)",120,8,9
+"Tfap2a","Basophil","Set 2 (single factors)",120,7,5
+"Gfi1","Basophil","Set 2 (single factors)",120,20,10
+"Gfi1b","Basophil","Set 2 (single factors)",120,17,2
+"Runx1","Basophil","Set 2 (single factors)",120,32,5
+"Meis1","Basophil","Set 2 (single factors)",120,33,2
+"Pbx1","Basophil","Set 2 (single factors)",120,36,2
+"Meis2","Basophil","Set 2 (single factors)",120,38,1
+"Tcf12","Basophil","Set 2 (single factors)",120,34,4
+"Rxrg","Basophil","Set 2 (single factors)",120,16,3
+"Zbtb7a","Basophil","Set 2 (single factors)",120,21,4
+"Nfix","Basophil","Set 2 (single factors)",120,9,6
+"Cebpe","Basophil","Set 2 (single factors)",120,7,5
+"Ctcf","Basophil","Set 2 (single factors)",120,5,8
+"Foxa1","Basophil","Set 2 (single factors)",120,4,8
+"Cdx4","Basophil","Set 2 (single factors)",120,2,9
+"Cebpa","Eosinophil","Set 1 (single f.)",120,15,14
+"Spi1","Eosinophil","Set 1 (single f.)",120,10,10
+"Elk1","Eosinophil","Set 1 (single f.)",120,17,7
+"Trp53","Eosinophil","Set 1 (single f.)",120,24,7
+"Fli1","Eosinophil","Set 1 (single f.)",120,21,3
+"Nfyc","Eosinophil","Set 1 (single f.)",120,25,5
+"Klf4","Eosinophil","Set 1 (single f.)",120,17,3
+"Cebpa-Gata1","Eosinophil","Set 1 (pairs)",120,12,2
+"Cebpa-Creb1","Eosinophil","Set 1 (pairs)",120,6,3
+"Cebpa-Myc","Eosinophil","Set 1 (pairs)",120,5,3
+"Cebpa-Gata2","Eosinophil","Set 1 (pairs)",120,3,2
+"Spi1-Gata1","Eosinophil","Set 1 (pairs)",120,0,1
+"Spi1-Creb1","Eosinophil","Set 1 (pairs)",120,5,0
+"Spi1-Myc","Eosinophil","Set 1 (pairs)",120,1,1
+"Spi1-Gata2","Eosinophil","Set 1 (pairs)",120,4,3
+"Elk1-Gata1","Eosinophil","Set 1 (pairs)",120,2,0
+"Elk1-Creb1","Eosinophil","Set 1 (pairs)",120,4,1
+"Elk1-Myc","Eosinophil","Set 1 (pairs)",120,4,3
+"Elk1-Gata2","Eosinophil","Set 1 (pairs)",120,11,4
+"Trp53-Gata1","Eosinophil","Set 1 (pairs)",120,8,5
+"Trp53-Creb1","Eosinophil","Set 1 (pairs)",120,18,7
+"Trp53-Myc","Eosinophil","Set 1 (pairs)",120,16,2
+"Trp53-Gata2","Eosinophil","Set 1 (pairs)",120,19,9
+"Fli1-Gata1","Eosinophil","Set 1 (pairs)",120,20,12
+"Fli1-Creb1","Eosinophil","Set 1 (pairs)",120,22,12
+"Fli1-Myc","Eosinophil","Set 1 (pairs)",120,21,9
+"Fli1-Gata2","Eosinophil","Set 1 (pairs)",120,12,16
+"Nfyc-Gata1","Eosinophil","Set 1 (pairs)",120,6,7
+"Nfyc-Creb1","Eosinophil","Set 1 (pairs)",120,4,5
+"Nfyc-Myc","Eosinophil","Set 1 (pairs)",120,6,5
+"Nfyc-Gata2","Eosinophil","Set 1 (pairs)",120,2,4
+"Klf4-Gata1","Eosinophil","Set 1 (pairs)",120,1,5
+"Klf4-Creb1","Eosinophil","Set 1 (pairs)",120,1,1
+"Klf4-Myc","Eosinophil","Set 1 (pairs)",120,2,2
+"Klf4-Gata2","Eosinophil","Set 1 (pairs)",120,2,4
+"Ddit3","Eosinophil","Set 2 (single factors)",120,1,2
+"Klf1","Eosinophil","Set 2 (single factors)",120,4,1
+"Stat5a","Eosinophil","Set 2 (single factors)",120,8,4
+"Sp1","Eosinophil","Set 2 (single factors)",120,10,3
+"Fos","Eosinophil","Set 2 (single factors)",120,17,0
+"Nfkb1","Eosinophil","Set 2 (single factors)",120,17,3
+"Spdef","Eosinophil","Set 2 (single factors)",120,16,5
+"Mecom","Eosinophil","Set 2 (single factors)",120,13,4
+"Yy1","Eosinophil","Set 2 (single factors)",120,21,3
+"Cic","Eosinophil","Set 2 (single factors)",120,16,2
+"Myb","Eosinophil","Set 2 (single factors)",120,8,9
+"Lyl1","Eosinophil","Set 2 (single factors)",120,11,11
+"Irf7","Eosinophil","Set 2 (single factors)",120,9,4
+"Gata1","Eosinophil","Set 2 (single factors)",120,1,14
+"Creb1","Eosinophil","Set 2 (single factors)",120,1,10
+"Myc","Eosinophil","Set 2 (single factors)",120,0,12
+"Gata2","Eosinophil","Set 2 (single factors)",120,1,14
+"Nr2c2","Eosinophil","Set 2 (single factors)",120,0,8
+"Tcf3","Eosinophil","Set 2 (single factors)",120,1,7
+"Ikzf1","Eosinophil","Set 2 (single factors)",120,2,6
+"Tfap2a","Eosinophil","Set 2 (single factors)",120,5,4
+"Gfi1","Eosinophil","Set 2 (single factors)",120,8,4
+"Gfi1b","Eosinophil","Set 2 (single factors)",120,12,2
+"Runx1","Eosinophil","Set 2 (single factors)",120,16,0
+"Meis1","Eosinophil","Set 2 (single factors)",120,20,2
+"Pbx1","Eosinophil","Set 2 (single factors)",120,24,2
+"Meis2","Eosinophil","Set 2 (single factors)",120,20,1
+"Tcf12","Eosinophil","Set 2 (single factors)",120,27,3
+"Rxrg","Eosinophil","Set 2 (single factors)",120,18,0
+"Zbtb7a","Eosinophil","Set 2 (single factors)",120,7,1
+"Nfix","Eosinophil","Set 2 (single factors)",120,2,0
+"Cebpe","Eosinophil","Set 2 (single factors)",120,5,2
+"Ctcf","Eosinophil","Set 2 (single factors)",120,5,1
+"Foxa1","Eosinophil","Set 2 (single factors)",120,1,3
+"Cdx4","Eosinophil","Set 2 (single factors)",120,0,10
+"Cebpa","Monocyte","Set 1 (single f.)",120,17,5
+"Spi1","Monocyte","Set 1 (single f.)",120,20,3
+"Elk1","Monocyte","Set 1 (single f.)",120,27,3
+"Trp53","Monocyte","Set 1 (single f.)",120,30,3
+"Fli1","Monocyte","Set 1 (single f.)",120,26,1
+"Nfyc","Monocyte","Set 1 (single f.)",120,31,3
+"Klf4","Monocyte","Set 1 (single f.)",120,20,2
+"Cebpa-Gata1","Monocyte","Set 1 (pairs)",120,11,1
+"Cebpa-Creb1","Monocyte","Set 1 (pairs)",120,7,0
+"Cebpa-Myc","Monocyte","Set 1 (pairs)",120,4,0
+"Cebpa-Gata2","Monocyte","Set 1 (pairs)",120,6,2
+"Spi1-Gata1","Monocyte","Set 1 (pairs)",120,7,0
+"Spi1-Creb1","Monocyte","Set 1 (pairs)",120,5,2
+"Spi1-Myc","Monocyte","Set 1 (pairs)",120,2,1
+"Spi1-Gata2","Monocyte","Set 1 (pairs)",120,3,1
+"Elk1-Gata1","Monocyte","Set 1 (pairs)",120,6,1
+"Elk1-Creb1","Monocyte","Set 1 (pairs)",120,6,3
+"Elk1-Myc","Monocyte","Set 1 (pairs)",120,7,1
+"Elk1-Gata2","Monocyte","Set 1 (pairs)",120,8,2
+"Trp53-Gata1","Monocyte","Set 1 (pairs)",120,12,7
+"Trp53-Creb1","Monocyte","Set 1 (pairs)",120,18,7
+"Trp53-Myc","Monocyte","Set 1 (pairs)",120,22,3
+"Trp53-Gata2","Monocyte","Set 1 (pairs)",120,26,7
+"Fli1-Gata1","Monocyte","Set 1 (pairs)",120,26,10
+"Fli1-Creb1","Monocyte","Set 1 (pairs)",120,32,4
+"Fli1-Myc","Monocyte","Set 1 (pairs)",120,24,7
+"Fli1-Gata2","Monocyte","Set 1 (pairs)",120,9,9
+"Nfyc-Gata1","Monocyte","Set 1 (pairs)",120,5,4
+"Nfyc-Creb1","Monocyte","Set 1 (pairs)",120,2,6
+"Nfyc-Myc","Monocyte","Set 1 (pairs)",120,2,1
+"Nfyc-Gata2","Monocyte","Set 1 (pairs)",120,4,2
+"Klf4-Gata1","Monocyte","Set 1 (pairs)",120,2,2
+"Klf4-Creb1","Monocyte","Set 1 (pairs)",120,0,3
+"Klf4-Myc","Monocyte","Set 1 (pairs)",120,2,3
+"Klf4-Gata2","Monocyte","Set 1 (pairs)",120,2,0
+"Ddit3","Monocyte","Set 2 (single factors)",120,4,0
+"Klf1","Monocyte","Set 2 (single factors)",120,8,2
+"Stat5a","Monocyte","Set 2 (single factors)",120,9,0
+"Sp1","Monocyte","Set 2 (single factors)",120,16,0
+"Fos","Monocyte","Set 2 (single factors)",120,22,0
+"Nfkb1","Monocyte","Set 2 (single factors)",120,21,1
+"Spdef","Monocyte","Set 2 (single factors)",120,31,0
+"Mecom","Monocyte","Set 2 (single factors)",120,34,2
+"Yy1","Monocyte","Set 2 (single factors)",120,34,1
+"Cic","Monocyte","Set 2 (single factors)",120,25,3
+"Myb","Monocyte","Set 2 (single factors)",120,9,4
+"Lyl1","Monocyte","Set 2 (single factors)",120,5,6
+"Irf7","Monocyte","Set 2 (single factors)",120,7,8
+"Gata1","Monocyte","Set 2 (single factors)",120,4,12
+"Creb1","Monocyte","Set 2 (single factors)",120,4,1
+"Myc","Monocyte","Set 2 (single factors)",120,4,4
+"Gata2","Monocyte","Set 2 (single factors)",120,1,7
+"Nr2c2","Monocyte","Set 2 (single factors)",120,2,6
+"Tcf3","Monocyte","Set 2 (single factors)",120,4,4
+"Ikzf1","Monocyte","Set 2 (single factors)",120,2,2
+"Tfap2a","Monocyte","Set 2 (single factors)",120,7,1
+"Gfi1","Monocyte","Set 2 (single factors)",120,8,1
+"Gfi1b","Monocyte","Set 2 (single factors)",120,17,0
+"Runx1","Monocyte","Set 2 (single factors)",120,17,0
+"Meis1","Monocyte","Set 2 (single factors)",120,31,0
+"Pbx1","Monocyte","Set 2 (single factors)",120,37,1
+"Meis2","Monocyte","Set 2 (single factors)",120,33,1
+"Tcf12","Monocyte","Set 2 (single factors)",120,24,0
+"Rxrg","Monocyte","Set 2 (single factors)",120,16,1
+"Zbtb7a","Monocyte","Set 2 (single factors)",120,18,2
+"Nfix","Monocyte","Set 2 (single factors)",120,7,0
+"Cebpe","Monocyte","Set 2 (single factors)",120,8,0
+"Ctcf","Monocyte","Set 2 (single factors)",120,4,2
+"Foxa1","Monocyte","Set 2 (single factors)",120,5,3
+"Cdx4","Monocyte","Set 2 (single factors)",120,0,1
+"Cebpa","Monocyte P.","Set 1 (single f.)",120,22,7
+"Spi1","Monocyte P.","Set 1 (single f.)",120,32,7
+"Elk1","Monocyte P.","Set 1 (single f.)",120,41,4
+"Trp53","Monocyte P.","Set 1 (single f.)",120,55,1
+"Fli1","Monocyte P.","Set 1 (single f.)",120,52,0
+"Nfyc","Monocyte P.","Set 1 (single f.)",120,47,1
+"Klf4","Monocyte P.","Set 1 (single f.)",120,38,0
+"Cebpa-Gata1","Monocyte P.","Set 1 (pairs)",120,38,2
+"Cebpa-Creb1","Monocyte P.","Set 1 (pairs)",120,26,0
+"Cebpa-Myc","Monocyte P.","Set 1 (pairs)",120,10,2
+"Cebpa-Gata2","Monocyte P.","Set 1 (pairs)",120,9,1
+"Spi1-Gata1","Monocyte P.","Set 1 (pairs)",120,7,0
+"Spi1-Creb1","Monocyte P.","Set 1 (pairs)",120,4,1
+"Spi1-Myc","Monocyte P.","Set 1 (pairs)",120,3,0
+"Spi1-Gata2","Monocyte P.","Set 1 (pairs)",120,4,1
+"Elk1-Gata1","Monocyte P.","Set 1 (pairs)",120,10,2
+"Elk1-Creb1","Monocyte P.","Set 1 (pairs)",120,8,3
+"Elk1-Myc","Monocyte P.","Set 1 (pairs)",120,5,2
+"Elk1-Gata2","Monocyte P.","Set 1 (pairs)",120,25,2
+"Trp53-Gata1","Monocyte P.","Set 1 (pairs)",120,29,0
+"Trp53-Creb1","Monocyte P.","Set 1 (pairs)",120,33,3
+"Trp53-Myc","Monocyte P.","Set 1 (pairs)",120,33,4
+"Trp53-Gata2","Monocyte P.","Set 1 (pairs)",120,51,3
+"Fli1-Gata1","Monocyte P.","Set 1 (pairs)",120,50,4
+"Fli1-Creb1","Monocyte P.","Set 1 (pairs)",120,49,4
+"Fli1-Myc","Monocyte P.","Set 1 (pairs)",120,39,6
+"Fli1-Gata2","Monocyte P.","Set 1 (pairs)",120,26,1
+"Nfyc-Gata1","Monocyte P.","Set 1 (pairs)",120,23,1
+"Nfyc-Creb1","Monocyte P.","Set 1 (pairs)",120,12,5
+"Nfyc-Myc","Monocyte P.","Set 1 (pairs)",120,5,1
+"Nfyc-Gata2","Monocyte P.","Set 1 (pairs)",120,10,3
+"Klf4-Gata1","Monocyte P.","Set 1 (pairs)",120,8,1
+"Klf4-Creb1","Monocyte P.","Set 1 (pairs)",120,3,0
+"Klf4-Myc","Monocyte P.","Set 1 (pairs)",120,4,0
+"Klf4-Gata2","Monocyte P.","Set 1 (pairs)",120,4,2
+"Ddit3","Monocyte P.","Set 2 (single factors)",120,8,0
+"Klf1","Monocyte P.","Set 2 (single factors)",120,14,0
+"Stat5a","Monocyte P.","Set 2 (single factors)",120,15,2
+"Sp1","Monocyte P.","Set 2 (single factors)",120,24,0
+"Fos","Monocyte P.","Set 2 (single factors)",120,30,1
+"Nfkb1","Monocyte P.","Set 2 (single factors)",120,49,3
+"Spdef","Monocyte P.","Set 2 (single factors)",120,56,0
+"Mecom","Monocyte P.","Set 2 (single factors)",120,49,1
+"Yy1","Monocyte P.","Set 2 (single factors)",120,48,1
+"Cic","Monocyte P.","Set 2 (single factors)",120,32,0
+"Myb","Monocyte P.","Set 2 (single factors)",120,27,3
+"Lyl1","Monocyte P.","Set 2 (single factors)",120,19,1
+"Irf7","Monocyte P.","Set 2 (single factors)",120,10,2
+"Gata1","Monocyte P.","Set 2 (single factors)",120,15,8
+"Creb1","Monocyte P.","Set 2 (single factors)",120,8,6
+"Myc","Monocyte P.","Set 2 (single factors)",120,6,9
+"Gata2","Monocyte P.","Set 2 (single factors)",120,4,6
+"Nr2c2","Monocyte P.","Set 2 (single factors)",120,6,1
+"Tcf3","Monocyte P.","Set 2 (single factors)",120,5,3
+"Ikzf1","Monocyte P.","Set 2 (single factors)",120,13,2
+"Tfap2a","Monocyte P.","Set 2 (single factors)",120,13,1
+"Gfi1","Monocyte P.","Set 2 (single factors)",120,22,0
+"Gfi1b","Monocyte P.","Set 2 (single factors)",120,36,1
+"Runx1","Monocyte P.","Set 2 (single factors)",120,47,0
+"Meis1","Monocyte P.","Set 2 (single factors)",120,36,0
+"Pbx1","Monocyte P.","Set 2 (single factors)",120,47,0
+"Meis2","Monocyte P.","Set 2 (single factors)",120,54,1
+"Tcf12","Monocyte P.","Set 2 (single factors)",120,39,1
+"Rxrg","Monocyte P.","Set 2 (single factors)",120,29,0
+"Zbtb7a","Monocyte P.","Set 2 (single factors)",120,29,1
+"Nfix","Monocyte P.","Set 2 (single factors)",120,17,1
+"Cebpe","Monocyte P.","Set 2 (single factors)",120,13,3
+"Ctcf","Monocyte P.","Set 2 (single factors)",120,8,0
+"Foxa1","Monocyte P.","Set 2 (single factors)",120,3,0
+"Cdx4","Monocyte P.","Set 2 (single factors)",120,4,4
+"Cebpa","Neutrophil","Set 1 (single f.)",120,39,9
+"Spi1","Neutrophil","Set 1 (single f.)",120,46,4
+"Elk1","Neutrophil","Set 1 (single f.)",120,60,2
+"Trp53","Neutrophil","Set 1 (single f.)",120,56,3
+"Fli1","Neutrophil","Set 1 (single f.)",120,66,2
+"Nfyc","Neutrophil","Set 1 (single f.)",120,65,1
+"Klf4","Neutrophil","Set 1 (single f.)",120,70,5
+"Cebpa-Gata1","Neutrophil","Set 1 (pairs)",120,44,0
+"Cebpa-Creb1","Neutrophil","Set 1 (pairs)",120,27,1
+"Cebpa-Myc","Neutrophil","Set 1 (pairs)",120,24,3
+"Cebpa-Gata2","Neutrophil","Set 1 (pairs)",120,19,1
+"Spi1-Gata1","Neutrophil","Set 1 (pairs)",120,12,1
+"Spi1-Creb1","Neutrophil","Set 1 (pairs)",120,9,2
+"Spi1-Myc","Neutrophil","Set 1 (pairs)",120,7,1
+"Spi1-Gata2","Neutrophil","Set 1 (pairs)",120,8,1
+"Elk1-Gata1","Neutrophil","Set 1 (pairs)",120,9,0
+"Elk1-Creb1","Neutrophil","Set 1 (pairs)",120,13,0
+"Elk1-Myc","Neutrophil","Set 1 (pairs)",120,20,0
+"Elk1-Gata2","Neutrophil","Set 1 (pairs)",120,43,0
+"Trp53-Gata1","Neutrophil","Set 1 (pairs)",120,43,0
+"Trp53-Creb1","Neutrophil","Set 1 (pairs)",120,45,4
+"Trp53-Myc","Neutrophil","Set 1 (pairs)",120,50,1
+"Trp53-Gata2","Neutrophil","Set 1 (pairs)",120,61,5
+"Fli1-Gata1","Neutrophil","Set 1 (pairs)",120,67,3
+"Fli1-Creb1","Neutrophil","Set 1 (pairs)",120,66,4
+"Fli1-Myc","Neutrophil","Set 1 (pairs)",120,57,8
+"Fli1-Gata2","Neutrophil","Set 1 (pairs)",120,48,8
+"Nfyc-Gata1","Neutrophil","Set 1 (pairs)",120,36,6
+"Nfyc-Creb1","Neutrophil","Set 1 (pairs)",120,16,4
+"Nfyc-Myc","Neutrophil","Set 1 (pairs)",120,17,5
+"Nfyc-Gata2","Neutrophil","Set 1 (pairs)",120,9,4
+"Klf4-Gata1","Neutrophil","Set 1 (pairs)",120,10,1
+"Klf4-Creb1","Neutrophil","Set 1 (pairs)",120,9,2
+"Klf4-Myc","Neutrophil","Set 1 (pairs)",120,8,1
+"Klf4-Gata2","Neutrophil","Set 1 (pairs)",120,17,1
+"Ddit3","Neutrophil","Set 2 (single factors)",120,15,2
+"Klf1","Neutrophil","Set 2 (single factors)",120,19,2
+"Stat5a","Neutrophil","Set 2 (single factors)",120,37,1
+"Sp1","Neutrophil","Set 2 (single factors)",120,59,1
+"Fos","Neutrophil","Set 2 (single factors)",120,53,0
+"Nfkb1","Neutrophil","Set 2 (single factors)",120,69,1
+"Spdef","Neutrophil","Set 2 (single factors)",120,68,1
+"Mecom","Neutrophil","Set 2 (single factors)",120,68,1
+"Yy1","Neutrophil","Set 2 (single factors)",120,56,2
+"Cic","Neutrophil","Set 2 (single factors)",120,49,2
+"Myb","Neutrophil","Set 2 (single factors)",120,26,4
+"Lyl1","Neutrophil","Set 2 (single factors)",120,25,2
+"Irf7","Neutrophil","Set 2 (single factors)",120,18,7
+"Gata1","Neutrophil","Set 2 (single factors)",120,17,5
+"Creb1","Neutrophil","Set 2 (single factors)",120,9,18
+"Myc","Neutrophil","Set 2 (single factors)",120,6,10
+"Gata2","Neutrophil","Set 2 (single factors)",120,7,9
+"Nr2c2","Neutrophil","Set 2 (single factors)",120,7,9
+"Tcf3","Neutrophil","Set 2 (single factors)",120,9,3
+"Ikzf1","Neutrophil","Set 2 (single factors)",120,12,5
+"Tfap2a","Neutrophil","Set 2 (single factors)",120,25,1
+"Gfi1","Neutrophil","Set 2 (single factors)",120,28,2
+"Gfi1b","Neutrophil","Set 2 (single factors)",120,32,4
+"Runx1","Neutrophil","Set 2 (single factors)",120,54,1
+"Meis1","Neutrophil","Set 2 (single factors)",120,57,0
+"Pbx1","Neutrophil","Set 2 (single factors)",120,74,0
+"Meis2","Neutrophil","Set 2 (single factors)",120,71,1
+"Tcf12","Neutrophil","Set 2 (single factors)",120,66,1
+"Rxrg","Neutrophil","Set 2 (single factors)",120,55,0
+"Zbtb7a","Neutrophil","Set 2 (single factors)",120,48,0
+"Nfix","Neutrophil","Set 2 (single factors)",120,32,0
+"Cebpe","Neutrophil","Set 2 (single factors)",120,23,4
+"Ctcf","Neutrophil","Set 2 (single factors)",120,14,3
+"Foxa1","Neutrophil","Set 2 (single factors)",120,14,3
+"Cdx4","Neutrophil","Set 2 (single factors)",120,10,5
+"Cebpa","Immature","Set 1 (single f.)",120,35,15
+"Spi1","Immature","Set 1 (single f.)",120,42,15
+"Elk1","Immature","Set 1 (single f.)",120,52,10
+"Trp53","Immature","Set 1 (single f.)",120,67,7
+"Fli1","Immature","Set 1 (single f.)",120,65,2
+"Nfyc","Immature","Set 1 (single f.)",120,55,6
+"Klf4","Immature","Set 1 (single f.)",120,61,2
+"Cebpa-Gata1","Immature","Set 1 (pairs)",120,39,1
+"Cebpa-Creb1","Immature","Set 1 (pairs)",120,27,0
+"Cebpa-Myc","Immature","Set 1 (pairs)",120,13,4
+"Cebpa-Gata2","Immature","Set 1 (pairs)",120,13,2
+"Spi1-Gata1","Immature","Set 1 (pairs)",120,15,1
+"Spi1-Creb1","Immature","Set 1 (pairs)",120,8,2
+"Spi1-Myc","Immature","Set 1 (pairs)",120,10,1
+"Spi1-Gata2","Immature","Set 1 (pairs)",120,5,0
+"Elk1-Gata1","Immature","Set 1 (pairs)",120,13,2
+"Elk1-Creb1","Immature","Set 1 (pairs)",120,18,7
+"Elk1-Myc","Immature","Set 1 (pairs)",120,18,3
+"Elk1-Gata2","Immature","Set 1 (pairs)",120,28,3
+"Trp53-Gata1","Immature","Set 1 (pairs)",120,45,4
+"Trp53-Creb1","Immature","Set 1 (pairs)",120,47,7
+"Trp53-Myc","Immature","Set 1 (pairs)",120,55,8
+"Trp53-Gata2","Immature","Set 1 (pairs)",120,53,6
+"Fli1-Gata1","Immature","Set 1 (pairs)",120,65,6
+"Fli1-Creb1","Immature","Set 1 (pairs)",120,70,11
+"Fli1-Myc","Immature","Set 1 (pairs)",120,46,13
+"Fli1-Gata2","Immature","Set 1 (pairs)",120,41,10
+"Nfyc-Gata1","Immature","Set 1 (pairs)",120,23,17
+"Nfyc-Creb1","Immature","Set 1 (pairs)",120,21,9
+"Nfyc-Myc","Immature","Set 1 (pairs)",120,17,7
+"Nfyc-Gata2","Immature","Set 1 (pairs)",120,14,5
+"Klf4-Gata1","Immature","Set 1 (pairs)",120,7,6
+"Klf4-Creb1","Immature","Set 1 (pairs)",120,3,4
+"Klf4-Myc","Immature","Set 1 (pairs)",120,9,7
+"Klf4-Gata2","Immature","Set 1 (pairs)",120,4,0
+"Ddit3","Immature","Set 2 (single factors)",120,9,1
+"Klf1","Immature","Set 2 (single factors)",120,19,2
+"Stat5a","Immature","Set 2 (single factors)",120,33,0
+"Sp1","Immature","Set 2 (single factors)",120,40,2
+"Fos","Immature","Set 2 (single factors)",120,53,0
+"Nfkb1","Immature","Set 2 (single factors)",120,52,1
+"Spdef","Immature","Set 2 (single factors)",120,55,3
+"Mecom","Immature","Set 2 (single factors)",120,62,4
+"Yy1","Immature","Set 2 (single factors)",120,63,3
+"Cic","Immature","Set 2 (single factors)",120,47,3
+"Myb","Immature","Set 2 (single factors)",120,43,9
+"Lyl1","Immature","Set 2 (single factors)",120,28,11
+"Irf7","Immature","Set 2 (single factors)",120,13,16
+"Gata1","Immature","Set 2 (single factors)",120,20,14
+"Creb1","Immature","Set 2 (single factors)",120,5,15
+"Myc","Immature","Set 2 (single factors)",120,8,17
+"Gata2","Immature","Set 2 (single factors)",120,10,9
+"Nr2c2","Immature","Set 2 (single factors)",120,7,17
+"Tcf3","Immature","Set 2 (single factors)",120,5,15
+"Ikzf1","Immature","Set 2 (single factors)",120,15,8
+"Tfap2a","Immature","Set 2 (single factors)",120,31,9
+"Gfi1","Immature","Set 2 (single factors)",120,28,6
+"Gfi1b","Immature","Set 2 (single factors)",120,46,4
+"Runx1","Immature","Set 2 (single factors)",120,51,2
+"Meis1","Immature","Set 2 (single factors)",120,56,1
+"Pbx1","Immature","Set 2 (single factors)",120,61,3
+"Meis2","Immature","Set 2 (single factors)",120,63,1
+"Tcf12","Immature","Set 2 (single factors)",120,53,1
+"Rxrg","Immature","Set 2 (single factors)",120,43,0
+"Zbtb7a","Immature","Set 2 (single factors)",120,48,1
+"Nfix","Immature","Set 2 (single factors)",120,28,1
+"Cebpe","Immature","Set 2 (single factors)",120,21,1
+"Ctcf","Immature","Set 2 (single factors)",120,9,5
+"Foxa1","Immature","Set 2 (single factors)",120,13,2
+"Cdx4","Immature","Set 2 (single factors)",120,6,4

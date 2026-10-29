@@ -1,0 +1,100 @@
+schema: figure-library.personal-module.v1
+moduleId: taxonomy-differential-manhattan-bubbles
+title: 差异OTU分类曼哈顿气泡图
+titleEn: Taxonomy-aware differential-OTU Manhattan bubbles
+description: "**Taxonomy-aware differential-OTU Manhattan bubbles**"
+scientificQuestion: 不同微生物类别在三个比较中的丰度和倍数变化如何分布？
+application: 共享科/目排序，气泡编码丰度，空心/实心表示预先给定的显著性。
+dataProfile: 合成示例输入；1个运行期输入表。otu.csv：450行×7列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/otu.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/otu.csv
+  - data_schema.yml
+  - description.md
+  - figures/17_B_AZM_vs_B.png
+  - figures/17_Co_FL_AZM_vs_Co_FL.png
+  - figures/17_Co_PS_AZM_vs_Co_PS.png
+  - figures/17_abundance_legend.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/otu.csv
+  - data_schema.yml
+  - description.md
+  - figures/17_B_AZM_vs_B.png
+  - figures/17_Co_FL_AZM_vs_Co_FL.png
+  - figures/17_Co_PS_AZM_vs_Co_PS.png
+  - figures/17_abundance_legend.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 486318
+  sha256: 7f77fc647140b99ebe52a7dcd19705e08754f55e6b97583fe20ba5abc25e397e
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 25570
+  sha256: e2f52eaee51fc147e6c5b6e4e2ff0209729e22eb8c101e3b1013198afe580d93
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template taxonomy-differential-manhattan-bubbles; internal Library state is
+      not distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485437&idx=1&sn=60a6845a56bea0985a1690b9c95c7d9c&chksm=c16b0243f61c8b55df553a7bce6fa7d97b9a89b3d32dbb641399e58597da455531f48474b635#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 5
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 三比较共享轴、空实心点与丰度图例保留；当前50个Family编号而非来源分类，气泡过均匀。
+    nextStep: 建立来源式分类层级的合成丰度表，保留稀疏属/科映射，再重算排序和大小。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

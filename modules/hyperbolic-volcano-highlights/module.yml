@@ -1,0 +1,102 @@
+schema: figure-library.personal-module.v1
+moduleId: hyperbolic-volcano-highlights
+title: 双曲线火山图与目标基因高亮
+titleEn: Hyperbolic volcano plots and highlighted targets
+description: "**Hyperbolic volcano plots and highlighted targets**"
+scientificQuestion: 如何同时呈现效应与显著性并突出通路成员或目标基因？
+application: 教程NTC比例扫描、固定乘积阈值和常规阈值三版；仅可视化示例，不替代校准的FDR。
+dataProfile: 合成示例输入；3个运行期输入表。crispr_screen.csv：2800行×6列；rna_volcano.csv：1700行×3列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/conventional.csv
+  - data/crispr_screen.csv
+  - data/rna_volcano.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/conventional.csv
+  - data/crispr_screen.csv
+  - data/rna_volcano.csv
+  - data_schema.yml
+  - description.md
+  - figures/20b_fixed_hyperbolic_rna.png
+  - figures/20c_conventional_interest_genes.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/conventional.csv
+  - data/crispr_screen.csv
+  - data/rna_volcano.csv
+  - data_schema.yml
+  - description.md
+  - figures/20b_fixed_hyperbolic_rna.png
+  - figures/20c_conventional_interest_genes.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 411993
+  sha256: 16f4caf2a332540e8db6674c007664ef16a04c683d70f85110fbe26ce7d526c4
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 14237
+  sha256: 358a673275f22fdac42dd0fbd41dc2f0c6ac7cf791e2f348cb971d5711df3360
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template hyperbolic-volcano-highlights; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485818&idx=1&sn=dab7103f6441a6774eb4790d9d302bc2&chksm=c16b0cc4f61c85d2e452f6f3a99de391d67818280670ab3a9ac901212a2b09c2c2e01e5352bb#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 3
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: Significant与Pathway图例分开，6个目标另图保留；CRISPR点云仍偏窄且标签/通路不全，NTC演示阈值不等于来源校准FDR。
+    nextStep: 补足合成通路/目标及表型范围；如果需要研究级FDR，应另明确校准方法和输入，而非抄来源阈值。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

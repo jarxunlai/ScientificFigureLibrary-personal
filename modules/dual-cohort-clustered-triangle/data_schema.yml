@@ -1,0 +1,69 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/GSE165897.csv
+    format: csv
+    rows: 120
+    columns:
+      - Sample
+      - CD4+ Resting Treg
+      - CD4+ Effector Treg
+      - CD4+ Proliferative
+      - CD8+ Proliferative
+      - CD4+ IFN-responding
+      - CD8+ IFN-responding
+      - CD4+ Terminal Tex
+      - CD8+ Progenitor Tex
+      - CD8+ Tex
+      - CD4+ Trp-hi-like
+      - CD4+ HSP-high
+      - CD4+ RPS-high
+      - CD4+ Nuc-high
+      - CD8+ Nuc-high
+      - CD4+ MAIT
+      - CD8+ MAIT
+      - CD4+ Tem
+      - CD8+ Tem
+      - CD4+ Tcm
+      - CD8+ Tcm
+      - CD8+ Trm
+      - CD4+ Th17-like
+      - CD8+ Th17-like
+      - CD4+ IEG-high
+      - CD8+ IEG-high
+      - CD4+ GZMK
+      - CD8+ GZMK
+      - CD8+ Temra
+  - path: data/In_house.csv
+    format: csv
+    rows: 120
+    columns:
+      - Sample
+      - CD4+ Resting Treg
+      - CD4+ Effector Treg
+      - CD4+ Proliferative
+      - CD8+ Proliferative
+      - CD4+ IFN-responding
+      - CD8+ IFN-responding
+      - CD4+ Terminal Tex
+      - CD8+ Progenitor Tex
+      - CD8+ Tex
+      - CD4+ Trp-hi-like
+      - CD4+ HSP-high
+      - CD4+ RPS-high
+      - CD4+ Nuc-high
+      - CD8+ Nuc-high
+      - CD4+ MAIT
+      - CD8+ MAIT
+      - CD4+ Tem
+      - CD8+ Tem
+      - CD4+ Tcm
+      - CD8+ Tcm
+      - CD8+ Trm
+      - CD4+ Th17-like
+      - CD8+ Th17-like
+      - CD4+ IEG-high
+      - CD8+ IEG-high
+      - CD4+ GZMK
+      - CD8+ GZMK
+      - CD8+ Temra

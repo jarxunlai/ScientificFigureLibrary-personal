@@ -1,0 +1,18 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/enrichment.csv
+    format: csv
+    rows: 12
+    columns:
+      - Term
+      - Direction
+      - score
+      - Hits
+  - path: data/volcano.csv
+    format: csv
+    rows: 2600
+    columns:
+      - gene
+      - logFC
+      - pvalue

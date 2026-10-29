@@ -1,0 +1,99 @@
+schema: figure-library.personal-module.v1
+moduleId: correlation-volcano-enrichment
+title: 相关性火山图与运行富集曲线
+titleEn: Correlation volcanoes and enrichment
+description: Pearson火山图中灰点为背景、青色点高亮WNT成员，FDR阈值虚线与基因标签由输入表映射；下面的运行富集曲线和rug沿同一相关轴对齐。另绘Kendall tau火山图，显著蛋白以暗红突出。
+scientificQuestion: 哪些基因或蛋白与连续表型相关，一组通路成员是否集中在相关排序的一端？
+application: |-
+  - 在已有逐基因或逐蛋白相关统计表上高亮关注集合。
+  - 同时审阅相关方向、显著性与排序富集位置；富集曲线本身不是机制或显著GSEA的证明。
+dataProfile: 合成示例输入；2个运行期输入表。wnt_correlations.csv：1800行×6列；kendall_correlations.csv：1100行×5列
+plotFamily: correlation_volcano_running_enrichment
+language: R
+tags:
+  - correlation_volcano_running_enrichment
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/kendall_correlations.csv
+  - data/wnt_correlations.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/kendall_correlations.csv
+  - data/wnt_correlations.csv
+  - data_schema.yml
+  - description.md
+  - figures/14b_kendall_tau_volcano.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/kendall_correlations.csv
+  - data/wnt_correlations.csv
+  - data_schema.yml
+  - description.md
+  - figures/14b_kendall_tau_volcano.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 175329
+  sha256: 4327ad8789d2d3ea204fc8a0892ee6ae692043af0cf28eef99492187863f1750
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 11300
+  sha256: 49e3829850596e78eaa6f3f6d2b2f55d477745056e4621baa26eab4b7b48ad5b
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template correlation-volcano-enrichment; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247486111&idx=1&sn=b8bdfa9aa02012f58bfcc6903b1e394f&chksm=c16b0f21f61c86374409abd9899c7b9385da05c76908637743ca44183005800589f4a989fcb4#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 2
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 火山、运行富集及rug保持三层对齐；ES峰位、目标点位置和Kendall分布与来源不同。
+    nextStep: 可调整合成排序轮廓，但继续从当前基因集计算ES/相关统计，不录入来源值。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

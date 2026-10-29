@@ -1,0 +1,12 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/fold_changes.csv
+    format: csv
+    rows: 1600
+    columns:
+      - gene
+      - x
+      - y
+      - FDR1
+      - FDR2

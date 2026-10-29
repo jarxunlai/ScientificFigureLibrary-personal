@@ -1,0 +1,10 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/tcell_embedding.csv
+    format: csv
+    rows: 13000
+    columns:
+      - Celltype
+      - UMAP1
+      - UMAP2

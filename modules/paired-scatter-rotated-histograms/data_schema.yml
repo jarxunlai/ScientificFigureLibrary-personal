@@ -1,0 +1,13 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/paired_neural.csv
+    format: csv
+    rows: 330
+    columns:
+      - Animal
+      - Condition
+      - Pair
+      - Control
+      - Treat
+      - Significant

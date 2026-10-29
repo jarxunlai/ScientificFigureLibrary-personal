@@ -1,0 +1,96 @@
+schema: figure-library.personal-module.v1
+moduleId: kde-density-correlation-matrix
+title: 核密度相关矩阵R版本
+titleEn: KDE correlation matrix in R
+description: 与第11项同一输入和同一Spearman矩阵；下三角改为二维高斯KDE，保留对角变量名、彩虹与红色上三角版本。
+scientificQuestion: 多变量关联的方向与平滑二维密度如何一起查看？
+application: |-
+  - 展示连续型多指标数据的平滑共分布。
+  - 比较不同密度估计时保持相关数值与输入不变，避免把平滑程度当成不同生物学结果。
+dataProfile: 合成示例输入；1个运行期输入表。nucleosome_features.csv：9000行×7列
+plotFamily: kde_correlation_matrix
+language: R
+tags:
+  - kde_correlation_matrix
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - MASS
+  - dplyr
+  - ggplot2
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/nucleosome_features.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/nucleosome_features.csv
+  - data_schema.yml
+  - description.md
+  - figures/12_density_matrix_red.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/nucleosome_features.csv
+  - data_schema.yml
+  - description.md
+  - figures/12_density_matrix_red.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 276375
+  sha256: b3db9dbf23135617f8f7887cfd812d89928a5320679cb92dc013d8ded6c7a590
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 39030
+  sha256: 5b8b641dbdfb5614bcdbcb767c1f3b8cc0449f341feb29445e54a0ec7d7a12ca
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template kde-density-correlation-matrix; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485642&idx=1&sn=38a39ea5e29e516bcd96bb6a1d322392&chksm=c16b0d74f61c8462c42d5fd6301a1bcf4935adfe52ac766754b7396e92cb9a3e967eec39afbe#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 2
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: KDE矩阵与分箱版分开；平滑轮廓、相关值和来源各单元的独立范围仍不同。
+    nextStep: 继续核对各变量范围及KDE带宽；相关值仍从当前表重算。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

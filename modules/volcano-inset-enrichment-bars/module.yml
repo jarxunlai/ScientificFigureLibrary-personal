@@ -1,0 +1,109 @@
+schema: figure-library.personal-module.v1
+moduleId: volcano-inset-enrichment-bars
+title: 火山图与顶端内嵌富集条形图
+titleEn: Volcano plots with top-inset enrichment bars
+description: "**Volcano plots with top-inset enrichment bars**"
+scientificQuestion: 上下调基因的变化与其功能条目如何在同一画面关联？
+application: 线性阈值与双曲线阈值两版，顶端两组富集条形图保持方向对应。
+dataProfile: 合成示例输入；2个运行期输入表。volcano.csv：2600行×3列；enrichment.csv：12行×4列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/enrichment.csv
+  - data/volcano.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/enrichment.csv
+  - data/volcano.csv
+  - data_schema.yml
+  - description.md
+  - figures/24_Down_enrichment.png
+  - figures/24_Down_kegg_enrichment.png
+  - figures/24_Up_enrichment.png
+  - figures/24_Up_kegg_enrichment.png
+  - figures/24_hyperbolic_volcano.png
+  - figures/24_hyperbolic_volcano_inset_bars.png
+  - figures/24_linear_volcano.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/enrichment.csv
+  - data/volcano.csv
+  - data_schema.yml
+  - description.md
+  - figures/24_Down_enrichment.png
+  - figures/24_Down_kegg_enrichment.png
+  - figures/24_Up_enrichment.png
+  - figures/24_Up_kegg_enrichment.png
+  - figures/24_hyperbolic_volcano.png
+  - figures/24_hyperbolic_volcano_inset_bars.png
+  - figures/24_linear_volcano.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 589123
+  sha256: 68aa4db8f600c52b9d143e53069cceaab935b12d92bc638bbb1a13b99d36267e
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 29567
+  sha256: c2e5a5e8b4915ff6e7cd8e3cbaae97d4e597f79f34b58606a95e8b2c1af99464
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template volcano-inset-enrichment-bars; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485989&idx=1&sn=5fc7e16318ad21dda55511f96d60de34&chksm=c16b0f9bf61c868d167b1c548deacf49d27ac5d3643d667e64f4436c75aff6d198ec9987093e#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 8
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 两种火山阈值均有真正顶端inset，第二张改为独立KEGG配色/标签；GO术语条数、横轴范围和点云仍不同。
+    nextStep: 继续核对作者GO/KEGG术语顺序，分别调整两例合成FC范围及inset占比，不复用一套标签。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

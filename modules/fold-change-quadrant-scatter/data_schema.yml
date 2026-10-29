@@ -1,0 +1,14 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/rna_fc.csv
+    format: csv
+    rows: 2600
+    columns:
+      - gene
+      - total
+      - poly
+      - mode
+      - FDR_total
+      - FDR_poly
+      - label

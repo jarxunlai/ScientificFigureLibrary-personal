@@ -1,0 +1,257 @@
+"group","feature","significance","phenotype","value"
+"Tinnitus characteristics","HTTSKAL_frequency","","PT1",-0.019
+"Tinnitus characteristics","TINNSKAL_impairment","","PT1",-0.014
+"Tinnitus characteristics","HTTSKAL_loudness","","PT1",0.116
+"Tinnitus characteristics","TQ_01_both_ears","","PT1",0.159
+"Tinnitus characteristics","TQ_01_one_ear","","PT1",-0.027
+"Tinnitus characteristics","TQ_01_left_ear","","PT1",-0.003
+"Tinnitus characteristics","TQ_01_right_ear","","PT1",0.053
+"Tinnitus characteristics","TQ_02_hissing","","PT1",0.068
+"Tinnitus characteristics","TQ_02_ringing","","PT1",0.292
+"Tinnitus characteristics","TQ_02_rushing","","PT1",0.207
+"Tinnitus characteristics","TQ_02_whistling","","PT1",0.305
+"Physical quality of life","SF8_overallhealth","*","PT1",0.636
+"Physical quality of life","SF8_physicalcomp","*","PT1",0.606
+"Physical quality of life","SF8_physicalfunct","*","PT1",0.515
+"Physical quality of life","SF8_rolephysical","*","PT1",0.576
+"Experiences of pain","SES_affectivepain","*","PT1",0.36
+"Experiences of pain","SES_sensoricpain","*","PT1",0.388
+"Experiences of pain","SF8_bodilyhealth","*","PT1",0.313
+"Experiences of pain","SSKAL_painfrequency","*","PT1",0.51
+"Experiences of pain","SSKAL_painimpairment","*","PT1",0.283
+"Experiences of pain","SSKAL_painseverity","*","PT1",0.513
+"Somatic expressions","IBL_abdominalsymptoms","*","PT1",0.468
+"Somatic expressions","IBL_fatigue","*","PT1",0.401
+"Somatic expressions","IBL_cardiacsymptoms","*","PT1",0.32
+"Somatic expressions","IBL_irritation","","PT1",0.499
+"Somatic expressions","IBL_limbpain","*","PT1",0.281
+"Affective symptoms","AHSL_depression","*","PT1",0.657
+"Affective symptoms","BSF_angry","*","PT1",0.71
+"Affective symptoms","BSF_moderndepression","*","PT1",0.404
+"Affective symptoms","BSF_apathy","*","PT1",0.692
+"Affective symptoms","BSF_elevatedmood","*","PT1",0.598
+"Affective symptoms","BSF_fatigue","*","PT1",0.639
+"Affective symptoms","BSF_mindset","*","PT1",0.541
+"Affective symptoms","ISR_additionalsymptoms","*","PT1",0.797
+"Affective symptoms","ISR_anxiety","*","PT1",0.665
+"Affective symptoms","ISR_compulsivesympt","*","PT1",0.928
+"Affective symptoms","ISR_depression","*","PT1",0.71
+"Affective symptoms","ISR_eatingdisorder","*","PT1",0.486
+"Affective symptoms","ISR_somatoformsympt","*","PT1",0.551
+"Affective symptoms","ISR_totalpsychdistress","*","PT1",0.6
+"Affective symptoms","PHQK_depression","*","PT1",0.681
+"Affective symptoms","PHQK_panic","*","PT1",0.856
+"Tinnitus-related distress","TQ_auditoryperception","*","PT1",0.62
+"Tinnitus-related distress","TQ_cognitivedistress","*","PT1",0.709
+"Tinnitus-related distress","TQ_distress","*","PT1",0.468
+"Tinnitus-related distress","TQ_emotdistress","*","PT1",0.636
+"Tinnitus-related distress","TQ_intrusiveness","*","PT1",0.357
+"Tinnitus-related distress","TQ_psychodistress","*","PT1",0.464
+"Tinnitus-related distress","TQ_sleepdisturbance","*","PT1",0.527
+"Tinnitus-related distress","TQ_somcomplaints","*","PT1",0.642
+"Internal resources","SWOP_optimism","","PT1",0.075
+"Internal resources","SWOP_pessimism","*","PT1",0.211
+"Internal resources","SWOP_selfefficacy","","PT1",-0.062
+"Perceived stress","PSQ_demands","*","PT1",0.554
+"Perceived stress","PSQ_joy","*","PT1",0.999
+"Perceived stress","PSQ_stress","*","PT1",0.949
+"Perceived stress","PSQ_tension","*","PT1",0.542
+"Perceived stress","PSQ_worries","*","PT1",0.497
+"Mental quality of life","ACSA_qualityoflife","*","PT1",0.459
+"Mental quality of life","SF8_mentalcomp","*","PT1",0.626
+"Mental quality of life","SF8_mentalhealth","*","PT1",0.824
+"Mental quality of life","SF8_roleemotional","*","PT1",0.557
+"Mental quality of life","SF8_socialfunct","*","PT1",0.696
+"Mental quality of life","SF8_vitality","*","PT1",0.553
+"Tinnitus characteristics","HTTSKAL_frequency","","PT2",0.191
+"Tinnitus characteristics","TINNSKAL_impairment","","PT2",-0.214
+"Tinnitus characteristics","HTTSKAL_loudness","","PT2",-0.016
+"Tinnitus characteristics","TQ_01_both_ears","","PT2",0.214
+"Tinnitus characteristics","TQ_01_one_ear","","PT2",0.372
+"Tinnitus characteristics","TQ_01_left_ear","","PT2",0.212
+"Tinnitus characteristics","TQ_01_right_ear","","PT2",0.104
+"Tinnitus characteristics","TQ_02_hissing","","PT2",0.044
+"Tinnitus characteristics","TQ_02_ringing","","PT2",0.157
+"Tinnitus characteristics","TQ_02_rushing","","PT2",0.079
+"Tinnitus characteristics","TQ_02_whistling","","PT2",0.046
+"Physical quality of life","SF8_overallhealth","*","PT2",0.914
+"Physical quality of life","SF8_physicalcomp","*","PT2",0.854
+"Physical quality of life","SF8_physicalfunct","*","PT2",0.647
+"Physical quality of life","SF8_rolephysical","*","PT2",0.971
+"Experiences of pain","SES_affectivepain","*","PT2",0.73
+"Experiences of pain","SES_sensoricpain","*","PT2",0.784
+"Experiences of pain","SF8_bodilyhealth","*","PT2",0.544
+"Experiences of pain","SSKAL_painfrequency","*","PT2",0.682
+"Experiences of pain","SSKAL_painimpairment","*","PT2",0.691
+"Experiences of pain","SSKAL_painseverity","*","PT2",0.778
+"Somatic expressions","IBL_abdominalsymptoms","*","PT2",0.605
+"Somatic expressions","IBL_fatigue","*","PT2",0.53
+"Somatic expressions","IBL_cardiacsymptoms","*","PT2",0.592
+"Somatic expressions","IBL_irritation","","PT2",0.499
+"Somatic expressions","IBL_limbpain","*","PT2",0.767
+"Affective symptoms","AHSL_depression","*","PT2",0.769
+"Affective symptoms","BSF_angry","*","PT2",1.1
+"Affective symptoms","BSF_moderndepression","*","PT2",0.891
+"Affective symptoms","BSF_apathy","*","PT2",1.189
+"Affective symptoms","BSF_elevatedmood","*","PT2",0.932
+"Affective symptoms","BSF_fatigue","*","PT2",0.634
+"Affective symptoms","BSF_mindset","*","PT2",0.985
+"Affective symptoms","ISR_additionalsymptoms","*","PT2",1.31
+"Affective symptoms","ISR_anxiety","*","PT2",0.872
+"Affective symptoms","ISR_compulsivesympt","*","PT2",1.08
+"Affective symptoms","ISR_depression","*","PT2",1.023
+"Affective symptoms","ISR_eatingdisorder","*","PT2",0.876
+"Affective symptoms","ISR_somatoformsympt","*","PT2",1.074
+"Affective symptoms","ISR_totalpsychdistress","*","PT2",0.743
+"Affective symptoms","PHQK_depression","*","PT2",0.918
+"Affective symptoms","PHQK_panic","*","PT2",1.101
+"Tinnitus-related distress","TQ_auditoryperception","*","PT2",0.993
+"Tinnitus-related distress","TQ_cognitivedistress","*","PT2",0.753
+"Tinnitus-related distress","TQ_distress","*","PT2",0.602
+"Tinnitus-related distress","TQ_emotdistress","*","PT2",0.603
+"Tinnitus-related distress","TQ_intrusiveness","*","PT2",0.8
+"Tinnitus-related distress","TQ_psychodistress","*","PT2",0.549
+"Tinnitus-related distress","TQ_sleepdisturbance","*","PT2",0.592
+"Tinnitus-related distress","TQ_somcomplaints","*","PT2",0.516
+"Internal resources","SWOP_optimism","","PT2",0.578
+"Internal resources","SWOP_pessimism","*","PT2",0.177
+"Internal resources","SWOP_selfefficacy","","PT2",0.282
+"Perceived stress","PSQ_demands","*","PT2",1.336
+"Perceived stress","PSQ_joy","*","PT2",1.159
+"Perceived stress","PSQ_stress","*","PT2",0.764
+"Perceived stress","PSQ_tension","*","PT2",1.077
+"Perceived stress","PSQ_worries","*","PT2",0.92
+"Mental quality of life","ACSA_qualityoflife","*","PT2",0.677
+"Mental quality of life","SF8_mentalcomp","*","PT2",0.935
+"Mental quality of life","SF8_mentalhealth","*","PT2",1.16
+"Mental quality of life","SF8_roleemotional","*","PT2",0.71
+"Mental quality of life","SF8_socialfunct","*","PT2",0.837
+"Mental quality of life","SF8_vitality","*","PT2",0.884
+"Tinnitus characteristics","HTTSKAL_frequency","","PT3",-0.047
+"Tinnitus characteristics","TINNSKAL_impairment","","PT3",0.105
+"Tinnitus characteristics","HTTSKAL_loudness","","PT3",0.153
+"Tinnitus characteristics","TQ_01_both_ears","","PT3",-0.048
+"Tinnitus characteristics","TQ_01_one_ear","","PT3",-0.104
+"Tinnitus characteristics","TQ_01_left_ear","","PT3",0.168
+"Tinnitus characteristics","TQ_01_right_ear","","PT3",-0.123
+"Tinnitus characteristics","TQ_02_hissing","","PT3",-0.114
+"Tinnitus characteristics","TQ_02_ringing","","PT3",-0.069
+"Tinnitus characteristics","TQ_02_rushing","","PT3",0.016
+"Tinnitus characteristics","TQ_02_whistling","","PT3",-0.153
+"Physical quality of life","SF8_overallhealth","*","PT3",0.102
+"Physical quality of life","SF8_physicalcomp","*","PT3",0.146
+"Physical quality of life","SF8_physicalfunct","*","PT3",0.127
+"Physical quality of life","SF8_rolephysical","*","PT3",0.306
+"Experiences of pain","SES_affectivepain","*","PT3",0.149
+"Experiences of pain","SES_sensoricpain","*","PT3",0.107
+"Experiences of pain","SF8_bodilyhealth","*","PT3",-0.053
+"Experiences of pain","SSKAL_painfrequency","*","PT3",-0.031
+"Experiences of pain","SSKAL_painimpairment","*","PT3",0.332
+"Experiences of pain","SSKAL_painseverity","*","PT3",0.213
+"Somatic expressions","IBL_abdominalsymptoms","*","PT3",0.153
+"Somatic expressions","IBL_fatigue","*","PT3",0.27
+"Somatic expressions","IBL_cardiacsymptoms","*","PT3",0.259
+"Somatic expressions","IBL_irritation","","PT3",0.045
+"Somatic expressions","IBL_limbpain","*","PT3",0.101
+"Affective symptoms","AHSL_depression","*","PT3",0.027
+"Affective symptoms","BSF_angry","*","PT3",0.274
+"Affective symptoms","BSF_moderndepression","*","PT3",0.126
+"Affective symptoms","BSF_apathy","*","PT3",0.241
+"Affective symptoms","BSF_elevatedmood","*","PT3",0.247
+"Affective symptoms","BSF_fatigue","*","PT3",0.174
+"Affective symptoms","BSF_mindset","*","PT3",0.181
+"Affective symptoms","ISR_additionalsymptoms","*","PT3",0.336
+"Affective symptoms","ISR_anxiety","*","PT3",0.271
+"Affective symptoms","ISR_compulsivesympt","*","PT3",0.312
+"Affective symptoms","ISR_depression","*","PT3",0.302
+"Affective symptoms","ISR_eatingdisorder","*","PT3",0.283
+"Affective symptoms","ISR_somatoformsympt","*","PT3",0.25
+"Affective symptoms","ISR_totalpsychdistress","*","PT3",0.24
+"Affective symptoms","PHQK_depression","*","PT3",0.211
+"Affective symptoms","PHQK_panic","*","PT3",0.331
+"Tinnitus-related distress","TQ_auditoryperception","*","PT3",0.255
+"Tinnitus-related distress","TQ_cognitivedistress","*","PT3",0.168
+"Tinnitus-related distress","TQ_distress","*","PT3",0.065
+"Tinnitus-related distress","TQ_emotdistress","*","PT3",-0.029
+"Tinnitus-related distress","TQ_intrusiveness","*","PT3",0.157
+"Tinnitus-related distress","TQ_psychodistress","*","PT3",0.153
+"Tinnitus-related distress","TQ_sleepdisturbance","*","PT3",0.122
+"Tinnitus-related distress","TQ_somcomplaints","*","PT3",0.113
+"Internal resources","SWOP_optimism","","PT3",0.034
+"Internal resources","SWOP_pessimism","*","PT3",0.22
+"Internal resources","SWOP_selfefficacy","","PT3",-0.079
+"Perceived stress","PSQ_demands","*","PT3",0.009
+"Perceived stress","PSQ_joy","*","PT3",0.234
+"Perceived stress","PSQ_stress","*","PT3",0.339
+"Perceived stress","PSQ_tension","*","PT3",0.2
+"Perceived stress","PSQ_worries","*","PT3",0.128
+"Mental quality of life","ACSA_qualityoflife","*","PT3",0.035
+"Mental quality of life","SF8_mentalcomp","*","PT3",0.412
+"Mental quality of life","SF8_mentalhealth","*","PT3",0.175
+"Mental quality of life","SF8_roleemotional","*","PT3",0.174
+"Mental quality of life","SF8_socialfunct","*","PT3",0.304
+"Mental quality of life","SF8_vitality","*","PT3",0.199
+"Tinnitus characteristics","HTTSKAL_frequency","","PT4",0.168
+"Tinnitus characteristics","TINNSKAL_impairment","","PT4",0.045
+"Tinnitus characteristics","HTTSKAL_loudness","","PT4",-0.168
+"Tinnitus characteristics","TQ_01_both_ears","","PT4",0.068
+"Tinnitus characteristics","TQ_01_one_ear","","PT4",-0.181
+"Tinnitus characteristics","TQ_01_left_ear","","PT4",-0.342
+"Tinnitus characteristics","TQ_01_right_ear","","PT4",-0.235
+"Tinnitus characteristics","TQ_02_hissing","","PT4",-0.177
+"Tinnitus characteristics","TQ_02_ringing","","PT4",-0.156
+"Tinnitus characteristics","TQ_02_rushing","","PT4",-0.123
+"Tinnitus characteristics","TQ_02_whistling","","PT4",0.086
+"Physical quality of life","SF8_overallhealth","*","PT4",-0.959
+"Physical quality of life","SF8_physicalcomp","*","PT4",-0.727
+"Physical quality of life","SF8_physicalfunct","*","PT4",-0.422
+"Physical quality of life","SF8_rolephysical","*","PT4",-0.664
+"Experiences of pain","SES_affectivepain","*","PT4",-0.574
+"Experiences of pain","SES_sensoricpain","*","PT4",-0.493
+"Experiences of pain","SF8_bodilyhealth","*","PT4",-0.673
+"Experiences of pain","SSKAL_painfrequency","*","PT4",-0.402
+"Experiences of pain","SSKAL_painimpairment","*","PT4",-0.537
+"Experiences of pain","SSKAL_painseverity","*","PT4",-0.645
+"Somatic expressions","IBL_abdominalsymptoms","*","PT4",-0.893
+"Somatic expressions","IBL_fatigue","*","PT4",-0.515
+"Somatic expressions","IBL_cardiacsymptoms","*","PT4",-0.658
+"Somatic expressions","IBL_irritation","","PT4",-0.453
+"Somatic expressions","IBL_limbpain","*","PT4",-0.692
+"Affective symptoms","AHSL_depression","*","PT4",-0.894
+"Affective symptoms","BSF_angry","*","PT4",-0.816
+"Affective symptoms","BSF_moderndepression","*","PT4",-0.794
+"Affective symptoms","BSF_apathy","*","PT4",-0.682
+"Affective symptoms","BSF_elevatedmood","*","PT4",-0.569
+"Affective symptoms","BSF_fatigue","*","PT4",-0.806
+"Affective symptoms","BSF_mindset","*","PT4",-0.849
+"Affective symptoms","ISR_additionalsymptoms","*","PT4",-0.74
+"Affective symptoms","ISR_anxiety","*","PT4",-1
+"Affective symptoms","ISR_compulsivesympt","*","PT4",-0.661
+"Affective symptoms","ISR_depression","*","PT4",-0.736
+"Affective symptoms","ISR_eatingdisorder","*","PT4",-0.72
+"Affective symptoms","ISR_somatoformsympt","*","PT4",-0.908
+"Affective symptoms","ISR_totalpsychdistress","*","PT4",-0.709
+"Affective symptoms","PHQK_depression","*","PT4",-0.788
+"Affective symptoms","PHQK_panic","*","PT4",-0.69
+"Tinnitus-related distress","TQ_auditoryperception","*","PT4",-0.893
+"Tinnitus-related distress","TQ_cognitivedistress","*","PT4",-0.486
+"Tinnitus-related distress","TQ_distress","*","PT4",-0.641
+"Tinnitus-related distress","TQ_emotdistress","*","PT4",-0.843
+"Tinnitus-related distress","TQ_intrusiveness","*","PT4",-0.332
+"Tinnitus-related distress","TQ_psychodistress","*","PT4",-0.251
+"Tinnitus-related distress","TQ_sleepdisturbance","*","PT4",-0.635
+"Tinnitus-related distress","TQ_somcomplaints","*","PT4",-0.764
+"Internal resources","SWOP_optimism","","PT4",-0.366
+"Internal resources","SWOP_pessimism","*","PT4",-0.231
+"Internal resources","SWOP_selfefficacy","","PT4",-0.435
+"Perceived stress","PSQ_demands","*","PT4",-1.095
+"Perceived stress","PSQ_joy","*","PT4",-0.827
+"Perceived stress","PSQ_stress","*","PT4",-0.797
+"Perceived stress","PSQ_tension","*","PT4",-0.554
+"Perceived stress","PSQ_worries","*","PT4",-0.688
+"Mental quality of life","ACSA_qualityoflife","*","PT4",-0.602
+"Mental quality of life","SF8_mentalcomp","*","PT4",-0.812
+"Mental quality of life","SF8_mentalhealth","*","PT4",-0.502
+"Mental quality of life","SF8_roleemotional","*","PT4",-0.774
+"Mental quality of life","SF8_socialfunct","*","PT4",-0.617
+"Mental quality of life","SF8_vitality","*","PT4",-0.706

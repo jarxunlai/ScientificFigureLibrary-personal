@@ -1,0 +1,22 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/kendall_correlations.csv
+    format: csv
+    rows: 1100
+    columns:
+      - Gene
+      - tau
+      - PValue
+      - FDR
+      - n
+  - path: data/wnt_correlations.csv
+    format: csv
+    rows: 1800
+    columns:
+      - Gene
+      - PearsonR
+      - PValue
+      - FDR
+      - Wnt_Signaling
+      - n

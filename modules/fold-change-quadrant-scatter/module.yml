@@ -1,0 +1,94 @@
+schema: figure-library.personal-module.v1
+moduleId: fold-change-quadrant-scatter
+title: 转录翻译FC象限与联合显著性
+titleEn: Transcription-translation fold-change quadrants
+description: "**Transcription-translation fold-change quadrants**"
+scientificQuestion: 转录与翻译的变化哪些一致、抵消或相反？
+application: 预计算转录/翻译类别展示；另一版本区分两个比较的FDR组合。
+dataProfile: 合成示例输入；1个运行期输入表。rna_fc.csv：2600行×7列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/rna_fc.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/rna_fc.csv
+  - data_schema.yml
+  - description.md
+  - figures/10b_significance_quadrants.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/rna_fc.csv
+  - data_schema.yml
+  - description.md
+  - figures/10b_significance_quadrants.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 531314
+  sha256: 7b2e932418ac35594e7c62e9155dc271604317d9141f5363aa31784ee1b81c60
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 16726
+  sha256: 80fae0c16e9ba21e6a04631f7f6a7d141610099ed6f1b146056d20c6aacf77bc
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template fold-change-quadrant-scatter; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484987&idx=1&sn=4ae67bffa7ddafd6746ad1b97d98f6d9&chksm=c16b0385f61c8a93248c725234edea511706962bddae319d817c687e25ee37ed31b0326651dc#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 2
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 六类模式计数与显著性象限已区分；当前纵/横分支过强，来源更密的对角群和标签排列未一致。
+    nextStep: 重新构造示例RNA/polyRNA联合分布，并同步重算六类计数及标签。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

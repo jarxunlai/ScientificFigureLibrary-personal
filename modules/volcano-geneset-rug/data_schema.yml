@@ -1,0 +1,18 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/signature_rug.csv
+    format: csv
+    rows: 240
+    columns:
+      - logFC
+      - Signature
+  - path: data/volcano.csv
+    format: csv
+    rows: 2200
+    columns:
+      - gene
+      - logFC
+      - score
+      - signature
+      - label

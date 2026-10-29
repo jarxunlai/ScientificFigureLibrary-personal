@@ -1,0 +1,93 @@
+schema: figure-library.personal-module.v1
+moduleId: circular-phenotype-bar-line
+title: 表型九类指标渐变柱与分组折线
+titleEn: Phenotype profiles with gradient bars and grouped lines
+description: "*Phenotype profiles with gradient bars and grouped lines*"
+scientificQuestion: 不同表型在九类标准化特征上的偏离模式是否一致？
+application: 问卷表型分析；临床亚群的标准化多指标比较。
+dataProfile: 合成示例输入；2个运行期输入表。phenotype_bars.csv：64行×5列；phenotype_lines.csv：256行×5列
+plotFamily: circular_bar_line
+language: R
+tags:
+  - circular_bar_line
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - circlize
+  - ragg
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/phenotype_bars.csv
+  - data/phenotype_lines.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/phenotype_bars.csv
+  - data/phenotype_lines.csv
+  - data_schema.yml
+  - description.md
+  - figures/08_tinnitus_grouped_lines.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/phenotype_bars.csv
+  - data/phenotype_lines.csv
+  - data_schema.yml
+  - description.md
+  - figures/08_tinnitus_grouped_lines.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 863063
+  sha256: 68fa1def8d09ba00a39b58b41d96fde1e1886d00e480ffceb8acdb71caf522d6
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 26706
+  sha256: 710c8316baf5b1af4dc3a278b06c28025a11d0e1307c19811f747389c303b58d
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template circular-phenotype-bar-line; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485123&idx=1&sn=28e0ae820dec9edb5db525f7783fb8a3&chksm=c16b037df61c8a6bd59048e2d3508f3aa2ee42149468c47d9a5a1d4da1f33b9e52e9fecd60be#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 2
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 保留正负零参考环、渐变柱及四表型折线两版；个别分组和特征的起伏大小不同。
+    nextStep: 逐特征核对零环、误差及折线角度；如有患者表再换真实统计。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

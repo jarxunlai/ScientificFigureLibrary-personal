@@ -1,0 +1,163 @@
+"from","to","value"
+"South America-Rice","Nrate",0.923
+"Africa-Rice","Nrate",0.456
+"Asia-Rice","Nrate",0.243
+"Oceania-Rice","Nrate",0.47
+"North America-Rice","Nrate",0.162
+"Europe-Rice","Nrate",0.838
+"South America-Wheat","Nrate",0.342
+"Africa-Wheat","Nrate",0.353
+"Asia-Wheat","Nrate",0.169
+"Oceania-Wheat","Nrate",0.778
+"North America-Wheat","Nrate",0.496
+"Europe-Wheat","Nrate",0.145
+"South America-Maize","Nrate",0.417
+"Africa-Maize","Nrate",0.096
+"Asia-Maize","Nrate",0.917
+"Oceania-Maize","Nrate",0.968
+"North America-Maize","Nrate",0.438
+"Europe-Maize","Nrate",0.328
+"South America-Rice","CEC",0.863
+"Africa-Rice","CEC",0.675
+"Asia-Rice","CEC",0.63
+"Oceania-Rice","CEC",0.654
+"North America-Rice","CEC",0.433
+"Europe-Rice","CEC",0.848
+"South America-Wheat","CEC",0.86
+"Africa-Wheat","CEC",0.681
+"Asia-Wheat","CEC",0.93
+"Oceania-Wheat","CEC",0.372
+"North America-Wheat","CEC",0.598
+"Europe-Wheat","CEC",0.894
+"South America-Maize","CEC",0.547
+"Africa-Maize","CEC",0.91
+"Asia-Maize","CEC",0.902
+"Oceania-Maize","CEC",0.443
+"North America-Maize","CEC",0.483
+"Europe-Maize","CEC",0.132
+"South America-Rice","Clay",0.973
+"Africa-Rice","Clay",0.4
+"Asia-Rice","Clay",0.512
+"Oceania-Rice","Clay",0.764
+"North America-Rice","Clay",0.33
+"Europe-Rice","Clay",0.513
+"South America-Wheat","Clay",0.544
+"Africa-Wheat","Clay",0.964
+"Asia-Wheat","Clay",0.292
+"Oceania-Wheat","Clay",0.29
+"North America-Wheat","Clay",0.649
+"Europe-Wheat","Clay",0.69
+"South America-Maize","Clay",0.235
+"Africa-Maize","Clay",0.811
+"Asia-Maize","Clay",0.306
+"Oceania-Maize","Clay",0.85
+"North America-Maize","Clay",0.664
+"Europe-Maize","Clay",0.452
+"South America-Rice","BD",0.193
+"Africa-Rice","BD",0.114
+"Asia-Rice","BD",0.511
+"Oceania-Rice","BD",0.302
+"North America-Rice","BD",0.115
+"Europe-Rice","BD",0.292
+"South America-Wheat","BD",0.968
+"Africa-Wheat","BD",0.819
+"Asia-Wheat","BD",0.391
+"Oceania-Wheat","BD",0.81
+"North America-Wheat","BD",0.425
+"Europe-Wheat","BD",0.943
+"South America-Maize","BD",0.717
+"Africa-Maize","BD",0.087
+"Asia-Maize","BD",0.134
+"Oceania-Maize","BD",0.448
+"North America-Maize","BD",0.213
+"Europe-Maize","BD",0.572
+"South America-Rice","pH",0.546
+"Africa-Rice","pH",0.924
+"Asia-Rice","pH",0.376
+"Oceania-Rice","pH",0.518
+"North America-Rice","pH",0.867
+"Europe-Rice","pH",0.327
+"South America-Wheat","pH",0.412
+"Africa-Wheat","pH",0.311
+"Asia-Wheat","pH",0.242
+"Oceania-Wheat","pH",0.673
+"North America-Wheat","pH",0.501
+"Europe-Wheat","pH",0.159
+"South America-Maize","pH",0.311
+"Africa-Maize","pH",0.256
+"Asia-Maize","pH",0.302
+"Oceania-Maize","pH",0.615
+"North America-Maize","pH",0.256
+"Europe-Maize","pH",0.58
+"South America-Rice","TN",0.839
+"Africa-Rice","TN",0.237
+"Asia-Rice","TN",0.786
+"Oceania-Rice","TN",0.978
+"North America-Rice","TN",0.803
+"Europe-Rice","TN",0.276
+"South America-Wheat","TN",0.558
+"Africa-Wheat","TN",0.085
+"Asia-Wheat","TN",0.681
+"Oceania-Wheat","TN",0.267
+"North America-Wheat","TN",0.752
+"Europe-Wheat","TN",0.677
+"South America-Maize","TN",0.788
+"Africa-Maize","TN",0.923
+"Asia-Maize","TN",0.602
+"Oceania-Maize","TN",0.649
+"North America-Maize","TN",0.793
+"Europe-Maize","TN",0.335
+"South America-Rice","SOC",0.208
+"Africa-Rice","SOC",0.817
+"Asia-Rice","SOC",0.655
+"Oceania-Rice","SOC",0.355
+"North America-Rice","SOC",0.249
+"Europe-Rice","SOC",0.982
+"South America-Wheat","SOC",0.676
+"Africa-Wheat","SOC",0.692
+"Asia-Wheat","SOC",0.116
+"Oceania-Wheat","SOC",0.407
+"North America-Wheat","SOC",0.514
+"Europe-Wheat","SOC",0.855
+"South America-Maize","SOC",0.265
+"Africa-Maize","SOC",0.443
+"Asia-Maize","SOC",0.604
+"Oceania-Maize","SOC",0.57
+"North America-Maize","SOC",0.089
+"Europe-Maize","SOC",0.108
+"South America-Rice","Water input",0.098
+"Africa-Rice","Water input",0.137
+"Asia-Rice","Water input",0.146
+"Oceania-Rice","Water input",0.498
+"North America-Rice","Water input",0.851
+"Europe-Rice","Water input",0.361
+"South America-Wheat","Water input",0.321
+"Africa-Wheat","Water input",0.305
+"Asia-Wheat","Water input",0.32
+"Oceania-Wheat","Water input",0.274
+"North America-Wheat","Water input",0.212
+"Europe-Wheat","Water input",0.785
+"South America-Maize","Water input",0.687
+"Africa-Maize","Water input",0.55
+"Asia-Maize","Water input",0.252
+"Oceania-Maize","Water input",0.244
+"North America-Maize","Water input",0.502
+"Europe-Maize","Water input",0.413
+"South America-Rice","Tair",0.433
+"Africa-Rice","Tair",0.865
+"Asia-Rice","Tair",0.181
+"Oceania-Rice","Tair",0.237
+"North America-Rice","Tair",0.827
+"Europe-Rice","Tair",0.09
+"South America-Wheat","Tair",0.379
+"Africa-Wheat","Tair",0.739
+"Asia-Wheat","Tair",0.409
+"Oceania-Wheat","Tair",0.302
+"North America-Wheat","Tair",0.471
+"Europe-Wheat","Tair",0.271
+"South America-Maize","Tair",0.428
+"Africa-Maize","Tair",0.114
+"Asia-Maize","Tair",0.502
+"Oceania-Maize","Tair",0.212
+"North America-Maize","Tair",0.675
+"Europe-Maize","Tair",0.598
