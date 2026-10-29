@@ -1,0 +1,9 @@
+format: csv
+columns:
+  - cell_type
+  - gene
+  - pct_expressing
+  - scaled_expression
+  - origin
+  - seed
+note: Example or synthetic input used to demonstrate the plotting layer.
