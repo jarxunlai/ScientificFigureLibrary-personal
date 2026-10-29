@@ -1,0 +1,104 @@
+schema: figure-library.personal-module.v1
+moduleId: multigroup-volcano-layouts
+title: 三类多分组火山图
+titleEn: Three multi-group volcano layouts
+description: "**Three multi-group volcano layouts**"
+scientificQuestion: 多个细胞群或比较的差异表达模式和极值基因如何同图比较？
+application: 整体加九宫格、横向分面、分类轴抖动火山图三种布局。
+dataProfile: 合成示例输入；2个运行期输入表。group_volcano.csv：1350行×5列；group_volcano3.csv：800行×5列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - cowplot
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - scales
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/group_volcano.csv
+  - data/group_volcano3.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/group_volcano.csv
+  - data/group_volcano3.csv
+  - data_schema.yml
+  - description.md
+  - figures/15a_nine_facets.png
+  - figures/15a_overlaid_volcano.png
+  - figures/15b_horizontal_facets.png
+  - figures/15c_multigroup_jitter_volcano.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/group_volcano.csv
+  - data/group_volcano3.csv
+  - data_schema.yml
+  - description.md
+  - figures/15a_nine_facets.png
+  - figures/15a_overlaid_volcano.png
+  - figures/15b_horizontal_facets.png
+  - figures/15c_multigroup_jitter_volcano.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 392576
+  sha256: 90fe960bf3990ab6a5ad0b7ea32fe5c48b9f5ee23d0fdf41b85b1f9add743563
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 14592
+  sha256: 1298600cfabe662037313e3f7cd6e027cc97a5a45ff204682d2b47bcaee451e8
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template multigroup-volcano-layouts; internal Library state is not distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485337&idx=1&sn=5c7d84d85bab5864f18cb013f13bc1fa&chksm=c16b0227f61c8b3151a2b43400fe9b6f054d0708528697eedd1d6c9b9c6c97a3db16556b1c6c#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 5
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 点的精确分布、标签落点和部分基因的数值位置仍与来源不同；是拟态CSV，不是作者差异分析结果。
+    nextStep: 用真实差异分析表替换拟态CSV后重绘分组和标注；若无真实表，仅细调点密度与标签避让。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

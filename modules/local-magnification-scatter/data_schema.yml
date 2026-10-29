@@ -1,0 +1,38 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/ancient_pca.csv
+    format: csv
+    rows: 850
+    columns:
+      - ID
+      - Population
+      - PC1
+      - PC2
+      - New
+  - path: data/dependency.csv
+    format: csv
+    rows: 1300
+    columns:
+      - gene
+      - diff
+      - score
+      - label_main
+      - zoom_label
+  - path: data/neuropeptides.csv
+    format: csv
+    rows: 47
+    columns:
+      - ID
+      - Neuropeptides
+      - Receptors
+      - extreme
+      - labeled
+  - path: data/pca_samples.csv
+    format: csv
+    rows: 140
+    columns:
+      - Group
+      - Sample
+      - PC1
+      - PC2

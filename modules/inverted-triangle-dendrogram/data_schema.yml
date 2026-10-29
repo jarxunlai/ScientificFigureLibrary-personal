@@ -1,0 +1,40 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/abundance.csv
+    format: csv
+    rows: 90
+    columns:
+      - ""
+      - Glycocholic acid
+      - Taurocholic acid
+      - Glycochenodeoxycholic acid
+      - Taurochenodeoxycholic acid
+      - Glycodeoxycholic acid
+      - Taurodeoxycholic acid
+      - Cholic acid
+      - Chenodeoxycholic acid
+      - Deoxycholic acid
+      - Lithocholic acid
+      - Ursodeoxycholic acid
+      - Hyocholic acid
+      - Glycolithocholic acid
+      - Taurolithocholic acid
+      - Glycoursodeoxycholic acid
+      - Tauroursodeoxycholic acid
+      - Glycohyodeoxycholic acid
+      - Taurohyodeoxycholic acid
+      - IsoDCA
+      - IsoLCA
+      - AlloLCA
+      - 3-oxoDCA
+      - 3-oxoLCA
+      - 7-oxoDCA
+      - 12-oxoLCA
+      - 3-isoDCA
+  - path: data/groups.csv
+    format: csv
+    rows: 26
+    columns:
+      - variable
+      - group

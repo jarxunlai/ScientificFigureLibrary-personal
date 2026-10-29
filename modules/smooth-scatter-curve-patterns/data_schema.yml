@@ -1,0 +1,24 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/conductivity.csv
+    format: csv
+    rows: 33
+    columns:
+      - Concentration
+      - Group
+      - Conductivity
+  - path: data/dose_response.csv
+    format: csv
+    rows: 26
+    columns:
+      - concentration
+      - condition
+      - shift
+  - path: data/spectra.csv
+    format: csv
+    rows: 1200
+    columns:
+      - wavelength
+      - group
+      - intensity

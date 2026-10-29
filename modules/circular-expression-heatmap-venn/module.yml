@@ -1,0 +1,95 @@
+schema: figure-library.personal-module.v1
+moduleId: circular-expression-heatmap-venn
+title: 环状分组表达热图与集合交集
+titleEn: Circular grouped expression heatmap with Venn inset
+description: "**Circular grouped expression heatmap with Venn inset**"
+scientificQuestion: 不同形态发生相关基因集合在组织区域中的表达及集合重叠如何？
+application: |-
+  多组织基因表达；圆环表达轨道、q 值菱形和中心集合概览。
+
+  输入、绘图步骤与配色均在 `code/organized.R` 中；数据来源和执行边界见 `provenance.json`。
+dataProfile: 合成示例输入；1个运行期输入表。circular_expression.csv：90行×8列
+plotFamily: heatmap
+language: R
+tags:
+  - heatmap
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ComplexHeatmap
+  - RColorBrewer
+  - circlize
+  - ggplot2
+  - ragg
+  - scales
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/circular_expression.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/circular_expression.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/circular_expression.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 808831
+  sha256: be02dca25ebf236ec7e0c2699418df90683b73b806c313c9700ac5c80f0cc9b7
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 25815
+  sha256: 9901da76c96f5ac3c36ff6628d050ecceefc88e909a33f89d324f0b8f199c73d
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template circular-expression-heatmap-venn; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484438&idx=1&sn=09abb1b07457e5ecdd087e61818bfe85&chksm=c16b01a8f61c88be1856a38abfd94cc4e25e54d694849da9b0a9a4f37c099bcc1f8e22c6868f#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 环热图/q值/三集合均可运行；当前真实示例交集较多，中心三圆布局和来源近并列圆差异明显。
+    nextStep: 按当前成员关系做面积/交叠布局，或重新设计明确的合成成员表，不能只改交集数字。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

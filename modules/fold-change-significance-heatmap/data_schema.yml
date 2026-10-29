@@ -1,0 +1,13 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/fold_changes.csv
+    format: csv
+    rows: 320
+    columns:
+      - BileAcid
+      - Treatment
+      - log10FC
+      - SE
+      - P
+      - Category

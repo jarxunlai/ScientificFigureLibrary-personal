@@ -1,0 +1,117 @@
+schema: figure-library.personal-module.v1
+moduleId: local-magnification-scatter
+title: 四种散点图局部放大布局
+titleEn: Four local-magnification scatter layouts
+description: "**Four local-magnification scatter layouts**"
+scientificQuestion: 如何同时保留全局分布并显示高密度区域中的关键细节？
+application: 火山图右侧放大、PCA左侧放大、古DNA PCA右侧放大、上下全局/局部布局。
+dataProfile: 合成示例输入；4个运行期输入表。dependency.csv：1300行×5列；pca_samples.csv：140行×4列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - cowplot
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - scales
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/ancient_pca.csv
+  - data/dependency.csv
+  - data/neuropeptides.csv
+  - data/pca_samples.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/ancient_pca.csv
+  - data/dependency.csv
+  - data/neuropeptides.csv
+  - data/pca_samples.csv
+  - data_schema.yml
+  - description.md
+  - figures/25a_dependency_main.png
+  - figures/25a_dependency_zoom.png
+  - figures/25b_pca_left_magnifier.png
+  - figures/25c_ancient_pca_right_magnifier.png
+  - figures/25d_neuropeptide_overview.png
+  - figures/25d_neuropeptide_zoom.png
+  - figures/25d_overview_and_zoom.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/ancient_pca.csv
+  - data/dependency.csv
+  - data/neuropeptides.csv
+  - data/pca_samples.csv
+  - data_schema.yml
+  - description.md
+  - figures/25a_dependency_main.png
+  - figures/25a_dependency_zoom.png
+  - figures/25b_pca_left_magnifier.png
+  - figures/25c_ancient_pca_right_magnifier.png
+  - figures/25d_neuropeptide_overview.png
+  - figures/25d_neuropeptide_zoom.png
+  - figures/25d_overview_and_zoom.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 320055
+  sha256: 09aa5e26092c07f178c706405861538d41fbaad331578b71ae022e3c3a8e4b5e
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 12476
+  sha256: fd4bdd658345b298fba47c33cb5dfea45fff30f4134fe76fedc82d38c4a44b8c
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template local-magnification-scatter; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247486069&idx=1&sn=c18d1e54a78b0ded4c1779161a99fa3a&chksm=c16b0fcbf61c86ddaef5f5c7b9f250895f064c0874ad37ce603b1c3ce1ffcfe3d9c562e8296e#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 8
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 四种局部放大布局、连接线及底部群体图例保留；放大框中点密度、标签和PCA位置仍不同。
+    nextStep: 逐一细调放大视窗和连接线，确保放大图始终是主图同一批点的子集。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

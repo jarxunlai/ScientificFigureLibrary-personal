@@ -1,0 +1,98 @@
+schema: figure-library.personal-module.v1
+moduleId: correlation-significance-dotplot
+title: 显著性与丰度双编码相关点阵
+titleEn: "Correlation dotplots: P value and abundance"
+description: 第一幅按WGD组和通路类别分面，颜色编码Spearman rho、点大小编码-log10P、星号标记显著性；第二幅对细菌门与ARG指标作点阵，颜色编码相关、大小改为相对丰度分档。
+scientificQuestion: 多组特征间的关联方向、统计显著性和丰度如何分别表达？
+application: |-
+  - 比较单细胞转录与基因组改变之间的多层级关联。
+  - 比较微生物类群与抗性基因指标时，明确区分丰度大小和P值大小两种语义。
+dataProfile: 合成示例输入；2个运行期输入表。wgd_correlations.csv：192行×6列；arg_correlations.csv：150行×5列
+plotFamily: correlation_dotplot
+language: R
+tags:
+  - correlation_dotplot
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/arg_correlations.csv
+  - data/wgd_correlations.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/arg_correlations.csv
+  - data/wgd_correlations.csv
+  - data_schema.yml
+  - description.md
+  - figures/09a_wgd_significance_dotplot.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/arg_correlations.csv
+  - data/wgd_correlations.csv
+  - data_schema.yml
+  - description.md
+  - figures/09a_wgd_significance_dotplot.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 475370
+  sha256: 5032f4ea45e403143a5fef1a00c9afb87af420dc5bc9cdc4ac81e1a758705acf
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 21570
+  sha256: aca76b385f7269fc43e77b60a4a9f1fa47b47159eb0345f3d0a3ef3b97728b75
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template correlation-significance-dotplot; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485163&idx=1&sn=1bbdda9a6b4876307b91752efa9d929f&chksm=c16b0355f61c8a43146cde5c76d889f46645d68a80067fd165269dc551b1af2e1f5436d719d8#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 2
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: WGD/ARG两图的分组与点大小语义清楚；圆点大小、星号数量及丰度排序不同。
+    nextStep: 按当前表继续微调圆点比例和分面间隙；有作者结果表时替换输入而非改星号。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

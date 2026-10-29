@@ -1,0 +1,93 @@
+schema: figure-library.personal-module.v1
+moduleId: scatter-marginal-residual
+title: 对数散点边缘直方图与残差箱线图
+titleEn: Scatter, marginals and residuals
+description: 主图以双对数坐标显示基因组大小与CDS数，按SAG、MAG、WGS着色并叠加log尺度线性拟合；上方和右侧是同源数据的边缘直方图，图内残差箱线图显示三组的拟合偏离。
+scientificQuestion: 基因组长度与编码序列数的关系及其残差是否因数据类型不同而变化？
+application: |-
+  - 比较不同组装来源的基因组尺度关系。
+  - 对两变量拟合后检查分组残差，而不把相关关系解释为因果。
+dataProfile: 合成示例输入；1个运行期输入表。genomes.csv：1180行×3列
+plotFamily: scatter_marginal_residual
+language: R
+tags:
+  - scatter_marginal_residual
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - patchwork
+  - ragg
+  - scales
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/genomes.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/genomes.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/genomes.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 397672
+  sha256: 7e9be2502e012f42766e7508a727f65b83f77aa8dec20e93fb1e4ca4ce8b3fae
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 18026
+  sha256: 641702fb1df7416e9a829254b5ff0e01f79b2c66ab1abaf9b52577d32df26d56
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template scatter-marginal-residual; internal Library state is not distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247483962&idx=1&sn=0926c7fac7319a671e276733af64cd35&chksm=c16b0784f61c8e92e71f96f5bb59a08fb4506688c5100f968f941f7ba336b4e2eb8034b4898d#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 对数散点、上下边缘分布、图内残差箱线图已恢复；样本数、残差分布与来源不同，未照抄来源显著性括号。
+    nextStep: 如需要统计括号，按当前示例残差执行明确比较并标注；不复制来源P值。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

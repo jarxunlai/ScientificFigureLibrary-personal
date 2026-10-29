@@ -1,0 +1,12 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/rice_traits.csv
+    format: csv
+    rows: 170
+    columns:
+      - Year
+      - AAC
+      - PC
+      - LC
+      - TV

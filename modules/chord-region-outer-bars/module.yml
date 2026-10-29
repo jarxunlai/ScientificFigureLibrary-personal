@@ -1,0 +1,94 @@
+schema: figure-library.personal-module.v1
+moduleId: chord-region-outer-bars
+title: 作物区域和弦与管理措施外圈条形图
+titleEn: Crop-region chord diagram with management bars
+description: "*Crop-region chord diagram with management bars*"
+scientificQuestion: 作物、区域与驱动因子的关系如何与管理措施指标并置？
+application: 农业管理措施概览；两套类别体系下的关系与指标联合展示。
+dataProfile: 合成示例输入；3个运行期输入表。inner_links.csv：162行×3列；crop_regions.csv：18行×3列
+plotFamily: chord_outer_bar
+language: R
+tags:
+  - chord_outer_bar
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ragg
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/crop_regions.csv
+  - data/inner_links.csv
+  - data/outer_management.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/crop_regions.csv
+  - data/inner_links.csv
+  - data/outer_management.csv
+  - data_schema.yml
+  - description.md
+  - figures/06_crop_region_chord.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/crop_regions.csv
+  - data/inner_links.csv
+  - data/outer_management.csv
+  - data_schema.yml
+  - description.md
+  - figures/06_crop_region_chord.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 2270766
+  sha256: 5e109235ad14fe633b281d40617bcb74b63fc52a195f2f88ca0262027cba751c
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 46442
+  sha256: 5e2a70271760681a4fe7465774b2a2e7e318d822caf67bd29f2b4261e94dadeb
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template chord-region-outer-bars; internal Library state is not distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247483846&idx=1&sn=a7b55435df9bd9d66dd44199576ab62c&chksm=c16b0478f61c8d6e3ecfccebe5d6e957cc43d268d04365307fa567b246c815290725b825d235#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 2
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 补回内圈独立弦图，完整版保留作物/地区/外柱；连带宽度与交叉纹理来自合成联系表。
+    nextStep: 继续微调扇区顺序和线束透明度；在同一权重表上同步外柱和弦宽。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

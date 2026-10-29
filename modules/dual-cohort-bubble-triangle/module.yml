@@ -1,0 +1,102 @@
+schema: figure-library.personal-module.v1
+moduleId: dual-cohort-bubble-triangle
+title: 上下三角双队列气泡相关性热图
+titleEn: Dual-cohort triangular bubble correlation heatmaps
+description: "**Dual-cohort triangular bubble correlation heatmaps**"
+scientificQuestion: M0 与 M1 两类样本的特征相关结构如何在同一坐标框架内比较？
+application: |-
+  跨分组特征关联；同色版保留分类注释，异色版区分队列与显著性筛选。
+
+  输入、绘图步骤与配色均在 `code/organized.R` 中；数据来源和执行边界见 `provenance.json`。
+dataProfile: 合成示例输入；3个运行期输入表。M0_observations.csv：150行×57列；M1_observations.csv：150行×57列
+plotFamily: heatmap
+language: R
+tags:
+  - heatmap
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ComplexHeatmap
+  - RColorBrewer
+  - circlize
+  - ggplot2
+  - ragg
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/M0_observations.csv
+  - data/M1_observations.csv
+  - data/feature_annotations.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/M0_observations.csv
+  - data/M1_observations.csv
+  - data/feature_annotations.csv
+  - data_schema.yml
+  - description.md
+  - figures/09b_dual_palette_significant.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/M0_observations.csv
+  - data/M1_observations.csv
+  - data/feature_annotations.csv
+  - data_schema.yml
+  - description.md
+  - figures/09b_dual_palette_significant.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 834130
+  sha256: 5777b201a2b0fb6d3339221dc82d1c8ff0a16c1bde6bf583584414fd464732d2
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 38801
+  sha256: 94bf5c7475595b7b598c8ea258e1d3c92c3ddeb5935cfe21c61baee770f94c1f
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template dual-cohort-bubble-triangle; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485495&idx=1&sn=8282665154812360b08f35faecef6c2d&chksm=c16b0d89f61c849fe605bbd96e1c1679eae28f400ff77f33b2df41b0c11bd7e900f39df2a71e#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 2
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 异色版补回顶部与左侧注释、双色标置底；相关气泡稠密度和注释类别组成不同。
+    nextStep: 继续调整合成队列相关结构，分别验证上下队列P值和r映射。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

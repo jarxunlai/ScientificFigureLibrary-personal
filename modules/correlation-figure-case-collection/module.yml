@@ -1,0 +1,196 @@
+schema: figure-library.personal-module.v1
+moduleId: correlation-figure-case-collection
+title: 十种相关性图复刻案例总览
+titleEn: Correlation case-study collection
+description: 原文是案例汇总，不是一个独立的第八类图。保留其11个可见图片块：8块映射到本批已重画的相同主题，另外补齐能量—寿命分组散点、四面板配对海洋指标、配对协调图与边缘密度。
+scientificQuestion: 不同变量维度与数据结构应选用何种相关性表达？
+application: |-
+  - 对照散点、矩阵、聚类、气泡和Mantel网络选择合适模板。
+  - 作为模板审阅入口，比较同一统计目标在不同维度下的展示方式。
+dataProfile: 合成示例输入；16个运行期输入表。rice_traits.csv：170行×5列；environment_variables.csv：75行×37列
+plotFamily: correlation_case_collection
+language: R
+tags:
+  - correlation_case_collection
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - circlize
+  - cowplot
+  - dplyr
+  - ggdendro
+  - ggplot2
+  - linkET
+  - patchwork
+  - pheatmap
+  - ragg
+  - scales
+  - tidyr
+codeFiles:
+  - code/case-corr01.R
+  - code/case-corr02.R
+  - code/case-corr03.R
+  - code/case-corr05.R
+  - code/case-corr06.R
+  - code/case-corr07.R
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/case-corr01/rice_traits.csv
+  - data/case-corr02/cell_factor_correlation.csv
+  - data/case-corr02/cell_groups.csv
+  - data/case-corr02/environment_groups.csv
+  - data/case-corr02/environment_variables.csv
+  - data/case-corr02/mantel_communities.csv
+  - data/case-corr02/mantel_environment.csv
+  - data/case-corr02/mantel_geography.csv
+  - data/case-corr03/bile_acid_abundance.csv
+  - data/case-corr05/abundance.csv
+  - data/case-corr05/groups.csv
+  - data/case-corr06/genomes.csv
+  - data/case-corr07/leaf_traits.csv
+  - data/coordination_triplets.csv
+  - data/energy_lifetime.csv
+  - data/paired_ocean.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/case-corr01.R
+  - code/case-corr02.R
+  - code/case-corr03.R
+  - code/case-corr05.R
+  - code/case-corr06.R
+  - code/case-corr07.R
+  - code/export.R
+  - code/organized.R
+  - data/case-corr01/rice_traits.csv
+  - data/case-corr02/cell_factor_correlation.csv
+  - data/case-corr02/cell_groups.csv
+  - data/case-corr02/environment_groups.csv
+  - data/case-corr02/environment_variables.csv
+  - data/case-corr02/mantel_communities.csv
+  - data/case-corr02/mantel_environment.csv
+  - data/case-corr02/mantel_geography.csv
+  - data/case-corr03/bile_acid_abundance.csv
+  - data/case-corr05/abundance.csv
+  - data/case-corr05/groups.csv
+  - data/case-corr06/genomes.csv
+  - data/case-corr07/leaf_traits.csv
+  - data/coordination_triplets.csv
+  - data/energy_lifetime.csv
+  - data/paired_ocean.csv
+  - data_schema.yml
+  - description.md
+  - figures/08_case02_complete.png
+  - figures/08_case02_energy_lifetime.png
+  - figures/08_case03_complete.png
+  - figures/08_case03_ocean_panel1.png
+  - figures/08_case03_ocean_panel2.png
+  - figures/08_case03_ocean_panel3.png
+  - figures/08_case03_ocean_panel4.png
+  - figures/08_case03_paired_ocean.png
+  - figures/08_case04_complete.png
+  - figures/08_case04_paired_coordination.png
+  - figures/08_case05_complete.png
+  - figures/08_case06_complete.png
+  - figures/08_case07_complete.png
+  - figures/08_case08_complete.png
+  - figures/08_case09_complete.png
+  - figures/08_case10_complete.png
+  - figures/08_case11_complete.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/case-corr01.R
+  - code/case-corr02.R
+  - code/case-corr03.R
+  - code/case-corr05.R
+  - code/case-corr06.R
+  - code/case-corr07.R
+  - code/export.R
+  - code/organized.R
+  - data/case-corr01/rice_traits.csv
+  - data/case-corr02/cell_factor_correlation.csv
+  - data/case-corr02/cell_groups.csv
+  - data/case-corr02/environment_groups.csv
+  - data/case-corr02/environment_variables.csv
+  - data/case-corr02/mantel_communities.csv
+  - data/case-corr02/mantel_environment.csv
+  - data/case-corr02/mantel_geography.csv
+  - data/case-corr03/bile_acid_abundance.csv
+  - data/case-corr05/abundance.csv
+  - data/case-corr05/groups.csv
+  - data/case-corr06/genomes.csv
+  - data/case-corr07/leaf_traits.csv
+  - data/coordination_triplets.csv
+  - data/energy_lifetime.csv
+  - data/paired_ocean.csv
+  - data_schema.yml
+  - description.md
+  - figures/08_case02_complete.png
+  - figures/08_case02_energy_lifetime.png
+  - figures/08_case03_complete.png
+  - figures/08_case03_ocean_panel1.png
+  - figures/08_case03_ocean_panel2.png
+  - figures/08_case03_ocean_panel3.png
+  - figures/08_case03_ocean_panel4.png
+  - figures/08_case03_paired_ocean.png
+  - figures/08_case04_complete.png
+  - figures/08_case04_paired_coordination.png
+  - figures/08_case05_complete.png
+  - figures/08_case06_complete.png
+  - figures/08_case07_complete.png
+  - figures/08_case08_complete.png
+  - figures/08_case09_complete.png
+  - figures/08_case10_complete.png
+  - figures/08_case11_complete.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 397672
+  sha256: 7e9be2502e012f42766e7508a727f65b83f77aa8dec20e93fb1e4ca4ce8b3fae
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 18026
+  sha256: 641702fb1df7416e9a829254b5ff0e01f79b2c66ab1abaf9b52577d32df26d56
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template correlation-figure-case-collection; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485038&idx=1&sn=bd34679f7457371f8f942d82bc6829cf&chksm=c16b03d0f61c8ac62addd6049ea711660a5ee075dc1adb27a747874c4ce2037040205c7865ad#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 18
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 停止生成总preview，11个案例各有完整输出；其中能量、海洋等案例的局部布局和拟态数据仍有差异，重复案例继承对应条目的差异。
+    nextStep: 逐案例继续复核，而不是用一张总览替代；优先细化海洋案例和双队列/三元案例。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

@@ -1,0 +1,92 @@
+schema: figure-library.personal-module.v1
+moduleId: fold-change-significance-heatmap
+title: 显著性星号倍数变化热图
+titleEn: Fold-change heatmap with significance stars
+description: "**Fold-change heatmap with significance stars**"
+scientificQuestion: 不同处理对代谢物的效应方向、幅度与显著性如何共同呈现？
+application: |-
+  代谢组或扰动实验的倍数变化；行分类、对数色标与逐格星号。
+
+  输入、绘图步骤与配色均在 `code/organized.R` 中；数据来源和执行边界见 `provenance.json`。
+dataProfile: 合成示例输入；1个运行期输入表。fold_changes.csv：320行×6列
+plotFamily: heatmap
+language: R
+tags:
+  - heatmap
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ggplot2
+  - ragg
+  - scales
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/fold_changes.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/fold_changes.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/fold_changes.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 177198
+  sha256: d71ffcc203b1ec4367b698c3e0bb8148254a1ee6ce01cfcfa1b6388d609965b4
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 19684
+  sha256: 0f4d1eca1d9fd3091c454ecc45eba19e5435e3766536944353ed8770cf315f5b
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template fold-change-significance-heatmap; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484165&idx=1&sn=74445c6a6a90a659e0f7330c490ead99&chksm=c16b06bbf61c8fad20dd10f92922a55f92e361ec8e1fc980a70d9483c517c24ea494881af5f8#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 八列恢复FXR/VDR/CAR-3/PXR/AHR/PPARA/PPARD/PPARG，类别分隔和色阶保留；值与星号为合成。
+    nextStep: 使用同一示例FC/SE重算星号；如需原结果，替换为作者核受体响应表。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

@@ -1,0 +1,98 @@
+schema: figure-library.personal-module.v1
+moduleId: bubble-matrix-grouped-counts
+title: 突触motif气泡矩阵与分组免疫计数
+titleEn: Synaptic-motif bubble matrix and grouped immune counts
+description: "**Synaptic-motif bubble matrix and grouped immune counts**"
+scientificQuestion: 类别组成比例和多组细胞数量分别如何清晰对照？
+application: 突触比例矩阵的点大小编码；免疫细胞数以蓝绿颜色、空心实心区分条件。
+dataProfile: 合成示例输入；2个运行期输入表。motif_matrix.csv：324行×3列；immune_counts.csv：160行×4列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - scales
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/immune_counts.csv
+  - data/motif_matrix.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/immune_counts.csv
+  - data/motif_matrix.csv
+  - data_schema.yml
+  - description.md
+  - figures/14b_grouped_immune_counts.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/immune_counts.csv
+  - data/motif_matrix.csv
+  - data_schema.yml
+  - description.md
+  - figures/14b_grouped_immune_counts.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 198473
+  sha256: 5e73c88a5de46eedc405e22fec8407d72c8d6decb289d5758b5ca753d3096aaa
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 21484
+  sha256: 0378a048bb468d47e78d4c5f9606cbca573262c81ba0a9cb77d50e3b7399a485
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template bubble-matrix-grouped-counts; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485280&idx=1&sn=6b1a43a498d7e3fd30162b1c1ceb35cd&chksm=c16b02def61c8bc8c1f68223a1ca8af420cd10938ba185fe08353204ee5604912a4066e94356#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 2
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: motif矩阵与免疫计数各自输出，大小档和均值横线恢复；矩阵稀疏度、类别名称和分组计数不同。
+    nextStep: 继续核对顶部类别映射并细调示例稀疏块；显著性星号须从当前示例检验得出。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

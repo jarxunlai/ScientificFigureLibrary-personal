@@ -1,0 +1,14 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/otu.csv
+    format: csv
+    rows: 450
+    columns:
+      - Comparison
+      - otu
+      - Order
+      - Family
+      - logFC
+      - Abundance
+      - significant

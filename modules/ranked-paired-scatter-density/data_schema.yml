@@ -1,0 +1,10 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/paired.csv
+    format: csv
+    rows: 200
+    columns:
+      - triplet
+      - AB
+      - no_AB

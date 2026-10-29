@@ -1,0 +1,19 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/neighbourhoods.csv
+    format: csv
+    rows: 7400
+    columns:
+      - cell_type
+      - neighbourhood
+      - logFC
+      - Comparison
+  - path: data/skin_neighbourhoods.csv
+    format: csv
+    rows: 3780
+    columns:
+      - cell_type
+      - neighbourhood
+      - logFC
+      - lineage_colour

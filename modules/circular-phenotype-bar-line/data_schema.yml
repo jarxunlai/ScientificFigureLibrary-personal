@@ -1,0 +1,21 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/phenotype_bars.csv
+    format: csv
+    rows: 64
+    columns:
+      - group
+      - feature
+      - mean
+      - ci_half
+      - significance
+  - path: data/phenotype_lines.csv
+    format: csv
+    rows: 256
+    columns:
+      - group
+      - feature
+      - significance
+      - phenotype
+      - value

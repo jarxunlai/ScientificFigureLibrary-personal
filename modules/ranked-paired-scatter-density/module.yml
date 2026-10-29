@@ -1,0 +1,96 @@
+schema: figure-library.personal-module.v1
+moduleId: ranked-paired-scatter-density
+title: 排序配对散点与边际密度
+titleEn: Ranked paired scatter with marginal density
+description: "**Ranked paired scatter with marginal density**"
+scientificQuestion: 同一对象在两个条件下的数值如何随差值排序而变化？
+application: 已配对的双条件读数；连接线保留对象配对，右侧展示边际密度。
+dataProfile: 合成示例输入；1个运行期输入表。paired.csv：200行×3列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/paired.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/paired.csv
+  - data_schema.yml
+  - description.md
+  - figures/06a_paired_sorted.png
+  - figures/06b_marginal_density.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/paired.csv
+  - data_schema.yml
+  - description.md
+  - figures/06a_paired_sorted.png
+  - figures/06b_marginal_density.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 196557
+  sha256: 5be3d2f4acd370bf4eaaf85b33d99f486f7f1e0e07ec2045c674009040956a40
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 13008
+  sha256: 322209136d4db0ab35fa7b5bb6c73bcb0d5e3cdd64a71558141b949bbe129913
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template ranked-paired-scatter-density; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484453&idx=1&sn=043b2906236c888192265baf2f3363be&chksm=c16b019bf61c888d72b6d792cbc0a5b6c87221116c80bd05b7317f3f0979282e4f2bc967897b#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 3
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 配对细线、排序、图内双组图例和右侧密度已对齐；两条曲线形状和局部散布不同。
+    nextStep: 继续在同一配对表调整分布，密度/平滑线/配对差同时重算。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

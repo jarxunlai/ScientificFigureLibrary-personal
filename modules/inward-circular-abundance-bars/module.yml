@@ -1,0 +1,88 @@
+schema: figure-library.personal-module.v1
+moduleId: inward-circular-abundance-bars
+title: 组织蛋白丰度内向环形图
+titleEn: Inward circular tissue proteome abundance
+description: "*Inward circular tissue proteome abundance*"
+scientificQuestion: 组织来源、蛋白丰度与定位评分如何在同一环形结构中展示？
+application: 组织富集蛋白的分布概览；可替换真实丰度及定位评分的可复用布局。
+dataProfile: 合成示例输入；1个运行期输入表。tissue_proteins.csv：940行×4列
+plotFamily: inward_circular_bar
+language: R
+tags:
+  - inward_circular_bar
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - circlize
+  - ragg
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/tissue_proteins.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/tissue_proteins.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/tissue_proteins.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 1562812
+  sha256: d5faa4ce385a9ac3b1de40f46ca0fa5ccc4d5168d37a35b22ed98a5edbd3bddf
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 28025
+  sha256: 39aab32f12c673823c15ea7de292d88b3143158e2f56eb2f223909b7c37054dd
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template inward-circular-abundance-bars; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485955&idx=1&sn=c301fbc36a10876257285d7d780bc091&chksm=c16b0fbdf61c86ab53cfb95720af4d6c3c00cbbf4fc2a7555f4249c5e6ee3da6f491e31c2b0e#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 向内丰度条、组织扇区与GLS灰阶保持；峰的位置/宽度和组织样本比例不同。
+    nextStep: 继续调节示例丰度曲线与扇区权重，保持向内方向和组织颜色一致。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

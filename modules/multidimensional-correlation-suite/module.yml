@@ -1,0 +1,126 @@
+schema: figure-library.personal-module.v1
+moduleId: multidimensional-correlation-suite
+title: 一维二维多维相关性可视化
+titleEn: One-, two- and multidimensional correlation visualizations
+description: "**One-, two- and multidimensional correlation visualizations**"
+scientificQuestion: 单变量关联、跨矩阵关联及群落-环境距离关联如何分别展示？
+application: |-
+  三个独立变体：分组相关矩阵、跨矩阵聚类热图、Mantel 网络与环境相关矩阵。
+
+  输入、绘图步骤与配色均在 `code/organized.R` 中；数据来源和执行边界见 `provenance.json`。
+dataProfile: 合成示例输入；10个运行期输入表。environment_observations.csv：100行×47列；environment_groups.csv：46行×2列
+plotFamily: heatmap
+language: R
+tags:
+  - heatmap
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ComplexHeatmap
+  - RColorBrewer
+  - circlize
+  - ggplot2
+  - ragg
+  - vegan
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/cell_factor_correlations.csv
+  - data/cell_groups.csv
+  - data/environment_groups.csv
+  - data/environment_observations.csv
+  - data/geography.csv
+  - data/host.csv
+  - data/mOTUs.csv
+  - data/mantel_environment.csv
+  - data/vOTUs.csv
+  - data/virus.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/cell_factor_correlations.csv
+  - data/cell_groups.csv
+  - data/environment_groups.csv
+  - data/environment_observations.csv
+  - data/geography.csv
+  - data/host.csv
+  - data/mOTUs.csv
+  - data/mantel_environment.csv
+  - data/vOTUs.csv
+  - data/virus.csv
+  - data_schema.yml
+  - description.md
+  - figures/07b_cross_matrix_heatmap.png
+  - figures/07c_mantel_network.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/cell_factor_correlations.csv
+  - data/cell_groups.csv
+  - data/environment_groups.csv
+  - data/environment_observations.csv
+  - data/geography.csv
+  - data/host.csv
+  - data/mOTUs.csv
+  - data/mantel_environment.csv
+  - data/vOTUs.csv
+  - data/virus.csv
+  - data_schema.yml
+  - description.md
+  - figures/07b_cross_matrix_heatmap.png
+  - figures/07c_mantel_network.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 501125
+  sha256: 5458e32c52b224f43b5fa44360bd07897bdc53e5229705d3eb2d0a396b9c250c
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 22642
+  sha256: 78db1b1a88c2f5932cd04d35b7a7cbf182461e7978a329f6b860b492d6a62e27
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template multidimensional-correlation-suite; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484489&idx=1&sn=acb7e4629d8f3cc3ab06322e1b0c13dc&chksm=c16b01f7f61c88e15006a7bbe22299b48c2bfd73e34a1de24559e1ee9f92c9f7b3afc327b136#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 3
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 撤掉强制3×3切块并恢复两棵树/青绿白紫；显著相关块仍较稀，矩阵维度及部分谱系数量不同。
+    nextStep: 补足合成因子/细胞类别，调整跨组协方差后重算检验，核对Mantel映射。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

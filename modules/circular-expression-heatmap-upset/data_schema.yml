@@ -1,0 +1,24 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/grouped_expression.csv
+    format: csv
+    rows: 79
+    columns:
+      - Gene
+      - Group
+      - Exp_1
+      - Exp_2
+      - Exp_3
+      - Exp_4
+      - Exp_5
+  - path: data/set_membership.csv
+    format: csv
+    rows: 55
+    columns:
+      - Gene
+      - Cell_Cycle
+      - Signaling
+      - Hypoxia
+      - Immune
+      - Metabolism

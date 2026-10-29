@@ -1,0 +1,99 @@
+schema: figure-library.personal-module.v1
+moduleId: umap-circular-multitrack
+title: 环形多维注释UMAP
+titleEn: UMAP with circular multi-dimensional annotations
+description: "**UMAP with circular multi-dimensional annotations**"
+scientificQuestion: 细胞嵌入、类型组成、时间点和条件信息如何在同一图中对应？
+application: 中心二维嵌入外加三条注释环，分别提供细胞类型、时间、条件、cluster四种着色。
+dataProfile: 合成示例输入；1个运行期输入表。cell_embedding.csv：8400行×6列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - circlize
+  - dplyr
+  - ggplot2
+  - patchwork
+  - ragg
+  - scales
+  - sp
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/cell_embedding.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/cell_embedding.csv
+  - data_schema.yml
+  - description.md
+  - figures/19_circular_umap_Cluster.png
+  - figures/19_circular_umap_Condition.png
+  - figures/19_circular_umap_Timepoint.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/cell_embedding.csv
+  - data_schema.yml
+  - description.md
+  - figures/19_circular_umap_Cluster.png
+  - figures/19_circular_umap_Condition.png
+  - figures/19_circular_umap_Timepoint.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 1862578
+  sha256: 9bc8c16876e2da9553a46ffa8058c9f148e502b081db9d82d61017d2abbec7b2
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 17716
+  sha256: 57724212f4ac8c636021f3c51bc61152af43df7e3f616266bccb78728c280d5f
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template umap-circular-multitrack; internal Library state is not distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485764&idx=1&sn=9ba2c099d449d7423f7b5c2b15d66111&chksm=c16b0cfaf61c85ece4e36687d800bd144f5fb5288d6eb74e9f33a80ae2122154ae56e03edaef#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 4
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 中心细胞云的细分支、密度空洞与环内比例仍不等同来源。当前为人工拟态嵌入和元数据，没有作者Seurat对象。
+    nextStep: 有Seurat对象时读取真实嵌入与元数据重画；否则继续细调拟态细胞云分支和环内比例，保留合成标识。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

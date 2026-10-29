@@ -1,0 +1,99 @@
+schema: figure-library.personal-module.v1
+moduleId: dual-cohort-triangle-clustermap
+title: 双队列三角相关性聚类热图
+titleEn: Dual-cohort triangular clustermap
+description: 在同一正方形中用两套调色板区分队列：上三角显示GEO示例，下三角显示in-house示例，对角线留白，顶部和底部绘制与共同排序严格对应的聚类树。
+scientificQuestion: 两个队列中细胞状态之间的相关结构是否一致？
+application: |-
+  - 比较发现队列和验证队列的状态相关结构。
+  - 检查相同细胞类型标签在不同样本集合中是否形成类似模块。
+dataProfile: 合成示例输入；2个运行期输入表。cohort_GEO.csv：80行×23列；cohort_inhouse.csv：80行×23列
+plotFamily: dual_triangle_clustermap
+language: R
+tags:
+  - dual_triangle_clustermap
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - RColorBrewer
+  - circlize
+  - dplyr
+  - ggdendro
+  - ggplot2
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/cohort_GEO.csv
+  - data/cohort_inhouse.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/cohort_GEO.csv
+  - data/cohort_inhouse.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/cohort_GEO.csv
+  - data/cohort_inhouse.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 148782
+  sha256: e13e02e4df6a426bdbf5047f70e9c72922812ae5b2cedd03792946425f6df336
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 17971
+  sha256: dd27434d645a8a53aa22dc945d6a735f0c56b06dcea4708078dd63ef393abf0b
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template dual-cohort-triangle-clustermap; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484086&idx=1&sn=01365fa3f703f1ee502f5583cc169384&chksm=c16b0708f61c8e1e641376edc32ea46575b3e3ca1dd2ab3cfbbce5bb1312bd37951f54aeed8b#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 上下聚类树及双色阶已恢复；两侧仍采用统一变量次序，来源两队列的独立排序、局部块形和树形尚未一致。
+    nextStep: 分别建立两队列排序及标签映射，再核对上下三角、两侧标签与各自树的一致性。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

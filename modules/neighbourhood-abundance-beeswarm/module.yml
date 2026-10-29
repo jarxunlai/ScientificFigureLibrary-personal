@@ -1,0 +1,106 @@
+schema: figure-library.personal-module.v1
+moduleId: neighbourhood-abundance-beeswarm
+title: 邻域丰度差异蜂群图
+titleEn: Neighbourhood differential-abundance beeswarms
+description: "**Neighbourhood differential-abundance beeswarms**"
+scientificQuestion: 不同细胞类型中的邻域丰度效应如何沿空间或时间对比变化？
+application: 接收预计算的邻域logFC；骨骼四个对比和皮肤早晚妊娠连续色版本。
+dataProfile: 合成示例输入；2个运行期输入表。neighbourhoods.csv：7400行×4列；skin_neighbourhoods.csv：3780行×4列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggbeeswarm
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/neighbourhoods.csv
+  - data/skin_neighbourhoods.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/neighbourhoods.csv
+  - data/skin_neighbourhoods.csv
+  - data_schema.yml
+  - description.md
+  - figures/11_age_cranial.png
+  - figures/11_age_skeleton.png
+  - figures/11_anterior_posterior.png
+  - figures/11_cranial_axis.png
+  - figures/11b_skin_beeswarm.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/neighbourhoods.csv
+  - data/skin_neighbourhoods.csv
+  - data_schema.yml
+  - description.md
+  - figures/11_age_cranial.png
+  - figures/11_age_skeleton.png
+  - figures/11_anterior_posterior.png
+  - figures/11_cranial_axis.png
+  - figures/11b_skin_beeswarm.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 979125
+  sha256: 9af5b815352168c4baa5df33ef721daf5b518ea85976e7fafb66ad4b6e2fbf7b
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 20984
+  sha256: fe23b6108f6b809a9daec7f943fe11101efeaf99629f329c41f7b51e21d714b0
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template neighbourhood-abundance-beeswarm; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485058&idx=1&sn=adb2f6359065bbb3dbcf96eef8bcbea6&chksm=c16b033cf61c8a2ac6e4413e0489a243135ebeb8ef522087eb62d942a21188004afeae7251ab#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 6
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 四对比蜂群、骨架年龄尺度及皮肤连续色保留；来源分组括号仍未完全恢复，局部正负密度不同。
+    nextStep: 补回细胞谱系/颅骨分组括号，按组重设示例效应与邻域密度；不运行无输入的MiloR上游。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

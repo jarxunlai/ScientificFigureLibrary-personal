@@ -1,0 +1,101 @@
+schema: figure-library.personal-module.v1
+moduleId: faceted-scatterpie
+title: 医院与质粒类型分面散点饼图
+titleEn: Faceted hospital-plasmid scatter pies
+description: "**Faceted hospital-plasmid scatter pies**"
+scientificQuestion: 耐药基因、医院、复制子质粒和菌种组成如何联合分布？
+application: 五类别组成饼图结合医院/质粒位置，按三种耐药基因分面。
+dataProfile: 合成示例输入；1个运行期输入表。hospital_plasmids.csv：160行×11列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggforce
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - scatterpie
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/hospital_plasmids.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/hospital_plasmids.csv
+  - data_schema.yml
+  - description.md
+  - figures/08_blaIMP-1.png
+  - figures/08_blaIMP-6.png
+  - figures/08_blaNDM-5.png
+  - figures/08_strain_size_legend.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/hospital_plasmids.csv
+  - data_schema.yml
+  - description.md
+  - figures/08_blaIMP-1.png
+  - figures/08_blaIMP-6.png
+  - figures/08_blaNDM-5.png
+  - figures/08_strain_size_legend.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 311497
+  sha256: 27bc1b43a06b69bd95e3a399c68f7b3a26392bc55dc3b18f9976bdc053b7f994
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 16234
+  sha256: 3bc0729313de17a77220dd4a5601ca7e564fa62e3c2be4354f68494bbc927e4b
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template faceted-scatterpie; internal Library state is not distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484312&idx=1&sn=f267744e8128ab23ada3ee707d86a7d6&chksm=c16b0626f61c8f30daac70907135a1c7ad67bfcaa39932e3c7acd46f26d8b43bb5a4c32f29d9#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 5
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 三类耐药基因分行和半径原生圆图例已恢复；只有45个合成Hospital和简化Inc分类，远少于来源分类/标签。
+    nextStep: 补足合成医院和质粒类别，设计稀疏物种构成后再调列宽/大气泡分布。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

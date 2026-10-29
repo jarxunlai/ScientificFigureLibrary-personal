@@ -1,0 +1,17 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/leaf_traits.csv
+    format: csv
+    rows: 95
+    columns:
+      - Site
+      - LeafType
+      - LeafN
+      - Chl
+      - SLA
+      - StomatalDensity
+      - PoreLength
+      - Gwmax
+      - Vcmax
+      - WUEi

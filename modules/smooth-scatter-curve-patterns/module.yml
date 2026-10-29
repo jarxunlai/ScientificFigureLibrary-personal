@@ -1,0 +1,103 @@
+schema: figure-library.personal-module.v1
+moduleId: smooth-scatter-curve-patterns
+title: 三种平滑散点曲线
+titleEn: Three smooth scatter-curve patterns
+description: "**Three smooth scatter-curve patterns**"
+scientificQuestion: 剂量响应、单峰变化与光谱峰形分别适用什么平滑方法？
+application: 四参数logistic响应、导电性形状保持样条、光谱平滑样条。
+dataProfile: 合成示例输入；3个运行期输入表。dose_response.csv：26行×3列；conductivity.csv：33行×3列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - scales
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/conductivity.csv
+  - data/dose_response.csv
+  - data/spectra.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/conductivity.csv
+  - data/dose_response.csv
+  - data/spectra.csv
+  - data_schema.yml
+  - description.md
+  - figures/05b_conductivity_spline.png
+  - figures/05c_spectral_smoothing.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/conductivity.csv
+  - data/dose_response.csv
+  - data/spectra.csv
+  - data_schema.yml
+  - description.md
+  - figures/05b_conductivity_spline.png
+  - figures/05c_spectral_smoothing.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 77785
+  sha256: c63b06761c49b13ca0d5ec17a28d56b3921d189d8af8995e6d35e8269c70fb0b
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 13844
+  sha256: bd31ef01eae09f2804d9300eae137fc4be4729cbdbc79e155be229dce6f8c683
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template smooth-scatter-curve-patterns; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484540&idx=1&sn=37d240653bdd8026e5bf422939d1ea85&chksm=c16b01c2f61c88d4de5877b2d7f913a0791b07996c7572f31b554468a288bd1221430c36a134#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 3
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 三种独立曲线、对数浓度与点形保留；EC50、峰高、局部光谱噪声不同。
+    nextStep: 按各示例输入继续微调拟合/平滑参数，保留三个独立场景。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

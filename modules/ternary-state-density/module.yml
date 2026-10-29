@@ -1,0 +1,122 @@
+schema: figure-library.personal-module.v1
+moduleId: ternary-state-density
+title: 五类三元图与状态概率密度
+titleEn: Ternary plots and state densities
+description: 覆盖胚胎谱系、T细胞状态（年龄组与连续年龄两图）、微生物生态位、施肥条件属组成、两种肿瘤状态概率密度，共7幅。各输入前三个坐标均非负且和为1，密度图在二维投影后作KDE并掩去三角外区域。
+scientificQuestion: 一个细胞、OTU或样本如何在三种相对状态或环境间分配？
+application: |-
+  - 展示三个归一化signature或概率之间的相对偏向。
+  - 用气泡大小保留OTU丰度，或用密度表达大量对象的连续归属；不能从归一化比例推断绝对数量。
+dataProfile: 合成示例输入；5个运行期输入表。embryo_lineages.csv：600行×4列；immune_states.csv：310行×5列
+plotFamily: ternary_scatter_density
+language: R
+tags:
+  - synthetic-example
+  - ternary_scatter_density
+  - wechat-visual-recreation
+packages:
+  - MASS
+  - dplyr
+  - ggplot2
+  - ggtern
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/embryo_lineages.csv
+  - data/fertilizer_otu.csv
+  - data/immune_states.csv
+  - data/otu_niches.csv
+  - data/state_probabilities.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/embryo_lineages.csv
+  - data/fertilizer_otu.csv
+  - data/immune_states.csv
+  - data/otu_niches.csv
+  - data/state_probabilities.csv
+  - data_schema.yml
+  - description.md
+  - figures/10a_BCl0_0h.png
+  - figures/10a_iEFC0_0h.png
+  - figures/10b_immune_state_age.png
+  - figures/10b_immune_state_group.png
+  - figures/10c_microbe_niche_bubbles.png
+  - figures/10d_fertilizer_genus_bubbles.png
+  - figures/10e_state_density_OKG148Le.png
+  - figures/10e_state_density_OKN1elf.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/embryo_lineages.csv
+  - data/fertilizer_otu.csv
+  - data/immune_states.csv
+  - data/otu_niches.csv
+  - data/state_probabilities.csv
+  - data_schema.yml
+  - description.md
+  - figures/10a_BCl0_0h.png
+  - figures/10a_iEFC0_0h.png
+  - figures/10b_immune_state_age.png
+  - figures/10b_immune_state_group.png
+  - figures/10c_microbe_niche_bubbles.png
+  - figures/10d_fertilizer_genus_bubbles.png
+  - figures/10e_state_density_OKG148Le.png
+  - figures/10e_state_density_OKN1elf.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 378881
+  sha256: 467212a65d1bdef6bf7e2e36af6cda79ddb19b6a7bc0a985f5247723c6c57c70
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 22496
+  sha256: 8aabb2f3843b96ec8f91a7921c42c868eeec5fddf32629a1bcab22d17723c6d1
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template ternary-state-density; internal Library state is not distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485595&idx=1&sn=8021a0afcd891da810ce480a741b6241&chksm=c16b0d25f61c843332c575a2bb5af565762af58faa6d24c6282c6a269639e315abb923335aa8#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 9
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 补回0小时两图，保留多种三元输出；密度版本仍缺少来源的边缘曲线与概率质量等高线，点云位置也不同。
+    nextStep: 用同一三元输入计算边缘密度/概率质量等高线，再对齐三角坐标和图例。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

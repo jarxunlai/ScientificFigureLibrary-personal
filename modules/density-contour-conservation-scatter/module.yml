@@ -1,0 +1,106 @@
+schema: figure-library.personal-module.v1
+moduleId: density-contour-conservation-scatter
+title: 填充密度等高线与跨物种保守性
+titleEn: Filled density contours and cross-species conservation
+description: "**Filled density contours and cross-species conservation**"
+scientificQuestion: 二维变量的密集区域在哪里，不同保守性类别偏离对角线多少？
+application: 四种区域二维密度对照；跨物种相关系数等高线、阈值线与重点基因标签。
+dataProfile: 合成示例输入；2个运行期输入表。periodicity.csv：2800行×4列；conservation.csv：2100行×5列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggnewscale
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/conservation.csv
+  - data/periodicity.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/conservation.csv
+  - data/periodicity.csv
+  - data_schema.yml
+  - description.md
+  - figures/13_All.png
+  - figures/13_Aromatic.png
+  - figures/13_PLD.png
+  - figures/13_TFs.png
+  - figures/13b_conservation_contours.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/conservation.csv
+  - data/periodicity.csv
+  - data_schema.yml
+  - description.md
+  - figures/13_All.png
+  - figures/13_Aromatic.png
+  - figures/13_PLD.png
+  - figures/13_TFs.png
+  - figures/13b_conservation_contours.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 149664
+  sha256: 3e9bed5122f00d50b1d3829220b7652426a42f4c67c79d02c043223e51ba6424
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 8990
+  sha256: 16eccf908bf012f0624930f646333eacbe85541ca4c0ca7240b4dcab4076c342
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template density-contour-conservation-scatter; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485264&idx=1&sn=7e56bbc462ee4e69d0fb5cf16af2d5f0&chksm=c16b02eef61c8bf820d0c285867de2f520fbba03cd434a9293e233b8cf6c342677bc75969a14#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 6
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 四类顺序与保守性等高线保留；来源样本数量和保守性标记标签未全恢复，右图长尾/等高线形状不同。
+    nextStep: 补足合成类别数量/目标标签并调整二维密度协方差，标明为拟态输入。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

@@ -1,0 +1,12 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/country_contributions.csv
+    format: csv
+    rows: 90
+    columns:
+      - Country
+      - Region
+      - Value
+      - Urban
+      - Rural

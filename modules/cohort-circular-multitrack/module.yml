@@ -1,0 +1,90 @@
+schema: figure-library.personal-module.v1
+moduleId: cohort-circular-multitrack
+title: 人群特征多轨环形图
+titleEn: Cohort characteristics in a multitrack circular plot
+description: "*Cohort characteristics in a multitrack circular plot*"
+scientificQuestion: 个体年龄、BMI和分类特征的分布如何在同一视图中对应？
+application: 队列基线特征质控；多组学研究的样本背景概览。
+dataProfile: 合成示例输入；1个运行期输入表。subjects.csv：108行×6列
+plotFamily: circular_multitrack
+language: R
+tags:
+  - circular_multitrack
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ragg
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/subjects.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/subjects.csv
+  - data_schema.yml
+  - description.md
+  - figures/01_BMI_summary.png
+  - figures/01_age_summary.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/subjects.csv
+  - data_schema.yml
+  - description.md
+  - figures/01_BMI_summary.png
+  - figures/01_age_summary.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 1455121
+  sha256: 76ad3d3fd8e55ead32dd1f38c16e904aa289a6287a59fa563063621c36c4f468
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 39051
+  sha256: ea88cffd1e3422e8363a4c70a95e39cedda1b84ff0f27d2c2a0b0ed08e6babfe
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template cohort-circular-multitrack; internal Library state is not distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484352&idx=1&sn=7d49be3aa7a5727d6b7b85ba63fc00e9&chksm=c16b067ef61c8f6832efdbcd97c189b039be9675f40abc41f1fa4e8f3ca00e1362669f7c82ed#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 3
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 环形多轨道和左侧分布/构成摘要已恢复；样本标签使用合成S编号，年龄/BMI与类别比例不同。
+    nextStep: 若要原样标签与分布，接入作者元数据；当前保持同一合成样本表联动。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

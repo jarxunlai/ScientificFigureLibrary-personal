@@ -1,0 +1,104 @@
+schema: figure-library.personal-module.v1
+moduleId: enhancer-activation-repression-heatmap
+title: 增强子激活抑制双热图
+titleEn: Enhancer activation and repression dual heatmaps
+description: "**Enhancer activation and repression dual heatmaps**"
+scientificQuestion: 转录因子及其组合在不同细胞状态下偏向激活、抑制还是双重作用？
+application: |-
+  调控元件筛选；细胞状态分面热图及因子配对上下三角双尺度图。
+
+  输入、绘图步骤与配色均在 `code/organized.R` 中；数据来源和执行边界见 `provenance.json`。
+dataProfile: 合成示例输入；2个运行期输入表。factor_state_counts.csv：490行×6列；paired_factor_counts.csv：1764行×5列
+plotFamily: heatmap
+language: R
+tags:
+  - heatmap
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ggnewscale
+  - ggplot2
+  - ragg
+  - scales
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/factor_state_counts.csv
+  - data/paired_factor_counts.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/factor_state_counts.csv
+  - data/paired_factor_counts.csv
+  - data_schema.yml
+  - description.md
+  - figures/08a1_active_panel.png
+  - figures/08a2_repressed_panel.png
+  - figures/08a3_class_panel.png
+  - figures/08b_paired_activity_heatmap.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/factor_state_counts.csv
+  - data/paired_factor_counts.csv
+  - data_schema.yml
+  - description.md
+  - figures/08a1_active_panel.png
+  - figures/08a2_repressed_panel.png
+  - figures/08a3_class_panel.png
+  - figures/08b_paired_activity_heatmap.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 192527
+  sha256: 5da5a571adf230365d20d69cc6584e1b91959b4dcb968be20f48e80745ef4b58
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 19792
+  sha256: 26b6ea72349899dcc8d9fbf77f346805fcce483f00da891ada553da8b04230d3
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template enhancer-activation-repression-heatmap; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485301&idx=1&sn=3a9ac9daf0e2fa576883b2a4dc03757e&chksm=c16b02cbf61c8bdd9f0ef8783ff8055c9b016c533e291240f0d3d980f26d48f2b0fbfe14b501#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 5
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 恢复Immature顶部的细胞顺序、活化/抑制两排及分类条；来源零散热点仍被当前较宽连续热块替代。
+    nextStep: 对合成计数表引入状态/因子特异稀疏热点，再重新计算百分比与BH校正。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

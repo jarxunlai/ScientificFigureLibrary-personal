@@ -1,0 +1,40 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/enrichment.csv
+    format: csv
+    rows: 12
+    columns:
+      - Term
+      - Direction
+      - score
+      - Hits
+  - path: data/network_edges.csv
+    format: csv
+    rows: 121
+    columns:
+      - from
+      - to
+      - x
+      - y
+      - xend
+      - yend
+  - path: data/network_nodes.csv
+    format: csv
+    rows: 72
+    columns:
+      - id
+      - cluster
+      - x
+      - y
+      - Size
+      - score
+      - label
+      - Term
+  - path: data/volcano.csv
+    format: csv
+    rows: 1200
+    columns:
+      - gene
+      - logFC
+      - pvalue

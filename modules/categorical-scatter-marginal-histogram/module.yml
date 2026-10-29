@@ -1,0 +1,97 @@
+schema: figure-library.personal-module.v1
+moduleId: categorical-scatter-marginal-histogram
+title: 分类散点、异方差误差线与边际直方图
+titleEn: Categorical scatter with asymmetric errors and marginal histogram
+description: "**Categorical scatter with asymmetric errors and marginal histogram**"
+scientificQuestion: 对象的两个测量及其不确定性是否随类别和时间发生变化？
+application: 具有非对称x误差和y误差的天体/实验测量；结合上方直方图与密度曲线。
+dataProfile: 合成示例输入；1个运行期输入表。runaways.csv：52行×7列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - scales
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/runaways.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/runaways.csv
+  - data_schema.yml
+  - description.md
+  - figures/04a_kinematic_age_histogram.png
+  - figures/04b_runaway_errors.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/runaways.csv
+  - data_schema.yml
+  - description.md
+  - figures/04a_kinematic_age_histogram.png
+  - figures/04b_runaway_errors.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 141634
+  sha256: 65c77e5684beb28d383c1203ddff4849e740a0b1a8467fd17e459a4a33146d37
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 16885
+  sha256: 4ff3428d8f86a644d6cd9e263c557383874ef544876aa1c6f3e3ccd904637001
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template categorical-scatter-marginal-histogram; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484189&idx=1&sn=f87b1c0159c7537b151f8acc75ac8157&chksm=c16b06a3f61c8fb5219b89c6cecd95e2e453172be4d88a8d75d02cde3b5e25a8371f813c8dde#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 3
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 速度改回对数轴、圆/方/菱形恢复填色语义；样本、误差与边缘峰位置仍不同。
+    nextStep: 继续调整合成速度/年龄分布，并保持顶部直方图与主图共同横坐标。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

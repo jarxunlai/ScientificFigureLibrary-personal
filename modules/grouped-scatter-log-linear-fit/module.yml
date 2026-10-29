@@ -1,0 +1,104 @@
+schema: figure-library.personal-module.v1
+moduleId: grouped-scatter-log-linear-fit
+title: 分组散点与线性对数拟合六面板
+titleEn: Grouped scatter with linear and logarithmic fits
+description: "**Grouped scatter with linear and logarithmic fits**"
+scientificQuestion: 不同生态系统中初始存量与损失、干扰时间与相对损失有什么关联？
+application: 三种生态系统、四类干扰；分别绘制线性和log(x)回归。
+dataProfile: 合成示例输入；1个运行期输入表。blue_carbon.csv：300行×7列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/blue_carbon.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/blue_carbon.csv
+  - data_schema.yml
+  - description.md
+  - figures/12_Mangrove_absolute.png
+  - figures/12_Mangrove_relative.png
+  - figures/12_Saltmarsh_absolute.png
+  - figures/12_Saltmarsh_relative.png
+  - figures/12_Seagrass_absolute.png
+  - figures/12_Seagrass_relative.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/blue_carbon.csv
+  - data_schema.yml
+  - description.md
+  - figures/12_Mangrove_absolute.png
+  - figures/12_Mangrove_relative.png
+  - figures/12_Saltmarsh_absolute.png
+  - figures/12_Saltmarsh_relative.png
+  - figures/12_Seagrass_absolute.png
+  - figures/12_Seagrass_relative.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 663011
+  sha256: ca79231318cf8b6879388fbafe0c43f51ae25d84d320ecae0f8dd9ff9baf5a30
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 24008
+  sha256: a5722ba117fd68a558651779c31604272d6bad4473d81bcc1ef8926894ce6bd6
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template grouped-scatter-log-linear-fit; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485073&idx=1&sn=0fa0a880e5e4ff3c559450f1d7713986&chksm=c16b032ff61c8a39f8d431b9363bc37bde29e565c0e07850624d5df4dbe005cc21b52fffdd55#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 7
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 三生态系统独立扰动配色/尺度和a,b/c,d/e,f顺序已恢复；R平方、P和点云离群程度不同。
+    nextStep: 继续调节拟态误差/离群比例及图例间距；所有拟合从保存的合成表重算。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

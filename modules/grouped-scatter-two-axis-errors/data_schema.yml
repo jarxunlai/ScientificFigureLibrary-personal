@@ -1,0 +1,10 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/points.csv
+    format: csv
+    rows: 325
+    columns:
+      - Group
+      - Energy
+      - Lifetime

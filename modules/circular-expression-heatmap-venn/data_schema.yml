@@ -1,0 +1,15 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/circular_expression.csv
+    format: csv
+    rows: 90
+    columns:
+      - Gene
+      - Group
+      - qval
+      - Left atrium
+      - Right atrium
+      - Outflow tract
+      - Right ventricle
+      - Left ventricle

@@ -1,0 +1,92 @@
+schema: figure-library.personal-module.v1
+moduleId: grouped-scatter-two-axis-errors
+title: 分组散点、二次趋势与双向误差线
+titleEn: Grouped scatter with two-axis error bars
+description: "**Grouped scatter with two-axis error bars**"
+scientificQuestion: 两个连续测量在不同组中如何共同变化，组内离散程度多大？
+application: 材料/生物物理实验的双变量测量；同时展示个体点、组均值与标准差。
+dataProfile: 合成示例输入；1个运行期输入表。points.csv：325行×3列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/points.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/points.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/points.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 186876
+  sha256: 7a0efff3cb22a36c87d661935b09e99bd5d6263e6d447fab64550e17e9ab42e9
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 18739
+  sha256: e2a1141e647556b70997a68083563e84e934145083f3140fc9ff6b815f9e4c65
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template grouped-scatter-two-axis-errors; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247483829&idx=1&sn=1630acb0476a2b9334f7c7330e6b5cc8&chksm=c16b040bf61c8d1d4923ff05dbd006d775e95cfef57f4b739d4ee641766d59c8c2ceb3613360#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 统一图例补回theory和mean；散点/均值误差与来源位置不同，曲线是当前示例拟合。
+    nextStep: 继续在同一表上微调组内离散度；若需物理理论曲线须明确其方程而非只拟合。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

@@ -1,0 +1,101 @@
+schema: figure-library.personal-module.v1
+moduleId: table-integrated-forest
+title: 三种表格森林图
+titleEn: Three table-integrated forest plots
+description: "**Three table-integrated forest plots**"
+scientificQuestion: 效应量及其不确定性在疾病、人群或细胞群之间如何比较？
+application: 分区beta森林图、双人群HR森林图、彩色编号免疫亚群森林图。
+dataProfile: 合成示例输入；3个运行期输入表。autoimmune.csv：21行×9列；cancer_hr.csv：40行×8列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/autoimmune.csv
+  - data/cancer_hr.csv
+  - data/immune_hr.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/autoimmune.csv
+  - data/cancer_hr.csv
+  - data/immune_hr.csv
+  - data_schema.yml
+  - description.md
+  - figures/21b_cancer_dual_hr.png
+  - figures/21c_immune_multivariable_forest.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/autoimmune.csv
+  - data/cancer_hr.csv
+  - data/immune_hr.csv
+  - data_schema.yml
+  - description.md
+  - figures/21b_cancer_dual_hr.png
+  - figures/21c_immune_multivariable_forest.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 268699
+  sha256: 0ac06fc1658f1a60548418451960f0226fae8b52326c587912aab7df1ea68eda
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 13727
+  sha256: 8f7c532d179c5af509fe4d762a9651a6de01e75a3747633697a5eaec7fc167ef
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template table-integrated-forest; internal Library state is not distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485856&idx=1&sn=b88b15584f12e11054926e56820c3202&chksm=c16b0c1ef61c8508c531a8795ba46dcc6d58bd6b32b548a568690efc32fa2c4123bea01f9811#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 3
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 三种表格森林图的列宽与区间层级恢复；病例数、HR/beta及置信区间是合成值，与来源不同。
+    nextStep: 逐列细调对齐与截断箭头，取得实际模型表后替换，不把当前估计当论文结果。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

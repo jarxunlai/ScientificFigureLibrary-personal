@@ -1,0 +1,85 @@
+"disease","protein","score","shared"
+"Type 2 diabetes","GDF15",0.891,TRUE
+"Type 2 diabetes","WFDC2",0.698,TRUE
+"Type 2 diabetes","NTproBNP",0.675,TRUE
+"Type 2 diabetes","INSR",0.552,FALSE
+"Type 2 diabetes","P1_1",0.444,FALSE
+"Type 2 diabetes","P1_2",0.43,FALSE
+"Type 2 diabetes","P1_3",0.192,FALSE
+"Prostate cancer","WFDC2",0.489,TRUE
+"Prostate cancer","IL6",0.44,TRUE
+"Prostate cancer","IGFBP7",0.403,TRUE
+"Prostate cancer","FGF21",0.379,FALSE
+"Prostate cancer","P2_1",0.248,FALSE
+"Prostate cancer","P2_2",0.127,FALSE
+"Prostate cancer","P2_3",0.108,FALSE
+"Premature mortality","IL6",0.887,TRUE
+"Premature mortality","NTproBNP",0.82,TRUE
+"Premature mortality","KIM1",0.541,TRUE
+"Premature mortality","KLK3",0.353,FALSE
+"Premature mortality","P3_1",0.327,FALSE
+"Premature mortality","P3_2",0.31,FALSE
+"Premature mortality","P3_3",0.242,FALSE
+"COPD","NTproBNP",0.974,TRUE
+"COPD","IGFBP7",0.867,TRUE
+"COPD","CRP",0.794,TRUE
+"COPD","FOLH1",0.786,FALSE
+"COPD","P4_1",0.731,FALSE
+"COPD","P4_2",0.702,FALSE
+"COPD","P4_3",0.308,FALSE
+"Lung cancer","IGFBP7",0.987,TRUE
+"Lung cancer","KIM1",0.948,TRUE
+"Lung cancer","TNFRSF1A",0.913,TRUE
+"Lung cancer","SFTPD",0.811,FALSE
+"Lung cancer","P5_1",0.571,FALSE
+"Lung cancer","P5_2",0.334,FALSE
+"Lung cancer","P5_3",0.078,FALSE
+"Renal disease","KIM1",0.764,TRUE
+"Renal disease","CRP",0.685,TRUE
+"Renal disease","GDF15",0.54,TRUE
+"Renal disease","MMP12",0.318,FALSE
+"Renal disease","P6_1",0.266,FALSE
+"Renal disease","P6_2",0.098,FALSE
+"Renal disease","P6_3",0.098,FALSE
+"Heart failure","CRP",0.77,TRUE
+"Heart failure","TNFRSF1A",0.741,TRUE
+"Heart failure","WFDC2",0.603,TRUE
+"Heart failure","TFF3",0.521,FALSE
+"Heart failure","P7_1",0.38,FALSE
+"Heart failure","P7_2",0.256,FALSE
+"Heart failure","P7_3",0.137,FALSE
+"Parkinson disease","TNFRSF1A",0.904,TRUE
+"Parkinson disease","GDF15",0.702,TRUE
+"Parkinson disease","IL6",0.587,TRUE
+"Parkinson disease","CA125",0.327,FALSE
+"Parkinson disease","P8_1",0.326,FALSE
+"Parkinson disease","P8_2",0.322,FALSE
+"Parkinson disease","P8_3",0.274,FALSE
+"Colon cancer","GDF15",0.895,TRUE
+"Colon cancer","WFDC2",0.869,TRUE
+"Colon cancer","NTproBNP",0.858,TRUE
+"Colon cancer","PRSS1",0.353,FALSE
+"Colon cancer","P9_1",0.313,FALSE
+"Colon cancer","P9_2",0.201,FALSE
+"Colon cancer","P9_3",0.076,FALSE
+"Breast cancer","WFDC2",0.915,TRUE
+"Breast cancer","IL6",0.6,TRUE
+"Breast cancer","IGFBP7",0.588,TRUE
+"Breast cancer","MUC16",0.581,FALSE
+"Breast cancer","P10_1",0.337,FALSE
+"Breast cancer","P10_2",0.133,FALSE
+"Breast cancer","P10_3",0.122,FALSE
+"Acute pancreatitis","IL6",0.991,TRUE
+"Acute pancreatitis","NTproBNP",0.69,TRUE
+"Acute pancreatitis","KIM1",0.474,TRUE
+"Acute pancreatitis","CCL18",0.456,FALSE
+"Acute pancreatitis","P11_1",0.455,FALSE
+"Acute pancreatitis","P11_2",0.407,FALSE
+"Acute pancreatitis","P11_3",0.109,FALSE
+"Multimorbidity","NTproBNP",0.984,TRUE
+"Multimorbidity","IGFBP7",0.564,TRUE
+"Multimorbidity","CRP",0.499,TRUE
+"Multimorbidity","APOE",0.458,FALSE
+"Multimorbidity","P12_1",0.25,FALSE
+"Multimorbidity","P12_2",0.179,FALSE
+"Multimorbidity","P12_3",0.095,FALSE

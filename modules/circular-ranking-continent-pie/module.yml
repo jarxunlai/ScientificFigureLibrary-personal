@@ -1,0 +1,93 @@
+schema: figure-library.personal-module.v1
+moduleId: circular-ranking-continent-pie
+title: 国家排名外圈与洲别贡献饼图
+titleEn: Country ranking bars with a continent contribution pie
+description: "*Country ranking bars with a continent contribution pie*"
+scientificQuestion: 国家贡献排名与洲别总体占比如何保持数量一致？
+application: 全球贡献结构；国家-洲别两层空间汇总和排名。
+dataProfile: 合成示例输入；1个运行期输入表。country_contributions.csv：90行×5列
+plotFamily: circular_bar_pie
+language: R
+tags:
+  - circular_bar_pie
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ragg
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/country_contributions.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/country_contributions.csv
+  - data_schema.yml
+  - description.md
+  - figures/10_country_continent_source_blue.png
+  - figures/10_country_continent_source_green.png
+  - figures/10_country_continent_source_orange.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/country_contributions.csv
+  - data_schema.yml
+  - description.md
+  - figures/10_country_continent_source_blue.png
+  - figures/10_country_continent_source_green.png
+  - figures/10_country_continent_source_orange.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 527969
+  sha256: c4092d5d0aea42ea5bef2e209210fd9b672c016191399ce78ce70a5fa2aab6e3
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 16461
+  sha256: 812f3c71bc40badde95a932227e144412d7ff5820a1c6c7a1ad752defcf46b54
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template circular-ranking-continent-pie; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485788&idx=1&sn=3a2ad00d62b9f2f6b53139539a38342d&chksm=c16b0ce2f61c85f468d50ca1289609445c45f19a75495805bef125973c586552e82dbf631e80#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 4
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 国家排序外柱与中心洲饼图结构恢复；洲占比和国家排列由当前表计算，与来源不同。
+    nextStep: 在同一国家表上调整合成值后重算排序与洲汇总，不把图上比例直接抄入。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

@@ -1,0 +1,91 @@
+schema: figure-library.personal-module.v1
+moduleId: saturation-mutagenesis-energy-heatmap
+title: 饱和突变能量热图与均值折线
+titleEn: Saturation mutagenesis energy heatmap with site means
+description: "**Saturation mutagenesis energy heatmap with site means**"
+scientificQuestion: 哪些残基位点的替换总体更敏感，哪些具体替换具有较高预测能量代价？
+application: |-
+  蛋白质工程预测结果的绘图模板；20 种氨基酸替换、均值折线及双 Y 轴。
+
+  输入、绘图步骤与配色均在 `code/organized.R` 中；数据来源和执行边界见 `provenance.json`。
+dataProfile: 合成示例输入；1个运行期输入表。mutation_energy.csv：20行×65列
+plotFamily: heatmap
+language: R
+tags:
+  - heatmap
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ggplot2
+  - ragg
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/mutation_energy.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/mutation_energy.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/mutation_energy.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 889499
+  sha256: 62cfa850e78cf9821f5bfec9ca1ae27c8849e8823366c70dd0d74f2c5e48802e
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 21172
+  sha256: e9c9b6d3e836511e35c68421b1d852a258456b8412b7167a80ada1c8eb210119
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template saturation-mutagenesis-energy-heatmap; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485921&idx=1&sn=e9c8b0939a3ee3ee9612d674a79d3b5a&chksm=c16b0c5ff61c85491c6380e5b062d136e737bde579207142d91ba86bfe84562f9f10ba91e85a#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 20种氨基酸热图、双色能量曲线与双y轴保留；位点数量及峰值与来源不同。
+    nextStep: 逐位点核对示例能量单位、平均曲线和列顺序，不把示例峰当作真实突变结果。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

@@ -1,0 +1,93 @@
+schema: figure-library.personal-module.v1
+moduleId: trait-correlation-matrix-trends
+title: 水稻性状相关矩阵与年代趋势
+titleEn: Rice trait matrix and year trends
+description: 将四个性状的分布、两两关系和年代变化同时摆在一张图中。对角线是直方图与高斯曲线，下三角是散点和线性拟合，上三角给出由输入表实际计算的R平方与P值，右侧按性状展示年份趋势。
+scientificQuestion: 多个品质性状如何相互关联，各性状是否随育成年份变化？
+application: |-
+  - 比较植物品种的品质性状，观察哪些性状的变化相互伴随。
+  - 在育种或长期调查数据中，区分性状之间的相关与随时间的整体趋势。
+dataProfile: 合成示例输入；1个运行期输入表。rice_traits.csv：170行×5列
+plotFamily: scatter_matrix
+language: R
+tags:
+  - scatter_matrix
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggplot2
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/rice_traits.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/rice_traits.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/rice_traits.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 448606
+  sha256: 178c807693a9a72cccb50bffc884a237c78a6242d7c34fbc025e41f96104a7fa
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 21376
+  sha256: 725ce99af2bf133db5175aa3c8f6421bcf1a5dcf8d80909cd98bca738ec83a2d
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template trait-correlation-matrix-trends; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484694&idx=1&sn=d7c882daf03fde0f773f62fcfc8aa12b&chksm=c16b00a8f61c89be81441aaf3db408e8d2a41a1ca411a979dc4453a0eaf98d42e3d93d5be173#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 四性状矩阵、年代趋势方向和量纲已恢复；拟合斜率、R平方、P值和散点密度仍由合成表决定。
+    nextStep: 按来源轮廓细调合成性状方差；有真实表时替换result中的拟态输入并重算。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

@@ -1,0 +1,40 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/autoimmune.csv
+    format: csv
+    rows: 21
+    columns:
+      - Disease
+      - beta
+      - Count
+      - Mean
+      - SD
+      - SE
+      - lower
+      - upper
+      - padj
+  - path: data/cancer_hr.csv
+    format: csv
+    rows: 40
+    columns:
+      - Cancer
+      - Group
+      - HR
+      - SE_logHR
+      - lower
+      - upper
+      - Pvalue
+      - Cases
+  - path: data/immune_hr.csv
+    format: csv
+    rows: 12
+    columns:
+      - Variable
+      - Celltype
+      - Number
+      - HR
+      - SE_logHR
+      - lower
+      - upper
+      - Pvalue

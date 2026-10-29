@@ -1,0 +1,46 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/embryo_lineages.csv
+    format: csv
+    rows: 600
+    columns:
+      - EPI
+      - TE
+      - PrE
+      - CellType
+  - path: data/fertilizer_otu.csv
+    format: csv
+    rows: 180
+    columns:
+      - CK
+      - NPK
+      - NPKM
+      - Genus
+      - abundance
+  - path: data/immune_states.csv
+    format: csv
+    rows: 310
+    columns:
+      - TH2
+      - TH1
+      - TH17
+      - AgeGroup
+      - Age
+  - path: data/otu_niches.csv
+    format: csv
+    rows: 280
+    columns:
+      - Root
+      - Nodule
+      - Rhizosphere
+      - enrichment
+      - mean_abundance
+  - path: data/state_probabilities.csv
+    format: csv
+    rows: 3600
+    columns:
+      - Stemlike
+      - Canonical
+      - Noncanonical
+      - condition

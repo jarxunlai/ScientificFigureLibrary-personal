@@ -1,0 +1,120 @@
+schema: figure-library.personal-module.v1
+moduleId: volcano-enrichment-network-bars
+title: 火山图与富集网络及条形图组合
+titleEn: Volcano plots with enrichment networks and bars
+description: "**Volcano plots with enrichment networks and bars**"
+scientificQuestion: 基因层面的变化与预计算的通路结果如何联合展示？
+application: 横置火山图与网络；火山图与上下调富集条；火山图与方向性富集条三例。
+dataProfile: 合成示例输入；4个运行期输入表。volcano.csv：1200行×3列；enrichment.csv：12行×4列
+plotFamily: scatter
+language: R
+tags:
+  - scatter
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - dplyr
+  - ggforce
+  - ggplot2
+  - ggrepel
+  - patchwork
+  - ragg
+  - tidyr
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/enrichment.csv
+  - data/network_edges.csv
+  - data/network_nodes.csv
+  - data/volcano.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/enrichment.csv
+  - data/network_edges.csv
+  - data/network_nodes.csv
+  - data/volcano.csv
+  - data_schema.yml
+  - description.md
+  - figures/16a_network.png
+  - figures/16a_rotated_volcano.png
+  - figures/16b_Down_enrichment.png
+  - figures/16b_Up_enrichment.png
+  - figures/16b_volcano.png
+  - figures/16b_volcano_bars.png
+  - figures/16c_divergent_bars.png
+  - figures/16c_labeled_volcano.png
+  - figures/16c_volcano_divergent.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/enrichment.csv
+  - data/network_edges.csv
+  - data/network_nodes.csv
+  - data/volcano.csv
+  - data_schema.yml
+  - description.md
+  - figures/16a_network.png
+  - figures/16a_rotated_volcano.png
+  - figures/16b_Down_enrichment.png
+  - figures/16b_Up_enrichment.png
+  - figures/16b_volcano.png
+  - figures/16b_volcano_bars.png
+  - figures/16c_divergent_bars.png
+  - figures/16c_labeled_volcano.png
+  - figures/16c_volcano_divergent.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 403332
+  sha256: cf4f44d85ee1ac5ae9e68f5e3a1a2082285f11e2021b41d770fd19eaaa27dbb5
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 9991
+  sha256: 68acec50fad1743e763046cf7266de2c7e5346c8ae1b484e0b9301f395b7cbc0
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template volcano-enrichment-network-bars; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247485362&idx=1&sn=2405d404a65abb84acc1a3920d45bb0e&chksm=c16b020cf61c8b1a01fca5747ade4eef97aac577972e168e8057d9eee9632ca1f78349129c64#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 10
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 三类完整组合与富集颜色方向修正；网络仍是分离的小团，缺少来源跨模块关系，横置火山显著性范围也不同。
+    nextStep: 优先重建合成网络边/模块联系和横置火山的示例动态范围，再调整带状标题。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

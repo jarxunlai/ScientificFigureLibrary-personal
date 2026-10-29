@@ -1,0 +1,89 @@
+schema: figure-library.personal-module.v1
+moduleId: circular-gene-heatmap-venn
+title: 形态发生基因环状热图与集合重叠
+titleEn: Circular morphogenic gene heatmap with set overlap
+description: "*Circular morphogenic gene heatmap with set overlap*"
+scientificQuestion: 三类动力学基因在五个心脏区域的表达与集合重叠如何对应？
+application: 空间转录组的区域表达比较；不同分析方法筛选基因的集合交叉。
+dataProfile: 合成示例输入；1个运行期输入表。gene_expression.csv：120行×8列
+plotFamily: circular_heatmap_venn
+language: R
+tags:
+  - circular_heatmap_venn
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - circlize
+  - ragg
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/gene_expression.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/gene_expression.csv
+  - data_schema.yml
+  - description.md
+  - figures/04_morphogenic_source_rdbu.png
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/gene_expression.csv
+  - data_schema.yml
+  - description.md
+  - figures/04_morphogenic_source_rdbu.png
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 962510
+  sha256: 9053c40abef456aa62f63e32fcfa7ea26863a3a5da94ca2b7744f27adb35bce3
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 32735
+  sha256: c57bf0cdd55793cd99519f8e84d8f36650815f41e93d234fc6baad2ecc0d61be
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template circular-gene-heatmap-venn; internal Library state is not distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484438&idx=1&sn=09abb1b07457e5ecdd087e61818bfe85&chksm=c16b01a8f61c88be1856a38abfd94cc4e25e54d694849da9b0a9a4f37c099bcc1f8e22c6868f#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 2
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 两种原图配色、五区域热图和q层保留；按当前三个无交集集合改成并列圆，数量与来源不相同。
+    nextStep: 有交集成员表时按真实集合重画中心；不得为贴图而伪造交集数。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

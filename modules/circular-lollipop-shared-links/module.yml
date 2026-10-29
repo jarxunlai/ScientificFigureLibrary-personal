@@ -1,0 +1,87 @@
+schema: figure-library.personal-module.v1
+moduleId: circular-lollipop-shared-links
+title: 疾病蛋白选择得分与共享连线
+titleEn: Disease protein selection scores and shared links
+description: "*Disease protein selection scores and shared links*"
+scientificQuestion: 哪些蛋白同时出现在多个疾病的预测特征集合中？
+application: 跨疾病蛋白标志物筛选；多模型特征的重叠关系概览。
+dataProfile: 合成示例输入；1个运行期输入表。protein_scores.csv：84行×4列
+plotFamily: circular_lollipop_chord
+language: R
+tags:
+  - circular_lollipop_chord
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ragg
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/protein_scores.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/protein_scores.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/protein_scores.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 1119686
+  sha256: cb1e283030a6caa41aba16ded336f50c63498dd6fb48bee3de1d439bb21fb264
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 23432
+  sha256: 0e368776b5eb0767dac28fb56ec817bb4db4feab6cd3f33089c815dd3552def9
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template circular-lollipop-shared-links; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247484422&idx=1&sn=e02965d3588dde2a934d8af4c7a625a1&chksm=c16b01b8f61c88ae722174dd24d165cda46c4f8817986b9ec21df22975613bb9b13a3bbef0f0#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: different
+    remainingDifferences: 疾病扇区及共享连线保留，但每扇区蛋白数、标签密度和得分阶梯显著少于来源。
+    nextStep: 扩充合成成员与共享蛋白对应表，使各扇区长度和递减阶梯更接近来源。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.

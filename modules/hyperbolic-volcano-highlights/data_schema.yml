@@ -1,0 +1,28 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/conventional.csv
+    format: csv
+    rows: 500
+    columns:
+      - gene
+      - logFC
+      - padj
+      - interest
+  - path: data/crispr_screen.csv
+    format: csv
+    rows: 2800
+    columns:
+      - gene
+      - epsilon
+      - NTC
+      - pvalue
+      - Pathway
+      - Label
+  - path: data/rna_volcano.csv
+    format: csv
+    rows: 1700
+    columns:
+      - gene
+      - logFC
+      - padj

@@ -1,0 +1,14 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/nucleosome_features.csv
+    format: csv
+    rows: 9000
+    columns:
+      - spd6
+      - spd3
+      - CoH3
+      - PEG
+      - Ca2
+      - HP1a
+      - HP1b_SUV

@@ -1,0 +1,10 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/gene_sets.csv
+    format: csv
+    rows: 68
+    columns:
+      - category
+      - set
+      - number

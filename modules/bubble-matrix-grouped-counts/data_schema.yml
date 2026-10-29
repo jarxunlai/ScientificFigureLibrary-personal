@@ -1,0 +1,18 @@
+schema: open-figure-module-inputs.v1
+dataKind: synthetic_example
+files:
+  - path: data/immune_counts.csv
+    format: csv
+    rows: 160
+    columns:
+      - Cell
+      - Group
+      - Mouse
+      - Value
+  - path: data/motif_matrix.csv
+    format: csv
+    rows: 324
+    columns:
+      - M_type
+      - Motif
+      - frac_syn

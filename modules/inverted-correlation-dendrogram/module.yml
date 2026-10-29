@@ -1,0 +1,96 @@
+schema: figure-library.personal-module.v1
+moduleId: inverted-correlation-dendrogram
+title: 倒三角相关性热图与聚类树
+titleEn: Inverted triangular correlation heatmap with dendrogram
+description: "**Inverted triangular correlation heatmap with dendrogram**"
+scientificQuestion: 哪些变量形成稳定的共变模块，模块之间的关联如何？
+application: |-
+  代谢物、基因或表型的模块关系概览；聚类树与倒三角热图联合呈现。
+
+  输入、绘图步骤与配色均在 `code/organized.R` 中；数据来源和执行边界见 `provenance.json`。
+dataProfile: 合成示例输入；2个运行期输入表。bile_acid_observations.csv：100行×42列；variable_groups.csv：41行×2列
+plotFamily: heatmap
+language: R
+tags:
+  - heatmap
+  - synthetic-example
+  - wechat-visual-recreation
+packages:
+  - ggdendro
+  - ggplot2
+  - ragg
+  - scales
+codeFiles:
+  - code/export.R
+  - code/organized.R
+inputFiles:
+  - data/bile_acid_observations.csv
+  - data/variable_groups.csv
+canonicalCode: code/organized.R
+requiredFiles:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/bile_acid_observations.csv
+  - data/variable_groups.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - thumbnail.jpg
+files:
+  - LICENSE-CODE.txt
+  - LICENSE-CONTENT.txt
+  - README.md
+  - code/export.R
+  - code/organized.R
+  - data/bile_acid_observations.csv
+  - data/variable_groups.csv
+  - data_schema.yml
+  - description.md
+  - module.yml
+  - preview.png
+  - provenance.md
+  - thumbnail.jpg
+preview:
+  path: preview.png
+  bytes: 451667
+  sha256: a609236e8e91e6764810d821287e3ed50621fc6107d74cc08e547301de860dc7
+  mediaType: image/png
+thumbnail:
+  path: thumbnail.jpg
+  bytes: 11634
+  sha256: 12ee15703b2e7beb961c8f09be73c84a3cff68eac25c10d7449c7da27954788c
+  mediaType: image/jpeg
+licenses:
+  code: MIT
+  content: CC BY 4.0
+  documentation: CC BY 4.0
+publisher:
+  reviewStatus: approved
+  executionStatus: passed
+  executionScope: synthetic_data
+  evidence:
+    - README.md
+    - data_schema.yml
+    - preview.png
+provenance:
+  - type: local_published_cleaning
+    note: Prepared from the reviewed plotting template inverted-correlation-dendrogram; internal Library state is not
+      distributed.
+  - type: visual_inspiration
+    url: https://mp.weixin.qq.com/s?__biz=MzkxNDcwNzY2NQ==&mid=2247483757&idx=1&sn=3bd7020acab51b826e3d8a0f7b44f777&chksm=c16b04d3f61c8dc58ef3b6d658cf1b2c45e7a26c72a101d88ec9552c04d1afea61eaf01fa1c6#rd
+  - type: synthetic_data
+    note: All distributed inputs are synthetic plotting examples; not original experimental data or paper results.
+  - type: public_package_execution
+    note: The portable code and declared dependencies were actually run against the distributed inputs, producing 1
+      independently saved PNGs and paired runtime PDFs. Scientific validation was not assessed.
+  - type: source_fidelity
+    grade: close
+    remainingDifferences: 倒三角、模块界线与上树已恢复；当前60变量的叶序和标签密度仍与来源不同。
+    nextStep: 细调聚类模块及标签间距；不改变一个来源对应一个条目。
+  - type: public_boundary
+    note: Third-party original code and source images, PDFs, raw logs, receipts, private data and machine-local state are
+      not included or relicensed.
