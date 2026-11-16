@@ -1,7 +1,7 @@
 {
   "algorithm": "Ed25519",
   "keyId": "3d20f50049b44e3d45ceef1c4f4a640656608c0ebbb9c35f9ab4857395785f69",
-  "manifestSha256": "fa3bf0db8824e69d496ffc3c4a7f3ed72c40cc3e574125352e8ac3218f53221a",
+  "manifestSha256": "6a1129b32b0fb3a5e9d343ffc051ff1e62437cea8442998211168ed7fea5ee89",
   "schema": "figure-library.provider-source-signature.v1",
-  "signatureBase64": "enYDgZrvFrDeIOiJ6lWpAHHVq3x/jpPdX2VKgNMgewTotgaJ1iaSbXLSQXCWvF3RKzUkJ5D+ybAnfDUvNWUBCQ=="
+  "signatureBase64": "3LWYBDlNWYoca7xyLetYIsOVayeCt3+EG89f4X6S+9iFo8vUdmhJiIiFZmmOAQjxFHCYpvu5mDequ4AvozZTAA=="
 }
