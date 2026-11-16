@@ -32,10 +32,10 @@ packages:
 - readr
 plotFamily: enrichment_comet_facet
 preview:
-  bytes: 869697
+  bytes: 258541
   mediaType: image/png
   path: preview.png
-  sha256: ed7044e3b54bca2268116241d2bcafd21ab4b17cdb5e794a59152ecc74893411
+  sha256: 72d484a2eb6f5f38a5975b1c54b43e51f9e9cdddc867fea35a86d70b0bb1acd4
 provenance:
 - note: Prepared from the reviewed Local Published entry go-enrichment-comet-facet; internal Library state is not distributed.
   type: local_published_cleaning

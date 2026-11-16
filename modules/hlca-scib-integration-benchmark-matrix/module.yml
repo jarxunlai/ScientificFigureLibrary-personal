@@ -36,10 +36,10 @@ packages:
 - stringr
 plotFamily: benchmark_matrix
 preview:
-  bytes: 1270832
+  bytes: 400417
   mediaType: image/png
   path: preview.png
-  sha256: 96ecc1bc5d45bcc4f5c8d72d8967a3b19f883ea9c94db646b16d2ba41c0a818e
+  sha256: 59d19e8417a5d473567bca1d70f0daf2f7e9873244d62bfd0b54529de1293b4c
 provenance:
 - note: Prepared from the reviewed Local Published entry hlca-scib-integration-benchmark-matrix; internal Library state is
     not distributed.

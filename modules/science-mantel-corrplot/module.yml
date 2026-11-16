@@ -35,10 +35,10 @@ packages:
 - ragg
 plotFamily: mantel_corrplot
 preview:
-  bytes: 642972
+  bytes: 339118
   mediaType: image/png
   path: preview.png
-  sha256: 8bc4a0ea62b90736929a7d5233cc9b9dd982a03115f5a8c5fbaa43bce6d1d205
+  sha256: c4e32c2941c138f11949d3a22ef583d745e7f75a22526b28d8841184ebdfb0fd
 provenance:
 - note: Prepared from the reviewed Local Published entry science-mantel-corrplot; internal Library state is not distributed.
   type: local_published_cleaning

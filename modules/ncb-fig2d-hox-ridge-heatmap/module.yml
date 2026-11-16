@@ -33,10 +33,10 @@ packages:
 - scales
 plotFamily: ridgeline_heatmap
 preview:
-  bytes: 329147
+  bytes: 200293
   mediaType: image/png
   path: preview.png
-  sha256: dda7e92aee434aa1edcc1ec0fe52b62baf0ae5c65c18d2775676c1dd4a0e93f7
+  sha256: 4ab3e7ece10689e7f9754dada6e389a7bd6e38341fe2abcc87c7238b8106ff51
 provenance:
 - note: Prepared from the reviewed Local Published entry ncb-fig2d-hox-ridge-heatmap; internal Library state is not distributed.
   type: local_published_cleaning

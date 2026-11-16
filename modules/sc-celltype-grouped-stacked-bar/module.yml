@@ -30,10 +30,10 @@ packages:
   - ggplot2
 plotFamily: stacked_bar
 preview:
-  bytes: 105792
+  bytes: 46804
   mediaType: image/png
   path: preview.png
-  sha256: 38c9ea2f67ec740ed66a12abd2489b5db3f876283d7430d731f881e033ae4610
+  sha256: eaa9aef410c5be0a1bff2ccfa27dab63cad7027cafc3f15e5ca0fc8462c18fea
 provenance:
   - note: Prepared from a reviewed Local Published entry; internal Library records and source/reference bytes are not distributed.
     type: local_published_cleaning

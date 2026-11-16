@@ -29,10 +29,10 @@ packages:
 - ggrepel
 plotFamily: ranked_nes_scatter
 preview:
-  bytes: 240893
+  bytes: 184067
   mediaType: image/png
   path: preview.png
-  sha256: 6b74f149998925a62010b119bbfa95f3b9e9996e13faac956bad1dfc9b881c49
+  sha256: 547f74877dfa2cda668f61b4ee663622e901dda7d1d44cc7027cfb3fe7dd724e
 provenance:
 - note: Prepared from the reviewed Local Published entry hallmark-gsea-nes-ranked-scatter; internal Library state is not distributed.
   type: local_published_cleaning

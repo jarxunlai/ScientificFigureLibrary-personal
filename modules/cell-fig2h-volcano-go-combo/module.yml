@@ -33,10 +33,10 @@ packages:
 - patchwork
 plotFamily: volcano_go_combo
 preview:
-  bytes: 336592
+  bytes: 297911
   mediaType: image/png
   path: preview.png
-  sha256: 2772588a816ac402d92d1aed8300f21fc8f820a2dd233e58e59ae832701d4198
+  sha256: c5bd179b3c9dbcd5f32077a39e88c8e73d04e4a12434d4dca19fae457e5c484c
 provenance:
 - note: Prepared from the reviewed Local Published entry cell-fig2h-volcano-go-combo; internal Library state is not distributed.
   type: local_published_cleaning

@@ -31,10 +31,10 @@ packages:
 - ragg
 plotFamily: back_to_back_lollipop
 preview:
-  bytes: 142834
+  bytes: 75317
   mediaType: image/png
   path: preview.png
-  sha256: 04f97717c2de59405ab27ff2917a4a18f9aecc07517034137bc6580803719018
+  sha256: 87344e60ca69411e86db47902c90e954c6f253cc68811f982d04a5319ed8c71e
 provenance:
 - note: Prepared from the reviewed Local Published entry nc-backtoback-lollipop; internal Library state is not distributed.
   type: local_published_cleaning

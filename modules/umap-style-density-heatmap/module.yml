@@ -31,10 +31,10 @@ packages:
 - viridis
 plotFamily: umap_density
 preview:
-  bytes: 2248351
+  bytes: 720388
   mediaType: image/png
   path: preview.png
-  sha256: 6517434af6bffa46b10e0f13020c05d7f8a5e616b3ba4dd256b48ee362b463d8
+  sha256: 9ca320bc35cef06b3631d474388c3a987a6623108f4bd31bdfeb88c46d10d60a
 provenance:
 - note: Prepared from the reviewed Local Published entry umap-style-density-heatmap; internal Library state is not distributed.
   type: local_published_cleaning

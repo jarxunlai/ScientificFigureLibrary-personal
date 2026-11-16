@@ -31,10 +31,10 @@ packages:
   - scales
 plotFamily: polar_bar
 preview:
-  bytes: 776633
+  bytes: 220348
   mediaType: image/png
   path: preview.png
-  sha256: aa65364e02e8627b0eabae65bb91b4335a24d10b431b5c2f020753b31a23a11c
+  sha256: 7e21c93ccf48c3df51dc191e49f54226a81d9810dd1722c31f5c31763be563a5
 provenance:
   - note: Prepared from a reviewed Local Published entry; internal Library records and source/reference bytes are not distributed.
     type: local_published_cleaning

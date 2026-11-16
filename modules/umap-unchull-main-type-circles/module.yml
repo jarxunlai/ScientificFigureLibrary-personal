@@ -33,10 +33,10 @@ packages:
 - tidydr
 plotFamily: umap_hulls
 preview:
-  bytes: 362284
+  bytes: 215610
   mediaType: image/png
   path: preview.png
-  sha256: 44ab2ea782cc2690e37944c7e9d99819176522db0c95757cb8e7b7a5d2cfd907
+  sha256: d77680ef2f415d92adc15013fc0bbcafb0d74c52109f620229f2530a2c1136e9
 provenance:
 - note: Prepared from the reviewed Local Published entry umap-unchull-main-type-circles; internal Library state is not distributed.
   type: local_published_cleaning

@@ -30,10 +30,10 @@ packages:
 - readr
 plotFamily: marker_dotplot
 preview:
-  bytes: 511035
+  bytes: 242049
   mediaType: image/png
   path: preview.png
-  sha256: fd5aacca36ca794deae1efb582a45c5b0a6e7ee1b4cafccbc4c50ec8cada27dd
+  sha256: e0a2b30dbff88447f665cc35c08fffb53d3d34d68aef3a206c1fc24261745897
 provenance:
 - note: Prepared from the reviewed Local Published entry sc-marker-dotplot-highlight-boxes; internal Library state is not
     distributed.
