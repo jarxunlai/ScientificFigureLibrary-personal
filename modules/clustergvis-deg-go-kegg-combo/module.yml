@@ -39,10 +39,10 @@ packages:
 - tibble
 plotFamily: clustered_heatmap_annotation
 preview:
-  bytes: 476095
+  bytes: 188422
   mediaType: image/png
   path: preview.png
-  sha256: b3dd768c464ad8bd21842b4c82ddcdd45d2ce699830b130d892800032afe93da
+  sha256: a69e67339f78d170f1abd3581bcf0f5a2a4645558d385f08eb637424b3232ed4
 provenance:
 - note: Prepared from the reviewed Local Published entry clustergvis-deg-go-kegg-combo; internal Library state is not distributed.
   type: local_published_cleaning

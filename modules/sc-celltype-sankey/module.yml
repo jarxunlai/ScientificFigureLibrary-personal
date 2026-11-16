@@ -30,10 +30,10 @@ packages:
   - ggplot2
 plotFamily: sankey
 preview:
-  bytes: 346625
+  bytes: 156809
   mediaType: image/png
   path: preview.png
-  sha256: 40b0d4c61f6aef524ad51cdff51e48f8a3e43f0f7c4b15db4db9e2aa97263238
+  sha256: b227fe11b5dbf7a9f869d1999c92a083520221161a8b8d544072a650f84f59ea
 provenance:
   - note: Prepared from a reviewed Local Published entry; internal Library records and source/reference bytes are not distributed.
     type: local_published_cleaning

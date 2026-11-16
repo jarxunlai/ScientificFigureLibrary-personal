@@ -30,10 +30,10 @@ packages:
 - readr
 plotFamily: enrichment_bar
 preview:
-  bytes: 181902
+  bytes: 144125
   mediaType: image/png
   path: preview.png
-  sha256: 27a4c3ec09dd0b9fe386c37b5d1e79f7a1a288c4e7fda82e1a57b6f9fc313d4b
+  sha256: a2e889fdbf379e7c76db3a7b08eb9dcbee46397da619c931ea125ef593ef871a
 provenance:
 - note: Prepared from the reviewed Local Published entry kegg-variant-blue-inside-label; internal Library state is not distributed.
   type: local_published_cleaning

@@ -31,10 +31,10 @@ packages:
   - scales
 plotFamily: stacked_bar
 preview:
-  bytes: 219252
+  bytes: 103113
   mediaType: image/png
   path: preview.png
-  sha256: cc7cb6a732653071bc4974c1e1cbc43cb773f9cd1529b4421c2b7b20c3808fb2
+  sha256: 15e24c35593e649d5530f8a110666810a9c8388a524027ac6328dd34a58df89b
 provenance:
   - note: Prepared from a reviewed Local Published entry; internal Library records and source/reference bytes are not distributed.
     type: local_published_cleaning

@@ -29,10 +29,10 @@ packages:
   - ggplot2
 plotFamily: faceted_horizontal_bar
 preview:
-  bytes: 104515
+  bytes: 68877
   mediaType: image/png
   path: preview.png
-  sha256: 058843d872671e6c2c0a2dad8749fb7cfa310a2346effa46b3533b4d085b6186
+  sha256: 7babbfbb28f74eb2ba20203da977c9d0518285ac6480207533aa5b88512ab1ad
 provenance:
   - note: Prepared from a reviewed Local Published entry; internal Library records and source/reference bytes are not distributed.
     type: local_published_cleaning

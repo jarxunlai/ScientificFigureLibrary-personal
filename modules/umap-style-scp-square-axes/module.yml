@@ -29,10 +29,10 @@ packages:
 - ggplot2
 plotFamily: umap_square_axes
 preview:
-  bytes: 897855
+  bytes: 379397
   mediaType: image/png
   path: preview.png
-  sha256: 7e2cf9954d23c9efbe0e5631dcfd903b90a0e5bdb64cb861b72fd3a53adba456
+  sha256: 2b022d2d11934f1e438c68d0ce79b0d48e9e972d77acae537a0d17aba4666af1
 provenance:
 - note: Prepared from the reviewed Local Published entry umap-style-scp-square-axes; internal Library state is not distributed.
   type: local_published_cleaning

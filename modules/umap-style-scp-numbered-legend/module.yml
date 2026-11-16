@@ -29,10 +29,10 @@ packages:
 - ggplot2
 plotFamily: umap_numbered_legend
 preview:
-  bytes: 878453
+  bytes: 353976
   mediaType: image/png
   path: preview.png
-  sha256: ef0c0cc0a8c12b66a725e6c55d02c1e2824f63a1a09d544a243f3eb386511f94
+  sha256: cf03dbd40a9d41cf6b0fc5bab7cb93da1cb0e97960f68cb3af92e3c566d8555d
 provenance:
 - note: Prepared from the reviewed Local Published entry umap-style-scp-numbered-legend; internal Library state is not distributed.
   type: local_published_cleaning

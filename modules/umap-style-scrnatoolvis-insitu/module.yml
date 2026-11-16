@@ -29,10 +29,10 @@ packages:
 - ggplot2
 plotFamily: umap_in_situ_labels
 preview:
-  bytes: 844779
+  bytes: 352498
   mediaType: image/png
   path: preview.png
-  sha256: c9bdd9ff4d9e81038407c959f50eb8b34b707c2a919728116863e485b9342b93
+  sha256: 3bde65ba3832f3072fa825beed8f38b1aa9db8a9c344a6e36eb74a9e5a81d2f1
 provenance:
 - note: Prepared from the reviewed Local Published entry umap-style-scrnatoolvis-insitu; internal Library state is not distributed.
   type: local_published_cleaning

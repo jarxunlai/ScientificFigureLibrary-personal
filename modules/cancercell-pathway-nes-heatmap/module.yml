@@ -33,10 +33,10 @@ packages:
 - tibble
 plotFamily: heatmap
 preview:
-  bytes: 249128
+  bytes: 160125
   mediaType: image/png
   path: preview.png
-  sha256: 9da6f61b5dfc837a57f62628d03e18fce79424e266c742fa5695cb2448bfb032
+  sha256: 3a4134da5e4a5eab8e243e8b653b0edd639aa24936b10fca4be7dbba6cc02834
 provenance:
 - note: Prepared from the reviewed Local Published entry cancercell-pathway-nes-heatmap; internal Library state is not distributed.
   type: local_published_cleaning

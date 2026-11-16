@@ -39,10 +39,10 @@ packages:
 - scales
 plotFamily: deg_heatmap_go_combo
 preview:
-  bytes: 401234
+  bytes: 175498
   mediaType: image/png
   path: preview.png
-  sha256: 9b280a1d5df272dfa46f7566021ae6653ef46e15b6eab2cca90055d2e983d22d
+  sha256: b1ca8558b242a5112b26a461985c38c2cd128a2bf7cd2a4929ce72c494f8b0d7
 provenance:
 - note: Prepared from the reviewed Local Published entry deg-heatmap-go-panel; internal Library state is not distributed.
   type: local_published_cleaning

@@ -30,10 +30,10 @@ packages:
 - grid
 plotFamily: enrichment_bar_with_genes
 preview:
-  bytes: 249358
+  bytes: 354549
   mediaType: image/png
   path: preview.png
-  sha256: 4cb7dd174db4f2c2e5b8b8cba2d02ea703f4ba88307cda26a14025a348e598c9
+  sha256: aca7fee05971e2c9434e8c32f7e795c7694f6272d979f4fc8062b5e7091cac0b
 provenance:
 - note: Prepared from the reviewed Local Published entry single-cell-enrichment-bar-pathway-genes; internal Library state
     is not distributed.

@@ -31,10 +31,10 @@ packages:
 - ggrepel
 plotFamily: umap_ellipse
 preview:
-  bytes: 1165182
+  bytes: 460243
   mediaType: image/png
   path: preview.png
-  sha256: b5798a332c75f6029e9524fea0fab680deb524a836f44ce8171627065d601bf3
+  sha256: 030e07f62304b65afa499b038b8b99d85a0429273d96600916140fe212467723
 provenance:
 - note: Prepared from the reviewed Local Published entry umap-style-ellipse-labels; internal Library state is not distributed.
   type: local_published_cleaning

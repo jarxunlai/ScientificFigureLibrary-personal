@@ -53,8 +53,8 @@ files:
   - thumbnail.jpg
 preview:
   path: preview.png
-  bytes: 642716
-  sha256: af7f0e0e46ba8cf1b2e4f259e5d318f20d3d5c8dbbd69c5d7230c3b102ffe813
+  bytes: 443873
+  sha256: 37e00d7950c442a6e95b803964185ee85099f043e58445c3aedf2a7cced186fc
   mediaType: image/png
 thumbnail:
   path: thumbnail.jpg

@@ -31,10 +31,10 @@ packages:
 - readr
 plotFamily: stacked_proportion_bar
 preview:
-  bytes: 140677
+  bytes: 76303
   mediaType: image/png
   path: preview.png
-  sha256: fefba736fd807b71517fa157e742380032347f4b82d5aefa54ed0acb09f7c9d6
+  sha256: 074ac6858e76d14455da31e2f0a50e324631619fc0e769967b64be4b55fa939e
 provenance:
 - note: Prepared from the reviewed Local Published entry nature-spatial-niche-stacked-bar; internal Library state is not distributed.
   type: local_published_cleaning

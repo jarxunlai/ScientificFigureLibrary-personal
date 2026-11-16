@@ -31,10 +31,10 @@ packages:
   - scales
 plotFamily: stacked_area
 preview:
-  bytes: 203558
+  bytes: 86809
   mediaType: image/png
   path: preview.png
-  sha256: e78e0917b49d49d6eb1c76090df2ddde6565f2bb02613405e12cc579dd3e7336
+  sha256: ce2fe698bd5093afd5f7ff0cc4a2ea0aa1b542f7f642bb73f5d9f7c80f7a5958
 provenance:
   - note: Prepared from a reviewed Local Published entry; internal Library records and source/reference bytes are not distributed.
     type: local_published_cleaning

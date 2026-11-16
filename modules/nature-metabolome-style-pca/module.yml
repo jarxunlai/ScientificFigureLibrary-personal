@@ -31,10 +31,10 @@ packages:
 - readr
 plotFamily: pca
 preview:
-  bytes: 206118
+  bytes: 133430
   mediaType: image/png
   path: preview.png
-  sha256: b256f72c61e8318a2fbea36c42d7785b38267c343e74319b321b572bc6384070
+  sha256: 170dbde30a674ae6d8adb4e721da45eb3b096c46881e7bdbae3bd72262cf4d17
 provenance:
 - note: Prepared from the reviewed Local Published entry nature-metabolome-style-pca; internal Library state is not distributed.
   type: local_published_cleaning

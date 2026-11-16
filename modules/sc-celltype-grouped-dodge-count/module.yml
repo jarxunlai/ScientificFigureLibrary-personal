@@ -31,10 +31,10 @@ packages:
   - scales
 plotFamily: grouped_bar
 preview:
-  bytes: 193714
+  bytes: 88329
   mediaType: image/png
   path: preview.png
-  sha256: 16adccf6c9a78b65d92e992b6c196b0fe28830217222d99bed826a8104310dc8
+  sha256: c39218673c3085eda549a1c1b7425e3db9909038e2b890e8d868affeb111d3c8
 provenance:
   - note: Prepared from a reviewed Local Published entry; internal Library records and source/reference bytes are not distributed.
     type: local_published_cleaning

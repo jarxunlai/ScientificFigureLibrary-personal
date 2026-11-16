@@ -30,10 +30,10 @@ packages:
 - shadowtext
 plotFamily: umap_stroke
 preview:
-  bytes: 2857943
+  bytes: 949471
   mediaType: image/png
   path: preview.png
-  sha256: 9db1c3c4d6d4d5fdc9f2eb8f15ddbb56ae421e16c34c22d38aa2ef3b9c823bda
+  sha256: 7bd12f8ae70b3934c0fdbaf6fd0fd0642f72ee38ddc4b3064bb676b7da85e517
 provenance:
 - note: Prepared from the reviewed Local Published entry umap-style-scpubr-stroke; internal Library state is not distributed.
   type: local_published_cleaning

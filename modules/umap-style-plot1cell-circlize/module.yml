@@ -29,10 +29,10 @@ packages:
 - ggplot2
 plotFamily: circular_umap
 preview:
-  bytes: 450721
+  bytes: 203800
   mediaType: image/png
   path: preview.png
-  sha256: 0007948540a9f0e21056441f6312352d39ea0e04b4a4a5dafe18c4543909823b
+  sha256: 7e98a85f94252482a43a7fbc32dab1def49d2881992c6182f8c35c1fbaa2cbf7
 provenance:
 - note: Prepared from the reviewed Local Published entry umap-style-plot1cell-circlize; internal Library state is not distributed.
   type: local_published_cleaning

@@ -32,10 +32,10 @@ packages:
 - readr
 plotFamily: enrichment_comet_overlay
 preview:
-  bytes: 1002833
+  bytes: 300178
   mediaType: image/png
   path: preview.png
-  sha256: 576ee33ff1a02a94506a31ceff5d0cfc7504a6364d8ce03a04ad840ca97d0455
+  sha256: 088498a20be28cf2b0a0d8c2ccfae045379ab16fac265ecc13ed61720becf67c
 provenance:
 - note: Prepared from the reviewed Local Published entry go-enrichment-comet-combined; internal Library state is not distributed.
   type: local_published_cleaning

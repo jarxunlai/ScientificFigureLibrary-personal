@@ -30,10 +30,10 @@ packages:
 - readr
 plotFamily: grouped_deg_bar
 preview:
-  bytes: 228900
+  bytes: 139600
   mediaType: image/png
   path: preview.png
-  sha256: 330065ac7db01c7b97e6ea7d84356613f552f2e8f8b08006349ddfa2a38926c3
+  sha256: 3cee381a91aeacd056947265ef3293f2d86ae616bc78bbfaae0a93380df4ec60
 provenance:
 - note: Prepared from the reviewed Local Published entry nature-deg-grouped-barplot; internal Library state is not distributed.
   type: local_published_cleaning
