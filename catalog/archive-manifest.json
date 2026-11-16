@@ -18,7 +18,7 @@
       "sourceCommit": "c40c3c71a0038f2c92261d56a13797768190bd99"
     },
     {
-      "bytes": 73850,
+      "bytes": 62464,
       "file": "archives/bar-jitter-errorbar.zip",
       "files": [
         "README.md",
@@ -31,11 +31,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "bar-jitter-errorbar",
-      "sha256": "f1fe57f1f8c50b40e9efe46c89e1011f3dbe37bffdc93cbbb8dd8fdede67f9d0",
-      "sourceCommit": "8e7251504af94eca151a4c92d17bdbe706d3515d"
+      "sha256": "b9481499893aa789524ff60565c64f84367e100178cbb6c67ebb0a4087669903",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 101929,
+      "bytes": 160198,
       "file": "archives/batch-boxplot-signif.zip",
       "files": [
         "README.md",
@@ -48,11 +48,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "batch-boxplot-signif",
-      "sha256": "c7cff958324568b4acb5a53fa9047f1b22a45503e40f23f789c674d5eee611a6",
-      "sourceCommit": "42eb4b07dfe40ea02cdb05f164a819a0ae9d6cc2"
+      "sha256": "3e6350fd89bbbe865bee31f68b075a198eb1c61ab8f40fc0215b734824518025",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 151441,
+      "bytes": 222509,
       "file": "archives/batch-scatter-fit.zip",
       "files": [
         "README.md",
@@ -65,11 +65,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "batch-scatter-fit",
-      "sha256": "a5c8fe3a89f917d68def651a4486cc95a07964cc2728eabd7b6d60bbdac66683",
-      "sourceCommit": "cc0de25b6ee7319fc7f4685c877bbb08626f66a3"
+      "sha256": "898c27c368221a834d9a434e4033a21f092531382c7db3fa52f00c674928d68e",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 140913,
+      "bytes": 140825,
       "file": "archives/batch-scatter-line.zip",
       "files": [
         "README.md",
@@ -82,11 +82,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "batch-scatter-line",
-      "sha256": "3b4088b935aea2cb61ec1d308498c3220937ec9a6a0a29f61773f05f9d8aa962",
-      "sourceCommit": "8f698ed9ac2857772178d398d38ad287b011e5c7"
+      "sha256": "dccc0e0341c1b2e135e1bed1ed86bffe5a3c12b6bda81467c6b33f536f7597a7",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 285528,
+      "bytes": 129786,
       "file": "archives/batch-volcano.zip",
       "files": [
         "README.md",
@@ -99,8 +99,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "batch-volcano",
-      "sha256": "c13796bbdfebb34cbea7197c8f113310115b63e205e7c6c9a8111dc2477b0075",
-      "sourceCommit": "e960366f834198f9565ebc06a7ed77e5da59d3b6"
+      "sha256": "d74cdea2ea5dc8f29c01ef75e8e691fe3ddd552f5ed6cec3fcdee2d08da336b3",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 54996,
@@ -120,7 +120,7 @@
       "sourceCommit": "ca8db9ab2bc29e467d1e67601b3242533cfcedca"
     },
     {
-      "bytes": 990694,
+      "bytes": 1127220,
       "file": "archives/binned-density-correlation-matrix.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -138,11 +138,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "binned-density-correlation-matrix",
-      "sha256": "9fc944d7705cc256d1e45641533208d00f070871414b0c01eca65e0fb0284f64",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "89cea8e4e69d3a8fff260e8efbe6d0d15c4553fd8786717a440052741d4672a0",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 93884,
+      "bytes": 60464,
       "file": "archives/boxplot-heatmap-annot.zip",
       "files": [
         "README.md",
@@ -155,11 +155,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "boxplot-heatmap-annot",
-      "sha256": "77f8d56d75d089d7bc3c25ae749820d5f2d847bff83672102ac5c8c84005823c",
-      "sourceCommit": "78e81e3d1d2ad6e7f52c487e21ab653ed12e6c19"
+      "sha256": "9dbc6c4db8e5b54cbf29697c438f2ffd470281101cfb1c440a49937891f377ef",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 228557,
+      "bytes": 160436,
       "file": "archives/boxplot-jitter.zip",
       "files": [
         "README.md",
@@ -172,8 +172,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "boxplot-jitter",
-      "sha256": "61cdd200aea02bde95a557a6ed9dd5cc5e69a72f3e45026ec1ef5b78096ef9ca",
-      "sourceCommit": "2e2079b13266f3f46f26efe51ccca462a3f036fd"
+      "sha256": "ca7eb0bc6da5406d6ceb1fc0ae7219e9cd3f2be79cf1005b7876b435a47f32a7",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 104371,
@@ -193,7 +193,7 @@
       "sourceCommit": "260ffb3bcf61701f6895f2737a7f6966f3874a9f"
     },
     {
-      "bytes": 181012,
+      "bytes": 149220,
       "file": "archives/bubble-corr-heatmap.zip",
       "files": [
         "README.md",
@@ -208,11 +208,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "bubble-corr-heatmap",
-      "sha256": "10f5903d78622eed4c6bf9ba98ad37912738de04f8c8a1aca6b0a830c2f5e6e7",
-      "sourceCommit": "364e69a22a2da0dc517a336c95446459385be061"
+      "sha256": "eb3d6b12c460f1ca44ea1087c7f0ced8cc78b416c1afb82950de008452edb734",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 337765,
+      "bytes": 295047,
       "file": "archives/bubble-matrix-grouped-counts.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -231,11 +231,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "bubble-matrix-grouped-counts",
-      "sha256": "27834f3ce57269c41219aa76d34f56a734a62e03db5be06e235bc524a91c4b53",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "6b6cd8465ce55a53b3d612b0146c3a9ea3acdf29c67c17f3c7eca1ae4282f743",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1188239,
+      "bytes": 994082,
       "file": "archives/bubble-regression-enrichment-scatter.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -259,8 +259,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "bubble-regression-enrichment-scatter",
-      "sha256": "ccb2197a36f837657dfa3bff3503932519508643862ac5ab8fc2ab95b6c6299d",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "06ca5353f63eeab6b3b3483a8313c0fde36a63fe1b5f1919375c44bbfe525be6",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 424716,
@@ -283,7 +283,7 @@
       "sourceCommit": "1f7a3d857126f57a286a6d697bd474971b80f981"
     },
     {
-      "bytes": 293426,
+      "bytes": 232020,
       "file": "archives/cancercell-pathway-nes-heatmap.zip",
       "files": [
         "README.md",
@@ -298,11 +298,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "cancercell-pathway-nes-heatmap",
-      "sha256": "c77c8c1b992b52faf6c36b47ddc45ba2455629094f2f671d4b916e34c322ff19",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "23eba636dd73d4d6e027b743616a9027ea9e2b0fddecb38894ddde8e611fc60e",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 682911,
+      "bytes": 521996,
       "file": "archives/categorical-circular-heatmap.zip",
       "files": [
         "README.md",
@@ -317,11 +317,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "categorical-circular-heatmap",
-      "sha256": "ea0fa0cab880f2c96eb4678d4bf91306b875af153fc01b69b797d6dbc84fe2e3",
-      "sourceCommit": "37c193aecd2e2d4a6e19916412756046d7f42336"
+      "sha256": "f5800520f22b5a347412e40d756921d441081b52d204a7dd91d0b832ab68a7bf",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 271134,
+      "bytes": 249730,
       "file": "archives/categorical-scatter-marginal-histogram.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -340,11 +340,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "categorical-scatter-marginal-histogram",
-      "sha256": "9de7f76a71a37450de4d33a03fc41444d398cfc34d854d69aeb5f65f82913db2",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "a562d21e08cf44a1e7235b30804bf20d3237be6e36d0f5d475944f205b41a630",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 473878,
+      "bytes": 424882,
       "file": "archives/cell-fig2h-volcano-go-combo.zip",
       "files": [
         "README.md",
@@ -360,11 +360,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "cell-fig2h-volcano-go-combo",
-      "sha256": "8dc01e59c527db3cc0e1802d29dc0e02e167789c3964f0830e4ee197faa62679",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "438b5b4e8d92ac964f30ad0a5455c733840dcc03cad31402d1b4824a602d083d",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 3631812,
+      "bytes": 2701533,
       "file": "archives/chord-region-outer-bars.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -384,11 +384,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "chord-region-outer-bars",
-      "sha256": "1ead98c766cbb5b64065d755f57ea55ed3ad6a5b8080ae8cc3c5c82039f68aed",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "284156dbdc80a3a2a9d6e3cf9c98b234ff8d555d313d169cde8c0e4c56755b34",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 746491,
+      "bytes": 421960,
       "file": "archives/circular-expression-heatmap-upset.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -406,11 +406,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "circular-expression-heatmap-upset",
-      "sha256": "5c4773a114343f4bbb48d1634f6e4d1d31804361846b71fa874ffae239b2d48f",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "7b34f2f244fa87d35dd0f91fbcf0ebd692f14882843a4a3594a5711be4ea5133",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 797335,
+      "bytes": 460011,
       "file": "archives/circular-expression-heatmap-venn.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -427,11 +427,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "circular-expression-heatmap-venn",
-      "sha256": "de2edd8a244ac75f0e59307f49ed8f943aa2bfd26edd63f4ccc67ee6e7182195",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "913a361e5c30d2b4799aa5f31758b8bd1071c58c7cf0d19e322178a9fa77ac79",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1864735,
+      "bytes": 1473575,
       "file": "archives/circular-gene-heatmap-venn.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -449,11 +449,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "circular-gene-heatmap-venn",
-      "sha256": "ba8656a9607d3f64d108dd9b941d74ea98a2a4b9ca945e66144a47b39c55f639",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "35bb92d2f74269587b2a2f7870b732db0361ca5ebb841baf389ba750c2c3d8bc",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 971242,
+      "bytes": 808469,
       "file": "archives/circular-grouped-gradient-bars.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -472,8 +472,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "circular-grouped-gradient-bars",
-      "sha256": "81c432859cb671bbaebd8763067af02a8a513e5a76a455fc85aefbb9c03fdbd9",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "94ab777c06f1f1d7e8a675ed5d83b3d5b5041afa0a056509d16953c2be3f5384",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 162199,
@@ -493,7 +493,7 @@
       "sourceCommit": "c16a67a9314ae856d777ed7c955c46024b9db89e"
     },
     {
-      "bytes": 879977,
+      "bytes": 652283,
       "file": "archives/circular-heatmap.zip",
       "files": [
         "README.md",
@@ -508,11 +508,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "circular-heatmap",
-      "sha256": "33a96863371a28acd840ba4b6e75cb7f04161f37d113790191a7a981afe83c98",
-      "sourceCommit": "a6dff2f4b11c4227dce8cbbc8055e43784fbf303"
+      "sha256": "ec84e1a1bd75939c94fa12d5e3d5d597176849cc8d50acdb07664302b0dd0cea",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 2204458,
+      "bytes": 848604,
       "file": "archives/circular-interaction-network.zip",
       "files": [
         "README.md",
@@ -527,11 +527,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "circular-interaction-network",
-      "sha256": "ddfd9b76ee2c40268ecddb3e9d88b491e8de304402becb95f3dafbfe81d4f51f",
-      "sourceCommit": "f01061ae2e3a7ac51c74638aa0660e6bb254d54d"
+      "sha256": "87c847b6575deac496ba4c8837ae58afb7252fe1845ecc456bf4b1f50174a852",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1109676,
+      "bytes": 596955,
       "file": "archives/circular-lollipop-shared-links.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -548,11 +548,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "circular-lollipop-shared-links",
-      "sha256": "7200100d6f313e889d6e22e208709d9548e72debb178f5f80b0981ab7a58fb29",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "11395d39a7d49c611cfc5b668b7935181a72f56f5a1fba35a0946f97c9c77ec4",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1600919,
+      "bytes": 1254466,
       "file": "archives/circular-phenotype-bar-line.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -571,11 +571,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "circular-phenotype-bar-line",
-      "sha256": "a37fef005627ed88219a4c46baa16e5539e87cc14ba9fe91f1a07d64204ad529",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "f1e66420065076636548fa4a6b12e22e72a55f2cb62078008daf0016f9bdbdba",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1911024,
+      "bytes": 1704372,
       "file": "archives/circular-ranking-continent-pie.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -595,11 +595,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "circular-ranking-continent-pie",
-      "sha256": "d6801461d73d6ee661a5cd33b26b0fa67ce8d70809f0264743884bb328f34cb1",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "c864ee709d0917711b7d5133eadb0932cf7e1a86753886a2eb7bd07c5c739edc",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 684755,
+      "bytes": 488186,
       "file": "archives/circular-scatter-heatmap.zip",
       "files": [
         "README.md",
@@ -614,11 +614,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "circular-scatter-heatmap",
-      "sha256": "e686adc5927322d9aae03b2d867154f24fe66ec97a3dc01e2f54b58345f32df1",
-      "sourceCommit": "b7715f2910b7b362ee6ceaab56940d6c90cdf482"
+      "sha256": "8ccedd8cf8b43881cdf020137721d867291f12034302ca444ef1496a734088cf",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 313347,
+      "bytes": 176276,
       "file": "archives/class-log2fc-bubbles.zip",
       "files": [
         "README.md",
@@ -633,8 +633,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "class-log2fc-bubbles",
-      "sha256": "5a928e25520b1d0098133161c7b9d364570f8b6e914d85c77b459041d3b39163",
-      "sourceCommit": "c66b47f24b35bb8558df726132faee48e8d5364d"
+      "sha256": "87bb49691a2476c93b655bf23e608e514caa36e1e06b5b7e7edcccadf78d376f",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 192611,
@@ -654,7 +654,7 @@
       "sourceCommit": "21935487292c29d2ed9f1e857a1f29c33ae31d9e"
     },
     {
-      "bytes": 59279,
+      "bytes": 88542,
       "file": "archives/clustered-heatmap-annot.zip",
       "files": [
         "README.md",
@@ -667,11 +667,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "clustered-heatmap-annot",
-      "sha256": "660137b93a3a683fa11e57e4633ca3856a95d0e83c5ffb202d8dab15071a0879",
-      "sourceCommit": "c42dfb086a86335b15c67cc76b89c04c1683235f"
+      "sha256": "9dc9fcdf7ab9bd8baa3225a850098a2d228d619c90f99d382f4ea31e53382163",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 543955,
+      "bytes": 292895,
       "file": "archives/clustergvis-deg-go-kegg-combo.zip",
       "files": [
         "README.md",
@@ -688,11 +688,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "clustergvis-deg-go-kegg-combo",
-      "sha256": "0727e202b251faad7c6858a1b1de2e018d58d827a40c04ebeabf63da1374f08e",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "971fd3991dcd599e5460e948a51a40b18c52fb8d979b0abe731b44c097f38ab0",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1471397,
+      "bytes": 886577,
       "file": "archives/cohort-circular-multitrack.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -711,11 +711,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "cohort-circular-multitrack",
-      "sha256": "fac9bb5f8188e1e217c99c1e5e2fccbfa8c1ff4fbf9732d6a652c01f3053e554",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "765ff6c74be16063e23446037600cbe7237082bb346bc772d1061d07e5e8bd56",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 143614,
+      "bytes": 178892,
       "file": "archives/colocalization-matrix.zip",
       "files": [
         "README.md",
@@ -730,8 +730,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "colocalization-matrix",
-      "sha256": "196173236db89961fe31179d935c4100b51af2df0508427fe3f33a23427b21bb",
-      "sourceCommit": "c2ecdac376afcd052cacde302c94e48df158dabf"
+      "sha256": "bef6f3800a861dec3c533c7cc236e0e1041b00da4d1d315b2b3516c36bb91d87",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 92016,
@@ -769,7 +769,7 @@
       "sourceCommit": "9ec656250fc971abe4662c8d999fcc44afb9a98e"
     },
     {
-      "bytes": 1082019,
+      "bytes": 429421,
       "file": "archives/complex-network.zip",
       "files": [
         "README.md",
@@ -784,11 +784,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "complex-network",
-      "sha256": "f9d5b34d794db123ecec6b1a06ccd872fb97fdd2a0a2666b2b71fbe56d43a4e1",
-      "sourceCommit": "77ea9a4d2fb31f68a1130cbade79d3520dcaf0e4"
+      "sha256": "43eebfed67f50ddbfd40096fdcc043805b7e8626ba552b9eea30400c68095e13",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 56131,
+      "bytes": 79035,
       "file": "archives/complex-percent-bar.zip",
       "files": [
         "README.md",
@@ -801,11 +801,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "complex-percent-bar",
-      "sha256": "bc0975f9850659ef2814e72a36ed492c4992e283876f15c1f93e5fd7fb26679c",
-      "sourceCommit": "12baa605eaca5ca5b2ab9c63bda4378afd5a5c71"
+      "sha256": "7838ca6dc219b0a7f431f481b39bebe0d84ccebb772ead5917ed72638487d878",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 316978,
+      "bytes": 314487,
       "file": "archives/complex-violin.zip",
       "files": [
         "README.md",
@@ -821,11 +821,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "complex-violin",
-      "sha256": "f21f88f9da4e8f2fd7a591470cda8406fc1b2aa9a4f945dfe15d6f782d8777f0",
-      "sourceCommit": "c3e36a3f7c1af384660eb374f664a3338b308cfe"
+      "sha256": "a362829c1e24ebe7071822cfa8a7a18410511e78bcb552258a2ecbca9c75cb66",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 7643058,
+      "bytes": 5071226,
       "file": "archives/cooccurrence-network-zipi.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -848,11 +848,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "cooccurrence-network-zipi",
-      "sha256": "a44c3ce023d96327961ac7d397222753747f66f1c2c2c0c52ec423e86cae9587",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "068896674471c0d5b7dec9e6aff24acb5dbc6ffd049fc75d1cac4f785f90c537",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 5183185,
+      "bytes": 4998935,
       "file": "archives/correlation-figure-case-collection.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -907,11 +907,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "correlation-figure-case-collection",
-      "sha256": "516517fe3fa31ba83de6dfc314d278046fe640323f0cce10092b8ec93dc55683",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "be359260d51a155b0574edc31dc9adf3d7b25a055cdbd42d4252145c631bddfa",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 865074,
+      "bytes": 440619,
       "file": "archives/correlation-marginal-group-summary.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -928,11 +928,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "correlation-marginal-group-summary",
-      "sha256": "6dc7d203b6a6374c663f983dd341fdc69a88e59c4708645fd21f17db77654138",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "fc0082979e725ce96292f3e8817f79d0cc7b4f1057eaced1ee468b64c69bdb5b",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 978568,
+      "bytes": 496106,
       "file": "archives/correlation-matrix-marginal-bars.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -949,11 +949,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "correlation-matrix-marginal-bars",
-      "sha256": "21210721bf131b15a8397d8b4b2f8cd4be7b6aa3974fd574606e9330ac9a35da",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "030be1e4a75096352cbdb3e1e21693bb8b77fb39fca7973fcf70ce9557624257",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 774024,
+      "bytes": 629502,
       "file": "archives/correlation-significance-dotplot.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -972,11 +972,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "correlation-significance-dotplot",
-      "sha256": "0644ad639d5c5eb5818cd6301af272cd96ea080a1de6c9dda9682370e5061667",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "ce54b7953cd7f5b782480932c379eb185b3c5955c2b3abfea35e6bb7cb137898",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 348954,
+      "bytes": 271068,
       "file": "archives/correlation-volcano-enrichment.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -995,11 +995,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "correlation-volcano-enrichment",
-      "sha256": "57a464c84cb0e302243f257e44246c5ba4203e1c7701d8decc493c51f83ea135",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "533a2f552c900f4e971f472594bdc9f56d169c6652d7d11d00f6d2363a984eaa",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 229973,
+      "bytes": 308853,
       "file": "archives/custom-sankey.zip",
       "files": [
         "README.md",
@@ -1014,11 +1014,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "custom-sankey",
-      "sha256": "2f16d631351882ce6408e83b184c005f1df88a2abf5bf7f3d0b9d4aaa36cc0c6",
-      "sourceCommit": "19eec0fee58a9ec35c2a80c30700b3bab6a4ca30"
+      "sha256": "7fc234593f46d1c344407df47eebb9307c172b702d63d0f4d16531d99dc5a396",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 579598,
+      "bytes": 362913,
       "file": "archives/deg-heatmap-go-panel.zip",
       "files": [
         "README.md",
@@ -1036,11 +1036,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "deg-heatmap-go-panel",
-      "sha256": "4c34970f9b44715aeb8682af576356dc130f35fcbc0f1dab68b3b8a81b223907",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "8302897ac001e2831d42d6c78bdb290cb8f8a8a04715cb7fbd1cd7fc637477cd",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 899693,
+      "bytes": 867254,
       "file": "archives/density-contour-conservation-scatter.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1063,11 +1063,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "density-contour-conservation-scatter",
-      "sha256": "6ff427f922c3d4ff8dae893a1dc86b7decbf1f2ecdd33aa0736cdbd49c311a72",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "1255e380bb13a2be134920f573ccda3b8aea949ee2963ee9dfe0862d97d962f9",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1571165,
+      "bytes": 1310794,
       "file": "archives/dual-cohort-bubble-triangle.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1087,11 +1087,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "dual-cohort-bubble-triangle",
-      "sha256": "af3725bc8bdf7eb7d9f7e5ab53577c30f40ee151f18525e6ecce1d36d706a048",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "a897e421b991b0fc3d5e1a83c48283cebd2a6c2bc0d09ae450a4ade22ae1f5aa",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 230396,
+      "bytes": 228919,
       "file": "archives/dual-cohort-clustered-triangle.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1109,11 +1109,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "dual-cohort-clustered-triangle",
-      "sha256": "bec520a9ed2e2ac880362f182c9d9d460d0d6eb2ceb83cf7860f30485aa338db",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "f3b4011a538cd34ea88e27ffd34640c4ab47f6fcace2659eaf5d45645a8fe337",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 170954,
+      "bytes": 162936,
       "file": "archives/dual-cohort-triangle-clustermap.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1131,11 +1131,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "dual-cohort-triangle-clustermap",
-      "sha256": "353bcba92d1c712b2a6b3ed45c4bddb4760c22a867a827fdc2751277cdc3da8d",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "8770f5463387e7e26c10fd1cfe894533ed98b69cd6d996537ddb6d4a57d1b01e",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 701973,
+      "bytes": 718422,
       "file": "archives/dual-comparison-significance-scatter.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1153,11 +1153,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "dual-comparison-significance-scatter",
-      "sha256": "6f87207d3f0a52c2382594106993bcbaa41eefaf158e305119015729c96d66c3",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "681e68662ccc289bda9b61ea5e77476a4d15f802df5dde92e0e361baae24085e",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 105444,
+      "bytes": 105459,
       "file": "archives/dumbbell-plot.zip",
       "files": [
         "README.md",
@@ -1172,11 +1172,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "dumbbell-plot",
-      "sha256": "efa82fec154fc70b8526da88e31a2dcf73be62afae80614f23d29a34c7f86acb",
-      "sourceCommit": "4a5cc76ba88a47c7c36488928a28242283b95720"
+      "sha256": "af95854d0141583c15f45f2c880f03b116ea98a015f31a63df54e351a0f722ed",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 655893,
+      "bytes": 639129,
       "file": "archives/enhancer-activation-repression-heatmap.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1198,11 +1198,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "enhancer-activation-repression-heatmap",
-      "sha256": "d8de6cae602df29535f25526fcbcafa3b97583a796a11b1fe96acc0a61ebc219",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "aad53b94c4b2d7d7dabf36700f7e968a4f28339334c86ebe273b9a062b3f0115",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 369610,
+      "bytes": 149100,
       "file": "archives/enrichment-circle.zip",
       "files": [
         "README.md",
@@ -1216,8 +1216,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "enrichment-circle",
-      "sha256": "33936b324f8c1959f5ec78f75102516c2d8cb288fd0aa010702837fe97454cc1",
-      "sourceCommit": "533ccd6bbbc7892a71702cae8793cab7520296d4"
+      "sha256": "5484e55a89fd67fe96e04dfd7932fdfda3fa41b7464e16de7a2becb596c0573b",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 90654,
@@ -1239,7 +1239,7 @@
       "sourceCommit": "53b1423e0ad01bf0b39c6ce517139756f92fabcb"
     },
     {
-      "bytes": 47171,
+      "bytes": 41411,
       "file": "archives/facet-bidirectional-bar.zip",
       "files": [
         "README.md",
@@ -1252,8 +1252,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "facet-bidirectional-bar",
-      "sha256": "fe8f5d2d9497d3af1ea31aaa5beadd6980d8fa944fdb6d4cf45e4a89c0a6b64f",
-      "sourceCommit": "34e0718f62ce2638cd603ac8823a4ee65a9e8641"
+      "sha256": "3a4de8c7820604455dc529a42e189de4eab695c88c2f6d167d0ef66e50c96cef",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 92052,
@@ -1275,7 +1275,7 @@
       "sourceCommit": "1997f43284aea274f90f51daf08a8ed4830c2219"
     },
     {
-      "bytes": 648625,
+      "bytes": 538395,
       "file": "archives/faceted-scatterpie.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1296,11 +1296,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "faceted-scatterpie",
-      "sha256": "c7c66863c87a13dfc26cc63a89b2820bd68f2d0739021603130a8cf29ed06a05",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "1389cfa7472c391cd309b4ebbbc185afd7d6ae347094fa92f382c7d312bc40a5",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 556795,
+      "bytes": 536723,
       "file": "archives/fold-change-concordance-scatter.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1317,11 +1317,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "fold-change-concordance-scatter",
-      "sha256": "31ad8e058e68636145609181ed8554f6e490f4287c8ebbde9c64c4a3da4fa295",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "712f591d827e571987f061244198b2773323725c03144720ebf96894bfd05ec4",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1121760,
+      "bytes": 913916,
       "file": "archives/fold-change-quadrant-scatter.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1339,11 +1339,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "fold-change-quadrant-scatter",
-      "sha256": "010964804be0f3eebd6f32e38758893a4ed27470aa721418237a698ed49889cc",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "20bcf44c5bd3c56fe30021f26b230a2e4352baea569d80e1894c93644dbbcdf2",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 186865,
+      "bytes": 142346,
       "file": "archives/fold-change-significance-heatmap.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1360,11 +1360,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "fold-change-significance-heatmap",
-      "sha256": "d133e060e66e9bfda0f5fde8f842650566f42e22f9420b3da3140b4e62ad4547",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "a6b2aff1912e7566d406bb6449ee26e4cfbb0ae31940d15d581e1548edbd6300",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 215257,
+      "bytes": 197699,
       "file": "archives/forest-effect-dotplot.zip",
       "files": [
         "README.md",
@@ -1379,11 +1379,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "forest-effect-dotplot",
-      "sha256": "7fd7b4fc5866845e1c6263e07a1905f17ce303c0864f06c5bfbb63cc3b607606",
-      "sourceCommit": "c60e026b1774bfece059ca275f739d522e870d11"
+      "sha256": "54160574e09c0088201dbf5f16e25622f386d9c35c9d8549c18c16a91783786a",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 186502,
+      "bytes": 163445,
       "file": "archives/fusion-heatmap-bar.zip",
       "files": [
         "README.md",
@@ -1398,11 +1398,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "fusion-heatmap-bar",
-      "sha256": "c035feb11a2b389bd8d9d5c5653ba61c3db3b6ce779c7fa2e87dbfa7992aa884",
-      "sourceCommit": "1cd0d48a0c8b7ed3ef9e7d9319a85e89556c62d8"
+      "sha256": "e2b0d338a4b45f28bce832357638d1f53c52011f599e7b51056c6ade2a8d95b3",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 189087,
+      "bytes": 145350,
       "file": "archives/gantt-survival-bars.zip",
       "files": [
         "README.md",
@@ -1417,11 +1417,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "gantt-survival-bars",
-      "sha256": "477fbcd422c07be4f059f09cdf029dfc4f108f4308e40e02f5992155cd86b6cb",
-      "sourceCommit": "b144a79faba6edec85d4fd8db58b566f09cb9c21"
+      "sha256": "b13376733f0171a814ad6a34b961db8c3ca464f9ada5b6f052e7f03f36a194b8",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 603884,
+      "bytes": 170117,
       "file": "archives/ggsankeyfier-layout-color-combo.zip",
       "files": [
         "README.md",
@@ -1440,11 +1440,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "ggsankeyfier-layout-color-combo",
-      "sha256": "4e72d136b0d4d603fa0973ce217d6b3a36749eda02a8ec1521874008f295bd59",
-      "sourceCommit": "7fa4e210e3283efea0250e73b43e139c941b478b"
+      "sha256": "da1bdfd8824d6a91fd23a904c07d01ed053e8cdb0b6be68109a7efbc56cb0301",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 548672,
+      "bytes": 256784,
       "file": "archives/ggtree-ch10-abundance-boxplot.zip",
       "files": [
         "README.md",
@@ -1457,11 +1457,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "ggtree-ch10-abundance-boxplot",
-      "sha256": "e1018dc3d18e3f9c77185f9026feb8da145b4f8f3c4ae2f160924d6a7fa38f18",
-      "sourceCommit": "8760a8e0d27caf3b7d29c94f7a491a4ab4bf59e6"
+      "sha256": "47114fae115602038665087f0461629c243b438216bcc1eedac6640dac54bdf2",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1183937,
+      "bytes": 318600,
       "file": "archives/ggtree-ch10-cauris-resistance.zip",
       "files": [
         "README.md",
@@ -1474,11 +1474,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "ggtree-ch10-cauris-resistance",
-      "sha256": "c534513100408e95b168fd39dde45f44e3796348373c8c27fd8ba30113de74c8",
-      "sourceCommit": "4a33c2e8058fa238167ded8d98e9152c423e516d"
+      "sha256": "6585a05fcb3233ff47f94022b6f7bf049d04d266c9493427e079472495e1d076",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 313319,
+      "bytes": 195122,
       "file": "archives/ggtree-ch13-bootstrap-points.zip",
       "files": [
         "README.md",
@@ -1492,11 +1492,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "ggtree-ch13-bootstrap-points",
-      "sha256": "6fb6088121e2ec71f68342964b7424db487660221dd1cd8d9eb32d0b70646fa3",
-      "sourceCommit": "3186719adb02bd95e58e4b7447136e09e1ce1c35"
+      "sha256": "8a9af67862cf59a0e282d39ec623a89895fabdbaa86da325eedb30e65e1d8adf",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 732773,
+      "bytes": 383700,
       "file": "archives/ggtree-ch13-ctldcp-circular.zip",
       "files": [
         "README.md",
@@ -1510,11 +1510,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "ggtree-ch13-ctldcp-circular",
-      "sha256": "7c2515a90ad6da9b724bb118dcc4a3e83c1775e9e06dd368c2f5ca05885f19a6",
-      "sourceCommit": "50b27565c2707893c42086bded35d667d2c5d7ff"
+      "sha256": "426910e0cb05eec9fc393f8e7dfec63b5346ad14ba9a64b44a51f554de0e3ee4",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 192781,
+      "bytes": 114812,
       "file": "archives/ggtree-ch13-genome-locus.zip",
       "files": [
         "README.md",
@@ -1529,11 +1529,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "ggtree-ch13-genome-locus",
-      "sha256": "4e59f59714a46c150fd68af66168ce19934adc1a6805eaddfabc65d8fed023ed",
-      "sourceCommit": "ffd8d0fdfbfbd4aafb5b2d9af96e208d40f95ccb"
+      "sha256": "46ea6b384fd45fce7f2c18d6912d9c03323d24bc8ebe7bfc785b26746742d6d9",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 3996141,
+      "bytes": 940630,
       "file": "archives/ggtree-ch13-hpv58-distance.zip",
       "files": [
         "README.md",
@@ -1548,8 +1548,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "ggtree-ch13-hpv58-distance",
-      "sha256": "435338652a7730527049ce15d03371904d7794b5c03aac4df7841ca5df2703ab",
-      "sourceCommit": "649961e6cbd66bec676530e6ac927e539208ed73"
+      "sha256": "2ff39eae708e9f648e6a54334bec062a79c1b6d3ada5fdee3389772469c5a7aa",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 227871,
@@ -1569,7 +1569,7 @@
       "sourceCommit": "d06ef2146736fcb5cc200f6e37614c4d5a8ed4c9"
     },
     {
-      "bytes": 959042,
+      "bytes": 304548,
       "file": "archives/go-enrichment-comet-combined.zip",
       "files": [
         "README.md",
@@ -1584,11 +1584,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "go-enrichment-comet-combined",
-      "sha256": "718966238e237af74ee7d453ac091570de46f80481ee8857e44b354a0faf0480",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "2cfb1d09332376d2724a2ed6913f3100dc4dcca9cd4a7b603fab3fe1b1972dc6",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 840532,
+      "bytes": 279830,
       "file": "archives/go-enrichment-comet-facet.zip",
       "files": [
         "README.md",
@@ -1603,8 +1603,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "go-enrichment-comet-facet",
-      "sha256": "03b410e9fb5d43813fff18fb78661e46cfabce5a97a4b1c1642af4c7e897d1a0",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "aad3f2358a1be34114e9ad2ed3e50b78a42b14f72790dd4700a3ebcf62f8da49",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 72960,
@@ -1660,7 +1660,7 @@
       "sourceCommit": "e3390eb0bffc9d0cfa0fefac189e9f49c2928414"
     },
     {
-      "bytes": 1280752,
+      "bytes": 758729,
       "file": "archives/grouped-jitter-volcano.zip",
       "files": [
         "README.md",
@@ -1675,11 +1675,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "grouped-jitter-volcano",
-      "sha256": "4ac9c4a093277e3b8ff32b3bc6514e8612c138ad66de0eff615273c7e674782a",
-      "sourceCommit": "4ce5012c7299a5134c90ad4e7152ac38b770ff12"
+      "sha256": "9273a0bfd91bc287b3b8cb464930e1c7c7510d0c5e7509d6b52e662ff1ec32e0",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1553021,
+      "bytes": 1216629,
       "file": "archives/grouped-scatter-log-linear-fit.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1702,11 +1702,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "grouped-scatter-log-linear-fit",
-      "sha256": "6abd7aafbd870d89f08a4346acc8289ac9b800ac7bd46686b284f10268c0cb21",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "3f550661c8e20ca82bd9dd1dcddf2c811b0c4989f8f0f016c92837e8cf424ce5",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 210839,
+      "bytes": 209875,
       "file": "archives/grouped-scatter-two-axis-errors.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1723,8 +1723,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "grouped-scatter-two-axis-errors",
-      "sha256": "1eea8d2561f626dfc24b35fa61ac856b1c4882a97972e2744875e66bdd1e5430",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "fc4cb94c597bd7e99d5f512794d21b11246e41ff8df4b97dcd907667fa89b7f6",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 80934,
@@ -1761,7 +1761,7 @@
       "sourceCommit": "2f1627ae4420447eb5afeb9d1e1552bc735a5c87"
     },
     {
-      "bytes": 274242,
+      "bytes": 217844,
       "file": "archives/hallmark-gsea-nes-ranked-scatter.zip",
       "files": [
         "README.md",
@@ -1776,11 +1776,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "hallmark-gsea-nes-ranked-scatter",
-      "sha256": "aa49d503dceb1895d0e39da6d1bc5ccc6a1a010775debfe0132d33813f02531a",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "796ae4817303802eac3c216b4c1b7522ddfda5f35e7e5d9429b9d71a7922452d",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 515021,
+      "bytes": 425351,
       "file": "archives/heatmap-gradient-links.zip",
       "files": [
         "README.md",
@@ -1793,11 +1793,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "heatmap-gradient-links",
-      "sha256": "f8b45960ad95380e9efdc0a0f5efd1dd14ee2540ff64100b21daaca1015ca069",
-      "sourceCommit": "17c15eb65ed1629a4a36626cf1b5d1030cb54d67"
+      "sha256": "d0a372d8d8435ed988932248e246b35bbf36bb7e0adca5e8aee5e5fe49457df4",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 246124,
+      "bytes": 172604,
       "file": "archives/heatmap-local-zoom.zip",
       "files": [
         "README.md",
@@ -1810,11 +1810,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "heatmap-local-zoom",
-      "sha256": "73ab326440e728507e90157489b5fb4846816094f7218057bf96621bb821b23e",
-      "sourceCommit": "57779bac576ac457c3bb9e6c05aed227c86c57be"
+      "sha256": "222e941931ab24b3790ff9a7a2d87a1c1d1454b3ea214d4da69e97e26b5b5bef",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 757130,
+      "bytes": 546901,
       "file": "archives/hierarchical-sunburst-tree.zip",
       "files": [
         "README.md",
@@ -1829,11 +1829,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "hierarchical-sunburst-tree",
-      "sha256": "62690cae03b4585ef23270cddc474b1cd6b53729f75099ca1d9f56b3c6f0f4b6",
-      "sourceCommit": "9f5a02c0f7d6d3b53faf2c68b148d78f50b8aae2"
+      "sha256": "181e8692a900875672b94c9d2d376c89747634913825b287759f10e2d008e723",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1348439,
+      "bytes": 547684,
       "file": "archives/hlca-scib-integration-benchmark-matrix.zip",
       "files": [
         "README.md",
@@ -1848,11 +1848,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "hlca-scib-integration-benchmark-matrix",
-      "sha256": "2b5e002fbbb28fba4a1e93dcd4193394532cfb4ecf9cb46defff6a4d6d9ac6f2",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "6adc94720ee299ad1e58c9ba8250f1b17ebfab294b8530d8d866a578b98f1f13",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 880897,
+      "bytes": 727526,
       "file": "archives/hyperbolic-volcano-highlights.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1873,11 +1873,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "hyperbolic-volcano-highlights",
-      "sha256": "3b4486cb0d3c5985ae217a1539b4fe8308063a64b0a3efc734a7915e22b53e83",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "b8ce5f3645ff828a6a080f262b220cd8469709bca582aa1a9ae28b0ecae0817d",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 90347,
+      "bytes": 154984,
       "file": "archives/interaction-network.zip",
       "files": [
         "README.md",
@@ -1890,11 +1890,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "interaction-network",
-      "sha256": "d04eb1740a117ed800bfdaad92bcb388355f3693fa120176cca9737834d87d03",
-      "sourceCommit": "f1d7dbfdafa5d0a9452ed14ce71be36b34f6e994"
+      "sha256": "c3d921adb8a127882721667616e1e31e039b122f14a5460e4a2b47533bb3c09a",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 435269,
+      "bytes": 276449,
       "file": "archives/inverted-correlation-dendrogram.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1912,11 +1912,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "inverted-correlation-dendrogram",
-      "sha256": "2e99fbda50db0e814227cc95d90fa9baa5e8ce96991ec5a9b03c6a8012f97959",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "512b6459a3856494f94892b2158e2f731de522b0b575e61e79feac39be387da2",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 492787,
+      "bytes": 271100,
       "file": "archives/inverted-triangle-dendrogram.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1934,11 +1934,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "inverted-triangle-dendrogram",
-      "sha256": "e173163d7a1402102f7dea68715f9b20645265fbecae0fd21a4c99cab6fd2923",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "36fada69401fe44712c478f41ca1f727abbce27bd23a0f98655fb12a61e41d7f",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1558411,
+      "bytes": 832078,
       "file": "archives/inward-circular-abundance-bars.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1955,11 +1955,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "inward-circular-abundance-bars",
-      "sha256": "75f573f642d20069bcbdbca620cdd4da720fd923f36ac79d8df05b2140d09783",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "9935c4c57128807558f4e69d337d79b07a86254278b1a905e603690a610c42f5",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1077567,
+      "bytes": 1201327,
       "file": "archives/kde-density-correlation-matrix.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -1977,8 +1977,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "kde-density-correlation-matrix",
-      "sha256": "1f841cdf83b0265e49ef07435b7d1e452cbf08140a8e6aa1bd9d9e4ab7b718bf",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "bb64d4da97951a8655823bbb8305f6d09fbd0a280af766f0e31e6b94d977ef5c",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 213473,
@@ -2000,7 +2000,7 @@
       "sourceCommit": "0d1478300df863072619a8680574b5bafe877fcb"
     },
     {
-      "bytes": 212138,
+      "bytes": 182962,
       "file": "archives/kegg-variant-blue-inside-label.zip",
       "files": [
         "README.md",
@@ -2015,11 +2015,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "kegg-variant-blue-inside-label",
-      "sha256": "eff0568061ff6ffc48054ec46d57fce423e4a3b7672a6ea7b7f3ed5eb202e322",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "66f909c3b9f9a45bc3215a931cca68f550d12b3d0a65fe7971e6f9b55e2e34f7",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 213662,
+      "bytes": 184391,
       "file": "archives/kegg-variant-bw-text-classic.zip",
       "files": [
         "README.md",
@@ -2034,11 +2034,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "kegg-variant-bw-text-classic",
-      "sha256": "eb3b07d3f21a54dcfc04f410a60af362902f779d45b97a30f2e9157cac70ded4",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "d3e0611d94e3f2bedb8592411673f9cb723e1783cd9eff7072f3b143a5c8cfac",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 214654,
+      "bytes": 178915,
       "file": "archives/kegg-variant-inside-label-bar.zip",
       "files": [
         "README.md",
@@ -2053,11 +2053,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "kegg-variant-inside-label-bar",
-      "sha256": "4cf7ce8112558e35daf6ff78b77c0ef0b61c06adce62426ecc56642dc7070ecf",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "86a65556c326cff84e1ad497ef0e01bcfd1dc2e052f6c4f247c39c5ada6309c1",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 70902,
+      "bytes": 54604,
       "file": "archives/ks-density-histogram.zip",
       "files": [
         "README.md",
@@ -2070,11 +2070,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "ks-density-histogram",
-      "sha256": "327f56c11ed7850dd02ac445c8263cbac52eb39d544e0e5ccb4182b9bfbc7073",
-      "sourceCommit": "2c59ef3cad9d44ed9371a0257ab6f8d250095df2"
+      "sha256": "35b1b67059c17e7bf5d01aed9a33277136ebcfa46c3822a797cc0acf44d6830c",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 7048411,
+      "bytes": 4151764,
       "file": "archives/labelled-subtype-umap.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -2092,11 +2092,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "labelled-subtype-umap",
-      "sha256": "e4fb0cbc93d7287b1b8946b4898b8ee75691ed5fe72e3509fcfeea2385f62662",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "c061105313aaa549162f30cba1f9f1ee94349f10c309d7974b10aa22a01335fd",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1335835,
+      "bytes": 1216493,
       "file": "archives/local-magnification-scatter.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -2123,11 +2123,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "local-magnification-scatter",
-      "sha256": "ee607f9f3d8d8a524fb3638504d4ed0f57fa6da818f2ca3bbe978e07db3f5c8b",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "9f5c1a3dc3301cdfea90c90f933b1d6580628679ce249f66df563f73f66b40f1",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 554503,
+      "bytes": 344720,
       "file": "archives/manhattan-plot.zip",
       "files": [
         "README.md",
@@ -2140,11 +2140,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "manhattan-plot",
-      "sha256": "a6a25ece1da95658af084ef11f1fbcafa472e840e402246d70068fdd31d62f6c",
-      "sourceCommit": "73676c8faee220953d45e9ca3e9d4f4b109926e5"
+      "sha256": "fbe6d85778572711514fe41c397bcf88762aaf71a97006728ffd7a307eea4f27",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1090104,
+      "bytes": 1029708,
       "file": "archives/multidimensional-correlation-suite.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -2172,11 +2172,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "multidimensional-correlation-suite",
-      "sha256": "59b9f35569e547dd596f67fd3812748aa43d61ffbf5315886cf73bfbc2fc3003",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "9b77689796eaab6a27d9822b4af0d70678c014767e4a89aef5eec2a57682ffe1",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1653092,
+      "bytes": 1393309,
       "file": "archives/multigroup-volcano-layouts.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -2198,11 +2198,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "multigroup-volcano-layouts",
-      "sha256": "956dac8c90103c13dcb7dfdf8d57819fb0e257e0cf6b572a034c2a0bb77acf9e",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "5e4198461e02cf19c4b487a2d0725caaa3fb37bed296d98446abad754b783bb9",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 868042,
+      "bytes": 768873,
       "file": "archives/multiscale-correlation-heatmap.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -2227,11 +2227,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "multiscale-correlation-heatmap",
-      "sha256": "1c3517c936e0ee280fe5627836dfbd25ccab82803c8819a5780e96c3f6a37d94",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "a58d65cf4d94a690b0ecfce8f8a18c8c1f1c8c8d637d7a5b0c07302a571dabfd",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 866414,
+      "bytes": 496101,
       "file": "archives/nature-2022-fig2a-gcc-overview.zip",
       "files": [
         "README.md",
@@ -2248,11 +2248,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "nature-2022-fig2a-gcc-overview",
-      "sha256": "1915e4f170de46e2f593994e807050efb75b50dd52f377ce0b836c561d7a4364",
-      "sourceCommit": "7341cd4b78864e505a0a9aae066f49aa303249c9"
+      "sha256": "29d862824191ae94b22e8472dde1284deb75c5a9fa457d1ad13b6e79c0370f19",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 647652,
+      "bytes": 617848,
       "file": "archives/nature-2022-fig2b-gcf-novelty.zip",
       "files": [
         "README.md",
@@ -2267,11 +2267,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "nature-2022-fig2b-gcf-novelty",
-      "sha256": "429f3802d50b87c09d5e164f01305f57f94074b3b94d9d5ff8e664e65530c934",
-      "sourceCommit": "00bf4d03b02c919e1fe9444f2141e39e3bda6bc4"
+      "sha256": "7c309f1b6554fac3a54a633630c35e17a8e7b577c9d9424a4903ecf4e251b3e8",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 2322067,
+      "bytes": 1746349,
       "file": "archives/nature-2022-fig2c-phylogenomic-bgc.zip",
       "files": [
         "README.md",
@@ -2291,11 +2291,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "nature-2022-fig2c-phylogenomic-bgc",
-      "sha256": "4c456dce16005911feb954e374d1d446360ed0c8e0ff7af4bcd1cb2d65164bc4",
-      "sourceCommit": "4f3c3cce514952e2a1115fb6070a473098245315"
+      "sha256": "001000db7c219e73a68695f663a9c6db282057ec07054010bfdc1c7004e4ac18",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 274780,
+      "bytes": 200922,
       "file": "archives/nature-deg-grouped-barplot.zip",
       "files": [
         "README.md",
@@ -2310,11 +2310,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "nature-deg-grouped-barplot",
-      "sha256": "a17128f54563e00a152f1e5359d267bbcb97eb7ddb22e12800b469d1024b90c7",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "a98aa6b58a9db6f80aaa07e9af7bbf59f800f4de5b6f7a00710aca425a7dfad4",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 3644124,
+      "bytes": 709152,
       "file": "archives/nature-evoflux-fig1bc.zip",
       "files": [
         "README.md",
@@ -2330,11 +2330,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "nature-evoflux-fig1bc",
-      "sha256": "4f6b94b8c0b051ea9e0e3951f4d9b8b4c3752e112a4581bf16ee34b88b47382c",
-      "sourceCommit": "4dec1fbb2f118a59109f05e3f0e50f9643a7ca7b"
+      "sha256": "e6772443c6c779e82a3b792e01ee4028d72da4b5242f48f49c9eb17825d632b1",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 158715,
+      "bytes": 87263,
       "file": "archives/nature-fig4a-galnac-upset.zip",
       "files": [
         "README.md",
@@ -2349,11 +2349,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "nature-fig4a-galnac-upset",
-      "sha256": "b9f4025fb3f2b4a4f19769e12048b486ff1ce60711a678c9839e0f449e773637",
-      "sourceCommit": "572aec2b1be716586a413b9ec33ebf323cc89d7e"
+      "sha256": "ec40b92014bd0892ec53dc9215a64da516a7458079e64c71b798d4a6ed43f9b6",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 226365,
+      "bytes": 157480,
       "file": "archives/nature-metabolome-style-pca.zip",
       "files": [
         "README.md",
@@ -2368,11 +2368,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "nature-metabolome-style-pca",
-      "sha256": "feee90578412474076c95b8e56499d4953c421a742e89bacfde995a8d678e563",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "e4467f0f866612ac263bc8d2f8d7d69b58fa1683a40b154dfb1adb1248e5faa6",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 177432,
+      "bytes": 127064,
       "file": "archives/nature-spatial-niche-stacked-bar.zip",
       "files": [
         "README.md",
@@ -2387,11 +2387,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "nature-spatial-niche-stacked-bar",
-      "sha256": "088ecc9d58645a8acd5ab6c87a3152c02b0971f7599d1320e9127bf99e765f28",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "2619f65ff9f4dec3a4588ac9523a964cfea3fc697511dd8926fae5f8c2d3eb3f",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 161341,
+      "bytes": 102674,
       "file": "archives/nc-backtoback-lollipop.zip",
       "files": [
         "README.md",
@@ -2406,11 +2406,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "nc-backtoback-lollipop",
-      "sha256": "e3df7de37334f70215e0d14c2ad21fe18a784c3d6a9a1e0c9abf7bee27bf960d",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "09fd1f27c6808559c8f58f24c9241c9acafe3cff175fa31f268e00e03a32d18f",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 367411,
+      "bytes": 252820,
       "file": "archives/ncb-fig2d-hox-ridge-heatmap.zip",
       "files": [
         "README.md",
@@ -2425,11 +2425,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "ncb-fig2d-hox-ridge-heatmap",
-      "sha256": "afed3eaf11c9dee71f7d4c809a8e95f2f3f4f9cdbc823b094610a676812b437a",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "b13552be7bb764e4eeebb5412d6cbd787b5862b11f8707c32636c38927c20b74",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 2536074,
+      "bytes": 1903702,
       "file": "archives/neighbourhood-abundance-beeswarm.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -2452,8 +2452,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "neighbourhood-abundance-beeswarm",
-      "sha256": "9ed587e900d6cf3b45a8bc4e86a9accc4bb62941ca7288835c1bf443ab724171",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "a6eb32822afd8c2bc965b16b7ebca7105db8592c8e0e814f8d1e1d5dcca82d48",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 93194,
@@ -2473,7 +2473,7 @@
       "sourceCommit": "3fa92e9ef255d6739f713804be1ba94d206341cd"
     },
     {
-      "bytes": 893682,
+      "bytes": 246761,
       "file": "archives/open-radial-multitrack-annotation.zip",
       "files": [
         "README.md",
@@ -2487,11 +2487,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "open-radial-multitrack-annotation",
-      "sha256": "9c29f4d272018bfeec90dde21701be90ece63958277ec6d1c2f1b44e6bfe0474",
-      "sourceCommit": "b9a0c7e1f73785604fe6ecada7d5d8cfd602540f"
+      "sha256": "1a3b6b7f4f6586927ebddfa488415aa60a7b70bd298d0292cb5ba1a13e4ea509",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 66653,
+      "bytes": 82644,
       "file": "archives/overlap-histogram.zip",
       "files": [
         "README.md",
@@ -2504,8 +2504,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "overlap-histogram",
-      "sha256": "9e4f7ac4fea1b01a1321238ff6d148f2a5bc33818aff9e7f2e0b301c4a2b2905",
-      "sourceCommit": "caeefba7aa4accec37fb4fb65bfeb991371ff7c4"
+      "sha256": "8ee70024ea1de0709d6c3629927f10b1bc0275465dd21fb25310f133ce6446e6",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 81682,
@@ -2525,7 +2525,7 @@
       "sourceCommit": "611ac4ec9064be8cf0721358d566ecc3143074ff"
     },
     {
-      "bytes": 1018475,
+      "bytes": 876327,
       "file": "archives/paired-scatter-rotated-histograms.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -2548,11 +2548,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "paired-scatter-rotated-histograms",
-      "sha256": "ccdb11016ff337e14ea3114dbe640aeb1cf5dfa09abdd979c76e3f13d434463e",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "0fdbe850723f466fe63534bc3402b0e6721948d8fd1da4aa3d021f8dc7a0a442",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 93005,
+      "bytes": 70408,
       "file": "archives/pancancer-boxplot.zip",
       "files": [
         "README.md",
@@ -2565,11 +2565,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "pancancer-boxplot",
-      "sha256": "f611bb830310c4713311e294331adb1aefd2a6409e468515af2fee2f76d85b34",
-      "sourceCommit": "c066c4b54f36c9964ba40aa817077913f8fdaadd"
+      "sha256": "33a9357e642d658cfafab6c412d7e04b1a09b38d1d25adf3043089f01a49467b",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 90188,
+      "bytes": 119966,
       "file": "archives/pca-3d-scatter.zip",
       "files": [
         "README.md",
@@ -2582,11 +2582,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "pca-3d-scatter",
-      "sha256": "d4264319efa636736a979c882f09087a53990148b14447eb0865a4a9c0ac3878",
-      "sourceCommit": "fe323cc5f9a8ad2be776dedb8c5638f34f5944b7"
+      "sha256": "084385a1a8c143d152f5ec1aedacac5d803f1628e23ae1246dc18a8bd8fb95f5",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 117061,
+      "bytes": 114422,
       "file": "archives/pca-scatter.zip",
       "files": [
         "README.md",
@@ -2599,11 +2599,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "pca-scatter",
-      "sha256": "14637fd2acb61b5b161ffa0f91e29d5252e1e38fe0aa8d645296258b3a5f448a",
-      "sourceCommit": "047be2ca8cddf4ed38104bcac2a3959ac6242fa9"
+      "sha256": "6bad82d4ae4d5bd304ef388265ec1527f10db23042537dde460b7913668c208e",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 162818,
+      "bytes": 90748,
       "file": "archives/percent-bar-errorbars.zip",
       "files": [
         "README.md",
@@ -2616,11 +2616,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "percent-bar-errorbars",
-      "sha256": "8a4cdac44a7ef1a61a75ae066cde7af9d806ee5957b6b4656e3e3704c8249cde",
-      "sourceCommit": "54d0ba250d38df6a60457c862c9a8eb3ffa4b00f"
+      "sha256": "96dd7b3b3de6d52b1a6682f32802d8697e26b5a81f83e0eb8139751456fe9963",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 927880,
+      "bytes": 513258,
       "file": "archives/polar-antioxidant-error-bars.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -2637,11 +2637,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "polar-antioxidant-error-bars",
-      "sha256": "5b9b58cf1f7a617f7a3f7ab27d83ed5718536f09dccda6cd96c695fb2a71f905",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "e772fdd24bfe2a68a20d575c667705c2055260ce20b16b715e75b0ea73556da2",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1328718,
+      "bytes": 1023667,
       "file": "archives/polar-trait-error-bars.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -2659,11 +2659,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "polar-trait-error-bars",
-      "sha256": "6fcaa79f3ebfc9dfcc1ca308ff6b3084721bc8d6a68c2b72401be5a1d4925edf",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "1f04d2cc07c0157973312733a43e5050ab5903a3a9923582be4d0700d66462a7",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1457798,
+      "bytes": 1135400,
       "file": "archives/radial-regulon-count-network.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -2681,8 +2681,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "radial-regulon-count-network",
-      "sha256": "74443227ec8f61506b755ea09d4a46cf44465e1660882d33006902a87365f0d3",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "2ba27dabf1de7210ca5576735885460a8c915ff205550a88e15b8b7c1125fd26",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 70948,
@@ -2702,7 +2702,7 @@
       "sourceCommit": "35e45ded294a9ad24e8179d960093d0e99aa5a3b"
     },
     {
-      "bytes": 158969,
+      "bytes": 79599,
       "file": "archives/raindrop-plot.zip",
       "files": [
         "README.md",
@@ -2715,11 +2715,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "raindrop-plot",
-      "sha256": "76773899f3c61350bae1e1685c0a25e8fabe0e084f20d8663452cb76c8229797",
-      "sourceCommit": "e92d4d11ee39fbeddb8d6e3decba0a681b9c5171"
+      "sha256": "fdb3f04b4ed1f6ab6eb5050ef28d0d8253a8438923ad2bc08afe5da86f283c6b",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 395825,
+      "bytes": 361172,
       "file": "archives/ranked-paired-scatter-density.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -2738,11 +2738,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "ranked-paired-scatter-density",
-      "sha256": "4fe664f061204c9ab534a82b054d64149037f8921de11f815dbf8fec8c162a7b",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "3a8b9c74d01053445dc1ada3edaaacb4360a79a46b929a27cdbedcda94709d59",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 768522,
+      "bytes": 262301,
       "file": "archives/rat-cardiovascular-marker-go-dotplot-panel-a.zip",
       "files": [
         "README.md",
@@ -2759,11 +2759,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "rat-cardiovascular-marker-go-dotplot-panel-a",
-      "sha256": "b5f9ed7cbfd87b492dbf3591597c8afa774ee61176fd756fd23faf848b5dac6d",
-      "sourceCommit": "d06033f354be581c16705fb416806eb92700a465"
+      "sha256": "850d52efe4d0dad6d0dd5df73e4740d2080792568dfb9eb30bfd2d932fd83e72",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 925491,
+      "bytes": 494990,
       "file": "archives/saturation-mutagenesis-energy-heatmap.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -2780,11 +2780,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "saturation-mutagenesis-energy-heatmap",
-      "sha256": "0877f3d49d3272e4a857d2872cb35ba15667c10c6000019c27f1cc4d8a5f3ada",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "4144237c38214bb471be7fa719a67439e86a9d2b78fc0d334768efa1931b76ab",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 185312,
+      "bytes": 100572,
       "file": "archives/sc-celltype-grouped-dodge-count.zip",
       "files": [
         "README.md",
@@ -2799,11 +2799,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "sc-celltype-grouped-dodge-count",
-      "sha256": "0a972a161f6fcaa02b9b61a205860b7c3d171f9d93e942f30e1698a32e187a13",
-      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+      "sha256": "50fd332eb589d9479b73bfe64713618f238ac034b405af88d10188ef8baa81a7",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 110730,
+      "bytes": 81267,
       "file": "archives/sc-celltype-grouped-horizontal-bar.zip",
       "files": [
         "README.md",
@@ -2818,11 +2818,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "sc-celltype-grouped-horizontal-bar",
-      "sha256": "02bce790d1a3012a70703b46308a292ec3d657418e41e63445139ac8b10feb85",
-      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+      "sha256": "07dcfad5078213947b28ca1f633239853260a7ad196365c70eac6b139ed031d4",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 93069,
+      "bytes": 56932,
       "file": "archives/sc-celltype-grouped-stacked-bar.zip",
       "files": [
         "README.md",
@@ -2837,11 +2837,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "sc-celltype-grouped-stacked-bar",
-      "sha256": "8b4aea88bdd34cf5167b6c97d30f08c2e82b49c92a58bc96fbcd8d99e620c251",
-      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+      "sha256": "9b4b1bbde9c986a99b49d31a74109ef55bed79c10cb26a7e0c32d101e612b45d",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 810981,
+      "bytes": 271007,
       "file": "archives/sc-celltype-nightingale-rose.zip",
       "files": [
         "README.md",
@@ -2856,11 +2856,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "sc-celltype-nightingale-rose",
-      "sha256": "906812b54900cc0ea325f017d3147c5c24c51eadd28c3f5b41eda75d476646c5",
-      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+      "sha256": "8fc9c6c0864d97a3c1500af95b9bb89a9fa925cd945f22fcd630968f11a7e729",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 231487,
+      "bytes": 103260,
       "file": "archives/sc-celltype-sample-dodge-count.zip",
       "files": [
         "README.md",
@@ -2875,11 +2875,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "sc-celltype-sample-dodge-count",
-      "sha256": "f30e74f9b8da5e5b393b22ccd9a411ff74bf6261b3bde3cf8a7a85d3456fccdf",
-      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+      "sha256": "1691d8ffc22f12da09e8b0afe9d7f7e7d8371930e5fd311b1d1163c79f5428a3",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 230723,
+      "bytes": 137347,
       "file": "archives/sc-celltype-sample-stacked-proportion.zip",
       "files": [
         "README.md",
@@ -2894,11 +2894,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "sc-celltype-sample-stacked-proportion",
-      "sha256": "3d333d2192aff8c059c40adb576326d20ec8c6f057c49ae7b40bdd3243822c74",
-      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+      "sha256": "3d1c8a39810f3d06289f82320328eb3f9084d05a1f32be4b9edcbf6789b7e8a5",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 362344,
+      "bytes": 187133,
       "file": "archives/sc-celltype-sankey.zip",
       "files": [
         "README.md",
@@ -2913,11 +2913,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "sc-celltype-sankey",
-      "sha256": "1f61232ab88cd778743940e7bdb9d41884f195bd743aea17cf96c10f7ac10414",
-      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+      "sha256": "28a11b2a478c3d4dd9b45e631fe84dc86ed5667048a372e95569d62e3b1adced",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 208687,
+      "bytes": 108180,
       "file": "archives/sc-celltype-stacked-area.zip",
       "files": [
         "README.md",
@@ -2932,11 +2932,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "sc-celltype-stacked-area",
-      "sha256": "05d99642b53f728764a94febe53c25bd9b807a1661ce1e5d40fcbacfb36951e8",
-      "sourceCommit": "87c2f52459db24cb78af73ddbbadc1bc6ce0f3ea"
+      "sha256": "d0b5fe88ce6678a5e191aad738482ab40a9e3860bafe937dadbb0733929c7f51",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 547688,
+      "bytes": 303460,
       "file": "archives/sc-marker-dotplot-highlight-boxes.zip",
       "files": [
         "README.md",
@@ -2951,11 +2951,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "sc-marker-dotplot-highlight-boxes",
-      "sha256": "b06cd653c9153ddc0492e06e543eba655a7a0972db89b0abadfe478bee1ef198",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "5de0c0ebffabb421d9b2028ec3bcc4608ea1128dc29980f637f8a22da2ae71f1",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 91850,
+      "bytes": 121901,
       "file": "archives/scatter-bidirectional-errorbars.zip",
       "files": [
         "README.md",
@@ -2968,8 +2968,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "scatter-bidirectional-errorbars",
-      "sha256": "630228f980d248a71b803a86802c35c9b800b2c2c0061ee968f3b4e1233ef520",
-      "sourceCommit": "d6c782147a3ccfc86125dd950a21004252bacd53"
+      "sha256": "39e79e04aa2b18f27d3800a7ebfb93ff102fda98a452b93a6f116ee189a91e89",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 263859,
@@ -2989,7 +2989,7 @@
       "sourceCommit": "05aab1186ea5d0c3a9a5d134d7f6b74570dd2c31"
     },
     {
-      "bytes": 299474,
+      "bytes": 154769,
       "file": "archives/scatter-hist-annot.zip",
       "files": [
         "README.md",
@@ -3002,11 +3002,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "scatter-hist-annot",
-      "sha256": "6654c785abb6c5756f9454cdadbeaa47f6b32f082e9d7ed5aa077703e2e69a11",
-      "sourceCommit": "79fb13ab4a71cf7a484fbfeb26e7a8792ca6d4c7"
+      "sha256": "719ffdee9634b22b6669d2ad146e372233ec0a2870780efba24d92f4864827b5",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 420707,
+      "bytes": 236460,
       "file": "archives/scatter-marginal-residual.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -3023,11 +3023,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "scatter-marginal-residual",
-      "sha256": "9a676928bc0ed4591ac8712b3b6d96ac6470e7cd7485d9ed1ca0a0b4f8ab17d5",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "219478f9c7d7e6985154288545116adf0d73906a4fe5075fa286c2c929584f03",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 93765,
+      "bytes": 102683,
       "file": "archives/scatterpie.zip",
       "files": [
         "README.md",
@@ -3042,11 +3042,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "scatterpie",
-      "sha256": "a12b48b366ca46be0aa94f2f8a37034bfc5b1f3fd95fb9f2eb94908189bd8871",
-      "sourceCommit": "5c7d4442781e21dbabaa0b82bc0927752240b3bb"
+      "sha256": "ea8439ad7d43617d9778c18827c58e5499b884b8146ee944440bb8eaee45c60b",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 723800,
+      "bytes": 434689,
       "file": "archives/science-mantel-corrplot.zip",
       "files": [
         "README.md",
@@ -3062,8 +3062,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "science-mantel-corrplot",
-      "sha256": "d5869fb7c09156f11c22ead3954ce633fc4f96d8ab1ecb638d8d8de0acfd434c",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "452999eb3d42ecd2f006ee226a771b87cfeb5d9e7e192b11fb4ef2450441158d",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 202187,
@@ -3101,7 +3101,7 @@
       "sourceCommit": "a08bda90822ab2fa7bfa66985b6065ec3728ba72"
     },
     {
-      "bytes": 349971,
+      "bytes": 451026,
       "file": "archives/single-cell-enrichment-bar-pathway-genes.zip",
       "files": [
         "README.md",
@@ -3116,11 +3116,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "single-cell-enrichment-bar-pathway-genes",
-      "sha256": "2c23ab2f33e63c63ac0860c8f5424da15bccc6d1c5a3a3c4daee7409bdcbb928",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "b16f3941703eeb7570ce3f655b57be65b5a4c356f1c268a485da4156e568312d",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 380228,
+      "bytes": 398329,
       "file": "archives/smooth-scatter-curve-patterns.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -3141,11 +3141,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "smooth-scatter-curve-patterns",
-      "sha256": "822678104245e1f26ba3b48617b6812150b7bf14bcbaf1c5f4360327af14ba79",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "a724d7a57f40489622e444aa0e908bc4e8d5e57039e6fdb6cdd1ec51cd407945",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 117329,
+      "bytes": 94060,
       "file": "archives/stacked-bar-line-heatmap.zip",
       "files": [
         "README.md",
@@ -3158,11 +3158,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "stacked-bar-line-heatmap",
-      "sha256": "7fe74d961d007159757f1157abde6f0ac8ff4c5adee9dc7b5d56d57fe509c4bf",
-      "sourceCommit": "06f7ef35c7ca1fdb5680ded389fe8a9281594b63"
+      "sha256": "c1d60021bb0393c9f43071f69df4c91fe59575f7d9dc3762d12e2c6fc7006af5",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 485716,
+      "bytes": 462289,
       "file": "archives/stacked-dots-inset-pie.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -3181,8 +3181,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "stacked-dots-inset-pie",
-      "sha256": "30f8b5be12a14d99193ea7c41cc986ae3df7a4552a83c2742dbdd22b7dc2f35f",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "607601dcfc2fdd8bd2187a77323211710f37a492d168f0088af04ab56d7181d0",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 92810,
@@ -3219,7 +3219,7 @@
       "sourceCommit": "540fee347217a5bdf2bf2fa4fba737a06b341d29"
     },
     {
-      "bytes": 537072,
+      "bytes": 480719,
       "file": "archives/table-integrated-forest.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -3240,11 +3240,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "table-integrated-forest",
-      "sha256": "315b4d3e3667fc146cd0f1fa4da54ba87b2f679a04c5b9badf82bd1603d279dc",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "0e2a0b010b44fd9f858740767dfe8f5937af1b45ff254cf4843e1385c0cc380a",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1018454,
+      "bytes": 855848,
       "file": "archives/taxonomy-differential-manhattan-bubbles.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -3265,11 +3265,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "taxonomy-differential-manhattan-bubbles",
-      "sha256": "397ff14157082c475d5aaa0626b4650c79ac1ae6f7e0b1b3cc7f69bb74c5653e",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "25bb5d17ff90c6596f4d654a30f9d2af610af81761cd4786f4bff6ba5802f24d",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 2395503,
+      "bytes": 2295623,
       "file": "archives/ternary-state-density.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -3298,11 +3298,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "ternary-state-density",
-      "sha256": "6cdba764ca2573761ae5ebe518a67dc1542fccd937f3bb8d4df4e37e18b6c77a",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "015f239980cf437b0374fb3ec77aa82c65f0b1ca220f4fc7e2a414055a9cea27",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 241377,
+      "bytes": 124003,
       "file": "archives/tf-motif-enrichment-heatmap.zip",
       "files": [
         "README.md",
@@ -3319,11 +3319,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "tf-motif-enrichment-heatmap",
-      "sha256": "e43fd50743da5b6231f959b3433ce1ea023c8775cc4e6fb8eba00a8701d97fde",
-      "sourceCommit": "bbd64f458a15e0982d3fd5aa5884cf335baea94a"
+      "sha256": "46024ac3090dba2bb594888daaea28d2d0020ae7a16a3dc42aaab98a95e8a89b",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 79668,
+      "bytes": 95743,
       "file": "archives/three-line-table.zip",
       "files": [
         "README.md",
@@ -3336,11 +3336,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "three-line-table",
-      "sha256": "faa92d0b4ce98c36fdf4b61efb517cf164dc6cf3ae3f0b8f1834b6d038e178a7",
-      "sourceCommit": "002fb10fdfb23e87385edd5809115f4c128a9ce8"
+      "sha256": "59be8b8b77d4fcd612b420a405376b4062fb2335adfa99687ae198b970ace9a7",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 74291,
+      "bytes": 81461,
       "file": "archives/tile-heatmap.zip",
       "files": [
         "README.md",
@@ -3353,11 +3353,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "tile-heatmap",
-      "sha256": "dfcae4770fc2fcfe8703bf2280a91fa5e87436e19184580b6de0ea66b2b97fb4",
-      "sourceCommit": "fb707fb6590e85c80ffd4c2a2dba8ee8a0aa3371"
+      "sha256": "0578bd77170b63f2ffcaf4930824fab6e2453f95ec366bc14dc6a5d8fdd0ac36",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 455585,
+      "bytes": 237574,
       "file": "archives/trait-correlation-matrix-trends.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -3374,11 +3374,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "trait-correlation-matrix-trends",
-      "sha256": "a5a4203d8862f0ba0f3739d5d322a8508ccc345dc62dc67f47218d6be9ffd94b",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "97d5c2ca3bf298a1a087e2468b67e0b8b4fda25a5332b5e235b1aea1e3ea7907",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 477386,
+      "bytes": 257523,
       "file": "archives/trait-matrix-correlation-network.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -3395,11 +3395,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "trait-matrix-correlation-network",
-      "sha256": "913103ba312ca0f201f1584afb4e5026d7395229aab6bbd1fa4caee23e2baaa4",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "0f4a220049480456bdcc5396c1a629eaaa4cdc053e2848086fede1456f0c6c29",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 359699,
+      "bytes": 246976,
       "file": "archives/trajectory-expression-dot-heatmap.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -3416,11 +3416,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "trajectory-expression-dot-heatmap",
-      "sha256": "b565a5cb3bd936d2efff7f94f7866211bf416ece066884e9d409207bade70f4d",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "eb1a4d4d6b3202740d590bd5e76d756c0b8a4cdee29e6ced5e0eb71907b3307f",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 7604571,
+      "bytes": 6244787,
       "file": "archives/umap-circular-multitrack.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -3440,11 +3440,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "umap-circular-multitrack",
-      "sha256": "fe244f09569f9fbdee1f624feb5bcfecf3d542ba31ad36320518afb21411f1a5",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "68e82e0ac7b3745080a588d552f17622ef54fbb374f3b9418838f337f67ed285",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 2768711,
+      "bytes": 1248746,
       "file": "archives/umap-style-density-heatmap.zip",
       "files": [
         "README.md",
@@ -3459,11 +3459,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "umap-style-density-heatmap",
-      "sha256": "3c13ae55288828304a9c7832348701bac6f39a28d775dc8b7aeeee379e19b0ab",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "bdb57a0a3f6d39c02748d2049674ccc1fb09d34cd809d5900ab4695783cbb901",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1663413,
+      "bytes": 962922,
       "file": "archives/umap-style-ellipse-labels.zip",
       "files": [
         "README.md",
@@ -3478,11 +3478,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "umap-style-ellipse-labels",
-      "sha256": "89b243436c2e759f23fb0d8460a0e9a8a30f81743c4b0484f405cc501ff96503",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "876324dcb811c4c0f3f62347b204a119abbf762984252fb1eb0d8a8bdb57dc6a",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 567974,
+      "bytes": 328243,
       "file": "archives/umap-style-plot1cell-circlize.zip",
       "files": [
         "README.md",
@@ -3497,11 +3497,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "umap-style-plot1cell-circlize",
-      "sha256": "0d053408e227d84165690ea9a19e3821b19b84f8932a00118d47ae663fd90164",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "1b98f7edebfd218c4a7f5f4a4ba3d4a5a8db45b12e5a40b5d79d8be8ef9e00d4",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1369938,
+      "bytes": 849589,
       "file": "archives/umap-style-scp-numbered-legend.zip",
       "files": [
         "README.md",
@@ -3516,11 +3516,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "umap-style-scp-numbered-legend",
-      "sha256": "2ccdde09af8189e03912c54a11aa5863001c9d6f99b5042432fdb519ac2f7810",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "b631270b1b29c2b6116c37b1c990a8ac5433572f80ade1c5b545590adfdfffe0",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1394696,
+      "bytes": 878824,
       "file": "archives/umap-style-scp-square-axes.zip",
       "files": [
         "README.md",
@@ -3535,11 +3535,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "umap-style-scp-square-axes",
-      "sha256": "f244afae6b5d529005fffa6db893e5493dcb876f162c30c67766bd10443c3766",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "969cf761fd312d35f9bed11271d76d65ced40143259471d44ad9cfd509af3b4e",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 3423409,
+      "bytes": 1535462,
       "file": "archives/umap-style-scpubr-stroke.zip",
       "files": [
         "README.md",
@@ -3554,11 +3554,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "umap-style-scpubr-stroke",
-      "sha256": "398f1d1d3f8bda7cd243000e49c05d94abb83131e173c17b08d5660674f333c4",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "24892224b5aac5d43d75b9d4b41d90a9de52864a5e784056886d493e9f7a93ed",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 1334023,
+      "bytes": 845079,
       "file": "archives/umap-style-scrnatoolvis-insitu.zip",
       "files": [
         "README.md",
@@ -3573,11 +3573,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "umap-style-scrnatoolvis-insitu",
-      "sha256": "40a2066bb9fbaa21871ebb1bfa78fc5ab5c2d02ca5ba6d36e1e295c98a7697f1",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "7573541dc1831a45f3219486fdc65ccf6bd58a08442bab05c2b7f2f0b7891231",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 458101,
+      "bytes": 317528,
       "file": "archives/umap-unchull-main-type-circles.zip",
       "files": [
         "README.md",
@@ -3592,11 +3592,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "umap-unchull-main-type-circles",
-      "sha256": "15ae043cfae66e48e74748fe5d8793f6b99303dbcdea064e36f48180a7465967",
-      "sourceCommit": "644ab1034ca358f1584c2ec8666f1036f495f38e"
+      "sha256": "9d16a34df146882ca2c1e8ce9b73b56dfcb9304d0406d39a84fe0a6777db33d5",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 98057,
+      "bytes": 140393,
       "file": "archives/upset-plot.zip",
       "files": [
         "README.md",
@@ -3611,8 +3611,8 @@
         "thumbnail.jpg"
       ],
       "moduleId": "upset-plot",
-      "sha256": "828620ba43d2b32ac27e1de54532265515a17035e2fe04a1d8fbfa7ca1505ea9",
-      "sourceCommit": "656df865d5803bbbe75e3f8ea296fcfdfc8d8028"
+      "sha256": "5b27a508fd64935674ea9390a52ebd27833152cff77b5c19d278132d5d42bf10",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
       "bytes": 29334,
@@ -3632,7 +3632,7 @@
       "sourceCommit": "2e76a1b46f78fa774484362010c7845906affa1c"
     },
     {
-      "bytes": 1921678,
+      "bytes": 1685365,
       "file": "archives/volcano-enrichment-network-bars.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -3661,11 +3661,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "volcano-enrichment-network-bars",
-      "sha256": "6ce7e839f5e3f55a099a22e9b95683c83ade4f094a8b2cd581523a06ed043379",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "9f89966b734f96f671886b8718acfff04e16b8ada6f9a8210b69ea23fb45f8d3",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 752618,
+      "bytes": 705077,
       "file": "archives/volcano-geneset-rug.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -3685,11 +3685,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "volcano-geneset-rug",
-      "sha256": "79346d525431b25cd02c9eeafcc25cbd40779bfd7e98f842a665411d6a75a274",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "cca75217f98b66619299e4f58a69365f8a1588d45439f72cefdc7c3a1efe6ba8",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     },
     {
-      "bytes": 2229149,
+      "bytes": 2033951,
       "file": "archives/volcano-inset-enrichment-bars.zip",
       "files": [
         "LICENSE-CODE.txt",
@@ -3714,11 +3714,11 @@
         "thumbnail.jpg"
       ],
       "moduleId": "volcano-inset-enrichment-bars",
-      "sha256": "482ab61bd8cede0c647d6b41680d36f3cf8f2dbf8aed44dec433cd3bc969920c",
-      "sourceCommit": "b83a97b0a6eea9edc1a54b23acf2e75ca6e824ae"
+      "sha256": "f93ee568b95e546a3befc057afee61cd45e1f96e0970e30608bd06fdd74d0eda",
+      "sourceCommit": "75ea41af82bf0d7488d266b08876fe4f04de1ab8"
     }
   ],
-  "generatedAt": "2026-10-29T12:24:07.106Z",
+  "generatedAt": "2000-01-01T00:00:00.000Z",
   "providerId": "io.github.jarxunlai.personal-figures",
   "repository": "jarxunlai/ScientificFigureLibrary-personal",
   "schema": "figure-library.personal-archive-manifest.v1"
