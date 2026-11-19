@@ -54,7 +54,7 @@ jobs:
         run: |
           set -euo pipefail
           extra=()
-          if [ -f "${{ runner.temp }}/feed-branch/current/source-manifest.json" ]; then
+          if [ -f "${{ runner.temp }}/feed-branch/current/source-manifest.json" ] || [ -f "${{ runner.temp }}/feed-branch/current-on-demand/source-manifest.json" ]; then
             extra+=(--feed-root "${{ runner.temp }}/feed-branch")
           fi
           node sfl/scripts/publish-open-figure-feed.mjs --mode publish-prepare \
@@ -84,9 +84,9 @@ jobs:
           fi
           seq=$(node -p "String(require('$payload').sequence)")
           feed="${{ runner.temp }}/feed-branch"
-          mkdir -p "$feed/snapshots/$seq" "$feed/current"
-          cp "${{ runner.temp }}/open-figure-feed/snapshots/$seq/module-catalog.json" "$feed/snapshots/$seq/"
-          cp "${{ runner.temp }}/open-figure-feed/snapshots/$seq/module-previews.zip" "$feed/snapshots/$seq/"
+          mkdir -p "$feed/snapshots/$seq"
+          # Catalog, archives and (with an on-demand publisher) loose previews/ and thumbs/.
+          cp -R "${{ runner.temp }}/open-figure-feed/snapshots/$seq/." "$feed/snapshots/$seq/"
           cd "$feed"
           git add "snapshots/$seq"
           git diff --cached --quiet && echo "payload already present" || git commit -m "feed: snapshot $seq"
@@ -97,9 +97,15 @@ jobs:
             --output "${{ runner.temp }}/open-figure-feed" \
             --payload-commit "$payload_commit" \
             --expected-key-id "${{ vars.SFL_OPEN_FIGURE_BOOTSTRAP_KEY_ID }}"
-          cp "${{ runner.temp }}/open-figure-feed/current/source-manifest.json" "$feed/current/"
-          cp "${{ runner.temp }}/open-figure-feed/current/source-manifest.sig.json" "$feed/current/"
-          git add current/source-manifest.json current/source-manifest.sig.json
+          # current/ is skipped when the publisher froze the bundled channel; current-on-demand/ exists
+          # once SFL_PUBLISHER_COMMIT includes on-demand previews.
+          for channel in current current-on-demand; do
+            signed="${{ runner.temp }}/open-figure-feed/$channel"
+            [ -f "$signed/source-manifest.json" ] || continue
+            mkdir -p "$feed/$channel"
+            cp "$signed/source-manifest.json" "$signed/source-manifest.sig.json" "$feed/$channel/"
+            git add "$channel/source-manifest.json" "$channel/source-manifest.sig.json"
+          done
           git commit -m "feed: current sequence $seq"
           git fetch origin open-figure-feed
           git push origin HEAD:open-figure-feed
